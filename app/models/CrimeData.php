@@ -308,15 +308,45 @@ class CrimeData extends BaseModel {
 
     }
 
-    public function getApiCrimes( $areaId = null, $crimeTypes = null, $timeFrom = null, $timeTo = null, $groupByArea = true ) {
+    public function getApiCrimes( $areaId = null, $crimeTypes = null, $timeFrom = null, $timeTo = null, $groupByArea = true, $allFields = false ) {
 
         $areaCondition = "";
         $timesCondition = "";
         $crimeTypesCondition = "";
 
-        $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, Population, Sum( Found ) as FoundSum, Sum( Solved ) as SolvedSum, ( ( Sum( Found ) / Population ) * 10000 ) as CriminalityIndex 
+        if( !$allFields ) {
+            $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, Population, Sum( Found ) as FoundSum, Sum( Solved ) as SolvedSum, ( ( Sum( Found ) / Population ) * 10000 ) as CriminalityIndex 
+                       FROM CrimeData, AreaLookup
+                       WHERE';
+         } else {
+            $sql = 'SELECT 
+                        Sum( `Charged-15-17` ) as Charged1517Sum,
+                        Sum( `Charged-recidivist` ) as ChargedRecidivistSum,
+                        Sum( `Charged-total` ) as ChargedTotalSum,
+                        Sum( `Charged-under-15` ) as ChargedUnder15Sum,
+                        Sum( `Charged-women` ) as ChargedWomenSum,
+                        Sum( `Committed-15-17` ) as Commited1517Sum,
+                        Sum( `Committed-alcohol` ) as CommittedAlcoholSum,
+                        Sum( `Committed-drugged` ) as CommittedDruggedSum,
+                        Sum( `Committed-recidivst` ) as CommittedRecidivstSum,
+                        Sum( `Committed-under-15` ) as CommittedUnder15Sum,
+                        Sum( `Committed-under-18` ) as CommittedUnder18Sum,
+                        Sum( `Damage-found` ) as DamageFoundSum,
+                        Sum( `Damage-total` ) as DamageTotalSum,
+                        Sum( `Found` ) as FoundSum,
+                        Sum( `Found-checked` ) as FoundCheckedSum,
+                        Sum( `Found-end` ) as FoundEndSum,
+                        Sum( `Solved` ) as SolvedSum,
+                        Sum( `Solved-additionally` ) as SolvedAdditionallySum,
+                        Sum( `Solved-perc` ) as SolvedPercSum,
+                        ( ( Sum( Found ) / Population ) * 10000 ) as CriminalityIndex,
+                        AreaLookup.Code,
+                        AreaLookup.Name,
+                        FK_Time_Lookup,
+                        Population
                    FROM CrimeData, AreaLookup
                    WHERE';
+        }
 
         if( isset( $areaId ) ) {
             $sql .=  ' FK_Area_Lookup = ' . $areaId;

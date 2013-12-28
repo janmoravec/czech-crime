@@ -33,44 +33,85 @@
 		<label>Vyber časové období do</label>
 		<select id="time-to-select" class="form-control">
 			{foreach $times as $time}
-				<option value="{$time->Id}">{$time->Id} - {$time->Month}/{$time->Year}</option>
+				<option value="{$time->Id}" {if $time->Id == $timeMax}selected{/if}>{$time->Id} - {$time->Month}/{$time->Year}</option>
 			{/foreach}
 		</select>
 	</div>
 	<input class="btn btn-primary" type="submit" value="Hledej" />
 
 </form>
-
-<table id="result-table" class="table">  
-    <thead>  
-      <tr>  
-        <th>Kód úz.jednotky</th>
-        <th>Název úz.jednotky</th>  
-        <th>Index kriminality</th>  
-        <th>Spácháno trestných činnů</th>  
-        <th>Objasněno trestných činnů</th>  
-        <th>Počet obyv. úz. jednotky</th>  
-      </tr>  
-    </thead>  
-    <tbody>  
-     
-    </tbody>  
-</table> 
-<table id="result2-table" class="table">  
-    <thead>  
-      <tr>  
-        <th>Kód úz.jednotky</th>
-        <th>Název úz.jednotky</th>  
-        <th>Index kriminality</th>  
-        <th>Spácháno trestných činnů</th>  
-        <th>Objasněno trestných činnů</th>  
-        <th>Počet obyv. úz. jednotky</th>  
-      </tr>  
-    </thead>  
-    <tbody>  
-     
-    </tbody>  
-</table> 
+<p class="data-preloader">Náhrávám data...</p>
+<div id="result-table">
+	<h2>Součet za všechny měsíce</h2>
+	<table class="table">  
+	    <thead>  
+	      <tr>  
+	        <th>Kód úz.jednotky</th>
+	        <th>Název úz.jednotky</th>  
+	        <th>Počet obyv. úz. jednotky</th>  
+	        <th>Index kriminality</th>  
+	        <th>Zjištěno t.č.</th>  
+	        <!--<th title="Ve statistickém období policejní orgán došel k závěru, že dle § 158 tr. řádu nasvědčují prověřováním zjištěné a odůvodněné skutečnosti tomu, že byl spáchán trestný čin a věc předal do vyšetřování nebo státnímu zástupci ve zkráceném přípravném řízení anebo odložil dle § 159a odst. 2, 3 nebo 4 tr. řádu.">Ukončeno proveřováním t.č.</th>  
+	        <th title="Všechny skutky, bez ohledu na statistické období, kde policejní orgán koná prověřování dle § 158 tr. řádu.">Celkem v prověřování</th> -->
+	        <th>Objasněno - Počet</th> 
+	        <!--<th>Objasněno - Tj. %</th>--> 
+	        <th>Objasněno - Dodatečně</th> 
+	        <th>Spácháno skutků - Pod vlivem</th> 
+	        <th>Spácháno skutků - Z toho alkohol</th> 
+	        <th>Spácháno skutků - Recidivisté</th> 
+	        <th>Spácháno skutků - Nezletilí 1-14 let</th> 
+	        <th>Spácháno skutků - Mladiství 15-17 let</th> 
+	        <th>Spácháno skutků - Děti 1-17 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Celkem</th> 
+	        <th>Stíháno, vyšetřováno osob - Recidivisté</th> 
+	        <th>Stíháno, vyšetřováno osob - Nezletilí 1-14 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Mladiství 15-17 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Ženy</th> 
+	        <th>Škody v tis. Kč - Celkem</th>
+	        <th>Škody v tis. Kč - Zajištěno</th>
+	      </tr>  
+	    </thead>  
+	    <tbody>  
+	     
+	    </tbody>  
+	</table> 
+</div>
+<div id="result2-table" >
+	<h2>Jednotlivé měsíce</h2>
+	<table class="table">
+	    <thead>  
+	      <tr>  
+	        <th>Časová jednotka</th>
+	        <th>Kód úz.jednotky</th>
+	        <th>Název úz.jednotky</th>  
+	        <th>Počet obyv. úz. jednotky</th>  
+	        <th>Index kriminality</th>  
+	        <th>Zjištěno t.č.</th>  
+	        <!--<th title="Ve statistickém období policejní orgán došel k závěru, že dle § 158 tr. řádu nasvědčují prověřováním zjištěné a odůvodněné skutečnosti tomu, že byl spáchán trestný čin a věc předal do vyšetřování nebo státnímu zástupci ve zkráceném přípravném řízení anebo odložil dle § 159a odst. 2, 3 nebo 4 tr. řádu.">Ukončeno proveřováním t.č.</th>  
+	        <th title="Všechny skutky, bez ohledu na statistické období, kde policejní orgán koná prověřování dle § 158 tr. řádu.">Celkem v prověřování</th> -->
+	        <th>Objasněno - Počet</th> 
+	        <!--<th>Objasněno - Tj. %</th> -->
+	        <th>Objasněno - Dodatečně</th> 
+	        <th>Spácháno skutků - Pod vlivem</th> 
+	        <th>Spácháno skutků - Z toho alkohol</th> 
+	        <th>Spácháno skutků - Recidivisté</th> 
+	        <th>Spácháno skutků - Nezletilí 1-14 let</th> 
+	        <th>Spácháno skutků - Mladiství 15-17 let</th> 
+	        <th>Spácháno skutků - Děti 1-17 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Celkem</th> 
+	        <th>Stíháno, vyšetřováno osob - Recidivisté</th> 
+	        <th>Stíháno, vyšetřováno osob - Nezletilí 1-14 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Mladiství 15-17 let</th> 
+	        <th>Stíháno, vyšetřováno osob - Ženy</th> 
+	        <th>Škody v tis. Kč - Celkem</th>
+	        <th>Škody v tis. Kč - Zajištěno</th>
+	      </tr>  
+	    </thead>  
+	    <tbody>  
+	     
+	    </tbody>  
+	</table> 
+</div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="{$basePath}/js/libs/jquery-1.7.1.js"><\/script>')</script>

@@ -4,6 +4,8 @@ var $areaSelect = $apiForm.find( "#area-select" );
 var $timeFromSelect = $apiForm.find( "#time-from-select" );
 var $timeToSelect = $apiForm.find( "#time-to-select" );
 
+var $dataPreloader = $( ".data-preloader" );
+
 var $resultTable = $( "#result-table" );
 var $result2Table = $( "#result2-table" );
 resetTables();
@@ -13,6 +15,7 @@ $apiForm.on( "submit", function( evt ) {
 	
 	evt.preventDefault();
 	resetTables();
+	$dataPreloader.show();
 
 	var area = $areaSelect.val();
 	var crimeType = $crimeTypeSelect.val();
@@ -34,6 +37,8 @@ function callAjax( area, crimeType, timeFrom, timeTo ) {
 		data: { areacode:area, crimetype: crimeType, timefrom: timeFrom, timeto: timeTo },
 		success: function( data ) {
 			
+			$dataPreloader.hide();
+
 			if( data.crimesByArea ) {
 				populateResultTable( $resultTable, data.crimesByArea );
 			}
@@ -57,16 +62,30 @@ function populateResultTable( $table, data ) {
 	var $tableBody = $table.find( "tbody" );
 	$tableBody.empty();
 
+	var fields = [ "Code", "Name", "Population", "CriminalityIndex", "FoundSum", "FoundSum",
+	 "SolvedAdditionallySum", "CommittedDruggedSum", "CommittedAlcoholSum", "CommittedRecidivstSum",
+	 "CommittedUnder15Sum", "Commited1517Sum", "CommittedUnder18Sum", "ChargedTotalSum", "ChargedRecidivistSum",
+	 "ChargedUnder15Sum", "ChargedUnder15Sum", "Charged1517Sum", "ChargedWomenSum", "DamageTotalSum", "DamageFoundSum" ];
+
 	//loop through data
 	$.each( data, function( i,v ) {
 
-		console.log("data2", v);
-		var $tr = $( "<tr><td>" + v.Code + 
-						"</td><td>" + v.Name + 
-						"</td><td>" + v.CriminalityIndex + 
-						"</td><td>" + v.FoundSum + 
-						"</td><td>" + v.SolvedSum + 
-						"</td><td>" + v.Population + "</tr>" );
+
+		//for individual results add fk_time_lookup
+		if( $table == $result2Table ) {
+			fields.unshift( "FK_Time_Lookup" );
+		}
+
+		var string = "<tr>";
+
+		$.each( fields, function( index, value ) {
+			string += "<td>" + v[value] + "</td>";
+		}	);
+
+		string += "</tr>";
+
+
+		var $tr = $( string );
 		$tableBody.append( $tr );
 
 	} );

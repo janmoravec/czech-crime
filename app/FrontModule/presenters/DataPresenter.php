@@ -26,13 +26,15 @@ class DataPresenter extends BasePresenter
 		$this->template->areas = $this->models->CrimeData->getApiAreas();
 
 		$timeRanges =  $this->models->CrimeData->findTimeRange()->fetch();
+		$this->template->timeMin = $timeRanges[ "Min" ];
+		$this->template->timeMax = $timeRanges[ "Max" ];
 		$this->template->times = $this->models->CrimeData->getTimeRangesForMixMax( $timeRanges[ "Min" ], $timeRanges[ "Max" ] );
 	}
 
 	public function handleGetCrimes( $areacode, $crimetype, $timefrom, $timeto ) {
 		
-		$crimesByArea = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, true )->fetchAll();
-		$crimesByTime = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, false )->fetchAll();
+		$crimesByArea = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, true, true )->fetchAll();
+		$crimesByTime = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, false, true )->fetchAll();
 		
 		$output = array();
 		$output[ "crimesByArea" ] = $crimesByArea;
