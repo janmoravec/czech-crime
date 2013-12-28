@@ -1,0 +1,776 @@
+.500bottomstripe {
+  background: url(../images/spriteSheet.png) -214px -46px no-repeat;
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+}
+
+.500cross {
+  background: url(../images/spriteSheet.png) 0px -156px no-repeat;
+  display: inline-block;
+  width: 59px;
+  height: 59px;
+}
+
+.ajax-icon {
+  background: url(../images/spriteSheet.png) -219px -104px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+}
+
+.authorization-arrow {
+  background: url(../images/spriteSheet.png) -257px -182px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.authorization-boxTop {
+  background: url(../images/spriteSheet.png) -238px -67px no-repeat;
+  display: inline-block;
+  width: 26px;
+  height: 13px;
+}
+
+.authorization-boxTopWide {
+  background: url(../images/spriteSheet.png) -238px -82px no-repeat;
+  display: inline-block;
+  width: 26px;
+  height: 13px;
+}
+
+.authorization-signOff {
+  background: url(../images/spriteSheet.png) -269px -158px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+}
+
+.boxDownArrow {
+  background: url(../images/spriteSheet.png) -238px 0px no-repeat;
+  display: inline-block;
+  width: 29px;
+  height: 15px;
+}
+
+.contact-closeBtn {
+  background: url(../images/spriteSheet.png) -107px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.contact-closeBtn-over {
+  background: url(../images/spriteSheet.png) -94px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.contact-sendArrow {
+  background: url(../images/spriteSheet.png) -269px -187px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+}
+
+.contact-sendArrow-over {
+  background: url(../images/spriteSheet.png) -269px -173px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+}
+
+.contact-sideArrow {
+  background: url(../images/spriteSheet.png) -61px -156px no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 38px;
+}
+
+.crime-types-box-close-btn {
+  background: url(../images/spriteSheet.png) -133px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.crime-types-box-close-btn-hover {
+  background: url(../images/spriteSheet.png) -120px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.filter-checkbox-active-on {
+  background: url(../images/spriteSheet.png) -187px -104px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-assaults-on {
+  background: url(../images/spriteSheet.png) -122px -130px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-bikes-on {
+  background: url(../images/spriteSheet.png) -154px -130px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-burglary-on {
+  background: url(../images/spriteSheet.png) -186px -130px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-car-stuff-on {
+  background: url(../images/spriteSheet.png) -158px -156px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-car-thefts-on {
+  background: url(../images/spriteSheet.png) -190px -156px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-custom-on {
+  background: url(../images/spriteSheet.png) -158px -172px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-drugs-on {
+  background: url(../images/spriteSheet.png) -190px -172px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-drunk-drives-on {
+  background: url(../images/spriteSheet.png) -61px -196px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-hut-robberies-on {
+  background: url(../images/spriteSheet.png) -93px -196px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-murders-on {
+  background: url(../images/spriteSheet.png) -125px -196px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-off {
+  background: url(../images/spriteSheet.png) -157px -196px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-others-on {
+  background: url(../images/spriteSheet.png) -189px -196px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-property-on {
+  background: url(../images/spriteSheet.png) 0px -217px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-rapes-on {
+  background: url(../images/spriteSheet.png) -32px -217px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-rest-on {
+  background: url(../images/spriteSheet.png) -64px -217px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-robberies-on {
+  background: url(../images/spriteSheet.png) -96px -217px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-checkbox-thefts-on {
+  background: url(../images/spriteSheet.png) -128px -217px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 14px;
+}
+
+.filter-custom-arrow {
+  background: url(../images/spriteSheet.png) -257px -191px no-repeat;
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+}
+
+.header-arrow {
+  background: url(../images/spriteSheet.png) -93px -156px no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+}
+
+.header-bottom-shadow {
+  background: url(../images/spriteSheet.png) -181px -41px no-repeat;
+  display: inline-block;
+  width: 8px;
+  height: 3px;
+}
+
+.header-flagSpriteSheet {
+  background: url(../images/spriteSheet.png) -181px -17px no-repeat;
+  display: inline-block;
+  width: 32px;
+  height: 22px;
+}
+
+.hideBtnArrow {
+  background: url(../images/spriteSheet.png) -222px -156px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 10px;
+}
+
+.hideBtnArrow {
+  background: url(../images/spriteSheet.png) -187px -120px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.hideBtnArrow-down {
+  background: url(../images/spriteSheet.png) -256px -220px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.infoBox-circle {
+  background: url(../images/spriteSheet.png) -125px -156px no-repeat;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+}
+
+.infoBox-compare-arrows {
+  background: url(../images/spriteSheet.png) 0px -251px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+}
+
+.infoBox-compare-arrows-over {
+  background: url(../images/spriteSheet.png) -222px -172px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+}
+
+.infoBox-contact-postBox {
+  background: url(../images/spriteSheet.png) -160px -217px no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+}
+
+.infoBox-contact-postBox-over {
+  background: url(../images/spriteSheet.png) -221px -196px no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+}
+
+.infoBox-upArrow {
+  background: url(../images/spriteSheet.png) -238px -182px no-repeat;
+  display: inline-block;
+  width: 17px;
+  height: 21px;
+}
+
+.logo {
+  background: url(../images/spriteSheet.png) 0px -46px no-repeat;
+  display: inline-block;
+  width: 179px;
+  height: 27px;
+}
+
+.logo-black {
+  background: url(../images/spriteSheet.png) 0px -17px no-repeat;
+  display: inline-block;
+  width: 179px;
+  height: 27px;
+}
+
+.logo-en {
+  background: url(../images/spriteSheet.png) 0px -75px no-repeat;
+  display: inline-block;
+  width: 141px;
+  height: 27px;
+}
+
+.mapDetail-boxArrowDown {
+  background: url(../images/spriteSheet.png) -238px -144px no-repeat;
+  display: inline-block;
+  width: 23px;
+  height: 12px;
+}
+
+.mapDetail-boxArrowUp {
+  background: url(../images/spriteSheet.png) -238px -97px no-repeat;
+  display: inline-block;
+  width: 26px;
+  height: 17px;
+}
+
+.mapDetail-boxBottom {
+  background: url(../images/spriteSheet.png) 0px 0px no-repeat;
+  display: inline-block;
+  width: 231px;
+  height: 15px;
+}
+
+.mapDetail-closeRect {
+  background: url(../images/spriteSheet.png) -225px -217px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+.popup-check {
+  background: url(../images/spriteSheet.png) -238px -17px no-repeat;
+  display: inline-block;
+  width: 29px;
+  height: 23px;
+}
+
+.popup-close {
+  background: url(../images/spriteSheet.png) -146px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.popup-error {
+  background: url(../images/spriteSheet.png) -238px -158px no-repeat;
+  display: inline-block;
+  width: 21px;
+  height: 22px;
+}
+
+.popup-info {
+  background: url(../images/spriteSheet.png) -269px 0px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.popup-success {
+  background: url(../images/spriteSheet.png) -238px -42px no-repeat;
+  display: inline-block;
+  width: 29px;
+  height: 23px;
+}
+
+.popup-warning {
+  background: url(../images/spriteSheet.png) -181px -46px no-repeat;
+  display: inline-block;
+  width: 31px;
+  height: 19px;
+}
+
+.porovnani-arrowDown {
+  background: url(../images/spriteSheet.png) -269px -40px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.porovnani-arrowDown-down {
+  background: url(../images/spriteSheet.png) -269px -16px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.porovnani-arrowDown-over {
+  background: url(../images/spriteSheet.png) -269px -32px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+}
+
+.porovnani-arrowUp {
+  background: url(../images/spriteSheet.png) -269px -80px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.porovnani-arrowUp-down {
+  background: url(../images/spriteSheet.png) -269px -56px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+}
+
+.porovnani-arrowUp-over {
+  background: url(../images/spriteSheet.png) -269px -72px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+}
+
+.porovnani-graphLine {
+  background: url(../images/spriteSheet.png) -238px -116px no-repeat;
+  display: inline-block;
+  width: 22px;
+  height: 26px;
+}
+
+.porovnani-selectArrowDown {
+  background: url(../images/spriteSheet.png) -199px -120px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 7px;
+}
+
+.tabulky-downloadBtn {
+  background: url(../images/spriteSheet.png) -172px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.tabulky-downloadBtn-over {
+  background: url(../images/spriteSheet.png) -159px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.tabulky-icon-doc {
+  background: url(../images/spriteSheet.png) -215px -17px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.tabulky-icon-pdf {
+  background: url(../images/spriteSheet.png) -208px -75px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.tabulky-icon-xls {
+  background: url(../images/spriteSheet.png) 0px -233px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.tabulky-prehledBtn {
+  background: url(../images/spriteSheet.png) -190px -217px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+}
+
+.tabulky-prehledBtn-over {
+  background: url(../images/spriteSheet.png) -177px -217px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 10px;
+}
+
+.tabulky-sortWhiteDown {
+  background: url(../images/spriteSheet.png) -262px -116px no-repeat;
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+}
+
+.tabulky-sortWhiteUp {
+  background: url(../images/spriteSheet.png) -262px -126px no-repeat;
+  display: inline-block;
+  width: 5px;
+  height: 8px;
+}
+
+.tabulky-sortYellowDown {
+  background: url(../images/spriteSheet.png) -203px -217px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+}
+
+.tabulky-sortYellowUp {
+  background: url(../images/spriteSheet.png) -214px -217px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 10px;
+}
+
+.tabulky-trendBtn {
+  background: url(../images/spriteSheet.png) -269px -111px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+}
+
+.tabulky-trendBtn-over {
+  background: url(../images/spriteSheet.png) -269px -96px no-repeat;
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+}
+
+.tabulky-zebricekBtn {
+  background: url(../images/spriteSheet.png) -52px -233px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+.tabulky-zebricekBtn-over {
+  background: url(../images/spriteSheet.png) -218px -130px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+.timeline-arrowDown {
+  background: url(../images/spriteSheet.png) -238px -205px no-repeat;
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+}
+
+.timeline-arrowLeft {
+  background: url(../images/spriteSheet.png) -269px -126px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 14px;
+}
+
+.timeline-arrowRight {
+  background: url(../images/spriteSheet.png) -269px -142px no-repeat;
+  display: inline-block;
+  width: 10px;
+  height: 14px;
+}
+
+.timeline-calendar {
+  background: url(../images/spriteSheet.png) -269px -216px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+
+.timeline-calendar-over {
+  background: url(../images/spriteSheet.png) -269px -201px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+
+.timeline-range-cancel {
+  background: url(../images/spriteSheet.png) -269px -246px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+
+.timeline-range-cancel-over {
+  background: url(../images/spriteSheet.png) -269px -231px no-repeat;
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+}
+
+.timeline-range-check {
+  background: url(../images/spriteSheet.png) -35px -233px no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+}
+
+.timeline-range-check-over {
+  background: url(../images/spriteSheet.png) -18px -233px no-repeat;
+  display: inline-block;
+  width: 15px;
+  height: 12px;
+}
+
+.timeline-sliderBtn {
+  background: url(../images/spriteSheet.png) -82px -156px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 37px;
+}
+
+.zoomControl-btn {
+  background: url(../images/spriteSheet.png) -238px -220px no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 7px;
+}
+
+.zoomControl-county-out {
+  background: url(../images/spriteSheet.png) -185px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-county-over {
+  background: url(../images/spriteSheet.png) -198px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-cr-out {
+  background: url(../images/spriteSheet.png) -66px -233px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+.zoomControl-cr-over {
+  background: url(../images/spriteSheet.png) -80px -233px no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+.zoomControl-department-out {
+  background: url(../images/spriteSheet.png) -211px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-department-over {
+  background: url(../images/spriteSheet.png) -224px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-district-out {
+  background: url(../images/spriteSheet.png) -237px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-district-over {
+  background: url(../images/spriteSheet.png) -250px -233px no-repeat;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+}
+
+.zoomControl-kraj-out {
+  background: url(../images/spriteSheet.png) -143px -75px no-repeat;
+  display: inline-block;
+  width: 63px;
+  height: 24px;
+}
+
+.zoomControl-kraj-over {
+  background: url(../images/spriteSheet.png) -122px -104px no-repeat;
+  display: inline-block;
+  width: 63px;
+  height: 24px;
+}
+
+.zoomControl-line {
+  background: url(../images/spriteSheet.png) -233px 0px no-repeat;
+  display: inline-block;
+  width: 3px;
+  height: 95px;
+}
+
+.zoomControl-line-step {
+  background: url(../images/spriteSheet.png) -238px -217px no-repeat;
+  display: inline-block;
+  width: 17px;
+  height: 1px;
+}
+
+.zoomControl-okres-out {
+  background: url(../images/spriteSheet.png) 0px -104px no-repeat;
+  display: inline-block;
+  width: 120px;
+  height: 24px;
+}
+
+.zoomControl-okres-over {
+  background: url(../images/spriteSheet.png) 0px -130px no-repeat;
+  display: inline-block;
+  width: 120px;
+  height: 24px;
+}
+
+.zoomControl-zoomIn {
+  background: url(../images/spriteSheet.png) -27px -251px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+.zoomControl-zoomIn-over {
+  background: url(../images/spriteSheet.png) -16px -251px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+.zoomControl-zoomOut {
+  background: url(../images/spriteSheet.png) -215px -35px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 3px;
+}
+
+.zoomControl-zoomOut-over {
+  background: url(../images/spriteSheet.png) -269px -261px no-repeat;
+  display: inline-block;
+  width: 9px;
+  height: 3px;
+}

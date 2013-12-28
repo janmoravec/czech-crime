@@ -1,0 +1,100 @@
+no data for for:  001113 MOP MŮSTEK PRAHA I. (index):910
+no data for for:  001150 OŽP - MASARYKOVO NÁDRAŽÍ PRAHA I. (index):910
+no data for for:  001151 OŽP - HOLEŠOVICE PRAHA I. (index):910
+no data for for:  0012 OŘP PRAHA II. (index):910
+no data for for:  0013 OŘP PRAHA III. (index):910
+no data for for:  0014 OŘP PRAHA IV. (index):910
+no data for for:  001415 MOP JIŽNÍ MĚSTO 1 PRAHA IV. (index):910
+no data for for:  0100 KŘP STŘEDOČESKÉHO KRAJE (index):910
+no data for for:  0101 ÚO BENEŠOV (index):910
+no data for for:  0102 ÚO BEROUN (index):910
+no data for for:  0103 ÚO KLADNO (index):910
+no data for for:  0104 ÚO KOLÍN (index):910
+no data for for:  0105 ÚO KUTNÁ HORA (index):910
+no data for for:  0106 ÚO MĚLNÍK (index):910
+no data for for:  010618 OOP HORNÍ POČAPLY (index):910
+no data for for:  0107 ÚO MLADÁ BOLESLAV (index):910
+no data for for:  0108 ÚO NYMBURK (index):910
+no data for for:  0111 ÚO PŘÍBRAM (index):910
+no data for for:  0112 ÚO RAKOVNÍK (index):910
+no data for for:  0114 ÚO PRAHA VENKOV-JIH (index):910
+no data for for:  011422 OOP HRADIŠTKO (index):910
+no data for for:  0115 ÚO PRAHA VENKOV-VÝCHOD (index):910
+no data for for:  0116 ÚO PRAHA VENKOV-ZÁPAD (index):910
+no data for for:  0200 KŘP JIHOČESKÉHO KRAJE (index):910
+no data for for:  0201 ÚO ČESKÉ BUDĚJOVICE (index):910
+no data for for:  020150 OŽP ČESKÉ BUDĚJOVICE (index):910
+no data for for:  0202 ÚO ČESKÝ KRUMLOV (index):910
+no data for for:  0203 ÚO JINDŘICHŮV HRADEC (index):910
+no data for for:  0205 ÚO PÍSEK (index):910
+no data for for:  0206 ÚO PRACHATICE (index):910
+no data for for:  0207 ÚO STRAKONICE (index):910
+no data for for:  0208 ÚO TÁBOR (index):910
+no data for for:  0300 KŘP PLZEŇSKÉHO KRAJE (index):910
+no data for for:  0301 ÚO DOMAŽLICE (index):910
+no data for for:  0304 ÚO KLATOVY (index):910
+no data for for:  0305 ÚO MŘ PLZEŇ (index):910
+no data for for:  0308 ÚO ROKYCANY (index):910
+no data for for:  0310 ÚO TACHOV (index):910
+no data for for:  0311 ÚO PLZEŇ - VENKOV (index):910
+no data for for:  0400 KŘP ÚSTECKÉHO KRAJE (index):910
+no data for for:  0402 ÚO DĚČÍN (index):910
+no data for for:  0403 ÚO CHOMUTOV (index):910
+no data for for:  0406 ÚO LITOMĚŘICE (index):910
+no data for for:  0407 ÚO LOUNY (index):910
+no data for for:  0408 ÚO MOST (index):910
+no data for for:  0409 ÚO TEPLICE (index):910
+no data for for:  0410 ÚO ÚSTÍ NAD LABEM (index):910
+no data for for:  0500 KŘP KRÁLOVÉHRADECKÉHO KRAJE (index):910
+no data for for:  0502 ÚO HRADEC KRÁLOVÉ (index):910
+no data for for:  0504 ÚO JIČÍN (index):910
+no data for for:  0505 ÚO NÁCHOD (index):910
+no data for for:  0507 ÚO RYCHNOV NAD KNĚŽNOU (index):910
+no data for for:  0510 ÚO TRUTNOV (index):910
+no data for for:  0600 KŘP JIHOMORAVSKÉHO KRAJE (index):910
+no data for for:  0602 MŘ BRNO (index):910
+no data for for:  0603 ÚO BRNO - VENKOV (index):910
+no data for for:  0604 ÚO BŘECLAV (index):910
+no data for for:  0606 ÚO HODONÍN (index):910
+no data for for:  0613 ÚO ZNOJMO (index):910
+no data for for:  0618 ÚO BLANSKO - VYŠKOV (index):910
+no data for for:  0700 KŘP MORAVSKOSLEZSKÉHO KRAJE (index):910
+no data for for:  0701 ÚO BRUNTÁL (index):910
+no data for for:  0702 ÚO FRÝDEK-MÍSTEK (index):910
+no data for for:  0703 ÚO KARVINÁ (index):910
+no data for for:  070313 OOP HAVÍŘOV 2 (index):910
+no data for for:  0704 ÚO NOVÝ JIČÍN (index):910
+no data for for:  0706 ÚO OPAVA (index):910
+no data for for:  0707 MŘP OSTRAVA (index):910
+no data for for:  1400 KŘP OLOMOUCKÉHO KRAJE (index):910
+no data for for:  1405 ÚO OLOMOUC (index):910
+no data for for:  1408 ÚO PŘEROV (index):910
+no data for for:  140820 OOP PŘEROV 3 (index):910
+no data for for:  1409 ÚO ŠUMPERK (index):910
+no data for for:  1411 ÚO JESENÍK (index):910
+no data for for:  1412 ÚO PROSTĚJOV (index):910
+no data for for:  1500 KŘP ZLÍNSKÉHO KRAJE (index):910
+no data for for:  1505 ÚO ZLÍN (index):910
+no data for for:  1508 ÚO KROMĚŘÍŽ (index):910
+no data for for:  1511 ÚO UHERSKÉ HRADIŠTĚ (index):910
+no data for for:  1515 ÚO VSETÍN (index):910
+no data for for:  1600 KŘP KRAJE VYSOČINA (index):910
+no data for for:  1607 ÚO JIHLAVA (index):910
+no data for for:  1610 ÚO TŘEBÍČ (index):910
+no data for for:  161012 OOP JAROMĚŘICE NAD ROKYTNOU (index):910
+no data for for:  1614 ÚO ŽĎÁR NAD SÁZAVOU (index):910
+no data for for:  1616 ÚO HAVLÍČKŮV BROD (index):910
+no data for for:  1617 ÚO PELHŘIMOV (index):910
+no data for for:  1700 KŘP PARDUBICKÉHO KRAJE (index):910
+no data for for:  1703 ÚO CHRUDIM (index):910
+no data for for:  1709 ÚO SVITAVY (index):910
+no data for for:  1800 KŘP LIBERECKÉHO KRAJE (index):910
+no data for for:  1801 ÚO ČESKÁ LÍPA (index):910
+no data for for:  1804 ÚO JABLONEC NAD NISOU (index):910
+no data for for:  1805 ÚO LIBEREC (index):910
+no data for for:  180515 OOP LIBEREC - CENTRUM (index):910
+no data for for:  1811 ÚO SEMILY (index):910
+no data for for:  1900 KŘP KARLOVARSKÉHO KRAJE (index):910
+no data for for:  1902 ÚO CHEB (index):910
+no data for for:  1903 ÚO KARLOVY VARY (index):910
+no data for for:  1909 ÚO SOKOLOV 

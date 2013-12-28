@@ -1,0 +1,643 @@
+/* filter box - override homepage styles */
+div.porovnaniFilterBox
+{
+	top: 15px;
+	width: 180px;
+} 
+
+div.porovnaniFilterBox .content
+{
+	height:185px;
+}
+
+/* timeline - override homepage styles */
+div.porovnaniTimeline .dateRange, div.porovnaniTimeline .dataView, div.porovnaniTimeline .detailBox .content
+{
+	border:6px solid #808080;
+	border-bottom: 0px;
+}
+
+div.porovnaniTimeline .detailBox {
+	margin-top:-2px;
+}
+
+
+div.porovnaniTimeline .detailBox .bottom{
+	top:-4px;
+}
+
+div.porovnaniFilterBox li
+{
+	margin-bottom: -2px;
+}
+
+div.porovnaniFilterBox li span {
+	display: none;
+}
+
+div.porovnaniTimeline .dataView 
+{
+	left: 315px;
+	height: 36px;
+}
+
+/* main porovnani */
+
+#porovnaniPage
+{
+	background-color:#333333;
+	position: absolute;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	top:274px;
+	font-size:13px;
+	overflow: auto;
+	padding-top: 28px;
+}
+
+#porovnaniPage.anim
+{
+	transition: top .5s;
+	-moz-transition: top .5s; /* Firefox 4 */
+	-webkit-transition: top .5s; /* Safari and Chrome */
+	-o-transition: top .5s; /* Opera */
+}
+
+/* header */
+
+#porovnaniPage header, #porovnaniPage .staticData, #porovnaniPage .total, #porovnaniPage .table
+{
+	margin-left:4.45%;
+}
+
+#porovnaniPage .heading
+{
+	margin-bottom: 25px;
+	border-bottom: 1px solid gray;
+	float:left;
+}
+
+/* select */
+
+header select
+{
+ -webkit-appearance:none;
+}
+
+header .selectWrapper
+{
+	border-bottom: 1px white solid;
+	border-top: 1px white solid;
+	width: 278px;
+	padding: 8px 5px;
+	float: left;
+}
+
+header select
+{
+	width:280px;
+	height:25px;
+	overflow: hidden;
+	border:0;
+}
+
+
+/* closeBtn */
+
+#porovnaniPage .closeBtn
+{
+	background:url("../images/contact-closeBtn.png") no-repeat;
+	width:11px;
+	height:11px;
+	margin-right: 15px;
+	margin-top: -12px;
+    float:right;
+    display:block;
+}
+
+#porovnaniPage .closeBtn:hover
+{
+	background:url("../images/contact-closeBtn-over.png") no-repeat;
+}
+
+
+#porovnaniPage .chosen-single, #tabulkyPage .chosen-single
+{
+	font-size:22px;
+	font-family: "RobotoMedium";
+	color:#ffde00;
+	background: url("../images/porovnani-selectArrowDown.png") no-repeat 260px #333;
+}
+
+#porovnaniPage .index
+{
+	margin-top:-115px;
+	float:right;
+	text-align:right;
+	padding-bottom: 6px;
+	border-right:1px solid white;
+	margin-right:10px;
+}
+
+#porovnaniPage .index h1, #porovnaniPage .index h2
+{
+	margin:0px 20px 0px 0px;
+}
+
+#porovnaniPage .index h1
+{
+	margin-top: 15px;
+	font-size:12px;
+	font-weight:normal;
+}
+
+#porovnaniPage .index h2
+{
+	color:#ffde00;
+	font-size:28px;
+	font-weight:normal;
+}
+
+#porovnaniPage .index .bar
+{
+	margin-top:12px;
+	margin-bottom:16px;
+}
+
+#porovnaniPage .index .bar .graph
+{
+	background-color:#ffde00;
+	height:30px;
+	float: right;
+}
+
+#porovnaniPage .secondCol .index .bar .graph
+{
+	float:left;
+}
+
+#porovnaniPage .content
+{
+	margin-top:30px;
+	margin-bottom: 50px;
+}
+
+/* first column */
+
+#porovnaniPage .firstCol
+{
+	width:50%;
+	margin-left: 10px;
+	float:left;
+}
+
+.rank
+{
+	float:left;
+	margin-left: 30px;
+	margin-top: -11px;
+}
+
+.rank .rankUp, .rank .rankDown
+{
+	width:14px;
+	height:6px;
+	display:block;
+}
+
+.rank .rankUp
+{
+	background:url("../images/porovnani-arrowUp.png") no-repeat;
+	margin-left: 8px;
+	margin-top: 7px;
+}
+
+.rank .rankUp:hover
+{
+	background-image:url("../images/porovnani-arrowUp-down.png");
+}
+
+.rank .rankDown
+{
+	background:url("../images/porovnani-arrowDown.png") no-repeat;
+	margin-left: 8px;
+	margin-top: -4px;
+}
+
+.rank .rankDown:hover
+{
+	background-image:url("../images/porovnani-arrowDown-down.png");
+}
+
+.rank p
+{
+	background:url("../images/infoBox-circle.png") no-repeat;
+	width:32px;
+	height:31px;
+	color:#4c4c4c;
+	font-size:18px;
+	font-weight:bold;
+	padding:3px 5px 5px 0px;
+	margin-top:5px;
+	margin-right:10px;
+	margin-bottom: -1px;
+	text-align:center;
+}
+
+/* static data */
+
+#porovnaniPage .staticData table
+{
+	border-left:1px #666666 solid;
+	width: 290px;
+}
+
+#porovnaniPage .staticData th, #porovnaniPage .staticData td
+{
+	border-right:1px #666666 solid;
+	text-align:left;
+	padding: 0px 30px 0px 10px;
+}
+
+#porovnaniPage .staticData th
+{
+	font-size:12px;
+	font-weight:normal;
+}
+
+#porovnaniPage .staticData td
+{
+	font-size:18px;
+	font-family:"RobotoMedium";
+	border-top:0px;
+}
+
+/* total */
+
+#porovnaniPage .total
+{
+	margin-top:32px;
+}
+
+#porovnaniPage .total th
+{
+	font-size:11px;
+	text-transform: uppercase;
+	font-family:"RobotoMedium";
+	font-weight:normal;
+
+}
+
+#porovnaniPage .total th.third {
+	color:#989898;
+}
+
+#porovnaniPage .total .values
+{
+	font-size:16px;
+	line-height: 1.6em;
+	border-spacing:20px;
+	border-bottom: 1px gray solid;
+}
+
+
+/* table */
+
+#porovnaniPage .table
+{
+	margin-top:20px;
+	width:100%;
+}
+
+#porovnaniPage .table table
+{
+	width:94.2%;
+	border-right:1px white solid;
+}
+
+#porovnaniPage .table tr.hover
+{
+	background-color:#666666;
+}
+
+#porovnaniPage td
+{
+	border-top:1px solid #949494;
+	padding:2px 10px 2px 5px;
+}
+
+#porovnaniPage td.first, #porovnaniPage td.second
+{
+	width:69px;
+	text-align:right;
+}
+
+#porovnaniPage td.title
+{
+	width:140px;
+}
+
+#porovnaniPage td.first
+{
+	font-family:"RobotoMedium";
+	font-weight:normal;
+}
+
+#porovnaniPage td.second
+{
+	color:#989898;
+}
+
+#porovnaniPage td.third
+{
+	width:30px;
+	text-align:right;
+	color:#989898;
+}
+
+#porovnaniPage .last td
+{
+	border-bottom: 1px gray solid;
+}
+
+#porovnaniPage th
+{
+	text-align:right;
+	padding-right:10px;
+}
+
+#porovnaniPage th.second
+{
+	color:#989898;
+	text-align:right;
+}
+
+#porovnaniPage td.bar
+{
+	border:0px;
+	float:right;
+	/*padding-right:0px;*/
+	padding: 4px 0px;
+}
+
+#porovnaniPage td.bar .value
+{
+	float:left;
+	margin-right:6px;
+	font-size:12px;
+}
+
+#porovnaniPage td.bar div.graph
+{
+	float:right;
+	height:11px;
+	padding-top:5px;	
+	background-color:#f00;
+}
+
+#porovnaniPage .violent td.bar div.graph
+{
+	background-color:#d1f193;
+}
+
+#porovnaniPage .moral td.bar div.graph
+{
+	background-color:#b8dc8e;
+}
+
+#porovnaniPage .burglary td.bar div.graph
+{
+	background-color:#a0c689;
+}
+
+#porovnaniPage .theft td.bar div.graph
+{
+	background-color:#88b085;
+}
+
+#porovnaniPage .property td.bar div.graph
+{
+	background-color:#719c81;
+}
+
+#porovnaniPage .other td.bar div.graph
+{
+	background-color:#5a867b;
+}
+
+#porovnaniPage .rest td.bar div.graph
+{
+	background-color:#427177;
+}
+
+#porovnaniPage .economic td.bar div.graph
+{
+	background-color:#2a5c73;
+}
+
+#porovnaniPage .military td.bar div.graph
+{
+	background-color:#12466d;
+}
+
+/* second col */
+
+#porovnaniPage .secondCol
+{
+	position: absolute;
+	right: 0px;
+	width: 49%;
+	margin-top: -13px;
+}
+
+#porovnaniPage .secondCol .content
+{
+	margin-top:42px;
+}
+
+#porovnaniPage .secondCol header, #porovnaniPage .secondCol .staticData, #porovnaniPage .secondCol  .total
+{
+	float:right;
+}
+
+#porovnaniPage .secondCol header, #porovnaniPage .secondCol  .staticData, #porovnaniPage .secondCol  .total, #porovnaniPage .secondCol  .table
+{
+	margin-right:4.45%;
+	margin-left:0px;
+}
+
+#porovnaniPage .secondCol header
+{
+	margin-right: 4.45%;
+}
+
+#porovnaniPage .secondCol .table
+{
+	margin-top:17px;
+}
+
+#porovnaniPage .secondCol .table table
+{
+	border-right:0px;
+	border-left:1px white solid;
+	width:95.5%;
+}
+
+#porovnaniPage .secondCol .staticData
+{
+	margin-top: -10px;
+	margin-right: 103px;
+}
+
+#porovnaniPage .secondCol td.bar
+{
+	float:none;
+	padding-left:0px;
+} 
+
+#porovnaniPage .secondCol td.bar div.graph
+{
+	float:left;
+}
+
+#porovnaniPage .secondCol td.bar .value
+{
+	margin-left:6px;
+}
+
+#porovnaniPage .secondCol .index
+{
+	float:left;
+	text-align:left;
+	border-left: 1px white solid;
+	border-right: 0px;
+	margin-top: -37px;
+}
+
+#porovnaniPage .secondCol .index h1, #porovnaniPage .secondCol .index h2 
+{
+	margin: 0px 0px 0px 20px;
+}
+
+#porovnaniPage .secondCol .index h1
+{
+	margin-top:15px;
+}
+
+#porovnaniPage .secondCol tr.total
+{
+	float:none;
+}
+
+#porovnaniPage .secondCol section.total
+{
+	margin-top: -52px;
+}
+
+/* chosen */
+
+.chosen-container .chosen-drop
+{
+	background:#333333;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin-top: 12px;
+	margin-left: -5px;
+}
+
+.chosen-container-active .chosen-single
+{
+	border:0px;
+}
+
+.chosen-container .chosen-results .no-results
+{
+	background:url("../images/porovnani-selectArrowDown.png") no-repeat 260px #333;
+}
+
+.chosen-container-active .chosen-single-with-drop
+{
+	background:url("../images/porovnani-selectArrowDown.png") no-repeat 260px #333;
+	border:0px 1px;
+	-webkit-box-shadow:0px 0px 0px 0px;
+	-moz-box-shadowP:0px 0px 0px 0px;
+	box-shadow:0px 0px 0px 0px;
+}
+
+.chosen-container .chosen-results .group-result
+{
+	color:#ffde00;
+}
+
+.chosen-container .chosen-results .highlighted
+{
+	background:#666666;
+}
+
+#porovnaniPage .compareNotice {
+	text-align:center;
+	margin-top: 80px;
+}
+
+#porovnaniPage .compareNotice a {
+	text-decoration: underline;
+}
+
+/* small screens */
+@media screen and (max-width: 1200px) {
+
+	#porovnaniPage td.title
+	{
+		width: 100px;
+	}
+
+	#porovnaniPage td.first, #porovnaniPage td.second
+	{
+		width:50px;
+	}
+
+	#porovnaniPage .total .values
+	{
+		font-size:13px;
+	}
+
+	#porovnaniPage .total .values .third
+	{
+		width:20px;
+	}
+
+	#porovnaniPage .total .values th, #porovnaniPage .total .values td
+	{
+		width:75px;
+	}
+
+	#porovnaniPage .secondCol .staticData
+	{
+		margin-right: 50px;
+	}
+
+	#porovnaniPage .secondCol .index 
+	{
+		margin-top: -16px;
+	}
+
+	#porovnaniPage .secondCol section.total 
+	{
+		margin-top: -76px;
+	}
+
+	#porovnaniPage .secondCol header 
+	{
+		margin-right: 0;
+	}
+}
+
+/* mozilla only */
+
+ @-moz-document url-prefix() {
+
+ }
+
+ 
+

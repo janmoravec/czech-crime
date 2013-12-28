@@ -1,0 +1,268 @@
+body, html
+{
+	width:100%;
+	height:100%;
+	color:white;
+	font-size:14px;
+	font-family: "RobotoRegular", Arial, sans-serif;
+	overflow: hidden;
+
+}
+
+
+::selection
+{
+	background:#333;
+}
+
+/*
+* general
+*/
+
+hr
+{
+	border:1px solid white;
+}
+
+em
+{
+	font-weight:bold;
+}
+
+dd
+{
+	margin:0;
+}
+
+/*anchors*/
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover
+{
+	color:white;
+}
+
+a:active
+{
+	outline: none;
+}
+
+a:visited
+{
+	color:white;
+	text-decoration:none;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+.upper
+{
+	vertical-align:super;
+	font-size:8px;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+
+.white
+{
+	color:#fff;
+}
+
+h1
+{
+	font-weight: normal;
+	font-family: "RobotoMedium";
+}
+
+/*
+* header
+*/
+
+header.mainBar
+{
+	background-color:#333333;
+	height:38px;
+	padding-top:13px;
+	position: relative;
+	z-index: 10;
+
+	-moz-box-shadow:0 0 3px 3px#888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	-box-shadow: 0 0 3px 3px#888;
+}
+
+header img.logo
+{
+	float:left;
+	margin-right:28px;
+	margin-left: 26px;
+}
+
+header nav
+{
+	margin-top:-18px;
+}
+
+@media screen and (max-width: 900px) {
+
+	header.mainBar {
+		height:58px;
+	}
+
+	header nav {
+		margin-top: 0px;
+	}
+}
+
+
+li.fb { float: right; height: 40px; padding:0; width: 450px; }
+
+header .fb-like
+{
+    float:left;
+    position: relative;
+    left: 200px;
+    top: -21px;
+                
+}
+header .fb-like span { padding: 0 !important;}
+
+.bold
+{
+	font-family:"RobotoMedium";
+}
+
+div#main
+{
+	background-color:#ddd;
+	position:absolute;
+	width:100%;
+	top:51px;
+	bottom:0px;
+}
+
+div#mapWrapper
+{
+	width:100%;
+	height:100%;
+}
+
+div#pageContent
+{
+	position:absolute;
+	top:80px;
+}
+
+header #pagesNav a
+{
+        padding: 5px 0;
+	color:white;
+	font-family:"RobotoMedium";
+}
+
+header #pagesNav a.gray
+{
+	color:#7f7f7f;
+}
+
+header #pagesNav div
+{
+	height:20px;
+	padding-top:5px;
+}
+
+header.mainBar h2
+{
+	margin:3px 0px 0px 0px;
+	font-size:14px;
+	font-weight:normal;
+	font-family:"RobotoLightItalic";
+}
+
+header #pagesNav a.active
+{
+	color:#333333;
+	text-decoration:none;
+	background-color:#FFDE00;
+}
+
+header #pagesNav a:hover
+{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:#5a5a5a;
+}
+
+header #pagesNav a.activeLogin
+{
+	background-color:#5a5a5a;
+}
+
+header #pagesNav a.active span
+{
+
+}
+
+header #pagesNav div
+{
+	float:left;
+}
+
+header #pagesNav span
+{
+	padding:10px;
+}
+
+header #pagesNav ul
+{
+	float:right;
+	margin-right:10px;
+        margin-top: -21px;
+}
+
+header #pagesNav li
+{
+	display:inline;
+}
+
+header #login {
+	display:none;
+}
+
+#ajax-spinner {
+	z-index:1000;
+	color:#000;
+}
+
+.preloaderBack
+{
+	background-color:#000;	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity: .3;
+    -khtml-opacity: .3;
+    opacity:.3;
+
+    width:100%;
+    height:100%;
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	display:none;
+	z-index:1000;
+}

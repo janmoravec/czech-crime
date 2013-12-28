@@ -1,0 +1,217 @@
+101,Vraždy loupežné ,Murders based on robbery,0
+102,Vraždy sexuální,Sexual murders,0
+103,Vraždy motivované osobními vztahy,Murders motivated by personal relations,0
+104,Vraždy na objednávku,Contracted murders,0
+105,Vraždy novorozence matkou,Infanticides,0
+106,Vraždy ostatní,The other murders,0
+101-106,Vraždy,,1
+111,Usmrcení plodu - s pomocí matky  ,Intentional killing of a viable fetus,0
+112,Usmrcení plodu - se souhlasem matky ,Intentional killing of a viable fetus,0
+113,Usmrcení plodu - bez souhlasu matky ,,0
+115,Zabití ,,0
+116,Usmrcení z nedbalosti,,0
+121,Opuštění dítěte,Abandonment of child,0
+122,Únos,Kidnapping,0
+131,Loupeže,Robbery,0
+132,Loupeže na finančních institut.,Bank robbery,0
+141,Fyzické útoky,Violence against public official - a member of the Police and the Municipal Police,1
+142,Násilí proti úřední osobě - policistovi,Violence against public official - a member of the Police of the Czech Republic,0
+143,Násilí proti úřední osobě - strážníkovi,Violence against public official - a member of the Municipal Police ,0
+151,Úmyslné ublížení na zdraví,Actual bodily harm,0
+161,Rvačky,Brawls,0
+171,Násilí a vyhrož. proti skup. ob.,Threatening and violence against a group of person and against an individual,0
+172,Braní rukojmí,Taking hostages,0
+173,Nebezpečné vyhrožování,Dangerous threatening,0
+174,Nebezpečné pronásledování ,,0
+181,Vydírání,Blackmail,0
+182,Omezování osobní svobody,Restriction and deprivation of personal freedom,0
+183,Porušování domovní svobody,Illegal entry into dwelling,0
+184,Neoprávněný zásah do práva domu,"Unlawful interference with a title to a house, flat or nonresidental premises",0
+185,Týrání svěřené osoby,Battering a person entrusted to one´s care and a person living together,0
+186,Týrání osoby žijící  ve spol. obydlí,,0
+187,Omezování svobody vyznání,Restricting the freedom of religion,0
+188,Útisk,Oppression,0
+189,Porušování svobody shromažďování,Infringing the freedom of peaceful assembly and association,0
+190,Ostatní násilné trestné činy,The other violent crimes,0
+101-190,Násilné činy celkem:,,1
+201,Znásilnění,Rape,1
+202,Sexuální nátlak,,0
+211,Pohlavní zneužívání v závislosti,Sexual abuse in dependence,0
+212,Pohlavní zneužívání ostatní,The other sexual abuse,0
+213,Komerční sexuální zneužívání v závislosti,Commercial form of sexual abuse in dependency,0
+214,Komerční sexuální zneužívání ostatní,Commercial form of the other sexual abuse ,0
+231,Ostatní pohlavní úchylky,The other sexual deviations,0
+241,Šíření pornografie ,Corrupting morals,0
+251,Ohrožování pohlavní nemocí,Exposing others  to veneral diseases,0
+252,Ublížení na zdraví pohlavní nemocí,Intentional damage to the health by veneral disease,0
+253,Ublížení na zdraví pohlavní nemocí nedb.,Negligent damage to the health by veneral desease,0
+271,Kuplířství,Pandering,0
+280,Soulož mezi příbuznými,Incest,0
+281,obchodování s lidmi ,Trafficking with people with the view of sexual intercourse,0
+290,Ostatní mravnostní trestné činy,The other morals crimes,0
+201-290,Mravnostní činy celkem:,,1
+311,Vloupání do obchodů,Burglaries into shops,0
+312,Vloupání do výkladních skříní,Burglaries into shop windows,0
+321,Vloupání do restaurací,Burglaries into restaurants and ordinaries,0
+322,Vloupáním do ubytovacích objektů,Burglaries into accommodation facilities,0
+323,Vloupání do kiosků,Burglaries into kiosks,0
+324,Vloupání do jídelen a závodních kuchyní,"Burglaries into lunchrooms, canteens and catering facilities",0
+331,"Vloupání do kostelů, muzejí apod.",Burglaries into facilities with antiquities and works of art except shops,0
+332,Vloupání do ostatních kulturních objektů,Burglaries into cultural facilities except those in in 331,0
+341,Vloupání do pokladen a trezorů,Burglaries into safes and keisters,0
+350,Vloupání do počítačových pracovišť,Burglaries into computer centres,0
+351,Vloupání do škol,Burglaries into schools,0
+371,Vloupání do bytů,Burglaries into flats,0
+372,Vloupání do chat a chalup,Burglaries into weekend houses,1
+373,Vloupání do rodinných domů,Burglaries into family houses,0
+390,Vloupání do ostatních objektů,Burglaries into the other facilities,0
+311-390,Krádeže vloupáním celkem:,,1
+411,Krádeže kapesní,Thefts - pick-pocketing,0
+412,Krádeže při pohlavním styku,Thefts in the course of sexual intercourse,0
+413,Krádeže jiné na osobách,Thefts - the other thefts on persons,0
+421,Krádeže mezi zaměstnanci na pracovišti,Thefts among employees at workplaces,0
+431,Krádeže automobilů,Thefts of two-track motor vehicles,0
+432,Krádeže motocyklů,Thefts of single-track motor vehicles,0
+433,Krádeže věcí z automobilů,Thefts inside cars,0
+434,Krádeže součástek motorových vozidel,Thefts of motor vehicles parts,0
+435,Krádeže jízdních kol,Thefts of bicycles,1
+441,Krádeže domácího zvířectva,Thefts of domestic animals,0
+451,Krádeže v bytech,Thefts in houses,0
+461,Krádeže věcí na nádražích,Thefts at railway stations exept consignments,0
+462,Krádeže věcí během jízdy v dopravních prostředcích,Thefts in means of transport except consignments,0
+471,Krádeže v objektech s uměleckými předměty,Thefts in facilities including exterior with antiquities and works of art,0
+480,Krádeže v jiných objektech,Thefts in other facilities,0
+490,Krádeže ostatní,The other thefts,0
+411-490,Krádeže prosté celkem:,,1
+511,Podvod,Fraud,0
+521,Zpronevěra,Embezzlement,0
+530,Neoprávněné užívání cizí věci,Unlawful enjoyment of a thing of another,0
+588,Zatajení věci,Concealment of a thing,0
+589,Poškozování cizí věci,Harm done to a thing of another,0
+590,Pytláctví a ostatní majetkové trestné činy ,The other proprietary crimes,0
+311-590,Majetkové činy celkem:,,1
+611,Výtržnictví,Breach of the peace,0
+612,Výtrž. na sport. a veřej. akcích,Rioting in course of sport and public actions,0
+613,Sprejerství,Sprayers´ crimes,0
+614,Výtržnictví - útoky na záchranáře ,,0
+631,Ohrožování výchovy mládeže ,Corrupting morals and morals youth,0
+632,Podávání alkoholu mládeži,Serving alcoholic drinks to minors,0
+633,Obchodování s dětmi,Trading with children,0
+634,Nedovolené překročení státní hranice,Illegal crossing of the border,0
+635,Výroba a držení drog pro jiného,"Illicit manufacturing and possession of narcotics, drugs and poisons for another",0
+636,Šíření toxikománie,Promoting addictive drugs,0
+637,Zneužívání pravomoci úřední osoby ,Abuse of powers of public official,0
+639,Neoprávněné nakládání s osobními údaji,Unauthorized use of personal data,0
+640,Maření úkolů úřední osoby z nedbalosti ,Neglect by a public official,0
+641,Výroba a držení drog pro sebe,"Illicit manufacturing and possession of narcotics, drugs and poisons for oneself",0
+642,Držení předmětu k výrobě droj,"Illicit manufacturing and possession of narcotics, drugs and poisons - object for illicit manufacturing",0
+643,Pěstování rostlin obsahujících omamnou látku,,0
+644,Výroba a nakládání hormonálních látek,,0
+651,Požáry,Fires,0
+652,Výbuchy,Explosions,0
+662,Nedovolené ozbrojování,Prohibited acquisition and possession of firearms,0
+663,Maření výkonu úředního rozh.,Obstructing the execution of an official decision,0
+664,Překup. a přechov. - podílnictví,Receiving and handling stolen goods and receivers of stolen goods - accessoryship,0
+690,Ostatní kriminální trestné činy ,,0
+611-690,Ostatní krim. činy celkem:,,1
+721,Nadržování,Abbetting,0
+730,Veškeré dopravní nehody úmyslné,"All intentional accidents - road, air, water road, railway and combined accidents",0
+731,Dopravní nehody silniční z nedbalosti,Negligent road accidents,0
+732,Dopravní nehody letecké z nedbalosti,Negligent air traffic accidents,0
+733,Dopravní nehody vodní z nedbalosti,Negligent water road accidents,0
+741,Dopravní nehody železniční z nedbalosti,Negligent railway accidents,0
+742,Dopravní nehody kombinované z nedbalosti,"Negligent combined, railway and road accidents",0
+750,Ublížení na zdraví z nedbalosti - pracovní úraz,Negligent bodily injury - work injuries,0
+751,Ublížení na zdraví z nedbalosti - ostatní,Negligent bodily injury - the others,0
+762,Poškozování věřitele,Harm done to a creditor,0
+763,Zvýhodňování věřitele,Preferring a creditor,0
+771,Řízení pod vlivem,"Menace due to intoxication, intoxication",1
+772,Zanedbání povinné výživy,Neglect of compulsory maintenance,0
+781,Únos letadla či plavidla,Endangering the safety of an aircraft and ship,0
+782,Sdělení nepravdivé informace,Disclosure of untrue information which can endanger safety of an aircraft and ship during the flight,0
+783,Zavlečení VDP do ciziny,"Air piracy, hijacking",0
+784,Týrání zvířat,Cruelty to animals,0
+785,Šíření poplašné zprávy,Spreading false news,0
+786,Účast na organizované zločinecké skupině ,Accomplicity in criminal conspiracy,0
+787,"Hanobení národa, rasy, etnické nebo jiné skupiny ","Defamation of nation, ethnic group, race and belive",0
+788,Podněcování k národnostní a rasové nenávisti,Incitement of racial hatred,0
+789,Podpora a propagace hnutí,Supporting and promoting movements oriented to suppression of human rights and freedom,0
+790,Ostatní trestná činnost,The other criminality,0
+721-790,Zbývající kriminalita celkem:,,1
+801,Tr.č. proti př. o nekalé soutěži,Crimes against regulations governing unfair competition,0
+803,Neoprávněné podnikání,Unlawful business activity,0
+806,Poškozování spotřebitele,Harm caused to a consumer,0
+807,Pašování a krácení cla,Breach of regulations governing imports and exports of goods (smuggling),0
+808,Zkresl. údajů o stavu hosp.a jm.,Distortion of data relating to economic and property status,0
+809,Porušování závazných pravidel hospodářského styku,Breach of compulsory rules of business transactions,0
+810,Porušování povinnosti v insolvenčním řízení,Breach of duties in bankruptcy and composition proceedings,0
+811,Porušování povinnosti při správě cizího majetku,Breach of trust,0
+812,Krádež,Theft,0
+813,Neoprávněné užívání cizí věci,Unlawful enjoyment of a thing of another except motor vehicles,0
+814,Poškození cizí věci,Harm done to a thing of another,0
+815,Podvody proti sociálnímu a nemocenskému pojištění,Frauds against social security and health insurance,0
+816,Ochrana měny,Counterfeiting and altering money,0
+817,Padělání známek a kolků,Counterfeiting and altering stamps and labels,0
+819,Krácení daně,Tax evasion,0
+820,Zneužívaní pravomoci úřední osoby,Abuse of powers of a public official,0
+821,Úplatkářství - přijímání úplatku,Bribery - accepting a bribe,0
+822,Poškozování věřitele,Harm done to a creditor,0
+823,Paděl. a pozměň. veř. listiny,Forgery and fraudulent alternation of an official document,0
+824,Nedov. výr. a drž.st.peč. a úř.raz.,Manufacturing and possession of the great seal and the official stamp,0
+825,Ohrožování zdraví závad. potr.,Endangering health due to defective food and other goods,0
+826,Vystavení neprav. potvrzení,Issuance of a false document,0
+827,Neoprávněné užívání mot. voz.,Unlawful use of motor vehicle,0
+828,Poruš. tajemství doprav. zpráv,Breach of mailing secrets,0
+829,Zpronevěra,Embezzlement,0
+830,Podvod,Fraud,0
+831,Plet. při veř. soutěži a dražbě,Scheming in public tender and auction,0
+832,Porušení předpisu o nakládání s kontrolovaným zbožím,Breach of regulations providing for the handling and disposal of controlled goods and technologies,0
+833,Zneuž. informací v obch. styku,Abuse of information in commercial relation,0
+834,Neoprávněné provozování loterie ,Unlawful practicing lotery and similar betting games,0
+835,Porušování předpisů o nálepkách k označování zboží,Breach of regulations governing label destinating goods,0
+836,Neoprávněné nakládání s osobními údaji,Unauthorized use of personal data,0
+837,Ostatní trestné činy proti měně,The other crimes against currency,0
+838,Neoprávněné držení platebního prostředku,Unlawful possession of a credit card,0
+839,Porušování předpisů o zahrančním obchodu se zbraněmi,Breach of regulations governing foreign trade with military material,0
+840,Rozkrádání přepravovaných zásilek železničních,Railway consignments thefts,0
+841,Rozkrádání přepravovaných zásilek poštovních,Mail thefts,0
+842,Rozkrádání přepravovaných zásilek silničních,Road consignments thefts,0
+843,Rozkrádání přepravovaných zásilek leteckých,Air consignments thefts,0
+844,Rozkrádání přepravovaných zásilek lodních,Shipment thefts,0
+845,Maření úkolu úřední osoby z nedbalosti,Neglect by a public official,0
+846,Úplatkářství - podplácení,Bribary - offering or giving a bribe,0
+847,Úplatkářství - nepřímé,Bribary - indirekt bribery,0
+848,Zvýhodňování věřitele,Preferring a creditor,0
+849,Pletichy v insolvenčním řízení,Scheming to defraud in bankruptcy proceedings,0
+850,Ohrožení životního prostředí úmyslné,Intentional endangering or damage to the environment,0
+851,Ohrožení životního prostředí nedbalostní,Negligent endangering or damage to the environment,0
+852,Předlužení,Insolvency,0
+853,Neoprávněné vydání cenného papíru ,,0
+854,Manipulace s kurzem investičních nástrojů ,,0
+855,Nedovolená výr.rad.mat.,Illicit manufacturing and possession of radioactive material,0
+860,Podílnictví,Receiving and handling stolen goods and receivers of stolen goods - accessoryship,0
+861,Porušení práv k ochranné známce,"Infringement of rights relating to trademarks, commercial names and protected designation of origin",0
+862,Porušování průmyslových práv,Infringement of industrial property rights,0
+863,Porušování autorského práva,Infringement of copyright and relevant rights and database right,0
+864,Zastření původu věci,Concealing origines of things (so-called money laundering),0
+865,Poškozování a zneužití záznamu na nosiči informací,Harm done and abuse of a record on the data carrier,0
+866,Provozování nepoctivých her a sázek,Unfair betting and gaming,0
+870,Havárie a provozní poruchy úmyslné,"Accidents and operational disorders except negligent road traffic accidents, railway accidents, air traffic accidents and ship accidents",0
+871,Havárie a provozní poruchy nedbalostní,"Accidents and operational disorders except intentional road traffic accidents, railway accidents, air traffic accidents and ship accidents",0
+880,Pojistný podvod,Fraud of insurance,0
+881,Úvěrový podvod,Credit fraud,0
+882,Dotační podvod ,,0
+885,Nesplnění oznamovací povinnosti v daňovém řízení,Failure to notify in tax procedure,0
+886,Neodvedení daně a dalších povinných plnění,"Back taxes, social insurance, health insurance and employment allowance",0
+890,Ostatní hosp. trestné činy,The other economic crimes,0
+801-890,Hospodářské činy celkem:,,1
+901,Vojenské trestné činy,Military crimes ,0
+902,Trestné činy proti ústav. zřízení,Crimes against constitution,0
+903,Trestné činy válečné a proti míru,,0
+101-690, Obecná kriminalita celkem,,1
+101-903, CELKOVÁ KRIMINALITA,,1
+"141,142,143,151,161,171,173,181,611,612,614",Fyzické útoky,,1
+"131,132",Loupeže,,1
+"371,373",Vloupání do obydlí,,1
+"433,434",Krádeže věcí z automobilů,,1
+"635,641,642,643",Výroba držení a distribuce drog,,1

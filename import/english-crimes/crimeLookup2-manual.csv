@@ -1,0 +1,217 @@
+101,Vraždy - loupežné,Murders based on robbery,0
+102,Vraždy - sexuální,Sexual murders,0
+103,Vraždy - motivované osobními vztahy,Murders motivated by personal relations,0
+104,Vraždy - na objednávku,Contracted murders,0
+105,Vraždy - novorozence matkou,Infanticides,0
+106,Vraždy - ostatní,The other murders,0
+101-106,Vraždy,Murders,1
+111,"Usmrcení lidského plodu - pomoc a svádění ženy","Intentional killing of viable fetus – aiding or abetting",0
+112,Usmrcení lidského plodu - se souhlasem ženy,Intentional killing of viable fetus – with the consent of the woman,0
+113,Usmrcení lidského plodu - bez souhlasu ženy,Intentional killing of viable fetus – without the consent of the woman,0
+115,Zabití,Killing,0
+116,Usmrcení z nedbalosti,Negligent homicide,0
+121,Opuštění dítěte,Abandonment of child,0
+122,únos,Kidnapping,0
+131,Loupež,Robbery,0
+132,Loupeže na finančních institucích,Bank robbery,0
+141,"Násilí proti úřední osobě a orgánu veřejné moci - mimo příslušníka policie a obecní policie","Violence against public official - a member of the Police and the Municipal Police",1
+142,"Násilí proti úřední osobě a orgánu veřejné moci - na příslušníkovi Policie ČR","Violence against public official - a member of the Police of the Czech Republic",0
+143,"Násilí proti úřední osobě a orgánu veřejné moci - na příslušníkovi obecní policie","Violence against public official - a member of the Municipal Police",0
+151,"úmyslné ublížení na zdraví","Actual bodily harm",0
+161,Rvačky,Brawls,0
+171,Násilí a vyhrožování proti skupině obyvatel a jednotlivci,Threatening and violence against a group of person and against an individual,0
+172,Braní rukojmí,Taking hostages,0
+173,Nebezpečné vyhrožování,Dangerous threatening,0
+174,Nebezpečné pronásledování,Serious harassment,0
+181,Vydírání (§ 175),Blackmail (§ 175),0
+182,"Omezování a zbavení osobní svobody (§§ 169, 170, 171)","Restriction and deprivation of personal freedom (§§ 169, 170, 171)",0
+183,Porušování domovní svobody (§ 178),Illegal entry into dwelling (§ 178),0
+184,"Neoprávněný zásah do práva k domu, bytu nebo nebytovému prostoru (§ 208)","Unlawful interference with a title to a house, flat or nonresidental premises  (§ 208)",0
+185,Týrání svěřené osoby (§ 198),Battering a person entrusted to one´s care (§ 198),0
+186,Týrání osoby žijící ve společném obydlí (§ 199),Battering a person entrusted to one´s care and a person living together (§ 199),0
+187,Omezování svobody vyznání (§ 176),Restricting the freedom of religion (§ 176),0
+188,útisk (§ 177),Oppression (§ 177),0
+189,Porušování svobody sdružování a shromažďování (§ 179),Infringing the freedom of peaceful assembly and association (§ 179),0
+190,"Ostatní násilné trestné činy (§§ 144, 172)","The other violent crimes (§§ 144, 172)",0
+101-190,Násilné činy celkem,Violent crimes,1
+201,Znásilnění (§ 185),Rape (§ 185),1
+202,Sexuální nátlak (§ 186),Sexual compulsion (§ 186),0
+211,Pohlavní zneužívání v závislosti (§ 187/2),Sexual abuse in dependence (§ 187/2),0
+212,"Pohlavní zneužívání ostatní (§ 187/1,3,4)","The other sexual abuse (§ 187/1,3,4)",0
+213,Komerční forma sexuálního zneužívání v závislosti (§ 187/2),Commercial form of sexual abuse in dependency (§ 187/2),0
+214,"Komerční forma sexuálního zneužívání ostatní (§ 187/1,3,4)","Commercial form of the other sexual abuse (§ 187/1,3,4)",0
+231,Ostatní pohlavní úchylky (§ 358),The other sexual deviations (§ 358),0
+241,Ohrožování mravnosti (§ 191),Corrupting morals (§ 191),0
+251,Ohrožování pohlavní nemocí (§ 155)     ,Exposing others  to veneral diseases (§ 155)   ,0
+252,"úmyslné ublížení na zdraví nakažlivou lidskou nemocí (§§ 145,146, 152)","Intentional damage to the health by veneral disease (§§ 145,146, 152)",0
+253,"Ublížení nakažlivou lidskou nemocí z nedbalosti (§§ 143, 147,148, 153)","Negligent damage to the health by veneral desease (§§ 143, 147,148, 153)",0
+271,Kuplířství (§ 189),Procuring (§ 189),0
+280,Soulož mezi příbuznými (§ 188),Incest (§ 188),0
+281,Obchodování s lidmi (§ 168),Trafficking with people with the view of sexual intercourse (§ 168),0
+290,"Ostatní mravnostní trestné činy (§ 190, 192, 193,194)","The other morals crimes (§ 190, 192, 193,194)",0
+201-290,Mravnostní činy,Moral crimes,1
+311,Krádeže vloupáním do obchodů (§ 205),Burglaries into shops (§ 205),0
+312,Krádeže vloupáním do výkladních skříní (§ 205),Burglaries into shop windows (§ 205),0
+321,Krádeže vloupáním do restaurací a hostinců (§ 205),Burglaries into restaurants and ordinaries (§ 205),0
+322,Krádeže vloupáním do ubytovacích objektů (§ 205),Burglaries into accommodation facilities (§ 205),0
+323,Krádeže vloupáním do kiosků (§ 205),Burglaries into kiosks (§ 205),0
+324,"Krádeže vloupáním do jídelen, závodních kuchyní a stravovacích zařízení (§ 205)","Burglaries into lunchrooms, canteens and catering facilities (§ 205)",0
+331,"Krádeže vloupáním do objektů, kde se nacházejí starožitnosti a umělecké předměty - mimo obchodů (§ 205)",Burglaries into facilities with antiquities and works of art except shops (§ 205),0
+332,"Krádeže vloupáním do kulturních objektů, mimo uvedené v 331 ( § 205)",Burglaries into cultural facilities except those in in 331 (§ 205),0
+341,Krádeže vloupáním do pokladen a pancéřových skříní ( § 205),Burglaries into safes and keisters (§ 205),0
+350,Krádeže vloupáním do výpočetních středisek nebo počítačových pracovišť (§ 205),Burglaries into computer centres (§ 205),0
+351,Krádeže vloupáním do škol (§ 205),Burglaries into schools (§ 205),0
+371,"Krádeže vloupáním do bytů (§§ 178, 205)","Burglaries into flats (§§ 178, 205)",0
+372,"Krádeže vloupáním do víkendových chat soukromých osob (§ 178, 205)","Burglaries into weekend houses (§§ 178, 205)",1
+373,"Krádeže vloupáním do rodinných domků (§ 178, 205)","Burglaries into family houses (§§ 178, 205)",0
+390,"Krádeže vloupáním do ostatních objektů (§ 178, 205)","Burglaries into the other facilities (§§ 178, 205)",0
+311-390,Krádeže vloupáním,Burglaries,1
+411,Krádeže prosté - kapesní (§ 205),Thefts - pick-pocketing (§ 205),0
+412,Krádeže prosté - při pohlavním styku (§ 205),Thefts in the course of sexual intercourse (§ 205),0
+413,Krádeže prosté - jiné na osobách (§ 205),Thefts - the other thefts on persons (§ 205),0
+421,Krádeže prosté - mezi zaměstnanci na pracovišti (§ 205),Thefts among employees at workplaces (§ 205),0
+431,"Krádeže prosté - motorových vozidel dvoustopých (§§ 205, 207)","Thefts of two-track motor vehicles (§§ 205, 207)",0
+432,"Krádeže prosté - motorových vozidel jednostopých (§§ 205, 207)","Thefts of single-track motor vehicles (§§ 205, 207)",0
+433,Krádeže prosté - věcí z aut - včetně vloupání do kabiny a zav. prostoru (§ 205)  ,Thefts inside cars  (§ 205),0
+434,Krádeže prosté - součástek motorových vozidel (§ 205),Thefts of motor vehicles parts (§ 205),0
+435,"Krádeže prosté - jízdních kol (§ 205, 207)","Thefts of bicycles (§§ 205, 207)",1
+441,Krádeže prosté - domácího zvířectva (§ 205),Thefts of domestic animals (§ 205),0
+451,Krádeže prosté - v bytech (§ 205),Thefts in houses (§ 205),0
+461,Krádeže prosté - věcí v prostorách nádraží - mimo zásilek (§ 205),Thefts at railway stations exept consignments (§ 205),0
+462,Krádeže prosté - věcí během jízdy v dopravním prostředku - mimo zásilek (§ 205),Thefts in means of transport except consignments (§ 205),0
+471,"Krádeže prosté v objektech, včetně exterieru i na volném prostranství se starožitnostmi a uměleckými předměty (§ 205)",Thefts in facilities including exterior with antiquities and works of art (§ 205),0
+480,Krádeže prosté v jiných objektech (§ 205),Thefts in other facilities (§ 205),0
+490,Krádeže prosté ostatní (§ 205),The other thefts (§ 205),0
+411-490,Krádeže prosté,Thefts,1
+511,Podvod (§ 209),Fraud (§ 209),0
+521,Zpronevěra (§ 206),Embezzlement (§ 206),0
+530,Neoprávněné užívání cizí věci (§ 207 ),Unlawful enjoyment of a thing of another (§ 207 ),0
+588,Zatajení věci (§ 219),Concealment of a thing (§ 219),0
+589,Poškozování cizí věci (§ 228),Harm done to a thing of another (§ 228),0
+590,Pytláctví a ostatní majetkové trestné činy (§ 304),Poaching and the other proprietary crimes (§ 304),0
+311-590,Majetkové činy,,1
+611,"Výtržnictví (§§ 358, 359)","Breach of the peace (§§ 358, 359)",0
+612,Výtržnictví na sportovních a veřejných akcích (§ 358),Rioting in course of sport and public actions (§ 358),0
+613,Sprejerství (§§ 228/2),Sprayers´ crimes (§§ 228/2),0
+614,Výtržnictví - útoky na záchranáře (§ 358),Assaulting rescuer (§ 358),0
+631,"Ohrožování výchovy mládeže (§§ 201, 202)","Corrupting the morals of youth (§§ 201, 202)",0
+632,Podávání alkoholických nápojů mládeži (§ 204),Serving alcoholic drinks to minors (§ 204),0
+633,Obchodování s dětmi (§ 169),Trading with children (§ 169),0
+634,"Nedovolené překročení státní hranice (§§ 339, 340, 341, 343)","Illegal crossing of the border (§§ 339, 340, 341, 343)",0
+635,Nedovolená výroba a držení psychotropních látek a jedů pro jiného (§ 283),"Illicit manufacturing and possession of narcotics, drugs and poisons for another (§ 283)",0
+636,šíření toxikomanie (§ 287),Promoting addictive drugs  (§ 287),0
+637,Zneužívání pravomoci úřední osoby (§ 329),Abuse of powers of a public official (§ 329),0
+639,Neoprávněné nakládání s osobními údaji (§ 180),Unauthorized use of personal data (§ 180),0
+640,Maření úkolů úřední osoby z nedbalosti (§ 330),Neglect by a public official  (§ 330),0
+641,Nedovolená výroba a držení psychotropních látek a jedů pro sebe (§ 284),"Illicit manufacturing and possession of narcotics, drugs and poisons for oneself (§ 284)",0
+642,Nedovolená výroba a držení psychotropních látek a jedů - předmět k nedovolené výrobě (§ 286),"Illicit manufacturing and possession of narcotics, drugs and poisons - object for illicit manufacturing (§ 286)",0
+643,Nedovolené pěstování rostlin obsahující omamnou látku (§ 285),Cultivation of plants containing narcotic substance (§ 285),0
+644,Výroba a nakládání s látkami s hormonálním účinkem (§ 288),Illicit  manufacturing or disposition of hormonal substances (§ 288) ,0
+651,"Požáry (§§ 228, 272, 273)","Fires (§§ 228, 272, 273)",0
+652,"Výbuchy (§§ 228, 272, 273)","Explosions (§§ 228, 272, 273)",0
+662,Nedovolené ozbrojování (§ 279),Prohibited acquisition and possession of firearms (§ 279),0
+663,Maření výkonu úředního rozhodnutí (§ 337),Obstructing the execution of an official decision (§ 337),0
+664,"Překupnictví a přechovávači - podílnictví (§§ 214, 215)","Receiving and handling stolen goods and receivers of stolen goods - accessoryship (§§ 214, 215)",0
+690,"Ostatní kriminální trestné činy (§§ 338, 342)","The other criminal offences (§§ 338, 342)",0
+611-690,Ostatní krim. činy,The other criminal offences,1
+721,Nadržování (§ 366),Abbetting (§ 366),0
+730,"Veškeré nehody (silniční, letecké, vodní, železniční a kombinované) - úmyslné (§§  145, 146, 228, 272, 274, 360, 402)","All intentional accidents - road, air, water road, railway and combined accidents (§§  145, 146, 228, 272, 274, 360, 402)",0
+731,"Dopravní nehody silniční z nedbalosti (§§ 143, 147, 148, 273, 274, 277, 360)","Negligent road accidents (§§ 143, 147, 148, 273, 274, 277, 360)",0
+732,"Dopravní nehody letecké z nedbalosti (§§ 143, 147, 148, 273, 274, 277, 360)","Negligent air traffic accidents (§§ 143, 147, 148, 273, 274, 277, 360)",0
+733,"Dopravní nehody vodní z nedbalosti (§§ 143, 147, 148, 273, 274, 277, 360)","Negligent water road accidents (§§ 143, 147, 148, 273, 274, 277, 360)",0
+741,"železniční nehody z nedbalosti (§§ 143, 147, 148, 273, 274, 277, 360)","Negligent railway accidents (§§ 143, 147, 148, 273, 274, 277, 360)",0
+742,"Nehody kombinované, železniční - silniční z nedbalosti (§§ 143, 147,148, 273, 274, 277, 360)","Negligent combined, railway and road accidents (§§ 143, 147, 148, 273, 274, 277, 360)",0
+750,"Ublížení na zdraví z nedbalosti - pracovní úrazy (§§ 143, 147, 148, 274, 360)","Negligent bodily injury - work injuries (§§ 143, 147, 148, 274, 360)",0
+751,"Ublížení na zdraví z nedbalosti - ostatní (§§ 143,147, 148, 274, 360)","Negligent bodily injury - the others (§§ 143, 147, 148, 274, 360)",0
+762,Poškozování věřitele (§ 222),Harm done to a creditor (§ 222),0
+763,Zvýhodňování věřitele (§ 223),Preferring a creditor (§ 223),0
+771,"Ohrožení pod vlivem návykové látky, opilství (§§ 274, 360)","Menace due to intoxication, intoxication (§§ 274, 360)",1
+772,Zanedbání povinné výživy (§ 196),Neglect of compulsory maintenance (§ 196),0
+781,Získání kontroly nad vzdušným dopravním prostředkem plavidlem a pevnou plošinou (§ 290),Seizure of a ship or aircraft (§ 290),0
+782,"Sdělení nepravdivé informace, která může ohrozit bezpečnost nebo provoz vzdušného dopravního prostředku za letu a civilního plavidla (§ 291)",Disclosure of untrue information which can endanger safety of an aircraft and ship during the flight (§ 291),0
+783,Zavlečení vzdušného dopravního prostředku do ciziny (§ 292),"Air piracy, hijacking (§ 292)",0
+784,"Týraní zvířat (§§ 302, 303)","Cruelty to animals (§§ 302, 303)",0
+785,šíření poplašné zprávy (§ 357),Spreading false news (§ 357),0
+786,účast na organizované zločinecké skupině (§ 361),Accomplicity in an organized criminal group (§ 361),0
+787,"Hanobení národa, rasy, etnické nebo jiné skupiny (§ 355)","Defamation of nation, race, ethnic or other group (§ 355)",0
+788,Podněcování k národnostní a rasové nenávisti (§ 356),Incitement of racial hatred (§ 356),0
+789,"Podpora a propagace hnutí směřujícího k potlačení práv a svobod občanů (§§ 403, 404, 405)","Supporting and promoting movements oriented to suppression of human rights and freedom (§§ 403, 404, 405)",0
+790,"Ostatní trestná činnost (§§ 149, 150, 151, 164, 165, 166, 167, 181, 182, 183, 184, 218, 220, 221, 273, 275, 276, 277, 278, 280, 328, 335, 336, 344, 345, 346, 347, 350, 351, 364, 365, 367, 368, 400, 401, 411, 412, 413, 414, 415 )","The other criminality (§§ 149, 150, 151, 164, 165, 166, 167, 181, 182, 183, 184, 218, 220, 221, 273, 275, 276, 277, 278, 280, 328, 335, 336, 344, 345, 346, 347, 350, 351, 364, 365, 367, 368, 400, 401, 411, 412, 413, 414, 415 )",0
+721-790,Zbývající kriminalita,Remaining criminality,1
+801,Trestné činy proti předpisům o nekalé soutěži (§ 248),Crimes against regulations governing unfair competition (§ 248),0
+803,Neoprávněné podnikaní (§ 251),Unlawful business activity (§ 251),0
+806,Poškozování spotřebitele (§ 253),Harm caused to a consumer (§ 253),0
+807,Porušování předpisů o oběhu zboží ve styku s cizinou (pašování) (§ 261),Breach of regulations governing imports and exports of goods (smuggling) (§ 261),0
+808,Zkreslování údajů o stavu hospodaření a jmění (§ 254),Distortion of data relating to economic and property status (§ 254),0
+809,Porušování závazných pravidel hospodářského styku,Breach of compulsory rules of business transactions,0
+810,Porušení povinnosti v insolvenčním řízení (§ 225),Breach of duties in bankruptcy and composition proceedings (§ 225),0
+811,"Porušování povinnosti při správě cizího majetku (§§ 220, 221)","Breach of trust (§§ 220, 221)",0
+812,Krádež (§ 205),Theft (§ 205),0
+813,Neoprávněné užívání cizí věci mimo motorová vozidla (§ 207),Unlawful enjoyment of a thing of another except motor vehicles (§ 207),0
+814,Poškozování cizí věci (§ 228),Harm done to a thing of another (§ 228),0
+815,Podvody proti sociálnímu zabezpečení a nemocenskému pojištěni (§ 209),Frauds against social security and health insurance (§ 209),0
+816,Padělání a pozměňování peněz (§ 233),Counterfeiting and altering money (§ 233),0
+817,"Padělání a pozměňování známek, kolků a nálepek (§§ 245, 246)","Counterfeiting and altering stamps and labels (§§ 245, 246)",0
+819,Krácení daně (§ 240),Tax evasion (§ 240),0
+820,Zneužívaní pravomoci úřední osoby (§ 329),Abuse of powers of a public official (§ 329),0
+821,úplatkářství - přijímání úplatku (§ 331),Bribery - accepting a bribe (§ 331),0
+822,Poškozování věřitele (§ 222),Harm done to a creditor (§ 222),0
+823,Padělání a pozměňování veřejné listiny (§ 348),Forgery and fraudulent alternation of an official document (§ 348),0
+824,Nedovolená výroba a držení státní pečeti a úředního razítka (§ 349),Manufacturing and possession of the great seal and the official stamp (§ 349),0
+825,"Ohrožování zdraví závadnými potravinami a jinými potřebami (§§ 156, 157)","Endangering health due to defective food and other goods (§§ 156, 157)",0
+826,"Vystavení nepravdivého potvrzení (§§ 259, 260)","Issuance of a false document (§§ 259, 260)",0
+827,Neoprávněné užívání motorového vozidla (§ 207),Unlawful use of motor vehicle (§ 207),0
+828,Porušování tajemství dopravovaných zpráv (§ 182),Breach of mailing secrets (§ 182),0
+829,Zpronevěra (§ 206),Embezzlement (§ 206),0
+830,Podvod (§ 209),Fraud (§ 209),0
+831,"Pletichy při veřejné soutěži a dražbě (§§ 256, 257, 258)","Scheming in public tender and auction (§§ 256, 257, 258)",0
+832,"Porušování předpisů o nakládání s kontrolovaným zbožím a technologiemi (§§ 262, 263, 264)","Breach of regulations providing for the handling and disposal of controlled goods and technologies (§§ 262, 263, 264)",0
+833,Zneužívání informací v obchodním styku (§ 255),Abuse of information in commercial relation (§ 255),0
+834,Neoprávněné provozování loterie a podobné sázkové hry (§ 252),Unlawful practicing lotery and similar betting games (§ 252),0
+835,Porušování předpisů o nálepkách k označení zboží (§ 244),Breach of regulations governing label destinating goods (§ 244),0
+836,Neoprávněné nakládání s osobními údaji (§ 180),Unauthorized use of personal data (§ 180),0
+837,"Ostatní trestné činy proti měně (§§ 235, 236, 237, 239)","The other crimes against currency (§§ 235, 236, 237, 239)",0
+838,Neoprávněné držení platebního prostředku (§ 234),Unlawful possession of a credit card (§ 234),0
+839,"Porušování předpisů o zahraničním obchodu s vojenským materiálem (§§ 265, 266, 267)","Breach of regulations governing foreign trade with military material (§§ 265, 266, 267)",0
+840,"Krádeže železničních zásilek (§§ 205, 206, 209)","Railway consignments thefts (§§ 205, 206, 209)",0
+841,"Krádeže poštovních zásilek (§§ 205, 206, 209)","Mail thefts (§§ 205, 206, 209)",0
+842,"Krádeže silničních zásilek (§§ 205, 206, 209)","Road consignments thefts (§§ 205, 206, 209)",0
+843,"Krádeže leteckých zásilek (§§ 205, 206, 209)","Air consignments thefts (§§ 205, 206, 209)",0
+844,"Krádeže lodních zásilek (§§ 205, 206, 209)","Shipment thefts (§§ 205, 206, 209)",0
+845,Maření úkolu úřední osoby z nedbalosti (§ 330),Neglect by a public official (§ 330),0
+846,úplatkářství - podplácení (§ 332),Bribary - offering or giving a bribe (§ 332),0
+847,úplatkářství - nepřímé úplatkářství (§ 333),Bribary - indirekt bribery (§ 333),0
+848,Zvýhodňování věřitele (§ 223),Preferring a creditor (§ 223),0
+849,Pletichy v insolvenčním řízení (§ 226),Scheming to defraud in bankruptcy proceedings (§ 226),0
+850,"Ohrožení nebo poškození životního prostředí - úmyslné (§§ 293, 295, 297, 298, 299, 301)","Intentional endangering or damage to the environment (§§ 293, 295, 297, 298, 299, 301)",0
+851,"Ohrožení nebo poškození životního prostředí - nedbalostní (§§ 294, 295, 297, 298, 299, 300, 301)","Negligent endangering or damage to the environment (§§ 294, 295, 297, 298, 299, 300, 301)",0
+852,Způsobení úpadku (§ 224),Insolvency (§ 224),0
+853,Neoprávněné vydání cenného papíru (§ 249),Unauthorized issue of securities (§ 249),0
+854,Manipulace s kurzem investičních nástrojů (§ 250),Unauthorized manipulation with the security exchange rate (§ 250),0
+855,"Nedovolená výroba a držení radioaktivního a jaderného materiálu (§§ 281, 282)","Illicit manufacturing and possession of radioactive material (§§ 281, 282)",0
+860,"Podílnictví (§§ 214, 215)","Receiving and handling stolen goods and receivers of stolen goods - accessoryship (§§ 214, 215)",0
+861,"Porušování práv k ochranné známce, obchodnímu jménu a chráněnému označení původu (§ 268)","Infringement of rights relating to trademarks, commercial names and protected designation of origin (§ 268)",0
+862,Porušování průmyslových práv (§ 269),Infringement of industrial property rights (§ 269),0
+863,"Porušování autorského práva, práv k databázi, práv souvisejících a padělání díla (§§ 270, 271)","Infringement of copyright, database right or relevant rights (§§ 270, 271)",0
+864,"Zastření původu věcí, tzv. praní špinavých peněz (§§ 216, 217)","Concealing origines of things (so-called money laundering) (§§ 216, 217)",0
+865,"Poškozování a zneužití záznamu na nosiči informací (§§ 230, 231, 232)","Harm done and abuse of a record on the data carrier (§§ 230, 231, 232)",0
+866,Provozování nepoctivých her a sázek (§ 213),Unfair betting and gaming (§ 213),0
+870,"Havárie a provozní poruchy - mimo dopravních nehod silničních, železničních, leteckých a vodních - z nedbalosti (§§ 273, 274, 277, 294, 360) ","Accidents and operational disorders except negligent road traffic accidents, railway accidents, air traffic accidents and ship accidents (§§ 273, 274, 277, 294, 360) ",0
+871,"Havárie a provozní poruchy - mimo dopravních nehod silničních, železničních, leteckých a vodních - úmyslné (§§ 228, 272, 274, 276, 278, 293, 295, 298, 299, 301, 360)","Accidents and operational disorders except intentional road traffic accidents, railway accidents, air traffic accidents and ship accidents (§§ 228, 272, 274, 276, 278, 293, 295, 298, 299, 301, 360)",0
+880,Pojistný podvod (§ 210),Fraud of insurance (§ 210),0
+881,úvěrový podvod (§ 211),Credit fraud (§ 211),0
+882,Dotační podvod (§ 212),Grant or subsidy fraud (§ 212),0
+885,Nesplnění oznamovací povinnosti v daňovém řízení (§ 243),Failure to notify in tax procedure (§ 243),0
+886,"Neodvedení daně, pojistného na sociální zabezpečení, zdravotní pojištění a příspěvku na státní politiku zaměstnanosti (§ 241)","Back taxes, social insurance, health insurance and employment allowance  (§ 241)",0
+890,"Ostatní hospodářské trestné činy (§§ 181, 183, 218, 227, 229, 247, 280, 305, 306, 307, 337, 410)","The other economic crimes (§§ 181, 183, 218, 227, 229, 247, 280, 305, 306, 307, 337, 410)",0
+801-890,Hospodářské činy,Economic crimes,1
+901,"Vojenské trestné činy (§§ 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 417)","Military crimes (§§ 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 417)",0
+902,"Trestné činy proti ústavnímu zřízení (§§ 309, 310, 311, 312, 314, 315, 316, 317, 318, 319, 320, 321, 322)","Crimes against constitution (§§ 309, 310, 311, 312, 314, 315, 316, 317, 318, 319, 320, 321, 322)",0
+903,"Trestné činy válečné a proti míru (§§ 406, 407, 409, 416) ","War crimes and crimes against the peace (§§ 406, 407, 409, 416) ",0
+101-690,Obecná kriminalita,General criminality,1
+101-903,CELKOVÁ KRIMINALITA,Total criminality,1
+"141,142,143,151,161,171,173,181,611,612,614",Fyzické útoky,Assaults,1
+"131,132",Loupeže,Bourglaries,1
+"371,373",Vloupání do obydlí,Bourglaries into households,1
+"433,434",Krádeže věcí z automobilů,Thefts of objects from car,1
+"635,641,642,643","Výroba držení a distribuce drog","Production possesion and distribution of drugs",1

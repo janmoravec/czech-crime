@@ -1,0 +1,616 @@
+ÚTVAR,ADRESA,TELEFON,FAX,EMAIL
+Krajské ředitelství policie hlavního města Prahy,"Kongresová 1666/2, 140 21 Praha 4",974821111,974825275,phars@mvcr.cz
+"Územní odbory Praha I (obvody 1,6,7)","Bartolomějská 312/6, 110 00 Praha 1",974821111,974825275,orkrpi@mvcr.cz 
+MOP Bartolomějská,"Bartolomějská 347/14, 110 00 Praha 1",974851700,974851708,p1mopbar@mvcr.cz
+MOP Benediktská,"Benediktská 692/1, 110 00  Praha 1 ",974889210,974889221,p1mopben@mvcr.cz
+MOP Krakovská,"Krakovská 1432/11, 110 00 Praha 1",974851720,974851728,p1mopkra@mvcr.cz
+MOP Malá Strana,"Vlašská 362/3, 110 00 Praha 1",974851730,974851738,p1mopmal@mvcr.cz
+MOP Můstek,"Jungmannovo nám. 771/9, 110 00 Praha 1",974851750,974851758,p1mopmus@mvcr.cz
+MOP Břevnov,"Ve Střešovičkách 1990/55, 160 00 Praha 6",974856700,974856708,p1mopbre@mvcr.cz
+MOP Dejvice,"Pelléova 1050/21, 160 00 Praha 6",974856740,974856748,p1mopdej@mvcr.cz
+MOP Řepy,"Makovského 1349/13, 160 00 Praha 6",974856720,974856728,p1moprep@mvcr.cz
+MOP Vokovice,"Arabská 782/16, 160 00 Praha 6",974856710,974856718,orkrpI@mvcr.cz 
+MOP Ruzyně,"Aviatická 1050/16, 160 00 Praha 6",974856600,974856608,p1mopruz@mvcr.cz
+MOP Holešovice,"Přístavní 1245/41, 170 00 Praha 7",974857710,974857718,p1mophol@mvcr.cz
+MOP Letná,"Fr. Křížka 735/24, 170 00 Praha 7",974857700,974857708,p1mopltn@mvcr.cz
+MOP Výstaviště,"Výstaviště 67 - budova J, 170 00 Praha 7",974857720,974857728,p1mopvst@mvcr.cz
+MOP Masarykovo nádraží,"Havlíčkova 1014/2, 110 00  Praha 1 ",974851740,974851748,p1ozpmas@mvcr.cz 
+MOP Holešovické nádraží,"Partyzánská 1546/26, 170 00  Praha 7 ",974857730,974857738,p1ozphol@mvcr.cz 
+"Územní odbory Praha II (obvody 2,5)","Sokolská 1799/38, 120 00 Praha 2",974852111,974852458,or2kr@mvcr.cz
+MOP Nové Město,"Vyšehradská  1711/20, 120 00 Praha 2",974852710,974852718,p2mopnov@mvcr.cz
+MOP Vinohrady,"Šafaříkova 607/12, 120 00 Praha 2",974852720,974852728,p2mopvin@mvcr.cz
+MOP Barrandov,"Werichova 981/21, 152 00 Praha 5",974855720,974855728,p2mopbrn@mvcr.cz
+MOP Smíchov,"Na Bělidle 272/5, 150 00 Praha 5",974855700,974855708,p2mopsmi@mvcr.cz 
+MOP Košíře,"Běhounkova 2301/19, 158 00 Praha 5",974855710,974855718,p2mopkos@mvcr.cz
+MOP Radotín,"Výpadová 1335, 153 00 Praha 5",974855730,974855738,p2moprad@mvcr.cz
+MOP Stodůlky,"Mukařovského 1985/5, 155 00 Praha 5",974855740,974855748,p2mopsto@mvcr.cz
+MOP Zličín,"Strojírenská 386/12, 150 00 Praha 5",974855770,974855778,p2mopzli@mvcr.cz
+MOP Wilsonovo nádraží,"Wilsonova třída 300/8, 120 00  Praha 2 ",974852740,974852748,p2opzpwils@mvcr.cz 
+MOP Smíchovské nádraží,"Nádražní 279/1, 150 05  Praha 5 ",974855750,257322349,p2ozpsmi@mvcr.cz 
+"Územní odbory Praha III (obvody 3,8,9)","Trousilova 1121/3, 182 00 Praha 8",974858229,974858228,redp13@mvcr.cz 
+MOP Jarov,"Koněvova 2743/103, 130 00 Praha 3",974853700,974853708,p3mopjar@mvcr.cz
+MOP Žižkov,"Lipanská 190/16, 130 72 Praha 3",974853710,974853718,p3mopziz@mvcr.cz
+MOP Karlín,"Vítkova 266/16, 186 00 Praha 8",974858710,974858883,p3mopkar@mvcr.cz
+MOP Kobylisy,"Zenklova 91/225, 182 00 Praha 8",974858720,974858728,p3mopkob@mvcr.cz
+MOP Bohnice,"Lodžská 750/5, 181 00 Praha 8",974858730,974858738,p3mopboh@mvcr.cz
+MOP Ďáblice,"Bojasova 1242/1, 182 00 Praha 8",974858740,974858748,p3mopdab@mvcr.cz
+MOP Libeň,"Zenklova 212/17, 180 00 Praha 8",974858700,974858708,p3moplib@mvcr.cz
+MOP Čakovice,"Cukrovarská 230/1, 196 00 Praha 9",974859740,974859748,p3mopcak@mvcr.cz
+MOP Horní Počernice,"Náchodská 2032/115 , 193 00 Praha 9",974859750,974859750,p3moppoc@mvcr.cz
+MOP Újezd nad Lesy,"Hulická 2620, 190 16 Praha 9",974859770,281973124,p3mopuje@mvcr.cz
+MOP Letňany,"Bechyňská 639, 199 00 Praha 9",974859760,974859768,p3moplty@mvcr.cz
+MOP Kyje,"Bryksova 817/50, 198 00 Praha 9",974859720,974859728,p3mopkyj@mvcr.cz
+MOP Prosek,"Bohušovická 485/10, 190 00 Praha 9",974859730,974859738,p3moppro@mvcr.cz
+MOP Vysočany,"Ocelářská 1360/33, 190 00 Praha 9",974859710,974859718,p3mopvys@mvcr.cz
+"Územní odbory Praha IV (obvody 4,10)","U plynárny 972/2, 145 04 Praha 4",974854220,974854218,orppraha4@mvcr.cz 
+MOP Nusle,"Svatoslavova 288/10, 145 00 Praha 4",974854740,974854748,orp4zrup@mvcr.cz 
+MOP Modřany,"Soukalova 3408/1, 143 00 Praha 4",974854730,974854738,orp4zrup@mvcr.cz 
+MOP Jižní Město,"Kaplanova 2056/6, 148 00 Praha 4",974887700,974887708,p4mopjm1@mvcr.cz
+MOP Spořilov,"Bojanovická 2848/1, 141 00 Praha 4",974854760,974854768,p4mopspo@mvcr.cz
+MOP Lhotka,"Durychova 671/40, 142 00 Praha 4",974854720,974854728,p4moplho@mvcr.cz
+MOP Podolí,"Milevská 875/4, 140 00 Praha 4",974854600,974854608,p4moppod@mvcr.cz
+MOP Pankrác,"Na Pankráci 403/9, 140 00 Praha 4",974854750,974854758,p4moppan@mvcr.cz
+MOP Vršovice,"Přípotoční 300/12, 101 33 Praha 10",974860700,974860708,p4mopvrs@mvcr.cz
+MOP Hostivař,"Milánská 419, 109 00 Praha 10",974860720,974860728,orp4zrup@mvcr.cz 
+MOP Zahradní Město,"Jabloňová 3000/15, 106 00 Praha 10",974860740,974860748,p4mopzah@mvcr.cz
+MOP Strašnice,"V zátočce 42/1, 100 00 Praha 10",974860730,974860738,p4mopstr@mvcr.cz
+MOP Uhříněves,"Nové náměstí 1432/21, 104 00  Praha 10 ",974860710,974860718,p4mopuhrineves@mvcr.cz 
+Krajské ředitelství policie Středočeského kraje,"Na Baních 1535, 156 64 Praha 5 - Zbraslav",974861229,974861465,stckraj@mvcr.cz
+Územní odbory Benešov,"Čechova 1996, 256 01 Benešov",974871111,974870735,krpstc.or.benesov@mvcr.cz
+OOP Benešov,"Jiráskova 993, 256 01 Benešov",974871700,974870747,krpstc.oo.benesov@mvcr.cz
+OOP Čechtice,"nám. Dr. Tyrše 332, 257 65 Čechtice",974871710,974870752,krpstc.oo.cechtice@mvcr.cz
+OOP Čerčany,"Sokolská 200, 257 22 Čerčany",974871720,974870748,krpstc.oo.cercany@mvcr.cz
+OOP Sázava,"Tyršovo nábřeží 132, 285 06 Sázava",974871730,974870751,krpstc.oo.sazava@mvcr.cz
+OOP Týnec nad Sázavou,"Sadová 154, 257 41 Týnec nad Sázavou",974871740,974870746,krpstc.or.benesov@mvcr.cz
+OOP Vlašim,"J. Masaryka 475, 258 01 Vlašim",974871750,974871750,krpstc.oo.vlasim@mvcr.cz
+OOP Votice,"Riegrova 378, 259 01 Votice",974871760,974870749,krpstc.oo.votice@mvcr.cz
+Územní odbory Beroun,"Tyršova 1635, 266 50 Beroun",974872111,974870705,orbe@mvcr.cz
+OOP Beroun,"Tyršova 1635, 266 50 Beroun",974872700,974870710, be.oo.beroun@pcr.cz
+OOP Hořovice,"Pražská 988/35, 268 01 Hořovice",974872710,974870712,beoophor@mvcr.cz
+OOP Karlštejn,"Karlštejn 62, 267 18 Beroun",974872720,974870713,beoopkarl@mvcr.cz
+OOP Králův Dvůr,"5. května 36, 267 01 Králův Dvůr",974872740,974870714,beoopdvur@mvcr.cz
+OOP Zdice,"Husova 225, 267 51 Zdice",974872730,974870711,beoopzdice@mvcr.cz
+Územní odbory Kladno,"Havířská 632, 266 50 Beroun",974873111,974870685,krpstc.uo.kladno@mvcr.cz
+OOP Kladno město,"nám. Edvarda Beneše 1613, 272 53 Kladno",974873500,974870695,krpstc.uo.kladno@mvcr.cz
+OOP Kladno Kročehlavy,"Kosmonautů 2117, 272 08 Kladno",974873568,974870697,krpstc.oo.krocehlavy@mvcr.cz
+OOP Kladno-venkov,"28. října 312, 273 09 Kladno",974873561,974870696,krpstc.oo.kladno.ven@mvcr.cz
+OOP Slaný,"Fričova 199, 274 01 Slaný",974873811,974870701,krpstc.uo.kladno@mvcr.cz
+OOP Stochov,"Jaroslava Šípka 486, 273 03 Stochov",974873573,974870698,krpstc.uo.kladno@mvcr.cz
+OOP Unhošť,"Pražská 864, 273 51 Unhošť",974873574,974870699,krpstc.oo.unhost@mvcr.cz
+OOP Zlonice,"Dvořákova 425, 273 71 Zlonice",974873578,974870700,krpstc.uo.kladno@mvcr.cz
+Územní odbory Kolín,"K Dílnám 684, 280 66 Kolín IV",974874111,974870655,krpstc.uovs.kolin@mvcr.cz 
+OOP Český Brod,"Husovo náměstí 65, 282 44 Český Brod",974874700,974870663,krpstc.uovs.kolin@mvcr.cz
+OOP Kolín,"Kutnohorská 180, 280 02 Kolín",974874710,974870664,krpstc.oo.kolin@mvcr.cz
+OOP Kostelec nad Černými Lesy,"Kutnohorská 27, 281 63 Kostelec nad Černými lesy",974874720,974870665,krpstc.uovs.kolin@mvcr.cz
+OOP Kouřim,"Na Barborce 662, 281 61 Kouřim",974874730,974870666,krpstc.uovs.kolin@mvcr.cz
+OOP Pečky,"Švermova 674, 289 11 Pečky",974874740,974870667,krpstc.oo.pecky@mvcr.cz
+OOP Týnec nad Labem,"Flosova 498, 281 26 Týnec nad Labem",974874750,974870668,krpstc.oo.tynec.n.l@mvcr.cz
+Územní odbory Kutná Hora,"Na náměstí 412, 284 29 Kutná Hora",974875227,970870671,krpstc.or.kh@mvcr.cz
+Čáslav,"Dusíkova 77, 286 01 Čáslav",974875710,974870678, krpstc.or.kh@mvcr.cz
+Kutná Hora,"Komenského náměstí 6, 284 29 Kutná Hora",974875700,974870677,krpstc.oo.kh@mvcr.cz
+Uhlířské Janovice,"Kolínská 269, 285 04 Uhlířské Janovice",974875720,974870680,krpstc.oo.ujanovice@mvcr.cz
+Zbraslavice,"Zbraslavice 189, 285 21",974875730,974870679,krpstc.oo.zbraslavice@mvcr.cz
+Zruč nad Sázavou,"5. května 510, 285 22 Zruč nad Sázavou",974875740,974870681, krpstc.oo.zruc.n.s@mvcr.cz
+Územní odbory Mělník,"Bezručova 2796, 276 01 Mělník",974876111,974870601,krpstc.uome@mvcr.cz      
+OOP Mělník,"Bezručova 2796, 276 01 Mělník",974876700,974870611,krpstc.oome@mvcr.cz
+OOP Horní Počaply,"Horní Počaply 252, 277 03 Horní Počaply",974876760,nemají,krpstc.oopocap@mvcr.cz
+OOP Kostelec nad Labem,"Neratovická 238, 277 13 Kostelec nad Labem",974876720,nemají,krpstc.ookost@mvcr.cz
+OOP Kralupy nad Vltavou,"Lutovítova 593, 278 01 Kralupy nad Vltavou",974876710,974870612,krpstc.ookral@mvcr.cz
+OOP Lužec nad Vltavou,"9. května 112, 277 06 Lužec nad Vltavou",974876770,974870618, krpstc.ooluzec@mvcr.cz
+OOP Mšeno,"Boleslavská 327, 277 35 Mšeno",974876750,nemají,krpstc.oomseno@mvcr.cz
+OOP Neratovice,"5. května 205, 277 11 Neratovice",974876740,974870613,krpstc.oonera@mvcr.cz
+Územní odbory Mladá Boleslav,"Boleslavská 1164, 293 06 Kosmonosy",974877111,974870641,krpstc.uo.podatelna.mb@mvcr.cz
+OOP Benátky nad Jizerou,"Pražská 99, 294 01 Benátky nad Jizerou",974877721,974870648,krpstc.oo.benatky.n.j@mvcr.cz
+OOP Bělá pod Bezdězem,"Masarykovo nám. 149, 294 01 Bělá pod Bezdězem",974877731,974870649,krpstc.oo.bela.p.b@mvcr.cz
+OOP Dobrovice,"Husova 327, 294 41 Dobrovice",974877741,974870650, krpstc.oo.dobrovice@mvcr.cz
+OOP Mladá Boleslav I.,"Jana Palacha 1296, Mladá Boleslav",974877522,974870653,krpstc.oo.m.boleslav.1@mvcr.cz
+OOP Mladá Boleslav II.,"Bělská 72/4, Mladá Boleslav",974877702,974870652, krpstc.oo.m.boleslav.2@mvcr.cz
+OOP Mnichovo Hradiště,"Víta Nejedlého 720, 295 01 Mnichovo Hradiště",974877711,974870651,krpstc.oo.mn.hradiste@mvcr.cz
+Územní odbory Nymburk,"Boleslavská 1831, 288 29 Nymburk",974878111,974870621,krpstc.ouvs.nymburk@mvcr.cz      
+OOP Nymburk,"Boleslavská 1831, 288 29 Nymburk",974878740,974870627,krpstc.oo.nymburk@mvcr.cz
+OOP Křinec,"Dr. Chmelaře 190, 289 33 Křinec",974878700,974870630,krpstc.oo.krinec@mvcr.cz
+OOP Lysá nad Labem,"Přemyslova 1745, 289 22 Lysá nad Labem",974878710,974870632, krpstc.oo.lysa@mvcr.cz
+OOP Městec Králové,"Na Ptáku 250, 289 03 Městec Králové",974878720,974870629, krpstc.oo.mestec.kral@mvcr.cz
+OOP Milovice,"Armádní 793, 289 23 Milovice",974878730,974870631,krpstc.oo.milovice@mvcr.cz
+OOP Poděbrady,"Palachova 220, 290 01 Poděbrady",974878760,974870628,krpstc.oo.podebrady@mvcr.cz
+OOP Sadská,"Prokopova 387, 289 12 Sadská",974878750,974870633,krpstc.oo.sadska@mvcr.cz
+Územní odbory Praha venkov-východ,"Zahradnická 1877/1, 250 01 Brandýs nad Labem",974881216,974870791,"krpstc.uo.pvv@mvcr.cz,"
+OOP Brandýs nad Labem,"Zahradnická 1877/1, 250 01 Brandýs nad Labem",974881600,974870799,krpstc.oo.brandys@mvcr.cz
+OOP Čelákovice,"Prokopa Holého 1664, 250 88 Čelákovice",974881720,974870796,krpstc.oo.celak@mvcr.cz
+OOP Odolena Voda,"Čenkovská 84, 250 70 Odolena Voda",974881700,974870797,krpstc.oo.odvoda@mvcr.cz
+OOP Úvaly,"Riegrova 897, 250 82 Úvaly",974881760,974870798,krpstc.uo.pvv@mvcr.cz
+Územní odbory Praha venkov-jih,"Masarykovo náměstí 708, 251 64 Mnichovice",974882400,974870775,stckraj@mvcr.cz
+OOP Jílové u Prahy,"Husova 256, 254 01 Jílové u Prahy",974882710,974870783,stckraj@mvcr.cz
+OOP Jesenice,"Budějovická 303, 252 42 Jesenice",974882770,974870810,stckraj@mvcr.cz
+OOP Říčany,"Masarykovo náměstí 56, 251 01 Říčany",974881730,974870779,phooprican@mvcr.cz
+OOP Hradištko pod Medníkem,"Rajchardov 75, 252 09 Hradištko",974882700,974870782,krpstc.oo.hradistko@mvcr.cz
+OOP Čestlice se sídlem v Nupakách,"Nupaky 106, 251 01  Říčany",974881750,974870780, krpstc.oo.cestlice@mvcr.cz
+OOP Kamenice,"Pražská 329, 251 68 Kamenice",974881740,974870781, krpstc.oo.kamen@mvcr.cz
+Územní odbory Praha venkov-západ,"Zborovská 13, 150 00 Praha 5",974882229,974870801,krpstc.uo.pvz@mvcr.cz
+OOP Hostivice,"Litovická 783/20, 253 01 Hostivice",974882750,974870807,krpstc.oo.hostiv@mvcr.cz  
+OOP Libčice nad Vltavou,"Kralupská 376, 252 66 Libčice nad Vltavou",974882730,974870809,krpstc.oo.libcice@mvcr.cz
+OOP Mníšek pod Brdy,"Náměstí F.X. Svobody 27, 252 10 Mníšek pod Brdy",974882720,974870808,krpstc.oo.mnisek@mvcr.cz
+OOP Řevnice,"Nádražní 213, 252 30 Řevnice",974882740,974870806,krpstc.oo.revnice@mvcr.cz
+Územní odbory Příbram,"Žežická 498, 261 23 Příbram – Zdaboř",974879227,974870755,krpstc.uo.pb@mvcr.cz
+OOP Příbram," Žežická 498, 261 01 Příbram V - Zdaboř, budova 29",974879760,974879778,krpstc.uo.oo.pbm@mvcr.cz
+OOP Příbram - venkov,"Žežická 498, 261 01 Příbram V - Zdaboř",974879770,974879779,krpstc.uo.oo.pbv@mvcr.cz
+OOP Březnice,"Rožmitálská 145, 262 72 Březnice",974879710,nemají,krpstc.uo.oo.brez@mvcr.cz
+OOP Dobříš,"28. října 66, 263 01 Dobříš",974879720,nemají,krpstc.uo.oo.dobr@mvcr.cz
+OOP Milín,"11. května 321, 262 31 Milín",974879730,nemají,krpstc.uo.oo.milin@mvcr.cz
+OOP Rožmitál pod Třemšínem,"Tyršova 320, 262 42 Rožmitál pod Třemšínem",974879750,nemají,krpstc.uo.oo.rozm@mvcr.cz
+OOP Sedlčany,"Švermova 636, 264 01 Sedlčany",974879740,nemají, krpstc.uo.oo.sedl@mvcr.cz
+Územní odbory Rakovník,"Husovo náměstí 116, 269 33 Rakovník",974880221,974870721,krpstc.ra.podatelna@mvcr.cz
+OOP Rakovník,"Husovo náměstí 116, 269 33 Rakovník",974880700,974870726,krpstc.oo.rakovnik@mvcr.cz
+OOP Hořesedly,"Karlovarská 139, 270 04 Hořesedly",974880740,974870730,krpstc.oo.horesedly@mvcr.cz
+OOP Jesenice u Rakovníka,"náměstí Míru 98, 270 33 Jesenice",974880730,974870729, krpstc.oo.jesenice@mvcr.cz
+OOP Křivoklát,"Roztoky 112, 270 23 Křivoklát",974880720,974870728,krpstc.oo.roztoky@mvcr.cz
+OOP Nové Strašecí,"Dukelská 550, 271 01 Nové Strašecí",974880710,nemají, krpstc.oo.novestraseci@mvcr.cz
+Krajské ředitelství policie Jihočeského kraje,"Lannova 26, 370 74 České Budějovice",974221111,974221900,krcbu@mvcr.cz
+Územní odbory České Budějovice,"Pražská třída 5, 370 01 České Budějovice",974226111,974226108,piscb@mvcr.cz
+OOP České Budějovice - město,"28. října 1594/1, 371 05 České Budějovice",974226700,974226940,cboopcbud@mvcr.cz
+OOP České Budějovice - Čtyři Dvory,"M. Chlajna 45, 370 11 České Budějovice",974226720,974226729,cboopcdvo@mvcr.cz
+OOP Suché Vrbné,"Dobrovodská 2106, 370 06 České Budějovice",974226750,974 226 759                ,cboopsvrbn@mvcr.cz
+OOP Boršov nad Vltavou,"Boršov nad Vltavou 206, 373 82 Boršov nad Vltavou",974226710,974226719,cboopborso@mvcr.cz
+OOP Hluboká nad Vltavou - stanice Ševětín,"Masarykova 49, 373 41 Hluboká nad Vltavou",974226730,974226739,cboophlubo@mvcr.cz
+OOP Lišov,"Žižkova 170/37, 373 72 Lišov",974226740,974226749,cbooplisov@mvcr.cz
+OOP Trhové Sviny,"Žižkovo náměstí 33, 374 01 Trhové Sviny",974226760,974226769,cbooptsvin@mvcr.cz
+OOP Týn nad Vltavou,"Dewetterova 326, 375 01 Týn nad Vltavou",974226770,974226779,cbooptyn@mvcr.cz
+Územní odbory Český Krumlov,"Tovární 165, 381 23 Český Krumlov",974232111,974232108,pcrck@mvcr.cz
+OOP Český Krumlov - služebna Křemže,"Tovární 165, 381 23 Český Krumlov",974232700,974232940,pcroopck@mvcr.cz
+OOP Horní Planá,"Jiráskova 178, 382 26 Horní Planá",974232710,380738234,ckoopplana@mvcr.cz
+OOP Kaplice,"Omlenická 311, 382 41 Kaplice",974232720,974232729,ckoopkapli@mvcr.cz
+OOP Lipno nad Vltavou - služebna Vyšší Brod,"Lipno nad Vltavou 75, 382 78 Lipno nad Vltavou",974232760,380736275,ckooplipno@mvcr.cz
+OOP Větřní,"Šumavská 129, 382 11 Větřní",974232740,380732394,ckoopvetrn@mvcr.cz
+Územní odbory Jindřichův Hradec,"Nádražní 567/II, 377 46 Jindřichův Hradec",974233111,974233900,pcrjhred@mvcr.cz
+OOP Dačice - služebna Slavonice,"Havlíčkovo náměstí 98/1380, 380 01 Dačice",974233710,974233719,jhoopdacic@mvcr.cz
+OOP Jindřichův Hradec - služebna Studená,"Nádražní 567/II, 377 46 Jindřichův Hradec",974233700,974233940,jhoopjhrad@mvcr.cz
+OOP Nová Bystřice,"Vitorazská 671, 378 33 Nová Bystřice",974233730,nemají,jhoopbyst@mvcr.cz
+OOP Suchdol nad Lužnicí,"9. května 697, 378 06 Suchdol nad Lužnicí",974233750,974233759,jhoopsuchd@mvcr.cz
+OOP Třeboň,"Riegrova 1227, 379 01 Třeboň",974244702,974244940,jhooptrebo@mvcr.cz
+Územní odbory Písek,"Na Výstavišti 377, 397 01 Písek",974235111,974235108,ospisek@mvcr.cz
+OOP Písek,"Zeyrova 541, 397 01 Písek",974235700,974235709,pioop@mvcr.cz
+OOP Čimelice,"Čimelice 311, 398 04 ",974235720,974235729,pioopcimel@mvcr.cz
+OOP Milevsko,"E. Beneše 7, 399 01 Milevsko",974235730,974235739,pioopmilev@mvcr.cz
+OOP Protivín,"Mírová 166, 398 11 Protivín ",974235740,974235749,pioopproti@mvcr.cz
+OOP Zvíkovské Podhradí,"Zvíkovské Podhradí 30, 397 01 Písek",974235750,974235759,pioopzpodh@mvcr.cz
+Územní odbory Prachatice,"Pivovarská 4, 383 24 Prachatice",974236111,974236108,ptkancelar@mvcr.cz
+OOP Prachatice,"Lázeňská 325, 383 24 Prachatice",974236700,974236940,ptoop@mvcr.cz
+OOP Horní Vltavice,"Horní vltavice 5, 384 91 Horní Vltavice",974236760,974236769,ptoophvlt@mvcr.cz
+OOP Netolice,"Váslavská 120, 384 11 Netolice",974236720,974236729,ptoopnetol@mvcr.cz
+OOP Vimperk,"1. máje 73/7, 385 01 Vimperk",974236780,974236189,ptoopvimpe@mvcr.cz
+OOP Volary,"Soumarská 375, 384 51 Volary",974236740,974236749,ptoopvolar@mvcr.cz
+Územní odbory Strakonice,"Plánkova 629, 386 01 Strakonice",974237111,974237900,operst@mvcr.cz
+OOP Blatná,"J.P. Koubka 22, 388 01 Blatná",974237710,974237719,stoopblatn@mvcr.cz
+OOP Radomyšl,"Blatenská  86, 387 31 Radomyšl",974237760,974237769,stoopradom@mvcr.cz
+OOP Strakonice,"Na Ohradě  1067, 386 01 Strakonice",974237700,974237709,oopst@mvcr.cz
+OOP Vodňany,"Dr. Hajného  22, 389 01 Vodňany",974237730,974237739,oopvd@mvcr.cz
+OOP Volyně,"Karla Čapka  711, 387 01 Volyně",974237740,974237749,oopvl@mvcr.cz
+Územní odbory Tábor,"Soběslavská 2763, 390 05 Tábor",974238111,974238108,taspa@mvcr.cz
+OOP Bechyně,"nám. T. G. Masaryka 4, 391 65  Bechyně",974238750,974237759,taoopbechy@mvcr.cz
+OOP Mladá Vožice - služebna Jistebnice,"Plaňkova 305, 391 43 Mladá Vožice",974238720,974237729,taoopmvozi@mvcr.cz
+OOP Sezimovo Ústí - služebna Chýnov,"nám. T. Bati 664, 391 02 Sezimovo Ústí",974238730,974238739,taoopsusti@mvcr.cz
+OOP Soběslav,"Palackého 94/2, 392 02 Soběslav",974238740,974237749,taoopsobes@mvcr.cz
+OOP Tábor,"Divadelní 212, 390 01 Tábor",974238700,974238940,taoop@mvcr.cz
+OOP Veselí nad Lužnicí,"nám. T. G. Masaryka 24, 391 81 Veselí nad Lužnicí",974238760,974238769,taoopvesel@mvcr.cz
+Krajské ředitelství policie Karlovarského kraje,"Závodní 386/100, 360 06 Karlovy Vary",974361111,353540656,pcrkrkv@mvcr.cz
+Územní odbory Cheb,"Valdštejnova 4, 350 15 Cheb",974361111,974372236,uocheb@mvcr.cz
+OOP Aš,"Gustava Geipela 2, 352 01 Aš",974372720,354526158,ch.oop.as@pcr.cz
+OOP Františkovy Lázně,"Americká 16, 351 01 Františkovy Lázně",974372730,354542436,ch.oop.flazne@pcr.cz
+OOP Cheb-město,"Hvězdoslavovo nám. 4, 350 15 Cheb",974372700,974372708,  ch.oop.cheb-mesto@pcr.cz
+OOP Cheb-venkov,"Žižkova 17, 350 15 Cheb ",974372710,354423351,ch.oop.cheb-venkov@pcr.cz
+OOP Mariánské Lázně,"Hlavní třída 64, 353 01 Mariánské Lázně",974372750,354622097,ch.oop.mlazne@pcr.cz
+OOP Plesná,"5. května 219, 351 35 Plesná",974372740,354596758,ch.oop.plesna@pcr.cz
+Územní odbory Karlovy Vary,"Závodní 386/100, 360 06 Karlovy Vary",974361111,974366218,orkv@mvcr.cz
+OOP Bečov,"Nová 339, 364 64 Bečov nad Teplou",974366701,974366708,kv.oop.becov@pcr.cz
+OOP Bochov,"Pražská 250, 364 71 Bochov",974366711,974366718,kv.oop.bochov@pcr.cz
+OOP Jáchymov,"Dukelských hrdinů 441, 362 51 Jáchymov",974366721,974366728,kv.oop.jachymov@pcr.cz 
+OOP Nejdek,"Bratří Čapků 640, 362 21 Nejdek",974366741,353826748,kv.oop.nejdek@pcr.cz 
+OOP Nová Role,"U plynárny 309, 362 25 Nová Role",974366751,974366758,kv.oop.nrole@pcr.cz 
+OOP Ostrov,"Hlavní třída, 363 30 Ostrov",974366911,353844277,kv.oop.ostrov@pcr.cz
+OOP Pernink,"Karlovarská 172, 362 36 Pernink",974366761,974366768,kv.oop.pernink@pcr.cz
+OOP Karlovy Vary - město," Vítězná 927/6, 361 15 Karlovy Vary",974366535,974366538,kv.oop.kv-mesto@pcr.cz
+OOP Karlovy Vary - Rybáře,"Rolavská 386, 360 17 Karlovy Vary-Stará Role",974366611,353565563,kv.oop.kv-rybare@pcr.cz
+OOP Teplá,"Masarykovo nám. 15, 364 61 Teplá",974366771,974366778,kv.oop.tepla@pcr.cz
+OOP Toužim,"Plzeňská 387, 364 11 Toužim",974366781,353311013,kv.oop.touzim@pcr.cz
+OOP Žlutice,"Velké nám. 142, 364 52 Žlutice",974366791,974366798,kv.oop.zlutice@pcr.cz
+Územní odbory Sokolov,"Dobrovského 1935, 356 01 Sokolov",974376221,974361111,soskpv1@mvcr.cz
+OOP Habartov,"Přátelství 112, 357 09 Habartov ",974376710,352682050,so.oop.habartov@pcr.cz
+OOP Horní Slavkov,"Pluhova 213, 357 31 Horní Slavkov ",974376720,352688334,so.oop.hslavkov@pcr.cz 
+OOP Chodov,"Staroměstská 18, 357 35 Chodov",974376730,352665334,so.oop.chodov@pcr.cz 
+OOP Kraslice,"nám. TGM 76, 358 01 Kraslice ",974376740,352686334,so.oop.kraslice@pcr.cz 
+OOP Kynšperk nad Ohří,"Školní 775, 357 51 Kynšperk nad Ohří ",974376750,352693598,so.oop.kynsperk@pcr.cz 
+OOP Loket nad Ohří,"Zahradní 223/50, 357 33 Loket nad Ohří ",974376760,352684458,so.oop.loket@pcr.cz
+OOP Rotava,"Sídliště 602, 357 01 Rotava ",974376770,352678333,so.oop.rotava@pcr.cz 
+OOP Sokolov-město,"Hornická 2047, 356 15 Sokolov",974376600,974 376 602      ,so.oop.sokolov-město@pcr.cz
+OOP Sokolov-venkov,"Dobrovského 1936, 356 15 Dolní Rychnov",974376521,974376538,so.oop.sokolov-venkov@pcr.cz
+Krajské ředitelství policie Plzeňského kraje,"Nádražní 2, 306 28 Plzeň",974321111,974322203,szkplz@mvcr.cz
+Územní odbory Domažlice,"Kosmonautů 165, 344 15 Domažlice",974331111,974331218,skpvdovs@mvcr.cz
+OOP Domažlice,"Hruškova 152, 345 15 Domažlice ",974331650,974331658,dooopdomaz@mvcr.cz
+OOP Holýšov,"Jiráskova třída 5, 345 62 Holýšov",974331700,974331708,dooopholys@mvcr.cz
+OOP Horšovský Týn,"Náměstí Republiky 5, 346 01 Horšovský Týn",974331710,379422632,dooophtyn@mvcr.cz  
+OOP Kdyně,"Komenského 250, 345 06 Kdyně ",974331720,974331728,dooopkdyne@mvcr.cz
+OOP Poběžovice,"Mariánská 336, 345 22 Poběžovice",974331730,379497554,doooppobez@mvcr.cz
+Územní odbory Klatovy,"Plzeňská 90, 339 01 Klatovy",974334111,974334228,pcrorkt@mvcr.cz
+OOP Horažďovice,"Ševčíkova 496, 341 01 Horažďovice",974334722,376512502,ktoophoraz@mvcr.cz
+OOP Kašperské Hory,"Náměstí 306, 341 92 Kašperské Hory",974334712,376582313,ktoopkhory@mvcr.cz
+OOP Klatovy,"Plzeňská 90, 339 01 Klatovy ",974334654,974334666,ktoop@mvcr.cz
+OOP Kolinec,"Kolinec 127, 341 42 Kolinec",974334752,376594511,ktoopkoli@mvcr.cz
+OOP Nýrsko,"Klatovská 382, 340 22 Nýrsko",974334742,376571943,ktoopnyrs@mvcr.cz  
+OOP Plánice,"Plánice 178, 340 34 Plánice",974334772,376394466,ktoopplani@mvcr.cz
+OOP Sušice,"Na Burince 273, 342 11 Sušice",974334702,376524356,ktoopsusic@mvcr.cz
+OOP Švihov,"Kolářova 266, 340 12 Švihov",974334762,376393539,ktoopsviho@mvcr.cz
+OOP Železná Ruda,"1. Máje 136, 340 04 Železná Ruda",974334732,376397246,ktoopzruda@mvcr.cz
+Městské ředitelství policie Plzeň,"Klatovská 45, 306 11 Plzeň",974325229,974325218,pcrmrpm@mvcr.cz 
+OOP Plzeň-Lochotín,"Kaznějovská 2, 323 00 Plzeň ",974325391,974325618,pmoopkazne@mvcr.cz
+OOP Plzeň-Slovany (+ PS Starý Plzenec),"Nepomucká 43, 326 00 Plzeň ",974325392,974325588,pmoopslov@mvcr.cz
+OOP Plzeň-Doubravka (+PS Chrást),"Železniční 12, 326 00 Plzeň ",974325394,974325394,pmoopdoubr@mvcr.cz
+OOP Plzeň-střed,"Anglické nábřeží 7, 301 00 Plzeň ",974323522,974323563,pmoopstred@mvcr.cz
+OOP Plzeň-Bory,"Nemocniční 8, 301 00 Plzeň",974324450,377459196,pmoopbory@mvcr.cz
+OOP Plzeň-Skvrňany,"Vejprnická 56, 318 00 Plzeň ",974325396,974325396,pmoopskvrn@mvcr.cz
+OOP Plzeň-Vinice,"Strážnická 16A, 323 00 Plzeň ",974325397,974325397,pmoopvinic@mvcr.cz
+Územní odbory Plzeň - venkov,"Anglické nábřeží 7, 306 10 Plzeň",974326229,974326218,pjorpj@mvcr.cz
+OOP Blovice,"Hradišťská 136, 336 01 Blovice ",974326710,371523108,pjoopblov@mvcr.cz  
+OOP Dobřany,"Lipová 456, 334 41 Dobřany",974326720,377971820,pjoopdobra@mvcr.cz
+OOP Nepomuk,"Nádražní 292, 335 01 Nepomuk ",974326730,371592258,pjoopnepom@mvcr.cz 
+OOP Přeštice,"Masarykovo náměstí 105, 334 01 Přeštice",974326740,377981233,pjoopprest@mvcr.cz
+OOP Stod,"Hradecká 320, 333 01 Stod ",974326760,377901020,pjoopstod@mvcr.cz 
+OOP Kaznějov,"Školní 478, 351 51 Kaznějov",373332158,373332082,psoopkazne@mvcr.cz
+OOP Kralovice (+ PS Manětín),"Manětínská 396, 331 41 Kralovice",373396466,373396301,psoopkralo@mvcr.cz  
+OOP Město Touškov,"Dolní nám. 1, 330 33 Město Touškov",377922220,377922010,psoopmtous@mvcr.cz
+OOP Nýřany,"Křížíkova 394, 330 23 Nýřany ",377931158,377931957,psoopnyran@mvcr.cz
+OOP Třemošná,"Šeříková 412, 330 11 Třemošná",377953415,377954422,psooptremo@mvcr.cz 
+OOP Úněšov,"Úněšov 70, 330 38 Úněšov",373315224,373315324,psoopuneso@mvcr.cz
+Územní odbory Rokycany,"Čelakovského 902, 337 01 Rokycany",974335111,974335218,pcrorro@mvcr.cz
+OOP Hrádek,"1. máje 269, 338 42 Hrádek ",974335710,371787400,rooophrade@mvcr.cz
+OOP Radnice (+ PS Zbiroh),"Plzeňská 55, 337 28 Radnice",974335700,371795555,rooopradni@mvcr.cz
+OOP Rokycany,"Jiráskova 179, 337 01 Rokycany",974335650,974335658,rooop@mvcr.cz
+Územní odbory Tachov,"Plánská 2032, 347 01 Tachov",974337111,974337238,pcrortc@mvcr.cz  
+OOP Bor,"Sadová 613, 348 02 Bor ",974337720,374790316,tcoobor@mvcr.cz
+OOP Konstantinovy Lázně,"Tichá 5, 349 52 Konstantinovy Lázně",974337750,374625576,tcoopklazn@mvcr.cz
+OOP Planá,"Tachovská 874, 348 15 Planá",974337740,374793075,tcoopplana@mvcr.cz
+OOP Stříbro,"Tř. 5.května 813, 349 01 Stříbro ",974337730,374622194,tcoopstrib@mvcr.cz
+OOP Tachov,"Plánská 2018, 347 01 Tachov",974337710,974337718,tcoop@mvcr.cz
+Krajské ředitelství policie Ústeckého kraje,"Lidické náměstí 9, 401 79 Ústí nad Labem",974421229,974427006,krssck@mvcr.cz
+Územní odbory Louny,"Cukrovarská zahrada 1124, 440 53 Louny",974437111,974437108,srorln@mvcr.cz
+OOP Louny,"Cukrovarská zahrada 1124, 440 53 Louny  ",974437651,974437905,lnoop@mvcr.cz
+OOP Podbořany (+PS Kryry),"Hlubanská 314, 441 01 Podbořany ",974445700,415214186,lnooppodbo@mvcr.cz
+OOP Postoloprty,"Žižkova 338, 439 42 Postoloprty",974437700,415783176,lnooppostolo@mvcr.cz
+OOP Žatec,"Dlouhá 111, 438 01 Žatec ",974446700,415712289,lnoopzatec@mvcr.cz
+Územní odbory Chomutov,"Riegrova 4510, 430 01 Chomutov",974433111,974433900,cvkr@mvcr.cz
+OOP Chomutov - město,"náměstí T.G.Masaryka 3100, 430 01 Chomutov",974447651,974447901,cvoop1@mvcr.cz
+OOP Chomutov - Kamenná,"Riegrova 4510, 430 01 Chomutov ",974433700,974433910,cvoop2@mvcr.cz
+OOP Chomutov - Černovická,"nám. T. G. Masaryka 1168, 430 01 Chomutov ",974447700,474621136,cvoop3@mvcr.cz
+OOP Jirkov,"Bezručova 1037, 431 11 Jirkov",974447500,474659537,cvoopji@mvcr.cz
+OOP Kadaň,"Klášterecká 1483, 432 01 Kadaň",974434700,474334535,cvoopka@mvcr.cz
+OOP Klášterec nad Ohří,"Polní 685, 431 51 Klášterec nad Ohří",974434600,474396203,cvoopkl@mvcr.cz
+OOP Březno (+PS Radonice),"Dlouhá 36, 431 45 Březno",974433750,474692237,cvoopbr@mvcr.cz
+OOP Vejprty,"Boženy Němcové 1204/22, 431 91 Vejprty",974434500,474386382,cvoopve@mvcr.cz
+Územní odbory Most,"V.Řezáče 224, 434 75 Most",974438111,974438228,mouo@mvcr.cz
+OOP Most,"Václava Řezáče 224, 434 01 Most  ",974438611,974438610,mooop1@mvcr.cz
+OOP Most - Zahradní,"Růžová 1406, 434 01 Most",476703787,476701209,mooop2@mvcr.cz
+OOP Litvínov (+PS Lom a Meziboří),"Vodní 871, 436 01 Litvínov",476753033,476753033, mooplitvi@mvcr.cz
+OOP Litvínov - Hamr (+PS Nová Ves v Horách),"Přátelství 157, 435 42 Litvínov 8",476742090,476701842, moophamr@mvcr.cz
+OOP Obrnice,"Obrnice 226 , 435 21 Obrnice",476118034,476000586,moopobrni@mvcr.cz
+Územní odbory Litoměřice,"Eliášova 7, 412 48 Litoměřice",974436215,974436900,pcrlt@mvcr.cz
+OOP Lovosice (+ PS Libochovice),"Žižkova 469/10, 410 02 Lovosice",974436701,974436704,ltooplovo@mvcr.cz
+OOP Litoměřice (+PS Úštěk a Terezín),"Stránského 1, 412 48 Litoměřice",974436651,974436911,ltoop@mvcr.cz
+OOP Roudnice nad Labem,"Riegrova 636, 413 01 Roudnice nad Labem",974444700,416837351,ltooproud@mvcr.cz
+OOP Štětí,"Stračenská 315, 411 08 Štětí",974436721,974436723,ltoopsteti@mvcr.cz
+Územní odbory Teplice,"Masarykova třída 1363, 415 96 Teplice",974439111,974439109,rediteltp@mvcr.cz
+OOP Teplice,"Vrchlického 10, 415 01 Teplice",417569471,417536090,tpoop@mvcr.cz
+OOP Trnovany,"Maršovská 1537, 415 01 Teplice",417570160,417537799,tpooptrno@mvcr.cz
+OOP Prosetice,"Prosetická 283, 415 01 Teplice",417538700,417533923,tpoopprose@mvcr.cz
+OOP Krupka,"K. Čapka 273, 417 42 Krupka",417861244,417535477,tpoopkrup@mvcr.cz
+OOP Dubí,"Krušnohorská 124/2, 417 01 Dubí",417530741,417560734,tpoopdubi@mvcr.cz
+OOP Duchcov,"Sadová 1213/13, 419 01 Duchcov",417835444,417836022,tpoopduch@mvcr.cz
+OOP Bílina,"Studentská 874/94, 418 23 Bílina",417823333,417535893,tpoopbili@mvcr.cz
+Územní odbory Ústí nad Labem,"Dlouhá 2, 400 67 Ústí nad Labem",974426111,974427032,orustinl@mvcr.cz 
+OOP Ústí nad Labem-město,"Masarykova 47, 400 01 Ústí nad Labem",974426651,974427024,oruloop1@mvcr.cz 
+OOP Střekov (+ PS Velké Březno),"Truhlářova 30, 400 03 Ústí nad Labem",974426711,475531717,uloopstr@mvcr.cz
+OOP Neštěmice,"Horní 194, 403 31 Ústí nad Labem - Mojžíř",974426721,472733827,uloopnes@mvcr.cz
+OOP Chlumec (+ PS Libouchec),"Muchova 226, 403 39 Chlumec",475223234,974427099,uloopchl@mvcr.cz
+OOP Trmice,"Lovecká 10, 400 04 Trmice",974426741,974426741,ulooptrm@mvcr.cz
+OOP Všebořice,"Všebořická 11, 400 10 Ústí nad Labem",974426751,475601326,uloopvse@mvcr.cz
+OOP Ústí nad Labem - Krásné Březno," Předmostí 50, 400 02 Ústí nad Labem ",974426761,475501310,uloopkrb@mvcr.cz
+Územní odbory Děčín,"Kaštanová 2, 405 58 Děčín",974432111,974432108,pcrdecin@mvcr.cz
+OOP Benešov nad Ploučnicí,"Míru 1, 407 22 Benešov nad Ploučnicí",974432701,412586333,dcoopbene@mvcr.cz
+OOP Česká Kamenice,"Duk. Hrdinů 457, 407 21 Česká Kamenice",974432711,412582371,dcoopckam@mvcr.cz
+OOP Děčín-město (+PS Hřensko),"Čsl. Mládeže 89/4, 405 02 Děčín",974432771,412530067,dcoop@mvcr.cz
+OOP Děčín - Podmokly (+PS Jílové),"Tržní, 7405 02  Děčín 4",974432651,412530067,dcoop@mvcr.cz
+OOP Krásná Lípa,"Stradalova 1027, 407 46 Krásná Lípa",974432731,412383277,dcoopklipa@mvcr.cz
+OOP Rumburk,"Třída 9. května, 408 11 Rumburk",974442651,412310598,dcooprbk@mvcr.cz
+OOP Šluknov,"Sokolovská 1036, 407 77 Šluknov",974432751,974432758,dcoopsluk@mvcr.cz
+OOP Varnsdorf,"Havlíčkova 2040/9, 407 47 Varnsdorf",974432741,412372377,dcoopvdf@mvcr.cz
+OOP Velký Šenov,"Lipovská 551, 407 78 Velký Šenov",974432761,412391333,dcoopvsen@mvcr.cz
+Krajské ředitelství policie Libereckého kraje,"Nám. Dr. E. Beneše 584/24, 460 32 Liberec",974461111,974461028,podatelna.krplb@mvcr.cz
+Územní odbory Česká Lípa,"Pod Holým vrchem 1734, 470 01 Česká Lípa",974471229,974471976,krcl@mvcr.cz
+OOP Česká Lípa,"Paní Zdislavy 299,470 01 Česká Lípa",974471760,974471972,cl.oo.ceskalipa@pcr.cz
+OOP Nový Bor,"T.G.Masaryka 7, 473 01 Nový Bor",974471710,487727385,cl.oo.novybor@pcr.cz
+OOP Doksy,"Máchova 144, 472 01 Doksy",974471715,974471717,cl.oo.doksy@pcr.cz
+OOP Mimoň,"Mírová 129, 471 24 Mimoň",974471720,487862200,cl.oo.mimon@pcr.cz
+OOP Stráž pod Ralskem,"nám. 5. května 250, 471 27 Stráž pod Ralskem",974471725,974471727,cl.oo.straz@pcr.cz
+OOP Jablonné v Podještědí,"Alšova 333, 471 25 Jablonné v Podještědí",487762333,487762416,cl.oo.jablonne@pcr.cz
+OOP Cvikov,"Čsl. armády 136, 471 54 Cvikov",487751333,487752033,cl.oo.cvikov@pcr.cz
+OOP Žandov,"Náměstí 133, 471 07 Žandov",974471620,974471621,cl.oo.zandov@pcr.cz
+Územní odbory Liberec,"Pastýřská 3, 460 74 Liberec",974466229,974466902,redlbc@mvcr.cz
+OOP Liberec - centrum,"Krajinská 487/13, 460 01 Liberec 1",974467100,974467108,lb.oo.centrum@pcr.cz
+OOP Liberec-Vápenka,"ul. 28. října 253/1, 460 07 Liberec 7",974467200,485152523,lb.oo.vapenka@pcr.cz
+OOP Liberec - Vesec,"Šumná 357, 463 12 Liberec 25",974466756,974466758,lb.oo.vesec@pcr.cz
+OOP Liberec - Vratislavice,"Tanvaldská 50, 463 11 Liberec 30",974466761,974466768,lb.oo.vratislavice@pcr.cz
+OOP Hrádek nad Nisou,"Husova 196, 463 34 Hrádek n/N",974466731,974466733,lb.oo.hradek@pcr.cz
+OOP Chrastava,"Pobřežní 430, 463 31 Chrastava",974466736,974466736,lb.oo.chrastava@pcr.cz
+OOP Český Dub,"17. listopadu 51, 463 43 Český Dub",974466771,485147233,lb.oo.ceskydub@pcr.cz
+OOP Hodkovice nad Mohelkou,"nám. T.G.Masaryka 1, 463 42 Hodkovice n. M.",974466726,485145170,lb.oo.hodkovice@pcr.cz
+OOP Frýdlant,"Úzká 1259, 464 01 Frýdlant",974473300,974473308,lb.oo.frydlant@pcr.cz
+OOP Nové Město pod Smrkem,"Jindřichovická 145, 463 65 Nové Město p. S.",974473401,482325333,lb.oo.novemesto@pcr.cz
+OOP Hejnice,"Lázeňská 381, 463 62 Hejnice",974473501,482322158,lb.oo.hejnice@pcr.cz
+Územní odbory Jablonec nad Nisou,"28. října 10, 466 73 Jablonec nad Nisou",974474229,974474900,krjn@mvcr.cz 
+OOP Smržovka,"LIdické náměstí 730, 468 51 Smržovka",974480600,483382226,jn.oo.smrzovka@pcr.cz
+OOP Železný Brod,"Vaněčkova 729, 468 22 Železný Brod",974480300,974480308,jn.oo.zeleznybrod@pcr.cz
+OOP Jablonec nad Nisou - Mšeno,"Mládí 2, 466 04 Jablonec n.N.-Mšeno",974474741,974474740, jn.oo.mseno@pcr.cz
+OOP Tavald,"Poštovní 242, 468 41 Tanvald",974480200,974480208, jn.oo.tanvald@pcr.cz
+OOP Jablonec nad Nisou,"5.května 60, 466 73 Jablonec nad Nisou",974474651,974474903,jn.oo.jablonec@pcr.cz
+OOP Rychnov u Jablonce nad Nisou,"Sokolská 549, 468 02 Rychnov u Jablonce n.N.",974474721,483388952,jn.oo.rychnov@pcr.cz 
+Územní odbory Semily,"Vysocká 225, 513 15 Semily",974475111,974475228,pcrorsm@mvcr.cz  
+OOP Semily,"Vysocká 225, 513 01 Semily",974475651,974475658,sm.oo.semily@pcr.cz
+OOP Harrachov,"Harrachov 102, 512 46 Harrachov",974475741,974475741,sm.oo.harrachov@pcr.cz 
+OOP Rokytnice nad Jizerou,"Dolní Rokytnice 359, 512 44 Rokytnice nad Jizerou",974475731,974475731, sm.oo.rokytnice@pcr.cz
+OOP Jilemnice,"Geologa Pošepného 380, 514 01 Jilemnice",974475711,481544855,sm.oo.jilemnice@pcr.cz
+OOP Lomnice nad Popelkou,"Husovo náměstí 36, 512 51 Lomnice nad Popelkou",974475701,974475708,sm.oo.lomnice@pcr.cz
+OOP Turnov,"Žižkova ul., 511 01 Turnov",974475721,974475728, sm.oo.turnov@pcr.cz
+Krajské ředitelství policie Královéhradeckého kraje ,"Ulrichovo nám. 810, 501 01 Hradec Králové",974521111,974521228, krp.khk@mvcr.cz
+Územní odbory Hradec králové ,"Mrštíkova 541, 500 09 Hradec Králové",974521111,974526900,hkvs@mvcr.cz
+OOP Hradec Králové 1,"Gočárova třída 1653, 500 02 Hradec Králové 2",974526651,974526652,hkoop1@mvcr.cz
+OOP Hradec Králové 2,"Pospíšilova třída 1103, 500 03 Hradec Králové 3",974526661,974526668,hkoop2@mvcr.cz
+OOP Hradec Králové 3,"Mrštíkova 541, 500 09 Hradec Králové",974526671,974526678,hkoop3@mvcr.cz
+OOP Holohlavy,"Na Výsluní 171, 503 03 Holohlavy",974526701,974526708,hkoophol@mvcr.cz
+OOP Chlumec nad Cidlinou,"Pražská 82, 503 51 Chlumec nad Cidlinou",974526711,974526718,hkoopchlum@mvcr.cz
+OOP Nový Bydžov (+PS Nechanice),"A. Jiráska 545, 504 01 Nový Bydžov",974526731,974526738,hkoopnoby@mvcr.cz
+OOP Třebechovice pod Orebem,"Žižkova 850, 503 46 Třebechovice pod Orebem",974526741,974526748,hkooptreb@mvcr.cz
+Územní odbory Jičín,"Balbínova 24, 506 12 Jičín",974533111,974533228,jcvs@mvcr.cz
+OOP Jičín,"Balbínova 23, 506 12 Jičín",974533651,974533940,jcoop@mvcr.cz
+OOP Hořice,"Nám. Jiřího z Poděbrad 158, 508 01 Hořice",974533701,974533701,jcoophor@mvcr.cz
+OOP Kopidlno,"Tomáše Svobody 106, 507 32 Kopidlno",974533711,974533711,jcoopkop@mvcr.cz
+OOP Nová Paka,"U Stadionu 37, 509 01 Nová Paka",974533721,974533721,jcoopnopa@mvcr.cz
+OOP Sobotka ,"Boleslavská 329, 507 43 Sobotka ",974533731,974533731,jcoopsob@mvcr.cz
+Územní odbory Náchod,"Husovo nám. 698, 547 45 Náchod",974534111,974534108,napcr@mvcr.cz
+OOP Broumov,"T.G. Masaryka 248, 550 01 Broumov",974534701,974534708,naoopbrou@mvcr.cz
+OOP Česká Skalice,"Pivovarská 54, 552 03 Česká Skalice",974534721,974534728,naoopcesk@mvcr.cz
+OOP Hronov (+ PS Červený Kostelec),"Jiráskova 169, 549 31 Hronov",974534731,974534731,naoophron@mvcr.cz
+OOP Jaroměř,"Patrného 270, 551 01 Jaroměř",974534741,974534748,naoopjar@mvcr.cz
+OOP Náchod,"Husovo náměstí 698, 547 45 Náchod",974534651,974534658,naoop@mvcr.cz
+OOP Nové Město nad Metují,"Komenského 146, 549 01 Nové Město nad Metují",974534751,974534758,naoopnome@mvcr.cz
+OOP Police nad Metují (+ PSTeplice nad Metují),"U Opatrovny 87, 549 54 Police nad Metují",974534761,974534761,naooppol@mvcr.cz
+Územní odbory Rychnov nad Kněžnou,"Zborovská 1360, 560 01 Rychnov nad Kněžnou",974536111,974536228,rkvs@mvcr.cz
+OOP Rychnov nad Kněžnou,"Zborovská 1360, 516 01 Rychnov nad Kněžnou",974536651,974536658,rkoop@mvcr.cz 
+OOP Kostelec nad Orlicí,"Rudé armády 3, 517 41 Kostelec nad Orlicí",974536711,974536718,rkoopkost@mvcr.cz
+OOP Dobruška (+ PS Opočno),"Šubertovo náměstí 516, 518 01 Dobruška",974536701,974536708,rkoopdobr@mvcr.cz 
+OOP Týniště nad Orlicí,"Čapkova 645, 517 21 Týniště nad Orlicí",974536721,974536728,rkooptyn@mvcr.cz
+OOP Rokytnice v Orlických horách,"nám.T.G. Masaryka 4, 517 61 Rokytnice v Orl. hor.",974536731,974536738,rkooprok@mvcr.cz
+Územní odbory Trutnov,"Roty Nazdar 497, 541 11 Trutnov",974539111,974539228,ortu@mvcr.cz
+OOP Trutnov,"Roty Nazdar 496, 541 11 Trutnov",974539651,974539940,tuoop@mvcr.cz
+OOP Dvůr Králové nad Labem,"Legionářská 1234, 544 01 Dvůr Králové nad Labem",974539701,974539708,tuoopdk@mvcr.cz
+OOP Vrchlabí ,"Zámecká 53, 543 01 Vrchlabí ",974539761,974539768,tuoopvrch@mvcr.cz
+OOP Úpice,"Regnerova 265, 542 32 Úpice",974539751,974539758,tuoopupic@mvcr.cz
+OOP Pec pod Sněžkou,"Velká Úpa 164, 542 22 Pec pod Sněžkou",974539721,974539721,tuooppec@mvcr.cz
+OOP Hostinné,"Horská 520, 543 71 Hostinné",974539711,974539718,tuoophost@mvcr.cz
+OOP Svoboda nad Úpou,"Lázeňská 215, 542 24 Svoboda nad Úpou",974539731,974539731,tuoopsvob@mvcr.cz
+OOP Špindlerův Mlýn,"Bedřichov 53, 543 51 Špindlerův Mlýn",974539741,974539748,tuoopspm@mvcr.cz
+OOP Žacléř,"Komenského 71, 542 01 Žacléř",974539771,974539778,tuoopzac@mvcr.cz
+Krajské ředitelství policie Pardubického kraje ,"Na Spravedlnosti 2516, 530 48 Pardubice",974566111,974561228,krp.pu@mvcr.cz
+Územní odbory Svitavy,"Purkyňova 2, 568 02 Svitavy",974578111,974578900,pcrkrsy@mvcr.cz
+OOP Svitavy,"Vrchlického 2245/44, 568 02 Svitavy ",974578651,974578940,syoop@mvcr.cz  
+OOP Litomyšl,"Vodní Valy 1142, 570 01 Litomyšl ",974578711,974578718,syooplit@mvcr.cz
+OOP Moravská Třebová,"Komenského 52, 571 01 Moravská Třebová",974578721,974578728,syoopmotr@mvcr.cz  
+OOP Polička,"Wolkerova 620, 572 01 Polička",974578731,974578738,syooppol@mvcr.cz
+Územní odbory Chrudim ,"Všehrdovo náměstí 46, 537 20 Chrudim",974572111,974572108,uovscr@mvcr.cz
+OOP Heřmanův Městec,"Čáslavská 276, 538 03 Heřmanův Městec",974572711,974572718,croophem@mvcr.cz  
+OOP Hlinsko,"Ležáků 1351, 539 01 Hlinsko",974572701,469311334,croophlin@mvcr.cz
+OOP Chrast,"Šmídova 414, 538 51 Chrast",974572721,974572728,croopchra@mvcr.cz
+OOP Chrudim,"Hradební 47, 537 20 Chrudim",974572653,974572658,croop@mvcr.cz  
+OOP Skuteč ,"Sadová 387, 539 73 Skuteč ",974572731,469350355,croopskut@mvcr.cz 
+OOP Třemošnice ,"Tovární 320, 538 43 Třemošnice ",469661796,469661796,crooptrem@mvcr.cz 
+Územní odbory Ústí nad Orlicí ,"Dělnická 1188, 562 27 Ústí nad Orlicí",974580111,974580108,uovs@mvcr.cz
+OOP Ústí nad Orlicí ,"Letohradská 759, 562 01 Ústí nad Orlicí ",974580660,974580662,uoop@mvcr.cz
+OOP Česká Třebová ,"Nádražní 439, 560 02 Česká Třebová ",974580701,465533013,uooopcetr@mvcr.cz  
+OOP Choceň,"Dolní 261, 565 01 Choceň",465471531,465471949,uooopchoc@mvcr.cz
+OOP Králíky,"5. Května, 561 69 Králíky",974580721,465631426,uooopkral@mvcr.cz
+OOP Lanškroun,"Dukelských hrdinů 423, 563 01 Lanškroun",465321092,465323245,uoooplan@mvcr.cz
+OOP Letohrad,"Požárníků 330, 561 51 Letohrad",465620432,465621663,uoooplet@mvcr.cz
+OOP Vysoké Mýto ,"Generála Závady 176/IV, 566 01 Vysoké Mýto ",465420847,465420295,uooopvymy@mvcr.cz
+OOP Žamberk,"Husovo nábřeží 314, 564 01 Žamberk",974580751,974580758,uooopzam@mvcr.cz
+Územní odbory Pardubice ,"Na Spravedlnosti 2516, 530 47 Pardubice",974566111,974566219,pauovssekr@mvcr.cz
+OOP Pardubice 1,"Na Spravedlnosti 2516, 530 47 Pardubice",974566651,974566663,paoop1@mvcr.cz  
+OOP Pardubice 2,"Prodloužená 285, 530 09 Pardubice",974566701,974566708,paoop2@mvcr.cz
+OOP Pardubice 3,"Jana Zajíce 946, 530 12 Pardubice ",974566721,974566728,paoop3@mvcr.cz
+OOP Pardubice 4,"Rožkova 2757, 530 02 Pardubice",974566731,974566738,paoop4@mvcr.cz
+OOP Holice,"Hradecká 1036, 534 01 Holice v Čechách",974566751,974566758,paoophol@mvcr.cz  
+OOP Chvaletice,"Obránců Míru 147, 533 12 Chvaletice",974566761,974566768,paoopchval@mvcr.cz
+OOP Lázně Bohdaneč ,"Na Lužci 718, 533 41 Lázně Bohdaneč ",974566771,974566778,paooplabo@mvcr.cz
+OOP Přelouč,"Pražská 20, 535 01 Přelouč",974566781,974566788,paoopprel@mvcr.cz
+Krajské ředitelství policie kraje Vysočina,"Vrchlického 46, 587 24 Jihlava",974266111,974261700,podatelna@policievysocina.cz
+Územní odbory Havlíčkův Brod,"Husova 2894, 580 02 Havlíčkův Brod",974271229,974271908,hbkr@mvcr.cz
+OOP Havlíčkův Brod (+PS Přibyslav),"Husova 2894, 580 01 Havlíčkův Brod",974271651,974271658,hboop@mvcr.cz
+OOP Chotěboř (+PS Golčův Jeníkov),"Hromádky z Jistebnice 1740, 583 01 Chotěboř",974271711,974271718,hboopchot@mvcr.cz
+OOP Světlá nad Sázavou (+PS Ledeč n. S.),"Nám. Trčků z Lípy 1045, 582 91 Světlá nad Sázavou",974271741,974271748,hboopsvet@mvcr.cz
+Územní odbory Pelhřimov,"Pražská 1738, 393 31 Pelhřimov",974274229,974274900,peorkr@mvcr.cz
+OOP Pelhřimov,"Karlovo nám. 201, 393 01 Pelhřimov",974274651,974274658,peoop@mvcr.cz
+OOP Humpolec,"Žižkova 922, 396 01 Humpolec",974274721,974274728,peoophumpo@mvcr.cz
+OOP Pacov,"Václava Plačka 828, 395 01 Pacov",974274741,974274748,peooppacov@mvcr.cz
+OOP Kamenice nad Lipou (+PS Počátky),"Komenského 627, 394 70 Kamenice nad Lipou",974274731,974274738,peoopkamen@mvcr.cz
+Územní odbory Jihlava,"Vrchlického 46, 587 24 Jihlava",974266229,974266700,uo.vs@policievysocina.cz
+OOP Jihlava,"Vrchlického 46, 587 24 Jihlava",974266659,974266706,jioop@mvcr.cz
+OOP Polná,"Husovo náměstí 15, 588 13 Polná",974266701,nemají,jiooppolna@mvcr.cz
+OOP Telč,"Luční 625, 588 56 Telč",974266721,nemají,jiooptelc@mvcr.cz 
+OOP Třešť ,"Nádražní 488, 589 01 Třešť ",974266741,nemají,jiooptrest@mvcr.cz
+Územní odbory Žďár nad Sázavou,"Brněnská 23, 591 20 Žďár nad Sázavou",974282111,974282507,personzr@mvcr.cz
+OOP Bystřice nad Pernštejnem,"Nádražní 159, 593 01 Bystřice nad Pernštejnem",974282701,974282708,zroopbnp@mvcr.cz
+OOP Nové Město na Moravě,"Žďárská 43, 592 31 Nové Město na Moravě",974282741,974282748,zroopnmnm@mvcr.cz
+OOP Velké Meziříčí,"Zámecká 946, 594 01 Velké Meziříčí",974282721,974282728,zroopvmez@mvcr.cz
+OOP Žďár nad Sázavou,"Brněnská 23, 591 20 Žďár nad Sázavou",974282651,974282658,zroop@mvcr.cz
+Územní odbory Třebíč,"Bráfova 11, 674 01 Třebíč",974277111,974277900,redtr@mvcr.cz
+OOP Hrotovice (+ PS Jaroměřice n. Rokytnou),"náměstí 8. května 608, 675 55 Hrotovice",974277701,974277708,troophrot@mvcr.cz
+OOP Jemnice,"Lípová 924, 675 31 Jemnice",974277731,974277738,troopjemni@mvcr.cz 
+OOP Moravské Budějovice,"Pražská 1095, 676 02 Moravské Budějovice",974277741,974277748,troopmbud@mvcr.cz
+OOP Náměšť nad Oslavou,"Třebíčská 924, 675 71 Náměšť nad Oslavou",974277761,974277768,troopnno@mvcr.cz 
+OOP Třebíč (+ PS Okříšky),"Bráfova 3, 674 01 Třebíč",974277651,974277658,troop@mvcr.cz
+Krajské ředitelství policie Jihomoravského kraje,"Kounicova 24, 611 32 Brno",974621111,974625508,redbrn@mvcr.cz
+Územní odbory Znojmo,"Pražská 59, 670 20 Znojmo",974641229,974641671,pcrznpis@mvcr.cz
+OOP Hrušovany nad Jevišovkou,"nám. Míru 87, 671 67 Hrušovany nad Jevišovkou",974641840,974641845,znoophrus@mvcr.cz
+OOP Jevišovice,"Jevišovice 337, 671 53 Jevišovice",974641602,974641612,znoopjevis@mvcr.cz 
+OOP Moravský Krumlov,"Školní 163, 672 01 Moravský Krumlov",974641650,974641613,znoopmkru@mvcr.cz
+OOP Vranov nad Dyjí,"8. května 155, 671 03 Vranov nad Dyjí",974641605,974641627,znoopvnd@mvcr.cz
+OOP Znojmo (+PS Prosiměřice),"Pražská 59, 670 20 Znojmo",974641606,974641676,znoop@mvcr.cz
+Územní odbory Brno-venkov,"Rybářská 17, 611 33 Brno",974626229,974626440,uovsbrnov@policiebrno.cz  
+OOP Ivančice,"Josefa Vávry 30, 664 91 Ivančice",974626441,974626708,  bo.oop.ivancice.podatelna@pcr.cz
+OOP Kuřim,"Svatopluka Čecha 967, 664 34 Kuřim",974626710,974626718,bo.oop.kurim.podatelna@pcr.cz
+OOP Pohořelice,"Loděnická 754, 691 23 Pohořelice",974632791,519424575,bv.oop.pohorelice.podatelna@pcr.cz
+OOP Rajhrad,"Štefánikova 109, 664 61 Rajhrad",974626720,974626728,bo.oop.rajhrad.podatelna@pcr.cz
+OOP Rosice,"Komenského nám. 263, 665 01 Rosice",974626730,974626738,bo.oop.rosice.podatelna@pcr.cz
+OOP Šlapanice ,"Masarykovo nám. 13, 664 51 Šlapanice ",974626740,974626748,bo.oop.slapanice.podatelna@pcr.cz
+OOP Tišnov,"Majorova 763, 666 01 Tišnov",974626446,974626446,bo.oop.tisnov.podatelna@pcr.cz
+OOP Židlochovice,"Masarykova 102, 667 01 Židlochovice",974626760,974626768,bo.oop.zidlochovice.podatelna@pcr.cz
+Územní odbory Blansko - Vyškov,"Bezručova 31, 678 01 Blansko",974631111,974631218,orbksekr@mvcr.cz 
+OOP Blansko,"Bezručova 31, 678 01 Blansko",974631396,974631382, bkoop@mvcr.cz
+OOP Boskovice,"Masarykovo náměstí 5, 680 01 Boskovice",974631730,974631738,bkoopbosk@mvcr.cz
+OOP Letovice,"Masarykovo náměstí 17, 679 61 Letovice",974631770,974631778,bkoopleto@mvcr.cz
+OOP Bučovice,"Součkova 433, 685 01 Bučovice",974639820,517381333,vyoopbucov@mvcr.cz
+OOP Slavkov u Brna,"Palackého náměstí 65, 684 01 Slavkov u Brna",974639810,974639810,vyoopsub@mvcr.cz
+OOP Vyškov (+PS Rousínov),"Brněnská 7a, 682 11 Vyškov",974639450,974639711,vyoop@mvcr.cz
+Městské ředitelství Brno,"Cejl 4/6, 611 38 Brno",974621111,974625508,bmkr@mvcr.cz
+OOP Brno-Bystrc,"Nám. 28. dubna 9, 635 00 Brno",974621111,974628831,mrpb.oop.bystrc.podatelna@pcr.cz
+OOP Brno-Královo Pole,"Malátova 3, 602 00 Brno",974621111,974624745,mrpb.oop.krpole.podatelna@pcr.cz
+OOP Brno-sever,"Příční 31, 602 00 Brno",974621111,974625432,mrpb.oop.sever.podatelna@pcr.cz
+OOP Brno-střed,"Běhounská 1, 602 00 Brno",974621111,974624408,mrpb.oop.stred.podatelna@pcr.cz
+OOP Brno-Výstaviště,"Horní 21, 639 00 Brno ",974621111,974626488,mrpb.oop.vystaviste.podatelna@pcr.cz
+OOP Brno-Žabovřesky,"Veveří 47/49, 611 38 Brno",974624202,974624205,mrpb.oop.zabovresky.podatelna@pcr.cz
+OOP Brno-Židenice,"Nopova 86, 615 00 Brno",974621111,974623586,mrpb.oop.zidenice.podatelna@pcr.cz
+OOP Brno-Komárov,"Zvonařka 18, 617 00 Brno",974621111,974623665,mrpb.oop.komarov.podatelna@pcr.cz
+Územní odbory Břeclav,"Národních hrdinů 15, 690 16 Břeclav",974632905,974632219,krbv@mvcr.cz
+OOP Břeclav,"Národních Hrdinů 21, 690 16 Břeclav",974632701,974632709, bv.oop.breclav.podatelna@pcr.cz
+OOP Hustopeče (+PS Velké Pavlovice),"Husova 7, 693 01 Hustopeče",974632741,974632750,bv.oop.hustopece.podatelna@pcr.cz
+OOP Mikulov,"U lomu 561E, 692 01 Mikulov",974632781,974632785,bv.oop.mikulov.podatelna@pcr.cz 
+Územní odbory Hodonín,"Velkomoravská 16, 695 29 Hodonín",974633111,974633238,hodonin@mvcr.cz
+OOP Dubňany,"U zdravotního střediska 1541, 696 03 Dubňany",974633580,974633588,hooopdubna@mvcr.cz
+OOP Hodonín,"Velkomoravská 16, 695 29 Hodonín",974633470,974633468,hooop@mvcr.cz
+OOP Kyjov,"Boršovská 2077/1a, 697 11 Kyjov",974633500,974633508,hooopkyjov@mvcr.cz
+OOP Strážnice,"nám. 17. listopadu 1542, 696 62 Strážnice",974633540,974633548,hooopstraz@mvcr.cz
+OOP Veselí nad Moravou,"Masarykova 115, 698 01 Veselí nad Moravou",974633520,974633528,hooopvnm@mvcr.cz 
+Krajské ředitelství policie Zlínského kraje,"J. A. Bati 5637, 760 01 Zlín",974661111,974661900,krpz.reditel@mvcr.cz
+Územní odbory Kroměříž,"Březinova 2819, 767 28 Kroměříž",974675111,974675900,pcrkmkr@mvcr.cz
+OOP Bystřice pod Hostýnem,"Holešovská 757, 768 61 Bytřice pod Hostýnem",974675701,974675701,km.oop.bystriceh.podatelna@pcr.cz 
+OOP Holešov,"Palackého 501, 769 01 Holešov",974675721,974675721,km.oop.holesov.podatelna@pcr.cz
+OOP Kroměříž,"Březinova 2819/2, 767 01 Kroměříž",974675651,974675658,km.oop.kromeriz.podatelna@pcr.cz
+OOP Hulín,"Družba čp. 1198, 768 24 Hulín",974675741,974675741,km.oop.hulin.podatelna@pcr.cz
+OOP Morkovice ,"Náměstí 26, 768 33 Morkovice ",974675761,974675768, km.oop.morkovice.podatelna@pcr.cz
+Územní odbory Uherské Hradiště,"Velehradská třída 1217, 686 43 Uherské Hradiště",974678111,974678900,uovs.uh@mvcr.cz
+OOP Bojkovice (+PS Strání),"Sušilova 148, 687 71 Bojkovice",974678791,974678798,uh.oop.bojkovice.podatelna@pcr.cz
+OOP Buchlovice,"Masarykova 271, 687 08 Buchlovice",974678761,974678768,uh.oop.buchlovice.podatelna@pcr.cz
+OOP Uherské Hradiště,"Velehradská třída 1217, 686 43 Uherské Hradiště",974678651,974678658,uh.oop.uhhrad.podatelna@pcr.cz
+OOP Uherský Brod,"Obchodní 2379, 688 01 Uherský Brod",974678701,nemají,uh.oop.uhbrod.podatelna@pcr.cz
+OOP Uherský Ostroh,"Náměstí sv. Ondřeje 14, 687 24 Uherský Ostroh",974678781,974678788,uh.oop.uhostroh.podatelna@pcr.cz
+Územní odbory Zlín,"Nám. T. G. Masaryka 3218, 760 01 Zlín",974666111,974666900,pcrzlin@mvcr.cz
+OOP Fryšták,"Souhrady 386, 763 13 Fryšták",974666781,974666788,zl.oop.frystak.podatelna@pcr.cz
+OOP Luhačovice,"Uherskobrodská 877, 763 26 Luhačovice",974666751,974666758,zl.oop.luhacovice.podatelna@pcr.cz
+OOP Napajedla,"Masarykovo nám. 87, 763 61 Napajedla",974666731,974666731,zl.oop.napajedla.podatelna@pcr.cz
+OOP Otrokovice,"nám. 3. května 1342, 765 02 Otrokovice",974666725,974666728,zl.oop.otrokovice.podatelna@pcr.cz
+OOP Slavičín,"Osvobození 309, 763 01 Slavičín",974666761,974666768, zl.oop.slavicin.podatelna@pcr.cz
+OOP Valašské Klobouky,"Cyrilometodějská 295, 766 01 Valašské Klobouky",974666778,974666778, zl.oop.valklobouky.podatelna@pcr.cz
+OOP Vizovice,"Slušovická 425, 763 12 Vizovice",974666741,974666741,zl.oop.vizovice.podatelna@pcr.cz
+OOP Zlín,"třída T. Bati 44, 760 01 Zlín",974666659,974666658, zl.oop.zlin.podatelna@pcr.cz
+Územní odbory Vsetín,"Hlásenka 1516, 755 23 Vsetín",974680111,974680900,krorvs@mvcr.cz
+OOP Horní Lideč,"Horní Lideč 18, 756 12 Horní Lideč",974680721,974680728, vs.oop.hornilidec.podatelna@pcr.cz
+OOP Jablůnka,"Jablůnka 99, 756 23 Jablůnka",974680731,974680738,vs.oop.jablunka.podatelna@pcr.cz
+OOP Karolinka,"Radniční nám. 42, 756 05 Karolinka",974680741,974680748,vs.oop.karolinka.podatelna@pcr.cz
+OOP Rožnov pod Radhoštěm (+PS Horní Bečva),"5. května 599, 756 61 Rožnov pod Radhoštěm",974680751,974680758,vs.oop.roznov.podatelna@pcr.cz
+OOP Valašské Meziříčí (+PS Kelč),"Vsetínská 378, 757 01 Valašské Meziříčí",974680761,974680768,vs.oop.valmezirici.podatelna@pcr.cz
+OOP Vsetín,"Hlásenka 1516, 755 23 Vsetín",974680651,974680108,vs.oop.vsetin.podatelna@pcr.cz
+Krajské ředitelství policie Olomouckého kraje,"Tř. Kosmonautů 189/10, 771 36 Olomouc",974766111,974761900,krpolk.reditel@mvcr.cz
+Územní odbory Prostějov,"Újezd 12, 796 01 Prostějov",974781230,974781900,orpvkr@mvcr.cz
+OOP Prostějov,"Újezd 12, 796 77 Prostějov  ",974781651,974781658,pvoop1@mvcr.cz 
+OOP Prostějov 2,"Karolíny Světlé 8, 798 77 Prostějov-Vrahovice",974781701,582336960,pvoop2@mvcr.cz
+OOP Konice,"Masarykovo nám. 36, 798 52 Konice",974781711,582396139,pvoopkonic@mvcr.cz 
+OOP Němčice na Hané,"Tyršova 546, 798 27 Němčice nad Hanou",974781721,582386033,pvoopnnh@mvcr.cz 
+OOP Plumlov,"Tyršovo nám. 160, 798 03  Plumlov",974781731,582393507,pvoopplum@mvcr.cz
+Územní odbory Šumperk,"Havlíčkova 8, 787 90 Šumperk",974779299,974779900,orpvkr@mvcr.cz
+OOP Hanušovice,"Hlavní 93, 788 03 Hanušovice",974779701,974779701,su.oo.hanusovice.stsl@pcr.cz
+OOP Mohelnice,"Generála Svobody 22, 789 85 Mohelnice",974779721,974779728, su.oo.mohelnice.podatelna@pcr.cz         
+OOP Šumperk,"Havlíčkova 10, 787 01 Šumperk",974779651,974779658,su.oo.sumperk.podatelna@pcr.cz
+OOP Velké Losiny,"Rudé Armády 361, 788 15 Velké Losiny",974779731,974779738,su.oo.vlosiny.stsl@pcr.cz
+OOP Zábřeh,"Postřelmovská 7, 789 01, Zábřeh",974779741,974779748,su.oo.zabreh.podatelna@pcr.cz
+Územní odbory Jeseník,"Moravská 780/4, 790 14 Jeseník",974773550,974773900,pcrje@mvcr.cz
+OOP Jeseník ,"Moravská 780/4, 790 01 Jeseník ",974773651,974773658,je.oo.jesenik.stsl@pcr.cz
+OOP Javorník ,"Hlavní 149, 790 65 Žulová",974773701,974773708,je.oo.javornik.stsl@pcr.cz 
+OOP Zlaté Hory,"Bezručova 614, 793 76 Zlaté Hory",974773711,974773718,je.oo.zlatehory.stsl@pcr.cz        
+Územní odbory Olomouc,"Žižkovo nám. 4, 771 36 Olomouc",974766111,974766900,reditol@mvcr.cz
+OOP Olomouc 1,"Sokolská 52, 731 36 Olomouc",974766651,974766698,ol.oo.olomouc1.stsl@pcr.cz
+OOP Olomouc 2,"Heyrovského 2a, 771 36 Olomouc",974767651,974766708,oloop2@mvcr.cz
+OOP Olomouc 3,"Smetanova 14, 771 36 Olomouc",585227660,974766718,ol.oo.olomouc3.stsl@pcr.cz
+OOP Olomouc 4,"Na Trati 78, 771 36 Olomouc",974766721,974766728,oloop4@mvcr.cz
+OOP Litovel,"Husova 20, 784 01 Litovel",974766751,974766758,olooplitov@mvcr.cz
+OOP Lutín,"Olomoucká 138, 783 49 Lutín",974766771,974766778,olooplutin@mvcr.cz
+OOP Šternberk,"Oblouková 4, 785 01 Šternberk",974766731,974766738,oloopstern@mvcr.cz
+OOP Uničov,"Gen. Svobody 1214, 783 91 Uničov",974766741,974766748,oloopunicov@mvcr.cz
+OOP Velká Bystřice,"Zámecké náměstí 17, 783 53 Velká Bystřice",974766761,585351877,oloopvbyst@mvcr.cz
+OOP Moravský Beroun,"Nádražní 134, 793 05  Moravský Beroun",974766781,554733305,ol.oo.mberoun.stsl@pcr.cz
+Územní odbory Přerov,"U Výstaviště 18, 751 52 Přerov",974778299,581218362,srorpr@mvcr.cz
+OOP Přerov 1,"Čapka Drahlovského 7, 750 02 Přerov",974778651,974778658,pr.oo.prerov.podatelna@pcr.cz
+OOP Přerov 2,"U Výstaviště 18, 751 52 Přerov",974778701,974778708,pr.oo.prerov2.podatelna@pcr.cz
+OOP Hranice,"Purgešova 2, 753 01 Hranice",974778711,974778718,pr.oo.hranice.podatelna@pcr.cz
+OOP Kojetín,"Masarykovo Náměstí 39, 752 01 Kojetín",974778721,974778728,pr.oo.kojetin.podatelna@pcr.cz
+OOP Lipník nad Bečvou,"K Nadsklepí 1402, 751 31 Lipník n/B",974778731,581773260,pr.oo.lipnik.podatelna@pcr.cz
+Krajské ředitelství policie Moravskoslezského kraje,"30. dubna 24, 728 99 Moravská Ostrava a Přívoz",974721111,974721900,ssmkzastup@mvcr.cz
+Územní odbory Opava,"Hrnčířská 22, 746 25 Opava",974737111,974737900,krop@mvcr.cz
+OOP Hlučín ,"Dr. E. Beneše 2, 748 11 Hlučín ",974737701,974737708,opoophluci@mvcr.cz
+OOP Hradec nad Moravicí ,"Lidická 316, 747 41 Hradec nad Moravicí ",974737731,974737738,opoophrade@mvcr.cz
+OOP Kravaře,"Bezručova 102, 747 22 Kravaře",974737721,974737728,opoopkrava@mvcr.cz
+OOP Opava,"Vaškovo náměstí 10, 746 25 Opava",974737651,974737658,opoop@mvcr.cz
+OOP Velké Heraltice ,"Družstevní 41, 747 75 Velké Heraltice ",974737751,553650972,opoopvhera@mvcr.cz
+OOP Vítkov,"Komenského 137, 749 11 Vítkov",974737711,974737718,opoopvitko@mvcr.cz
+Územní odbory Nový Jičín,"Svatopluka Čecha 11, 741 11 Nový Jičín",974735111,974735900,vedeninj@mvcr.cz
+OOP Bílovec,"Pivovarská 13/15, 743 01 Bílovec ",556410834,974735701,bilovec@mvcr.cz
+OOP Frenštát pod Radhoštěm,"Rožnovská 241, 74401 Frenštát pod Radhoštěm",556835333,974735718,njoopfren@mvcr.cz
+OOP Fulnek ,"Masarykova 63, 742 45 Fulnek ",974735721,556455328,njoopfulne@mvcr.cz
+OOP Kopřivnice ,"Štefánikova 370, 742 21 Kopřivnice ",974735731,974735738,njoopkopri@mvcr.cz
+OOP Nový Jičín,"Vančurova 44, 741 11 Nový Jičín",974735651,974735940,njoop@mvcr.cz
+OOP Odry,"Osvobození 25, 742 35 Odry",974735741,556730834,njoopodry@mvcr.cz
+OOP Příbor,"Masarykova 637, 742 58 Příbor",974735751,556713927,njooppribo@mvcr.cz
+OOP Studénka ,"Sjednocení 846, 742 13 Studénka ",974735761,974735768,njoopstude@mvcr.cz
+Územní odbory Bruntál,"Partyzánská 9, 792 01 Bruntál",974731111,974731900,krbr@mvcr.cz 
+OOP Bruntál,"Sladovnická 14, 792 01 Bruntál",974731651,974731658,broop@mvcr.cz
+OOP Krnov,"Albrechtická 1, 794 01 Krnov",974731731,554637618,broopkrnov@mvcr.cz
+OOP Rýmařov,"J. Sedláka 12, 795 01 Rýmařov",974731751,974731758,brooprymar@mvcr.cz
+OOP Vrbno pod Pradědem,"Nádražní 583, 793 26 Vrbno pod Pradědem",974731761,974731765,broopvrbno@mvcr.cz
+OOP Město Albrechtice,"Osvobození 7, 793 95 Město Albrechtice",974731771,554646069,broopalbre@mvcr.cz
+Územní odbory Frýdek-Místek,"Beskydská 2061, 738 19 Frýdek-Místek",974732111,974732900,krfm@mvcr.cz
+OOP Brušperk,"Policejní 195, 739 44 Brušperk",974732701,558666522,fmoopbrusp@mvcr.cz
+OOP Frýdek-Místek,"Hlavní 110, 738 02  Frýdek-Místek",974732651,974732940,oopfm@mvcr.cz
+OOP Frýdlant nad Ostravicí,"5. května 1419, 739 11 Frýdlant nad Ostravicí",974732731,558442012,fmoopfrydl@mvcr.cz
+OOP Hnojník,"Hnojník 222, 739 53 Hnojník",974732741,974732748,fmoophnoj@mvcr.cz
+OOP Jablunkov,"Nádražní 202, 739 91 Jablunkov",974732751,558358050,fmoopjablu@mvcr.cz
+OOP Nošovice,"Nošovice 155, 739 51 Nošovice",974732711,558638639,fmoopnosovice@mvcr.cz
+OOP Palkovice,"Palkovice 448, 739 41 Palkovice",974732771,558656190,fmooppalk@mvcr.cz
+OOP Třinec,"1.máje 124, 739 61 Třinec",974732781,974732788,fmooptrine@mvcr.cz
+Městské ředitelství Ostrava,"30. dubna 1682/24, 729 21 Ostrava",974721111,974725900,mrova@mvcr.cz
+OOP Ostrava–Hrabůvka,"Dr. Martínka 14, 700 30 Ostrava–Hrabůvka",974725791,974725798,mrova.oop.hrabuvka@mvcr.cz
+OOP Ostrava–Mariánské Hory,"Strmá 14, 709 39 Ostrava–Mariánské Hory a Hulváky",974725301,974727308,mrova.oop.marhory@mvcr.cz
+OOP Ostrava-střed,"Masná 3, 72873 Moravská Ostrava a Přívoz",974725721,974727408,mrova.oop.stred@mvcr.cz
+OOP Ostrava-Poruba 1,"Dělnická 392, 708 54 Ostrava–Poruba",974725731,974725738,mrova.oop.poruba1@mvcr.cz
+OOP Ostrava–Poruba 2 (+ PS Velká Polom),"Heyrovského 9, 708 51 Ostrava–Poruba",974727601,974727608,mrova.oop.poruba2@mvcr.cz
+OOP Ostrava-Přívoz,"Wattova 1047/21, 702 10 Moravská  Ostrava a Přívoz",974727701,974727708,mrova.oop.privoz@mvcr.cz
+OOP Vratimov,"Frýdecká 819, 738 32 Vratimov",974728711,596732376,mrova.oop.vratimov@mvcr.cz
+OOP Slezská Ostrava (+PS Ostrava Radvanice),"Bohumínská 65, 710 00 Slezská Ostrava",974725651,974725658,mrova.oop.slezska@mvcr.cz
+OOP Ostrava–Vítkovice,"Mečnikovova 4, 703 49 Ostrava–Vítkovice",974725771,974728208,mrova.oop.vitkovice@mvcr.cz
+OOP Ostrava–Zábřeh,"Náměstí SNP, 700 30 Ostrava–Zábřeh",974728301,974728308,mrova.oop.zabreh@mvcr.cz
+Územní odbory Karviná,"Havířská 1511/26, 735 06 Karviná - Nové Město",974734111,974734900,pcrorka@mvcr.cz
+OOP Havířov 1,"Sv. Čecha 1, 736 01 Havířov-Město ",596805541,974744658,kaoophav1@mvcr.cz
+OOP Havířov 3,"Moravská 31, 736 01 Havířov-Šumbark",596884863,974734758,kaoophav3@mvcr.cz
+OOP Orlová,"Slezská 1370, 735 13 Orlová-Poruba",596523333,596513558,kaooporlov@mvcr.cz
+OOP Bohumín,"9. května 658, 735 81 Bohumín",596097512,974734708,kaoopbohum@mvcr.cz
+OOP Dětmarovice,"Dětmarovice 964, 735 71 Dětmarovice",596550144,596550198,kaoopdetma@mvcr.cz
+OOP Horní Suchá ,"Stonavská 365, 735 35 Horní Suchá ",596425556,596425485,kaoophsuch@mvcr.cz
+OOP Karviná 1,"U Svobodáren 1298, 735 06 Karviná - Nové Město",974734651,974734658,kaoopkar1@mvcr.cz
+OOP Karviná 7,"Stavbařů 2198, 734 01 Karviná-Mizerov",596342333,974734778,kaoopkar7@mvcr.cz
+OOP Petřvald,"Ostravská 924, 735 41 Petřvald",596541124,596512103,kaooppetrv@mvcr.cz
+OOP Těrlicko ,"Přehradní 371/11, 735 42 Těrlicko ",596423067,596423068,kaoopterli@mvcr.cz
+OOP Český Těšín,"náb. Míru 20, 737 01 Český Těšín",558731800,558712567,kaoopctesi@mvcr.cz

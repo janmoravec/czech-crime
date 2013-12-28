@@ -1,0 +1,24 @@
+.popup{
+	background-color:#4c4c4c;
+	width:340px;
+	padding:15px;
+        position: absolute;
+        z-index: 9999;
+        left: 50%;
+        top: 50px;
+        margin-left: -180px;
+}
+
+.popup a{
+	display:block;
+	background:url("../images/popup-close.png");
+	width:11px;
+	height:11px;
+	float:right;
+}
+
+.popup p{
+	margin-left:45px;
+	margin-top:-20px;
+	width:250px;
+}

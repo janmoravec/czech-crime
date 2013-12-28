@@ -1,0 +1,85 @@
+section.infoBox .content h1 {
+	font-size: 18px;
+}
+
+.zoomControl .country div {
+	background: url("../images/zoomControl-cr-out.png") no-repeat 75px 7px #333333;
+	width: 86px;
+	height: 18px;
+	margin-left: 66px;
+}
+
+.zoomControl .county div {
+	background: url("../images/zoomControl-county-out.png") no-repeat 60px 7px #333333;
+	width: 70px;
+	height: 19px;
+	margin-left:82px;
+}
+
+.zoomControl .district div {
+	background: url("../images/zoomControl-district-out.png") no-repeat 69px 6px #333333;
+	width: 79px;
+	height: 19px;	
+	margin-left:73px;
+}
+
+.zoomControl .department div
+{
+	background: url("../images/zoomControl-department-out.png") no-repeat 137px 7px #333333;
+	width: 148px;
+	height:19px;
+	margin-left:4px;
+}
+
+.zoomControl .scale {
+	margin-left: 171px;
+}
+
+section.infoBox footer a.compareBtn div {
+	width: 85px;
+	padding-left: 40px;
+}
+
+section.infoBox footer a.contactBtn div {
+	width: 79px;
+	padding-left: 43px;
+	margin-left: 2px;
+}
+
+section.infoBox div.content h1 {
+	line-height: 2;
+}
+
+section.homepageFilterBox .content {
+	/*height: 288px;*/
+}
+
+section.porovnaniFilterBox {
+	/*width: 258px;*/
+}
+
+#porovnaniPage .staticData table {
+	width:300px;
+}
+
+header .selectWrapper {
+	width:283px;
+}
+
+#porovnaniPage .staticData th.first {
+	padding-right: 75px;
+}
+
+#tabulkyPage .firstCol header div.second {
+	padding: 5px 67px;
+	padding-right: 66px;
+}
+
+#tabulkyPage .detailDataNotice {
+	width: 375px;
+	margin-top: 37px;
+}
+
+#tabulkyPage .detailDataNotice a {
+	text-decoration: underline;
+}

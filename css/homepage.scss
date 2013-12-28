@@ -1,0 +1,1003 @@
+.box-wrapper {
+	overflow: auto;
+	overflow-x: hidden;
+	position: absolute;
+	z-index: 10;
+	top: 15px;
+	left: 15px;
+	bottom: 54px;
+	width: 297px;
+
+	/* hide by default */
+	display: none;
+}
+	.box-wrapper.trend-box-wrapper {
+		right: -7px;
+		left: inherit; 
+		top: 180px;
+
+		.jspVerticalBar {
+			display: none;
+		}
+	}
+
+/**
+*	autocomplete
+**/
+section.autoCompleteBox {
+
+	.content {
+		height: 32px !important;
+	}
+
+	input {
+		width: 244px;
+		padding: 5px;
+	}
+}
+
+/**
+*	infobox
+**/
+section.homepageInfoBox
+{
+	width:258px;
+}
+
+section.infoBox .title
+{
+	margin-top: -7px;
+}
+
+section.infoBox h1
+{
+	font-size:13px;
+	float:left;
+	margin-top:4px;
+	margin-bottom:4px;
+	text-transform:uppercase;
+}
+
+section.infoBox div.content h1
+{
+	margin-top:0px;
+	float:none;
+	display:inline;
+	line-height: 1.5;
+	text-transform:none;
+}
+
+section.infoBox div.content h1.smallLetters, section.infoBox .damage.smallLetters 
+{
+	font-size: 16px;
+}
+
+section.infoBox table
+{	
+	width:100%;
+	text-align:left;
+	margin-top:5px;
+}
+
+section.infoBox tr
+{
+
+}
+
+section.infoBox article
+{
+	margin-bottom: 9px;
+	padding-bottom: 9px;
+}
+
+section.infoBox th
+{
+	font-weight:normal;
+	font-size:12px;
+	width:50%;
+	text-align:left;
+}
+
+section.infoBox td
+{
+	font-family:"RobotoMedium";
+	font-size:18px;
+	width:50%;
+	line-height: 1.25em;
+	text-align:left;
+}
+
+section #damage.smallLetters {
+	font-size: 16px;
+}
+
+div.headerWrapper
+{
+	height:28px;
+	border-bottom:1px solid white;
+}
+
+div.headerWrapper.noBorder
+{
+	border-bottom:0px;
+}
+
+section.infoBox header
+{
+	width:258px;
+	height:30px;
+	background-color:#333333;
+	height: 31px;
+	padding:3px 15px 0px;
+}
+
+section.infoBox .content
+{
+	padding:9px 15px;
+	/*width:100%;*/
+	width:258px;
+	height:165px;
+	background-color:#333333;
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+}
+
+section.infoBox .content h1
+{
+	font-size:22px;
+	color:#ffe100;
+}
+
+section.infoBox .content p
+{
+	clear: both;
+}
+
+section.infoBox td.noData
+{
+	font-size: 10px;
+	font-family: "RobotoRegular";
+	font-style: italic;
+	padding-top: 8px;
+}
+
+section.infoBox article
+{
+ 	border-bottom: 1px solid white;
+}
+
+section.infoBox footer
+{
+	
+}
+
+section.infoBox footer a
+{
+	display:block;
+}
+
+section.infoBox .hideBtn
+{ 
+	width: 20px;
+	height: 14px;
+	margin-top: 5px;
+	background:url("../images/hideBtnArrow.png") no-repeat;
+	cursor: hand; cursor: pointer; 
+	float: right;
+}
+
+section.infoBox .hideBtnDown
+{ 
+	background:url("../images/hideBtnArrow-down.png") no-repeat;
+}
+
+section.infoBox .rank
+{
+	background: url("../images/infoBox-circle.png") no-repeat scroll 0 0 transparent;
+    color: #333333;
+    float: right;
+    font-size: 21px;
+    font-family:"RobotoMedium";
+    height: 29px;
+	margin-top: 4px;
+	margin-right: -3px;
+	margin-left: 0px;
+    padding: 2px 2px 2px 1px;
+    text-align: center;
+    width: 29px;
+    margin-bottom: -3px;
+}
+
+section.infoBox .longRank
+{
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+section.infoBox footer div
+{
+	width:75px;
+	height:18px;
+	font-size:11px;
+	padding:5px 0px 0px 23px;
+}
+
+section.infoBox footer a.compareBtn
+{
+	display:block;
+}
+
+section.infoBox footer a.compareBtn div
+{
+	width:110px;
+	height:18px;
+	background: url("../images/infoBox-compare-arrows.png") #666666 5px 5px no-repeat ;
+	text-transform: uppercase;
+	font-family: "RobotoMedium";
+	float:left;
+}
+
+section.infoBox footer a.contactBtn div 
+{
+	width:83px;
+	height:18px;
+	background: url("../images/infoBox-contact-postBox.png") #666666 10px 7px no-repeat ;
+	padding-left:30px;
+	margin-left:2px;
+	text-transform: uppercase;
+	font-family: "RobotoMedium";
+}
+
+section.infoBox footer a.contactBtn
+{
+	display:block;
+	float:right;
+}
+
+section.infoBox footer a.contactBtn:hover div, section.infoBox footer a.compareBtn:hover div
+{
+	background-color: #ffde00;
+	color:#333333;
+}
+
+section.infoBox footer a.contactBtn:hover div
+{
+	background-image: url("../images/infoBox-contact-postBox-over.png");
+}
+
+section.infoBox footer a.compareBtn:hover div
+{
+	background-image: url("../images/infoBox-compare-arrows-over.png");
+}
+
+/**
+*	filter box
+**/
+
+section.homepageFilterBox
+{
+	width:258px;
+	
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+section.homepageFilterBox .content
+{
+	height: 288px;
+	border-bottom:0px;
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+}
+
+section.homepageFilterBox ul
+{
+	margin:2px 0px 0px 0px;
+	padding:0;	
+} 
+
+section.homepageFilterBox li
+{
+	list-style-type:none;	
+	margin-bottom:-1px;
+	margin-left:-2px;
+	font-size:13px;
+	overflow: hidden;
+} 
+section.homepageFilterBox li:last-child {
+	margin-top: 10px;
+	cursor: pointer;
+
+	span.val.with-back {
+		width: 7px;
+		height: 15px;
+		background: url( "../images/filter-custom-arrow.png" ) 0px 5px no-repeat;
+	}
+}
+
+section.homepageFilterBox input
+{
+	margin-right:10px;
+}
+
+section.homepageFilterBox .jquery-checkbox
+{ 
+	display: inline; 
+	font-size: 20px; 
+	line-height: 20px; 
+	cursor: pointer; 
+	cursor: hand;
+	margin-right:10px;
+}
+
+section.homepageFilterBox .inactive
+{
+	color:#666666;
+}
+
+section.homepageFilterBox .jquery-checkbox .mark 
+{ 
+	display: inline;
+}
+
+section.homepageFilterBox .jquery-checkbox img 
+{
+	vertical-align: middle; 
+	width: 30px; 
+	height: 14px;
+}
+
+section.homepageFilterBox .content span.val
+{
+	float:right;
+	font-family:"RobotoMedium";
+	margin-top: 3px;
+}
+
+section.homepageFilterBox .murders .jquery-checkbox img,
+section.homepageFilterBox .rapes .jquery-checkbox img,
+section.homepageFilterBox .assaults .jquery-checkbox img,
+section.homepageFilterBox .thefts .jquery-checkbox img,
+section.homepageFilterBox .robberies .jquery-checkbox img,
+section.homepageFilterBox .hut-robberies .jquery-checkbox img,
+section.homepageFilterBox .car-thefts .jquery-checkbox img,
+section.homepageFilterBox .car-stuff .jquery-checkbox img,
+section.homepageFilterBox .bikes .jquery-checkbox img,
+section.homepageFilterBox .drugs .jquery-checkbox img,
+section.homepageFilterBox .drunk-drives .jquery-checkbox img,
+section.homepageFilterBox .others .jquery-checkbox img,
+section.homepageFilterBox .custom .jquery-checkbox img
+{
+	/*background:url("../images/filter-checkbox-off.png") no-repeat;*/
+	background:url(../images/spriteSheet.png) -157px -196px  no-repeat;
+	width: 30px;
+  	height: 14px;
+}
+
+/*section.homepageFilterBox .murders .jquery-checkbox-checked img { background:url("../images/filter-checkbox-murders-on.png") no-repeat; }
+section.homepageFilterBox .rapes .jquery-checkbox-checked img { background:url("../images/filter-checkbox-rapes-on.png") no-repeat; }
+section.homepageFilterBox .assaults .jquery-checkbox-checked img { background:url("../images/filter-checkbox-assaults-on.png") no-repeat; }
+section.homepageFilterBox .thefts .jquery-checkbox-checked img { background:url("../images/filter-checkbox-thefts-on.png") no-repeat; }
+section.homepageFilterBox .robberies .jquery-checkbox-checked img { background:url("../images/filter-checkbox-robberies-on.png") no-repeat; }
+section.homepageFilterBox .hut-robberies .jquery-checkbox-checked img { background:url("../images/filter-checkbox-hut-robberies-on.png") no-repeat; }
+section.homepageFilterBox .car-thefts .jquery-checkbox-checked img { background:url("../images/filter-checkbox-car-thefts-on.png") no-repeat; }
+section.homepageFilterBox .car-stuff .jquery-checkbox-checked img { background:url("../images/filter-checkbox-car-stuff-on.png") no-repeat; }
+section.homepageFilterBox .bikes .jquery-checkbox-checked img { background:url("../images/filter-checkbox-bikes-on.png") no-repeat; }
+section.homepageFilterBox .drugs .jquery-checkbox-checked img { background:url("../images/filter-checkbox-drugs-on.png") no-repeat; }
+section.homepageFilterBox .drunk-drives .jquery-checkbox-checked img { background:url("../images/filter-checkbox-drunk-drives-on.png") no-repeat; }
+section.homepageFilterBox .others .jquery-checkbox-checked img { background:url("../images/filter-checkbox-others-on.png") no-repeat; }
+section.homepageFilterBox .custom .jquery-checkbox-checked img { background:url("../images/filter-checkbox-custom-on.png") no-repeat; }
+*/
+
+/*section.homepageFilterBox .murders .jquery-checkbox-checked img { background:url("../images/filter-checkbox-others-on.png") no-repeat; }
+section.homepageFilterBox .rapes .jquery-checkbox-checked img { background:url("../images/filter-checkbox-drunk-drives-on.png") no-repeat; }
+section.homepageFilterBox .assaults .jquery-checkbox-checked img { background:url("../images/filter-checkbox-drugs-on.png") no-repeat; }
+section.homepageFilterBox .thefts .jquery-checkbox-checked img { background:url("../images/filter-checkbox-bikes-on.png") no-repeat; }
+section.homepageFilterBox .robberies .jquery-checkbox-checked img { background:url("../images/filter-checkbox-car-stuff-on.png") no-repeat; }
+section.homepageFilterBox .hut-robberies .jquery-checkbox-checked img { background:url("../images/filter-checkbox-car-thefts-on.png") no-repeat; }
+section.homepageFilterBox .car-thefts .jquery-checkbox-checked img { background:url("../images/filter-checkbox-hut-robberies-on.png") no-repeat; }
+section.homepageFilterBox .car-stuff .jquery-checkbox-checked img { background:url("../images/filter-checkbox-robberies-on.png") no-repeat; }
+section.homepageFilterBox .bikes .jquery-checkbox-checked img { background:url("../images/filter-checkbox-thefts-on.png") no-repeat; }
+section.homepageFilterBox .drugs .jquery-checkbox-checked img { background:url("../images/filter-checkbox-assaults-on.png") no-repeat; }
+section.homepageFilterBox .drunk-drives .jquery-checkbox-checked img { background:url("../images/filter-checkbox-rapes-on.png") no-repeat; }
+section.homepageFilterBox .others .jquery-checkbox-checked img { background:url("../images/filter-checkbox-murders-on.png") no-repeat; }
+section.homepageFilterBox .custom .jquery-checkbox-checked img { background:url("../images/filter-checkbox-custom-on.png") no-repeat; }
+*/
+
+section.homepageFilterBox .murders .jquery-checkbox-checked img { background-position:-125px -196px; }
+section.homepageFilterBox .rapes .jquery-checkbox-checked img { background-position:-32px -217px; }
+section.homepageFilterBox .assaults .jquery-checkbox-checked img { background-position:-122px -130px; }
+section.homepageFilterBox .thefts .jquery-checkbox-checked img { background-position:-128px -217px; }
+section.homepageFilterBox .robberies .jquery-checkbox-checked img { background-position:-96px -217px; }
+section.homepageFilterBox .hut-robberies .jquery-checkbox-checked img { background-position:-93px -196px; }
+section.homepageFilterBox .car-thefts .jquery-checkbox-checked img { background-position:-190px -156px; }
+section.homepageFilterBox .car-stuff .jquery-checkbox-checked img { background-position:-158px -156px; }
+section.homepageFilterBox .bikes .jquery-checkbox-checked img { background-position:-154px -130px; }
+section.homepageFilterBox .drugs .jquery-checkbox-checked img { background-position:-190px -172px; }
+section.homepageFilterBox .drunk-drives .jquery-checkbox-checked img { background-position:-61px -196px; }
+section.homepageFilterBox .others .jquery-checkbox-checked img { background-position:-189px -196px; }
+section.homepageFilterBox .custom .jquery-checkbox-checked img { background-position:-158px -172px; }
+
+section.homepageFilterBox .custom p {
+	display: inline-block;
+	margin: 0;
+}
+
+/**
+*	crime type box
+**/
+
+section.homepageCrimeTypesBox
+{
+	width: 288px;
+	position: absolute;
+	top: 15px;
+	left: 325px;
+	bottom: 89px;
+	z-index: 10;
+
+	/* hidden by default */
+	display: none;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+
+	header {
+		width: 288px;
+	}
+
+	.content {
+		width: 318px;
+		height:100%;
+		border-bottom:0px;
+		overflow: auto;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	ul {
+		width: 100%;
+		font-size: 13px;
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+	li {
+		padding-left: 15px;
+		margin-bottom: 3px;
+		cursor: pointer;
+	}
+		li:hover {
+			background-color: #666666;
+		}
+		li.mainCategory {
+			font-size: 16px;
+			font-weight: bold;
+			color: #ffe100 !important;
+			margin-top: 18px;
+			margin-bottom: 7px;
+			cursor: default;
+		}
+			li.mainCategory:hover {
+				background-color: inherit;
+			}
+			li.mainCategory:first-child {
+				margin-top: 5px;
+			}
+		li.unselectable {
+			cursor: default;
+			color: #666666;
+		}
+			li.unselectable:hover {
+				background-color: inherit;
+			}
+
+	.hideBtn {
+		width: 11px;
+		height: 11px;
+		background: url( "../images/crime-types-box-close-btn.png" );
+	}
+	.hideBtn:hover {
+		background: url( "../images/crime-types-box-close-btn-hover.png" );
+	}
+
+	input {
+		margin-left: 15px;
+		width: 282px;
+	}
+	
+}
+	section.homepageCrimeTypesBox.trendCrimeType {
+		left: inherit;
+		right: 350px;
+	}
+
+/**
+*	timeline
+**/
+
+section.homepageTimeline .dateRange
+{
+	position: absolute;
+	bottom:-296px;
+	left:15px;
+	width:268px;
+	background-color:#333333;
+	padding: 10px;
+	z-index: 11;
+
+	/* hide by default */
+	display: none;
+}
+
+section.homepageTimeline .dateRange .firstDate
+{
+	float:left;
+	border-right: 4px double white;
+}
+
+section.homepageTimeline .dateRange header
+{
+	color:#ffde00;
+	font-family: "RobotoMedium";
+	border-bottom:1px solid white;
+	font-size:14px;
+	padding:0px 5px;
+	padding-bottom: 7px;
+	margin-bottom:10px;
+	cursor: pointer;
+}
+
+section.homepageTimeline .dateRange header span
+{
+	display:block;
+	float:left;
+	width:70px;
+	display: block;
+	float: left;
+}
+
+section.homepageTimeline .dateRange header span.firstYear, section.homepageTimeline .dateRange header span.secondYear
+{
+	text-align: center;
+	width:40px;
+}
+
+section.homepageTimeline .dateRange header span.white
+{
+	width:35px;
+	text-align: center;
+}
+
+section.homepageTimeline .dateRange .firstDate, section.homepageTimeline .dateRange .secondDate
+{
+	padding: 0px 5px;
+}
+
+section.homepageTimeline ol
+{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+section.homepageTimeline .dateRange .content
+{
+	padding: 0px;
+}
+
+section.homepageTimeline .dateRange .secondDate
+{
+	margin-left:145px;
+	padding-right: 0px;
+}
+
+section.homepageTimeline .dateRange li
+{
+	width:60px;
+	height:19px;
+}
+
+section.homepageTimeline .dateRange .year li
+{
+	width:58px;
+}
+
+section.homepageTimeline .dateRange footer
+{
+	margin-top:13px;
+	border-top:1px solid white;
+	padding-top:10px;
+}
+
+section.homepageTimeline .dateRange footer div
+{
+	float:right;
+}
+
+section.homepageTimeline .dateRange ol li {
+	cursor: pointer;
+}
+
+section.homepageTimeline .dateRange ol.year li
+{
+	text-align:center;
+}
+
+section.homepageTimeline .dateRange li.active 
+{
+	background-color:#ffde00;
+	color:#333333 !important;
+}
+
+section.homepageTimeline .dateRange li.selected {
+	color:#ffde00
+}
+
+section.homepageTimeline .dateRange li.unavailable {
+	color:#666 !important;
+}
+
+section.homepageTimeline .dateRange a div
+{
+	width:26px;
+	height:23px;
+	background-color:#666666;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left:10px;
+}
+
+section.homepageTimeline .dateRange a:hover div
+{
+	background-color:#ffde00;
+}
+
+section.homepageTimeline .dateRange a.ok div
+{
+	background-image:url("../images/timeline-range-check.png");
+	background-position: 6px;
+}
+
+section.homepageTimeline .dateRange a.ok:hover div
+{
+	background-image:url("../images/timeline-range-check-over.png");
+}
+
+section.homepageTimeline .dateRange a.cancel div
+{
+	background-image:url("../images/timeline-range-cancel.png");
+	background-position: 7px;
+}
+
+section.homepageTimeline .dateRange a.cancel:hover div
+{
+	background-image:url("../images/timeline-range-cancel-over.png");
+}
+
+section.homepageTimeline .dateRange select
+{
+	width:120px;
+}
+
+section.homepageTimeline .dataView
+{
+	position: absolute;
+	bottom:0px;
+	left:315px;
+	right:25px;
+	height:37px;
+	background-color:#333333;
+	z-index: 11;
+
+	/* hide by default */
+	display: none;
+}
+
+section.homepageTimeline .leftArrow, section.homepageTimeline .rightArrow
+{
+	width:30px;
+	height:60px;
+	cursor: hand; cursor: pointer; 
+}
+
+section.homepageTimeline .leftArrow
+{
+	/*background:url("../images/timeline-arrowLeft.png") 9px 15px no-repeat;*/
+	border-right:1px solid white;
+	float:left;
+}
+
+section.homepageTimeline .rightArrow
+{
+	/*background:url("../images/timeline-arrowRight.png") 9px 15px no-repeat;*/
+	border-left:1px solid white;
+	float:right;
+}
+
+section.homepageTimeline .data
+{
+	position:relative;
+	top:8px;
+}
+
+section.homepageTimeline .dataView ol
+{
+	float:left;
+	list-style-type: none;
+	position: relative;
+}
+
+section.homepageTimeline .dataView li
+{
+	float:left;
+	margin-right:2px;
+	margin-top:-30px;
+	width:6px;
+	height:27px;
+	cursor:pointer;
+	/*padding:5px;*/
+}
+
+section.homepageTimeline .dataView li .value {
+	background-color:#595959;
+}
+
+section.homepageTimeline .dataView li.active .value
+{
+	background-color:#ffffff;
+}
+
+section.homepageTimeline .dataView li.highlight .value
+{
+	background-color:#ffde00;
+}
+
+section.homepageTimeline .detailBox {
+	display:none;
+	position: absolute;
+	min-width:134px;
+	z-index:12;
+}
+
+section.homepageTimeline .detailBox .inactive {
+	color:#7f7f7f;
+}
+
+section.homepageTimeline .detailBox .content {
+	background: url("../images/timeline-calendar-over.png") #333333 10px 8px no-repeat;
+	padding:5px;
+}
+
+section.homepageTimeline .detailBox .content.inactive  {
+	background-image: url( "../images/timeline-calendar.png" );
+}
+
+section.homepageTimeline .detailBox h2 {
+	font-size:16px;
+	font-weight: normal;
+	font-family: "RobotoMedium";
+	margin:0px;
+	padding-left:22px;
+} 
+
+section.homepageTimeline .detailBox p
+{
+	margin:2px 0px 0px 4px;
+	font-size:11px;
+}
+
+section.homepageTimeline .detailBox .bottom
+{
+	background-image:url("../images/timeline-arrowDown.png");
+	width:20px;
+	height:10px;
+	position:relative;
+	margin-left:34px;	
+	top:-1px;
+}
+
+section.homepageTimeline .activeArea
+{
+	width:200px;
+	height:37px;
+	min-width:18px;
+	position:absolute;
+	background:transparent;
+	margin-top: -8px;
+	cursor: pointer;
+}
+
+section.homepageTimeline .activeArea .left
+{
+	width:9px;
+	height:40px;
+	background:url("../images/timeline-sliderBtn.png") no-repeat;
+	position:relative;
+	z-index:2;
+	left: -4px;
+	cursor: pointer;
+}
+
+section.homepageTimeline .activeArea .right
+{
+	width:9px;
+	height:40px;
+	background:url("../images/timeline-sliderBtn.png") no-repeat;
+	position:relative;
+	z-index:2;
+	left: 4px;
+	cursor: pointer;
+}
+
+/**
+*	legend
+**/
+
+section.homepageLegend
+{
+	width:260px;
+	height:38px;
+	background-color:#333333;
+	padding:6px 14px 14px 14px;
+	margin:0px;
+	z-index: 10;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+section.homepageLegend h1
+{
+	width:100%;
+	font-size:13px;
+	margin:0px 0px 5px 0px;
+}
+
+
+section.homepageLegend .value
+{
+	float: right;
+    font-family:"RobotoMedium";
+    margin-top: -23px;
+}
+
+section.homepageLegend ol
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+section.homepageLegend li
+{
+	margin-right:3px;
+	width:34px;
+	height:17px;
+	float:left;
+	background-color:red;
+	font-size:0;
+}
+
+section.homepageLegend li.active,section.homepageLegend li.selected
+
+{
+	width:28px;
+	height:11px;
+	border:3px solid white;
+}
+
+
+section.homepageLegendMain
+{
+	width:260px;
+	height:38px;
+	background-color:#333333;
+	padding:6px 14px 14px 14px;
+	margin:0px;
+	z-index:10;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+section.homepageLegendMain h1
+{
+	width:100%;
+	font-size:13px;
+	margin:0px 0px 5px 0px;
+}
+
+
+section.homepageLegendMain .value
+{
+	float: right;
+    font-family:"RobotoMedium";
+    margin-top: -23px;
+}
+
+section.homepageLegendMain ol
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+section.homepageLegendMain li
+{
+	margin-right:3px;
+	width:49px;
+	height:17px;
+	float:left;
+	background-color:red;
+	font-size:0;
+}
+
+section.homepageLegendMain li.active,section.homepageLegendMain li.selected
+{
+	width:43px;
+	height:11px;
+	border:3px solid white;
+}
+
+section.homepageLegendMain li.last, section.homepageLegend li.last
+{
+	margin-right:0px;
+}
+
+section.homepageLegendMain li.a, section.homepageLegend li.a
+{
+	background-color:#c9b9ba;
+}
+
+section.homepageLegendMain li.b, section.homepageLegend li.b
+{
+	background-color:#d3a8aa;
+}
+
+section.homepageLegendMain li.c, section.homepageLegend li.c
+{
+	background-color:#bc7a7c;
+}
+
+section.homepageLegendMain li.d, section.homepageLegend li.d
+{
+	background-color:#d07578;
+}
+
+section.homepageLegendMain li.e, section.homepageLegend li.e
+{
+	background-color:#c75455;
+}
+
+section.homepageLegendMain li.f, section.homepageLegend li.f
+{
+	background-color:#c1030e;
+}
+
+section.homepageLegendMain li.g, section.homepageLegend li.g
+{
+	background-color:#8a020a;
+}
+
+
+#mapDetailOverlayBack {
+	position: absolute;
+	top:0;
+	right:0;
+}
+
+.test li
+{
+	float:left;
+	color:red;
+}
+

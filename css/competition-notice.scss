@@ -1,0 +1,50 @@
+#competition-notice {
+	position: relative;
+	z-index: 20;
+	text-align: center;
+	background-color: #ffde00;
+	color: #333333;
+	height: 40px;
+
+	.bold-link {
+		font-family: "RobotoMedium";
+	}
+
+	.underline-link {
+		text-decoration: underline;
+	}
+
+	.bold-link, .underline-link {
+		color: #333333 !important;
+	}
+
+	.competition-notice-close-btn {
+		background: url("../images/competition-notice-close-btn.png") no-repeat;
+		font-size:0px;
+		display:inline-block;
+		width: 24px;
+		height: 24px;
+		margin: 8px 14px;
+	}
+
+	p {
+		margin: 0px;
+		margin-top: 12px;
+	}
+}
+
+.box-wrapper.competition-notice {
+	top:63px !important;
+}
+.box-wrapper.competition-notice.box-wrapper.porovnani {
+	height: 187px !important;
+}
+
+.zoomControl.competition-notice {
+	top: 73px !important;
+}
+
+.box-wrapper.competition-notice, .zoomControl.competition-notice {
+	/*-webkit-transition: top 0.5s;
+	transition: top 0.5s;*/
+}

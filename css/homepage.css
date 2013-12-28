@@ -1,0 +1,833 @@
+/**
+*	infobox
+**/
+
+
+section.homepageInfoBox
+{
+	width:258px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 10;
+}
+
+section.infoBox .title
+{
+	margin-top: -4px;
+}
+
+section.infoBox h1
+{
+	font-size:13px;
+	float:left;
+	margin-top:4px;
+	text-transform:uppercase;
+}
+
+section.infoBox div.content h1
+{
+	margin-top:0px;
+	float:none;
+	display:inline;
+	text-transform:none;
+}
+
+section.infoBox table
+{	
+	width:100%;
+	text-align:left;
+	margin-top:5px;
+}
+
+section.infoBox tr
+{
+
+}
+
+section.infoBox article
+{
+	margin-bottom: 9px;
+	padding-bottom: 9px;
+}
+
+section.infoBox th
+{
+	font-weight:normal;
+	font-size:12px;
+	width:50%;
+	text-align:left;
+}
+
+section.infoBox td
+{
+	font-family:"RobotoMedium";
+	font-size:18px;
+	width:50%;
+	line-height: 1.25em;
+	text-align:left;
+}
+
+div.headerWrapper
+{
+	height:28px;
+	border-bottom:1px solid white;
+}
+
+div.headerWrapper.noBorder
+{
+	border-bottom:0px;
+}
+
+section.infoBox header
+{
+	width:100%;
+	height:30px;
+	background-color:#333333;
+	height: 31px;
+	padding:3px 15px 0px;
+}
+
+section.infoBox .content
+{
+	padding:9px 15px;
+	width:100%;
+	height:165px;
+	background-color:#333333;
+	overflow: hidden;
+}
+
+section.infoBox .content h1
+{
+	font-size:22px;
+	color:#ffe100;
+}
+
+section.infoBox .content p
+{
+	clear: both;
+}
+
+section.infoBox td.noData
+{
+	font-size: 10px;
+	font-family: "Roboto";
+	font-style: italic;
+	padding-top: 8px;
+}
+
+section.infoBox section
+{
+ 	border-bottom: 1px solid white;
+}
+
+section.infoBox footer
+{
+	
+}
+
+section.infoBox footer a
+{
+	display:block;
+}
+
+section.infoBox .hideBtn
+{ 
+	width: 20px;
+	height: 14px;
+	margin-top: 5px;
+	background:url("../images/hideBtnArrow.png") no-repeat;
+	cursor: hand; cursor: pointer; 
+	float: right;
+}
+
+section.infoBox .hideBtnDown
+{ 
+	background:url("../images/hideBtnArrow-down.png") no-repeat;
+}
+
+section.infoBox .rank
+{
+	background: url("../images/infoBox-circle.png") no-repeat scroll 0 0 transparent;
+    color: #333333;
+    float: right;
+    font-size: 21px;
+    font-family:"RobotoMedium";
+    height: 29px;
+	margin-top: 4px;
+	margin-right: -3px;
+    padding: 2px 2px 2px 1px;
+    text-align: center;
+    width: 29px;
+    margin-bottom: -3px;
+}
+
+section.infoBox .longRank
+{
+    font-size: 15px;
+    padding-top: 6px;
+}
+
+section.infoBox footer div
+{
+	width:75px;
+	height:18px;
+	font-size:11px;
+	padding:5px 0px 0px 23px;
+}
+
+section.infoBox footer a.compareBtn
+{
+	display:block;
+}
+
+section.infoBox footer a.compareBtn div
+{
+	width:110px;
+	height:18px;
+	background: url("../images/infoBox-compare-arrows.png") #666666 5px 5px no-repeat ;
+	text-transform: uppercase;
+	font-family: "RobotoMedium";
+	float:left;
+}
+
+section.infoBox footer a.contactBtn div 
+{
+	width:83px;
+	height:18px;
+	background: url("../images/infoBox-contact-postBox.png") #666666 10px 7px no-repeat ;
+	padding-left:30px;
+	margin-left:2px;
+	text-transform: uppercase;
+	font-family: "RobotoMedium";
+}
+
+section.infoBox footer a.contactBtn
+{
+	display:block;
+	float:right;
+}
+
+section.infoBox footer a.contactBtn:hover div, section.infoBox footer a.compareBtn:hover div
+{
+	background-color: #ffde00;
+	color:#333333;
+}
+
+section.infoBox footer a.contactBtn:hover div
+{
+	background-image: url("../images/infoBox-contact-postBox-over.png");
+}
+
+section.infoBox footer a.compareBtn:hover div
+{
+	background-image: url("../images/infoBox-compare-arrows-over.png");
+}
+
+/**
+*	filter box
+**/
+
+div.homepageFilterBox
+{
+	width:258px;
+	position: absolute;
+	top:243px;
+	left:15px;
+	z-index: 10;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+div.homepageFilterBox .content
+{
+	height:193px;
+	border-bottom:0px;
+	overflow: hidden;
+}
+
+div.homepageFilterBox ul
+{
+	margin:2px 0px 0px 0px;
+	padding:0;	
+} 
+
+div.homepageFilterBox li
+{
+	list-style-type:none;	
+	margin-bottom:-1px;
+	margin-left:-2px;
+	font-size:13px;
+	overflow: hidden;
+} 
+
+div.homepageFilterBox input
+{
+	margin-right:10px;
+}
+
+div.homepageFilterBox .jquery-checkbox
+{ 
+	display: inline; 
+	font-size: 20px; 
+	line-height: 20px; 
+	cursor: pointer; 
+	cursor: hand;
+	margin-right:10px;
+}
+
+div.homepageFilterBox .inactive
+{
+	color:#666666;
+}
+
+div.homepageFilterBox .jquery-checkbox .mark 
+{ 
+	display: inline;
+}
+
+div.homepageFilterBox .jquery-checkbox img 
+{
+	vertical-align: middle; 
+	width: 30px; 
+	height: 14px;
+}
+
+div.homepageFilterBox .content span.val
+{
+	float:right;
+	font-family:"RobotoMedium";
+	margin-top: 3px;
+}
+
+div.homepageFilterBox .violent .jquery-checkbox img,
+div.homepageFilterBox .moral .jquery-checkbox img,
+div.homepageFilterBox .burglary .jquery-checkbox img,
+div.homepageFilterBox .theft .jquery-checkbox img,
+div.homepageFilterBox .property .jquery-checkbox img,
+div.homepageFilterBox .other .jquery-checkbox img,
+div.homepageFilterBox .rest .jquery-checkbox img,
+div.homepageFilterBox .economic .jquery-checkbox img,
+div.homepageFilterBox .military .jquery-checkbox img
+{
+	background:url("../images/filter-checkbox-off.png") no-repeat;
+}
+
+div.homepageFilterBox .violent .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-violent-on.png") no-repeat;
+}
+
+div.homepageFilterBox .moral .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-moral-on.png") no-repeat;
+}
+
+div.homepageFilterBox .burglary .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-burglary-on.png") no-repeat;
+}
+
+div.homepageFilterBox .theft .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-theft-on.png") no-repeat;
+}
+
+div.homepageFilterBox .property .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-property-on.png") no-repeat;
+}
+
+div.homepageFilterBox .other .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-other-on.png") no-repeat;
+}
+
+div.homepageFilterBox .rest .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-rest-on.png") no-repeat;
+}
+
+div.homepageFilterBox .economic .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-economic-on.png") no-repeat;
+}
+
+div.homepageFilterBox .military .jquery-checkbox-checked img
+{
+	background:url("../images/filter-checkbox-military-on.png") no-repeat;
+}
+
+/**
+*	timeline
+**/
+
+div.homepageTimeline .dateRange
+{
+	position: absolute;
+	bottom:-296px;
+	left:15px;
+	width:268px;
+	background-color:#333333;
+	padding: 10px;
+	z-index: 11;
+}
+
+div.homepageTimeline .dateRange .firstDate
+{
+	float:left;
+	border-right: 4px double white;
+}
+
+div.homepageTimeline .dateRange header
+{
+	color:#ffde00;
+	font-family: "RobotoMedium";
+	border-bottom:1px solid white;
+	font-size:14px;
+	padding:0px 5px;
+	padding-bottom: 7px;
+	margin-bottom:10px;
+	cursor: pointer;
+}
+
+div.homepageTimeline .dateRange header span
+{
+	display:block;
+	float:left;
+	width:70px;
+	display: block;
+	float: left;
+}
+
+div.homepageTimeline .dateRange header span.firstYear, div.homepageTimeline .dateRange header span.secondYear
+{
+	text-align: center;
+	width:40px;
+}
+
+div.homepageTimeline .dateRange header span.white
+{
+	width:35px;
+	text-align: center;
+}
+
+div.homepageTimeline .dateRange .firstDate, div.homepageTimeline .dateRange .secondDate
+{
+	padding: 0px 5px;
+}
+
+div.homepageTimeline ol
+{
+	list-style-type: none;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+
+div.homepageTimeline .dateRange .content
+{
+	padding: 0px;
+}
+
+div.homepageTimeline .dateRange .secondDate
+{
+	margin-left:145px;
+	padding-right: 0px;
+}
+
+div.homepageTimeline .dateRange li
+{
+	width:60px;
+	height:19px;
+}
+
+div.homepageTimeline .dateRange .year li
+{
+	width:58px;
+}
+
+div.homepageTimeline .dateRange footer
+{
+	margin-top:13px;
+	border-top:1px solid white;
+	padding-top:10px;
+}
+
+div.homepageTimeline .dateRange footer div
+{
+	float:right;
+}
+
+div.homepageTimeline .dateRange ol li {
+	cursor: pointer;
+}
+
+div.homepageTimeline .dateRange ol.year li
+{
+	text-align:center;
+}
+
+div.homepageTimeline .dateRange li.active 
+{
+	background-color:#ffde00;
+	color:#333333 !important;
+}
+
+div.homepageTimeline .dateRange li.selected {
+	color:#ffde00
+}
+
+div.homepageTimeline .dateRange li.unavailable {
+	color:#666 !important;
+}
+
+div.homepageTimeline .dateRange a div
+{
+	width:26px;
+	height:23px;
+	background-color:#666666;
+	background-repeat: no-repeat;
+	float:left;
+	margin-left:10px;
+}
+
+div.homepageTimeline .dateRange a:hover div
+{
+	background-color:#ffde00;
+}
+
+div.homepageTimeline .dateRange a.ok div
+{
+	background-image:url("../images/timeline-range-check.png");
+	background-position: 6px;
+}
+
+div.homepageTimeline .dateRange a.ok:hover div
+{
+	background-image:url("../images/timeline-range-check-over.png");
+}
+
+div.homepageTimeline .dateRange a.cancel div
+{
+	background-image:url("../images/timeline-range-cancel.png");
+	background-position: 7px;
+}
+
+div.homepageTimeline .dateRange a.cancel:hover div
+{
+	background-image:url("../images/timeline-range-cancel-over.png");
+}
+
+div.homepageTimeline .dateRange select
+{
+	width:120px;
+}
+
+div.homepageTimeline .dataView
+{
+	position: absolute;
+	bottom:0px;
+	left:315px;
+	right:25px;
+	height:37px;
+	background-color:#333333;
+	z-index: 11;
+}
+
+div.homepageTimeline .leftArrow, div.homepageTimeline .rightArrow
+{
+	width:30px;
+	height:60px;
+	cursor: hand; cursor: pointer; 
+}
+
+div.homepageTimeline .leftArrow
+{
+	/*background:url("../images/timeline-arrowLeft.png") 9px 15px no-repeat;*/
+	border-right:1px solid white;
+	float:left;
+}
+
+div.homepageTimeline .rightArrow
+{
+	/*background:url("../images/timeline-arrowRight.png") 9px 15px no-repeat;*/
+	border-left:1px solid white;
+	float:right;
+}
+
+div.homepageTimeline .data
+{
+	position:relative;
+	top:8px;
+}
+
+div.homepageTimeline .dataView ol
+{
+	float:left;
+	list-style-type: none;
+	position: relative;
+}
+
+div.homepageTimeline .dataView li
+{
+	float:left;
+	margin-right:2px;
+	margin-top:-30px;
+	width:6px;
+	height:27px;
+	cursor:pointer;
+	/*padding:5px;*/
+}
+
+div.homepageTimeline .dataView li .value {
+	background-color:#595959;
+}
+
+div.homepageTimeline .dataView li.active .value
+{
+	background-color:#ffffff;
+}
+
+div.homepageTimeline .dataView li.highlight .value
+{
+	background-color:#ffde00;
+}
+
+div.homepageTimeline .detailBox {
+	display:none;
+	position: absolute;
+	min-width:134px;
+	z-index:12;
+}
+
+div.homepageTimeline .detailBox .inactive {
+	color:#7f7f7f;
+}
+
+div.homepageTimeline .detailBox .content {
+	background: url("../images/timeline-calendar-over.png") #333333 10px 8px no-repeat;
+	padding:5px;
+}
+
+div.homepageTimeline .detailBox .content.inactive  {
+	background-image: url( "../images/timeline-calendar.png" );
+}
+
+div.homepageTimeline .detailBox h2 {
+	font-size:16px;
+	font-weight: normal;
+	font-family: "RobotoMedium";
+	margin:0px;
+	padding-left:22px;
+} 
+
+div.homepageTimeline .detailBox p
+{
+	margin:2px 0px 0px 4px;
+	font-size:11px;
+}
+
+div.homepageTimeline .detailBox .bottom
+{
+	background-image:url("../images/timeline-arrowDown.png");
+	width:20px;
+	height:10px;
+	position:relative;
+	margin-left:34px;	
+	top:-1px;
+}
+
+div.homepageTimeline .activeArea
+{
+	width:200px;
+	height:37px;
+	position:absolute;
+	background:transparent;
+	margin-top: -8px;
+	cursor: pointer;
+}
+
+div.homepageTimeline .activeArea .left
+{
+	width:9px;
+	height:40px;
+	background:url("../images/timeline-sliderBtn.png") no-repeat;
+	position:relative;
+	z-index:2;
+	left: -4px;
+	cursor: pointer;
+}
+
+div.homepageTimeline .activeArea .right
+{
+	width:9px;
+	height:40px;
+	background:url("../images/timeline-sliderBtn.png") no-repeat;
+	position:relative;
+	z-index:2;
+	left: 4px;
+	cursor: pointer;
+}
+
+/**
+*	legend
+**/
+
+div.homepageLegend
+{
+	width:260px;
+	height:38px;
+	position:absolute;
+	top:497px;
+	left:25px;
+	background-color:#333333;
+	padding:6px 14px 14px 14px;
+	margin:0px;
+	z-index: 10;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+div.homepageLegend h1
+{
+	width:100%;
+	font-size:13px;
+	margin:0px 0px 5px 0px;
+}
+
+
+div.homepageLegend .value
+{
+	float: right;
+    font-family:"RobotoMedium";
+    margin-top: -23px;
+}
+
+div.homepageLegend ol
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+div.homepageLegend li
+{
+	margin-right:3px;
+	width:34px;
+	height:17px;
+	float:left;
+	background-color:red;
+	font-size:0;
+}
+
+div.homepageLegend li.active,div.homepageLegend li.selected
+
+{
+	width:28px;
+	height:11px;
+	border:3px solid white;
+}
+
+
+div.homepageLegendMain
+{
+	width:260px;
+	height:38px;
+	position:absolute;
+	top:497px;
+	left:15px;
+	background-color:#333333;
+	padding:6px 14px 14px 14px;
+	margin:0px;
+	z-index:10;
+
+	transition: top .3s;
+	-moz-transition: top .3s;
+	-webkit-transition: top .3s;
+	-o-transition: top .3s;
+}
+
+div.homepageLegendMain h1
+{
+	width:100%;
+	font-size:13px;
+	margin:0px 0px 5px 0px;
+}
+
+
+div.homepageLegendMain .value
+{
+	float: right;
+    font-family:"RobotoMedium";
+    margin-top: -23px;
+}
+
+div.homepageLegendMain ol
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+}
+
+div.homepageLegendMain li
+{
+	margin-right:3px;
+	width:49px;
+	height:17px;
+	float:left;
+	background-color:red;
+	font-size:0;
+}
+
+div.homepageLegendMain li.active,div.homepageLegendMain li.selected
+{
+	width:43px;
+	height:11px;
+	border:3px solid white;
+}
+
+div.homepageLegendMain li.last, div.homepageLegend li.last
+{
+	margin-right:0px;
+}
+
+div.homepageLegendMain li.a, div.homepageLegend li.a
+{
+	background-color:#c9b9ba;
+}
+
+div.homepageLegendMain li.b, div.homepageLegend li.b
+{
+	background-color:#d3a8aa;
+}
+
+div.homepageLegendMain li.c, div.homepageLegend li.c
+{
+	background-color:#bc7a7c;
+}
+
+div.homepageLegendMain li.d, div.homepageLegend li.d
+{
+	background-color:#d07578;
+}
+
+div.homepageLegendMain li.e, div.homepageLegend li.e
+{
+	background-color:#c75455;
+}
+
+
+
+.test li
+{
+	float:left;
+	color:red;
+}
+

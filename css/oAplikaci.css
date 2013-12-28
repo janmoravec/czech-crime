@@ -1,0 +1,365 @@
+#oAplikaciPage
+{
+	background-color:#ffffff;
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top:0;
+	color:#333333;
+	text-align: center;
+	font-size:12px;
+}
+
+#oAplikaciPage .wrapper
+{
+	width:850px;
+	text-align: left;
+	margin:auto;
+	margin-top:30px;
+}
+
+#oAplikaciPage h1
+{
+	color:#333333;
+	font-size:18px; 
+	margin-bottom:-8px;
+	text-transform: uppercase;
+}
+
+#oAplikaciPage a
+{
+	text-decoration: underline;
+	color:#333333;
+	font-style: italic;
+}
+
+#oAplikaciPage li a
+{
+	color:#333333;
+	margin-top:15px;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+/* navigation */
+
+#oAplikaciPage nav
+{
+	float:right;
+	margin-top:-12px;
+}
+
+#oAplikaciPage nav a
+{
+	text-decoration: none;
+}
+
+#oAplikaciPage nav li
+{
+	display:inline;
+	margin-left:20px;
+}
+
+
+/* header */
+#oAplikaciPage hr
+{
+	border:0px solid #000;
+	height:1px;
+	background-color:#000;
+}
+
+#oAplikaciPage .header 
+{
+	margin-bottom:30px;
+}
+
+#oAplikaciPage nav a.active, #oAplikaciPage nav a:hover
+{
+	border-bottom:6px solid black;
+	padding-bottom:8px;
+}
+
+
+/* Mapa kriminality subpage */
+
+#oAplikaciPage .mapaKriminality .left
+{
+	width: 300px;
+	margin-top:5px;
+        padding-right: 40px;
+}
+#oAplikaciPage .mapaKriminality .left p
+{
+    margin-bottom: 5px;
+}
+#oAplikaciPage .mapaKriminality .video .top
+{
+	width:194px;
+	height:7px;
+	margin-left:150px;
+	background-color:#ffde00;
+}
+
+#oAplikaciPage .mapaKriminality .video .holder
+{
+	width:484px;
+	height:324px;
+	background-color:#000;
+	padding-left:16px;
+	padding-top:48px;
+}
+
+#oAplikaciPage .mapaKriminality .video h2
+{
+	width:195px;
+	height:70px;
+	margin-left:155px;
+	margin-top:0px;
+	font-weight: normal;
+	font-family: "RobotoMedium";
+	padding-left:25px;
+	padding-top:15px;
+	background:url("../images/oAplikaci-videoBottom.png") no-repeat;
+}
+
+/* data subpage */
+#oAplikaciPage .data div.list
+{
+	margin-top: 22px;
+}
+
+#oAplikaciPage .data ul
+{
+	padding-left: 15px;
+}
+
+
+/* uzivatele subpage */
+
+#oAplikaciPage .users h2
+{
+	font-size:14px;
+	font-weight: normal;
+	font-family: "RobotoMedium";
+	margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#oAplikaciPage .users h3
+{
+	font-size:12px;
+	font-weight: normal;
+	font-family: "RobotoMedium";
+	margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#oAplikaciPage .footer
+{
+	font-size: 9px;
+}
+
+#oAplikaciPage p
+{
+	margin:0px;
+}
+
+#oAplikaciPage .footer p
+{
+	margin:5px 0px;
+}
+
+#oAplikaciPage .footer .tab, #oAplikaciPage .footer .tab
+{
+	height:22px;
+	padding:0px 20px;
+
+}
+
+/* autori subpage */
+
+#oAplikaciPage .right1 ul
+{
+	margin-top:20px;
+	margin-left:5px;
+}
+
+#oAplikaciPage .right1 li div
+{
+	display:block;
+	height:29px;
+	padding-left:48px;
+	padding-top: 6px;
+	margin-bottom:2px;
+}
+
+#oAplikaciPage .autori p
+{
+	margin-top:30px;
+}
+
+#oAplikaciPage .autori .cc
+{
+	margin-top:40px;
+}
+
+#oAplikaciPage .autori .cc p
+{
+	margin-top:0px;
+	margin-bottom:20px;
+}
+
+#oAplikaciPage li.news div
+{
+	background:url("../images/oAplikaci-iconNews.png") no-repeat;
+}
+
+#oAplikaciPage li.write div
+{
+	background:url("../images/oAplikaci-iconWrite.png") no-repeat;
+}
+
+#oAplikaciPage li.support div
+{
+	background:url("../images/oAplikaci-iconSupport.png") no-repeat;
+}
+
+#oAplikaciPage li.facebook div
+{
+	background:url("../images/oAplikaci-iconFacebook.png") no-repeat;
+}
+
+#oAplikaciPage li.twitter div
+{
+	background:url("../images/oAplikaci-iconTwitter.png") no-repeat;
+}
+
+/* footer */
+
+#oAplikaciPage .footer
+{
+	position:absolute;
+	bottom:0;
+}
+
+
+#oAplikaciPage .footer hr
+{
+	border:1px solid #fff;
+}
+
+
+#oAplikaciPage .footer, #oAplikaciPage .footer h1, #oAplikaciPage .footer li a
+{
+	color:#ffffff;
+}
+
+#oAplikaciPage .footer li a
+{
+	text-decoration: none;
+}
+
+#oAplikaciPage .autori .footer .tab
+{
+	padding:0px 20px;
+	height:216px;
+	font-size:12px;
+}
+
+#oAplikaciPage .footer h1
+{
+	margin-bottom:0px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#oAplikaciPage .footer hr
+{
+	margin: 5px 0px 10px 0px;
+}
+
+#oAplikaciPage .footer ul
+{
+	list-style-type: disc;
+	color:#ffde00;
+}
+
+#oAplikaciPage .footer .left1 ul, #oAplikaciPage .footer .left2 ul
+{
+	padding-left: 10px;
+}
+
+#oAplikaciPage .footer address
+{
+	font-style: normal;
+}
+
+#oAplikaciPage .footer address span.mail
+{
+	text-decoration: underline;
+}
+
+#oAplikaciPage .footer address div
+{
+	margin-bottom:10px;
+}
+
+#oAplikaciPage .footer section
+{
+	float:left;
+}
+
+#oAplikaciPage .footer .left1
+{
+	background-color:#333333;
+	width:110px;
+}
+
+#oAplikaciPage .footer .left2
+{
+	background-color:#868789;
+	width:130px;
+}
+
+#oAplikaciPage .footer .right1
+{
+	background-color:#cccccc;
+	width:310px;
+	font-size:14;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+#oAplikaciPage .footer .right1 a
+{
+	color:#727272;
+	text-decoration: none;
+}
+
+#oAplikaciPage .footer .right1 ul
+{
+	padding-left:0px;
+	list-style: none;
+}
+
+#oAplikaciPage .footer .right2
+{
+	background-color:#ececec;
+	width:140px;
+	color:#333333;
+}
+
+#oAplikaciPage .footer .right2 h1
+{
+	color:#333333;
+}
+
+#oAplikaciPage .footer .right2 hr
+{
+	border:1px solid #333;
+}
+
+	
+

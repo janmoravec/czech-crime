@@ -1,0 +1,274 @@
+body, html
+{
+	width:100%;
+	height:100%;
+	color:white;
+	font-size:14px;
+	font-family: "RobotoRegular", Arial, sans-serif;
+	overflow: hidden;
+
+}
+
+::selection
+{
+	background: #ffde00;
+}
+
+/*
+* general
+*/
+
+hr
+{
+	border:1px solid white;
+}
+
+em
+{
+	font-weight:bold;
+}
+
+dd
+{
+	margin:0;
+}
+
+/*anchors*/
+a
+{
+	text-decoration:none;
+	color:white;
+}
+
+a:hover { color:white; }
+a:active { outline: none; }
+a:visited
+{
+	color:white;
+	text-decoration:none;
+}
+
+.clearfix{ clear:both; }
+
+.upper
+{
+	vertical-align:super;
+	font-size:8px;
+}
+
+.left{	float:left; }
+.right{	float:right; }
+
+.white { color:#fff; }
+
+.smallLetters { 
+	font-size: 80% !important;
+	line-height: 2;
+}
+
+h1
+{
+	font-weight: normal;
+	font-family: "RobotoMedium";
+}
+
+/*
+* header
+*/
+
+header.mainBar
+{
+	background-color:#333333;
+	height:38px;
+	padding-top:13px;
+	position: relative;
+	z-index: 10;
+
+	-moz-box-shadow:0 0 3px 3px#888;
+	-webkit-box-shadow: 0 0 3px 3px#888;
+	-box-shadow: 0 0 3px 3px#888;
+}
+
+header img.logo
+{
+	float:left;
+	margin-right:28px;
+	margin-left: 26px;
+}
+
+header nav
+{
+	margin-right: 150px;
+}
+
+li.fb { float: right; height: 40px; padding:0; width: 450px; }
+
+header .fb-like
+{
+    float: right;
+    margin-top: -18px;
+	margin-right: 40px;
+}
+
+header .fb-like span { padding: 0 !important;}
+
+.bold
+{
+	font-family:"RobotoMedium";
+}
+
+div#main
+{
+	background-color:#ddd;
+	position:absolute;
+	width:100%;
+	top:51px;
+	bottom:0px;
+}
+
+div#mapWrapper
+{
+	width:100%;
+	height:100%;
+}
+
+div#pageContent
+{
+	position:absolute;
+	top:80px;
+}
+
+header #pagesNav a
+{
+        padding: 5px 0;
+	color:white;
+	font-family:"RobotoMedium";
+}
+
+header #pagesNav a.gray
+{
+	color:#7f7f7f;
+}
+
+header #pagesNav div
+{
+	height:20px;
+	padding-top:5px;
+}
+
+header.mainBar h2
+{
+	margin:3px 0px 0px 0px;
+	font-size:14px;
+	font-weight:normal;
+	font-family:"RobotoLightItalic";
+}
+
+header #pagesNav a.active
+{
+	color:#333333;
+	text-decoration:none;
+	background-color:#FFDE00;
+}
+
+header #pagesNav a:hover
+{
+	color:#ffffff;
+	text-decoration:none;
+	background-color:#5a5a5a;
+}
+
+header #pagesNav a.activeLogin
+{
+	background-color:#5a5a5a;
+}
+
+header #pagesNav a.active span
+{
+
+}
+
+header #pagesNav div
+{
+	float:left;
+}
+
+header #pagesNav span
+{
+	padding:10px;
+}
+
+header #pagesNav ul
+{
+	margin-right: 14px;
+	margin-top: -18px;
+}
+
+header #pagesNav li
+{
+	display:inline;
+}
+
+header #login {
+	display:none;
+}
+
+/* header flags */
+
+header .flag {
+	display: block;
+	width: 16px;
+	height: 11px;
+	background: url( "../images/header-flagSpriteSheet.png" );
+	float: right;
+	margin-top: -14px;
+	margin-right: 13px;
+}
+
+header .flag.czech{
+	background-position:0px 0px;
+}
+
+header a:hover.flag.czech{
+	background-position:0px 11px;
+}
+
+header .flag.english{
+	background-position:16px 0px;
+}
+
+header a:hover.flag.english {
+	background-position:16px 11px;
+}
+
+
+
+#ajax-spinner {
+	z-index:1000;
+	padding: 10px 10px 10px 33px;
+	color: white;
+	font-family: RobotoMedium;
+	background: url("../images/ajax-icon.png") 11px 13px #333 no-repeat;
+}
+
+.preloaderBack, .popupBack
+{
+	background-color:#000;	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	-moz-opacity: .3;
+    -khtml-opacity: .3;
+    opacity:.3;
+
+    width:100%;
+    height:100%;
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	display:none;
+	z-index:1000;
+}
+
+.preloaderBack {
+	display: block;
+}

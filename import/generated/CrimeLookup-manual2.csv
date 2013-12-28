@@ -1,0 +1,217 @@
+"101";"Vraždy - loupežné";"Murders based on robbery";"0";"0";1
+"102";"Vraždy - sexuální";"Sexual murders";"0";"0";2
+"103";"Vraždy - motivované osobními vztahy";"Murders motivated by personal relations";"0";"0";3
+"104";"Vraždy - na objednávku";"Contracted murders";"0";"0";4
+"105";"Vraždy - novorozence matkou";"Infanticides";"0";"0";5
+"106";"Vraždy - ostatní";"The other murders";"0";"0";6
+"101-106";"Vraždy";"Murders";"1";0;0
+"111";"Usmrcení lidského plodu - pomoc a svádění ženy";"Intentional killing of viable fetus – aiding or abetting";"0";"0";8
+"112";"Usmrcení lidského plodu - se souhlasem ženy";"Intentional killing of viable fetus – with the consent of the woman";"0";"0";9
+"113";"Usmrcení lidského plodu - bez souhlasu ženy";"Intentional killing of viable fetus – without the consent of the woman";"0";"0";10
+"115";"Zabití";"Killing";"0";"0";11
+"116";"Usmrcení z nedbalosti";"Negligent homicide";"0";"0";12
+"121";"Opuštění dítěte";"Abandonment of child";"0";"0";13
+"122";"únos";"Kidnapping";"0";"0";14
+"131";"Loupež";"Robbery";"0";"0";15
+"132";"Loupeže na finančních institucích";"Bank robbery";"0";"0";16
+"141";"Násilí proti úřední osobě a orgánu veřejné moci - mimo příslušníka policie a obecní policie";"Violence against public official - a member of the Police and the Municipal Police";0;0;17
+"142";"Násilí proti úřední osobě a orgánu veřejné moci - na příslušníkovi Policie ČR";"Violence against public official - a member of the Police of the Czech Republic";"0";"0";18
+"143";"Násilí proti úřední osobě a orgánu veřejné moci - na příslušníkovi obecní policie";"Violence against public official - a member of the Municipal Police";"0";"0";19
+"151";"úmyslné ublížení na zdraví";"Actual bodily harm";"0";"0";20
+"161";"Rvačky";"Brawls";"0";"0";21
+"171";"Násilí a vyhrožování proti skupině obyvatel a jednotlivci";"Threatening and violence against a group of person and against an individual";"0";"0";22
+"172";"Braní rukojmí";"Taking hostages";"0";"0";23
+"173";"Nebezpečné vyhrožování";"Dangerous threatening";"0";"0";24
+"174";"Nebezpečné pronásledování";"Serious harassment";"0";"0";25
+"181";"Vydírání";"Blackmail";"0";"0";26
+"182";"Omezování a zbavení osobní svobody";"Restriction and deprivation of personal freedom";"0";"0";27
+"183";"Porušování domovní svobody";"Illegal entry into dwelling";"0";"0";28
+"184";"Neoprávněný zásah do práva k domu, bytu nebo nebytovému prostoru";"Unlawful interference with a title to a house, flat or nonresidental premises";"0";"0";29
+"185";"Týrání svěřené osoby";"Battering a person entrusted to one´s care";"0";"0";30
+"186";"Týrání osoby žijící ve společném obydlí";"Battering a person entrusted to one´s care and a person living together";"0";"0";31
+"187";"Omezování svobody vyznání";"Restricting the freedom of religion";"0";"0";32
+"188";"útisk";"Oppression";"0";"0";33
+"189";"Porušování svobody sdružování a shromažďování";"Infringing the freedom of peaceful assembly and association";"0";"0";34
+"190";"Ostatní násilné trestné činy";"The other violent crimes";"0";"0";35
+"101-190";"Násilné činy celkem";"Violent crimes";"1";0;7
+"201";"Znásilnění";"Rapes";0;0;37
+"202";"Sexuální nátlak";"Sexual compulsion";"0";"0";38
+"211";"Pohlavní zneužívání v závislosti";"Sexual abuse in dependence";"0";"0";39
+"212";"Pohlavní zneužívání ostatní";"The other sexual abuse";"0";"0";40
+"213";"Komerční forma sexuálního zneužívání v závislosti";"Commercial form of sexual abuse in dependency";"0";"0";41
+"214";"Komerční forma sexuálního zneužívání ostatní";"Commercial form of the other sexual abuse";"0";"0";42
+"231";"Ostatní pohlavní úchylky";"The other sexual deviations";"0";"0";43
+"241";"Ohrožování mravnosti";"Corrupting morals";"0";"0";44
+"251";"Ohrožování pohlavní nemocí";"Exposing others to veneral diseases";"0";"0";45
+"252";"úmyslné ublížení na zdraví nakažlivou lidskou nemocí";"Intentional damage to the health by veneral disease";"0";"0";46
+"253";"Ublížení nakažlivou lidskou nemocí z nedbalosti";"Negligent damage to the health by veneral desease";"0";"0";47
+"271";"Kuplířství";"Procuring";"0";"0";48
+"280";"Soulož mezi příbuznými";"Incest";"0";"0";49
+"281";"Obchodování s lidmi";"Trafficking with people with the view of sexual intercourse";"0";"0";50
+"290";"Ostatní mravnostní trestné činy";"The other morals crimes";"0";"0";51
+"201-290";"Mravnostní činy";"Moral crimes";"1";0;36
+"311";"Krádeže vloupáním do obchodů";"Burglaries into shops";"0";"0";53
+"312";"Krádeže vloupáním do výkladních skříní";"Burglaries into shop windows";"0";"0";54
+"321";"Krádeže vloupáním do restaurací a hostinců";"Burglaries into restaurants and ordinaries";"0";"0";55
+"322";"Krádeže vloupáním do ubytovacích objektů";"Burglaries into accommodation facilities";"0";"0";56
+"323";"Krádeže vloupáním do kiosků";"Burglaries into kiosks";"0";"0";57
+"324";"Krádeže vloupáním do jídelen, závodních kuchyní a stravovacích zařízení";"Burglaries into lunchrooms, canteens and catering facilities";"0";"0";58
+"331";"Krádeže vloupáním do objektů, kde se nacházejí starožitnosti a umělecké předměty - mimo obchodů";"Burglaries into facilities with antiquities and works of art except shops";"0";"0";59
+"332";"Krádeže vloupáním do kulturních objektů, mimo uvedené v 331";"Burglaries into cultural facilities except those in in 331";"0";"0";60
+"341";"Krádeže vloupáním do pokladen a pancéřových skříní";"Burglaries into safes and keisters";"0";"0";61
+"350";"Krádeže vloupáním do výpočetních středisek nebo počítačových pracovišť";"Burglaries into computer centres";"0";"0";62
+"351";"Krádeže vloupáním do škol";"Burglaries into schools";"0";"0";63
+"371";"Krádeže vloupáním do bytů";"Burglaries into flats";"0";"0";64
+"372";"Krádeže vloupáním do víkendových chat soukromých osob";"Burglaries into weekend houses";0;0;65
+"373";"Krádeže vloupáním do rodinných domků";"Burglaries into family houses";"0";"0";66
+"390";"Krádeže vloupáním do ostatních objektů";"Burglaries into the other facilities";"0";"0";67
+"311-390";"Krádeže vloupáním";"Burglaries";"1";0;52
+"411";"Krádeže prosté - kapesní";"Thefts - pick-pocketing";"0";"0";69
+"412";"Krádeže prosté - při pohlavním styku";"Thefts in the course of sexual intercourse";"0";"0";70
+"413";"Krádeže prosté - jiné na osobách";"Thefts - the other thefts on persons";"0";"0";71
+"421";"Krádeže prosté - mezi zaměstnanci na pracovišti";"Thefts among employees at workplaces";"0";"0";72
+"431";"Krádeže prosté - motorových vozidel dvoustopých";"Car thefts";"0";"0";73
+"432";"Krádeže prosté - motorových vozidel jednostopých";"Thefts of single-track motor vehicles";"0";"0";74
+"433";"Krádeže prosté - věcí z aut - včetně vloupání do kabiny a zav. prostoru";"Thefts inside cars ";"0";"0";75
+"434";"Krádeže prosté - součástek motorových vozidel";"Thefts of motor vehicles parts";"0";"0";76
+"435";"Krádeže prosté - jízdních kol";"Bicycle thefts";"1";0;77
+"441";"Krádeže prosté - domácího zvířectva";"Thefts of domestic animals";"0";"0";78
+"451";"Krádeže prosté - v bytech";"Thefts in houses";"0";"0";79
+"461";"Krádeže prosté - věcí v prostorách nádraží - mimo zásilek";"Thefts at railway stations exept consignments";"0";"0";80
+"462";"Krádeže prosté - věcí během jízdy v dopravním prostředku - mimo zásilek";"Thefts in means of transport except consignments";"0";"0";81
+"471";"Krádeže prosté v objektech, včetně exterieru i na volném prostranství se starožitnostmi a uměleckými předměty";"Thefts in facilities including exterior with antiquities and works of art";"0";"0";82
+"480";"Krádeže prosté v jiných objektech";"Thefts in other facilities";"0";"0";83
+"490";"Krádeže prosté ostatní";"The other thefts";"0";"0";84
+"411-490";"Krádeže prosté";"Thefts";"1";0;68
+"511";"Podvod";"Fraud";"0";"0";86
+"521";"Zpronevěra";"Embezzlement";"0";"0";87
+"530";"Neoprávněné užívání cizí věci";"Unlawful enjoyment of a thing of another";"0";"0";88
+"588";"Zatajení věci";"Concealment of a thing";"0";"0";89
+"589";"Poškozování cizí věci";"Harm done to a thing of another";"0";"0";90
+"590";"Pytláctví a ostatní majetkové trestné činy";"Poaching and the other proprietary crimes";"0";"0";91
+"311-590";"Majetkové činy";;"1";0;85
+"611";"Výtržnictví";"Breach of the peace";"0";"0";93
+"612";"Výtržnictví na sportovních a veřejných akcích";"Rioting in course of sport and public actions";"0";"0";94
+"613";"Sprejerství";"Sprayers´ crimes";"0";"0";95
+"614";"Výtržnictví - útoky na záchranáře";"Assaulting rescuer";"0";"0";96
+"631";"Ohrožování výchovy mládeže";"Corrupting the morals of youth";"0";"0";97
+"632";"Podávání alkoholických nápojů mládeži";"Serving alcoholic drinks to minors";"0";"0";98
+"633";"Obchodování s dětmi";"Trading with children";"0";"0";99
+"634";"Nedovolené překročení státní hranice";"Illegal crossing of the border";"0";"0";100
+"635";"Nedovolená výroba a držení psychotropních látek a jedů pro jiného";"Illicit manufacturing and possession of narcotics, drugs and poisons for another";"0";"0";101
+"636";"šíření toxikomanie";"Promoting addictive drugs ";"0";"0";102
+"637";"Zneužívání pravomoci úřední osoby";"Abuse of powers of a public official";"0";"0";103
+"639";"Neoprávněné nakládání s osobními údaji";"Unauthorized use of personal data";"0";"0";104
+"640";"Maření úkolů úřední osoby z nedbalosti";"Neglect by a public official ";"0";"0";105
+"641";"Nedovolená výroba a držení psychotropních látek a jedů pro sebe";"Illicit manufacturing and possession of narcotics, drugs and poisons for oneself";"0";"0";106
+"642";"Nedovolená výroba a držení psychotropních látek a jedů - předmět k nedovolené výrobě";"Illicit manufacturing and possession of narcotics, drugs and poisons - object for illicit manufacturing";"0";"0";107
+"643";"Nedovolené pěstování rostlin obsahující omamnou látku";"Cultivation of plants containing narcotic substance";"0";"0";108
+"644";"Výroba a nakládání s látkami s hormonálním účinkem";"Illicit  manufacturing or disposition of hormonal substances ";"0";"0";109
+"651";"Požáry";"Fires";"0";"0";110
+"652";"Výbuchy";"Explosions";"0";"0";111
+"662";"Nedovolené ozbrojování";"Prohibited acquisition and possession of firearms";"0";"0";112
+"663";"Maření výkonu úředního rozhodnutí";"Obstructing the execution of an official decision";"0";"0";113
+"664";"Překupnictví a přechovávači - podílnictví";"Receiving and handling stolen goods and receivers of stolen goods - accessoryship";"0";"0";114
+"690";"Ostatní kriminální trestné činy";"The other criminal offences";"0";"0";115
+"611-690";"Ostatní krim. činy";"The other criminal offences";"1";0;92
+"721";"Nadržování";"Abbetting";"0";"0";117
+"730";"Veškeré nehody  - úmyslné";"All intentional accidents - road, air, water road, railway and combined accidents";"0";"0";118
+"731";"Dopravní nehody silniční z nedbalosti";"Negligent road accidents";"0";"0";119
+"732";"Dopravní nehody letecké z nedbalosti";"Negligent air traffic accidents";"0";"0";120
+"733";"Dopravní nehody vodní z nedbalosti";"Negligent water road accidents";"0";"0";121
+"741";"železniční nehody z nedbalosti";"Negligent railway accidents";"0";"0";122
+"742";"Nehody kombinované, železniční - silniční z nedbalosti";"Negligent combined, railway and road accidents";"0";"0";123
+"750";"Ublížení na zdraví z nedbalosti - pracovní úrazy";"Negligent bodily injury - work injuries";"0";"0";124
+"751";"Ublížení na zdraví z nedbalosti - ostatní";"Negligent bodily injury - the others";"0";"0";125
+"762";"Poškozování věřitele";"Harm done to a creditor";"0";"0";126
+"763";"Zvýhodňování věřitele";"Preferring a creditor";"0";"0";127
+"771";"Ohrožení pod vlivem návykové látky, opilství";"Menace due to intoxication, alcohol intoxication";"1";0;128
+"772";"Zanedbání povinné výživy";"Neglect of compulsory maintenance";"0";"0";129
+"781";"Získání kontroly nad vzdušným dopravním prostředkem plavidlem a pevnou plošinou";"Seizure of a ship or aircraft";"0";"0";130
+"782";"Sdělení nepravdivé informace, která může ohrozit bezpečnost nebo provoz vzdušného dopravního prostředku za letu a civilního plavidla";"Disclosure of untrue information which can endanger safety of an aircraft and ship during the flight";"0";"0";131
+"783";"Zavlečení vzdušného dopravního prostředku do ciziny";"Air piracy, hijacking";"0";"0";132
+"784";"Týraní zvířat";"Cruelty to animals";"0";"0";133
+"785";"šíření poplašné zprávy";"Spreading false news";"0";"0";134
+"786";"účast na organizované zločinecké skupině";"Accomplicity in an organized criminal group";"0";"0";135
+"787";"Hanobení národa, rasy, etnické nebo jiné skupiny";"Defamation of nation, race, ethnic or other group";"0";"0";136
+"788";"Podněcování k národnostní a rasové nenávisti";"Incitement of racial hatred";"0";"0";137
+"789";"Podpora a propagace hnutí směřujícího k potlačení práv a svobod občanů";"Supporting and promoting movements oriented to suppression of human rights and freedom";"0";"0";138
+"790";"Ostatní trestná činnost";"The other criminality";"0";"0";139
+"721-790";"Zbývající kriminalita";"Remaining criminality";"1";0;116
+"801";"Trestné činy proti předpisům o nekalé soutěži";"Crimes against regulations governing unfair competition";"0";"0";141
+"803";"Neoprávněné podnikaní";"Unlawful business activity";"0";"0";142
+"806";"Poškozování spotřebitele";"Harm caused to a consumer";"0";"0";143
+"807";"Porušování předpisů o oběhu zboží ve styku s cizinou ";"Breach of regulations governing imports and exports of goods ";"0";"0";144
+"808";"Zkreslování údajů o stavu hospodaření a jmění";"Distortion of data relating to economic and property status";"0";"0";145
+"809";"Porušování závazných pravidel hospodářského styku";"Breach of compulsory rules of business transactions";"0";"0";146
+"810";"Porušení povinnosti v insolvenčním řízení";"Breach of duties in bankruptcy and composition proceedings";"0";"0";147
+"811";"Porušování povinnosti při správě cizího majetku";"Breach of trust";"0";"0";148
+"812";"Krádež";"Theft";"0";"0";149
+"813";"Neoprávněné užívání cizí věci mimo motorová vozidla";"Unlawful enjoyment of a thing of another except motor vehicles";"0";"0";150
+"814";"Poškozování cizí věci";"Harm done to a thing of another";"0";"0";151
+"815";"Podvody proti sociálnímu zabezpečení a nemocenskému pojištěni";"Frauds against social security and health insurance";"0";"0";152
+"816";"Padělání a pozměňování peněz";"Counterfeiting and altering money";"0";"0";153
+"817";"Padělání a pozměňování známek, kolků a nálepek";"Counterfeiting and altering stamps and labels";"0";"0";154
+"819";"Krácení daně";"Tax evasion";"0";"0";155
+"820";"Zneužívaní pravomoci úřední osoby";"Abuse of powers of a public official";"0";"0";156
+"821";"úplatkářství - přijímání úplatku";"Bribery - accepting a bribe";"0";"0";157
+"822";"Poškozování věřitele";"Harm done to a creditor";"0";"0";158
+"823";"Padělání a pozměňování veřejné listiny";"Forgery and fraudulent alternation of an official document";"0";"0";159
+"824";"Nedovolená výroba a držení státní pečeti a úředního razítka";"Manufacturing and possession of the great seal and the official stamp";"0";"0";160
+"825";"Ohrožování zdraví závadnými potravinami a jinými potřebami";"Endangering health due to defective food and other goods";"0";"0";161
+"826";"Vystavení nepravdivého potvrzení";"Issuance of a false document";"0";"0";162
+"827";"Neoprávněné užívání motorového vozidla";"Unlawful use of motor vehicle";"0";"0";163
+"828";"Porušování tajemství dopravovaných zpráv";"Breach of mailing secrets";"0";"0";164
+"829";"Zpronevěra";"Embezzlement";"0";"0";165
+"830";"Podvod";"Fraud";"0";"0";166
+"831";"Pletichy při veřejné soutěži a dražbě";"Scheming in public tender and auction";"0";"0";167
+"832";"Porušování předpisů o nakládání s kontrolovaným zbožím a technologiemi";"Breach of regulations providing for the handling and disposal of controlled goods and technologies";"0";"0";168
+"833";"Zneužívání informací v obchodním styku";"Abuse of information in commercial relation";"0";"0";169
+"834";"Neoprávněné provozování loterie a podobné sázkové hry";"Unlawful practicing lotery and similar betting games";"0";"0";170
+"835";"Porušování předpisů o nálepkách k označení zboží";"Breach of regulations governing label destinating goods";"0";"0";171
+"836";"Neoprávněné nakládání s osobními údaji";"Unauthorized use of personal data";"0";"0";172
+"837";"Ostatní trestné činy proti měně";"The other crimes against currency";"0";"0";173
+"838";"Neoprávněné držení platebního prostředku";"Unlawful possession of a credit card";"0";"0";174
+"839";"Porušování předpisů o zahraničním obchodu s vojenským materiálem";"Breach of regulations governing foreign trade with military material";"0";"0";175
+"840";"Krádeže železničních zásilek";"Railway consignments thefts";"0";"0";176
+"841";"Krádeže poštovních zásilek";"Mail thefts";"0";"0";177
+"842";"Krádeže silničních zásilek";"Road consignments thefts";"0";"0";178
+"843";"Krádeže leteckých zásilek";"Air consignments thefts";"0";"0";179
+"844";"Krádeže lodních zásilek";"Shipment thefts";"0";"0";180
+"845";"Maření úkolu úřední osoby z nedbalosti";"Neglect by a public official";"0";"0";181
+"846";"úplatkářství - podplácení";"Bribary - offering or giving a bribe";"0";"0";182
+"847";"úplatkářství - nepřímé úplatkářství";"Bribary - indirekt bribery";"0";"0";183
+"848";"Zvýhodňování věřitele";"Preferring a creditor";"0";"0";184
+"849";"Pletichy v insolvenčním řízení";"Scheming to defraud in bankruptcy proceedings";"0";"0";185
+"850";"Ohrožení nebo poškození životního prostředí - úmyslné";"Intentional endangering or damage to the environment";"0";"0";186
+"851";"Ohrožení nebo poškození životního prostředí - nedbalostní";"Negligent endangering or damage to the environment";"0";"0";187
+"852";"Způsobení úpadku";"Insolvency";"0";"0";188
+"853";"Neoprávněné vydání cenného papíru";"Unauthorized issue of securities";"0";"0";189
+"854";"Manipulace s kurzem investičních nástrojů";"Unauthorized manipulation with the security exchange rate";"0";"0";190
+"855";"Nedovolená výroba a držení radioaktivního a jaderného materiálu";"Illicit manufacturing and possession of radioactive material";"0";"0";191
+"860";"Podílnictví";"Receiving and handling stolen goods and receivers of stolen goods - accessoryship";"0";"0";192
+"861";"Porušování práv k ochranné známce, obchodnímu jménu a chráněnému označení původu";"Infringement of rights relating to trademarks, commercial names and protected designation of origin";"0";"0";193
+"862";"Porušování průmyslových práv";"Infringement of industrial property rights";"0";"0";194
+"863";"Porušování autorského práva, práv k databázi, práv souvisejících a padělání díla";"Infringement of copyright, database right or relevant rights";"0";"0";195
+"864";"Zastření původu věcí, tzv. praní špinavých peněz";"Concealing origines of things ";"0";"0";196
+"865";"Poškozování a zneužití záznamu na nosiči informací";"Harm done and abuse of a record on the data carrier";"0";"0";197
+"866";"Provozování nepoctivých her a sázek";"Unfair betting and gaming";"0";"0";198
+"870";"Havárie a provozní poruchy - mimo dopravních nehod silničních, železničních, leteckých a vodních - z nedbalosti ";"Accidents and operational disorders except negligent road traffic accidents, railway accidents, air traffic accidents and ship accidents ";"0";"0";199
+"871";"Havárie a provozní poruchy - mimo dopravních nehod silničních, železničních, leteckých a vodních - úmyslné";"Accidents and operational disorders except intentional road traffic accidents, railway accidents, air traffic accidents and ship accidents";"0";"0";200
+"880";"Pojistný podvod";"Fraud of insurance";"0";"0";201
+"881";"úvěrový podvod";"Credit fraud";"0";"0";202
+"882";"Dotační podvod";"Grant or subsidy fraud";"0";"0";203
+"885";"Nesplnění oznamovací povinnosti v daňovém řízení";"Failure to notify in tax procedure";"0";"0";204
+"886";"Neodvedení daně, pojistného na sociální zabezpečení, zdravotní pojištění a příspěvku na státní politiku zaměstnanosti";"Back taxes, social insurance, health insurance and employment allowance ";"0";"0";205
+"890";"Ostatní hospodářské trestné činy";"The other economic crimes";"0";"0";206
+"801-890";"Hospodářské činy";"Economic crimes";1;0;140
+"901";"Vojenské trestné činy";"Military crimes";"0";"0";207
+"902";"Trestné činy proti ústavnímu zřízení";"Crimes against constitution";"0";"0";208
+"903";"Trestné činy válečné a proti míru ";"War crimes and crimes against the peace ";"0";"0";209
+"101-690";"Obecná kriminalita";"General criminality";"1";"1";210
+"101-903";"CELKOVÁ KRIMINALITA";"Total criminality";"1";"1";211
+"141,142,143,151,161,171,173,181,611,612,614";"Fyzické útoky";"Physical assaults";"1";"1";212
+"131,132";"Loupeže";"Robberies";"1";"1";213
+"371,373";"Vloupání do obydlí";"Burglaries into households";"1";"1";214
+"433,434";"Krádeže věcí z automobilů";"Thefts from cars";"1";"1";215
+"635,641,642,643";"Výroba držení a distribuce drog";"Production and distr. of drugs";"1";"1";216

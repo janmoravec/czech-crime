@@ -1,0 +1,351 @@
+id,ZSJ,Obec,Okres,Kraj,ORP
+6866,Bojanovice,Bojanovice,Praha-západ,Středočeský,OOP Černošice
+6874,Pod Dešinami,Bojanovice,Praha-západ,Středočeský,OOP Černošice
+12971,Brtnička,Brtnička,Jihlava,Vysočina,OOP Jihlava
+19968,Černá za Bory,Pardubice,Pardubice,Pardubický,OOP Pardubice
+19976,Drozdice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+19984,Mnětice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+19992,Staročernsko,Pardubice,Pardubice,Pardubický,OOP Pardubice
+20001,Žižín,Pardubice,Pardubice,Pardubický,OOP Pardubice
+31071,Malé Doubí,Liberec,Liberec,Liberecký,OOP Liberec
+31089,Doubí,Liberec,Liberec,Liberecký,OOP Liberec
+31097,Hluboká,Liberec,Liberec,Liberecký,OOP Liberec
+31101,Pilínkov,Liberec,Liberec,Liberecký,OOP Liberec
+32255,Dražkovice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+32638,Droždín,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+36561,Pelhřimov,Cheb,Cheb,Karlovarský,OOP Cheb
+36579,Háje,Cheb,Cheb,Karlovarský,OOP Cheb
+36595,Slapany,Cheb,Cheb,Karlovarský,OOP Cheb
+41220,Holice,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+41238,Městský dvůr,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+45993,Hostovice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+48879,Hrutov,Hrutov,Jihlava,Vysočina,OOP Jihlava
+50822,Bříza,Cheb,Cheb,Karlovarský,OOP Cheb
+50831,Cetnov,Cheb,Cheb,Karlovarský,OOP Cheb
+50849,Podhoří,Cheb,Cheb,Karlovarský,OOP Cheb
+50857,Klest,Cheb,Cheb,Karlovarský,OOP Cheb
+50865,Skalka,Cheb,Cheb,Karlovarský,OOP Cheb
+50873,Střížov,Cheb,Cheb,Karlovarský,OOP Cheb
+50881,U nemocnice,Cheb,Cheb,Karlovarský,OOP Cheb
+50890,Zlatý vrch,Cheb,Cheb,Karlovarský,OOP Cheb
+50903,U Lodní brány,Cheb,Cheb,Karlovarský,OOP Cheb
+50911,Cheb-historické jádro I,Cheb,Cheb,Karlovarský,OOP Cheb
+50920,Cheb-historické jádro II,Cheb,Cheb,Karlovarský,OOP Cheb
+50938,U Zátiší,Cheb,Cheb,Karlovarský,OOP Cheb
+50946,Klášterní dvůr,Cheb,Cheb,Karlovarský,OOP Cheb
+50954,U Horní brány,Cheb,Cheb,Karlovarský,OOP Cheb
+50962,Pod Horní branou,Cheb,Cheb,Karlovarský,OOP Cheb
+50971,Zahrádky,Cheb,Cheb,Karlovarský,OOP Cheb
+50989,U stadiónu,Cheb,Cheb,Karlovarský,OOP Cheb
+50997,U nádraží,Cheb,Cheb,Karlovarský,OOP Cheb
+51004,Nádraží,Cheb,Cheb,Karlovarský,OOP Cheb
+51012,Za nádražím,Cheb,Cheb,Karlovarský,OOP Cheb
+51021,Hradiště-průmyslový obvod,Cheb,Cheb,Karlovarský,OOP Cheb
+51047,Maškov,Cheb,Cheb,Karlovarský,OOP Cheb
+51055,Dolní Dvory,Cheb,Cheb,Karlovarský,OOP Cheb
+51063,Horní Dvory,Cheb,Cheb,Karlovarský,OOP Cheb
+51071,Dřenice,Cheb,Cheb,Karlovarský,OOP Cheb
+51080,Jesenická přehrada,Cheb,Cheb,Karlovarský,OOP Cheb
+51098,Za klášterem,Cheb,Cheb,Karlovarský,OOP Cheb
+52418,Chomoutov,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+60160,Jílovice,Jílovice,Hradec Králové,Královéhradecký,OOP Hradec Králové
+66991,Brodce,Kněžice,Jihlava,Vysočina,OOP Jihlava
+67008,Kněžice,Kněžice,Jihlava,Vysočina,OOP Jihlava
+67016,Rychlov,Kněžice,Jihlava,Vysočina,OOP Jihlava
+67024,U rybníka Strážov,Kněžice,Jihlava,Vysočina,OOP Jihlava
+67032,Víska,Kněžice,Jihlava,Vysočina,OOP Jihlava
+69281,Svatý Kopeček,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+73644,Krásná Studánka,Liberec,Liberec,Liberecký,OOP Liberec
+73652,Radčice,Liberec,Liberec,Liberecký,OOP Liberec
+79073,Lány na Důlku,Pardubice,Pardubice,Pardubický,OOP Pardubice
+79081,Opočínek,Pardubice,Pardubice,Pardubický,OOP Pardubice
+79651,Klášter nad Dědinou,Ledce,Hradec Králové,Královéhradecký,OOP Hradec Králové
+79669,Ledce,Ledce,Hradec Králové,Královéhradecký,OOP Hradec Králové
+79677,Újezdec,Ledce,Hradec Králové,Královéhradecký,OOP Hradec Králové
+80489,Doubravice,Leština,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+80497,Dvořiště,Leština,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+80501,Leština,Leština,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+80519,Podhořany u Nových Hradů,Leština,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+82031,Liberec-střed,Liberec,Liberec,Liberecký,OOP Liberec
+82040,Keilův vrch,Liberec,Liberec,Liberecký,OOP Liberec
+82058,Pod nádražím,Liberec,Liberec,Liberecký,OOP Liberec
+82066,Kristiánov,Liberec,Liberec,Liberecký,OOP Liberec
+82074,Nerudovo náměstí,Liberec,Liberec,Liberecký,OOP Liberec
+82082,Krajinská,Liberec,Liberec,Liberecký,OOP Liberec
+82091,Žižkovo náměstí,Liberec,Liberec,Liberecký,OOP Liberec
+82104,Výstaviště,Liberec,Liberec,Liberecký,OOP Liberec
+82112,Lidové sady,Liberec,Liberec,Liberecký,OOP Liberec
+82121,Horská,Liberec,Liberec,Liberecký,OOP Liberec
+82139,Lomy,Liberec,Liberec,Liberecký,OOP Liberec
+82147,Ruprechtice-sever,Liberec,Liberec,Liberecký,OOP Liberec
+82155,Ruprechtice-jih,Liberec,Liberec,Liberecký,OOP Liberec
+82163,Nové Pavlovice,Liberec,Liberec,Liberecký,OOP Liberec
+82171,Staré Pavlovice,Liberec,Liberec,Liberecký,OOP Liberec
+82180,Staré Pavlovice-východ,Liberec,Liberec,Liberecký,OOP Liberec
+82198,Čisticí stanice,Liberec,Liberec,Liberecký,OOP Liberec
+82201,Růžodol I,Liberec,Liberec,Liberecký,OOP Liberec
+82210,U skládky,Liberec,Liberec,Liberecký,OOP Liberec
+82228,Letiště,Liberec,Liberec,Liberecký,OOP Liberec
+82236,Františkov,Liberec,Liberec,Liberecký,OOP Liberec
+82244,Janův Důl,Liberec,Liberec,Liberecký,OOP Liberec
+82252,Horní Růžodol,Liberec,Liberec,Liberecký,OOP Liberec
+82261,Hanychov,Liberec,Liberec,Liberecký,OOP Liberec
+82279,Ještěd,Liberec,Liberec,Liberecký,OOP Liberec
+82287,Hanychov-průmyslový obvod,Liberec,Liberec,Liberecký,OOP Liberec
+82295,Nádraží,Liberec,Liberec,Liberecký,OOP Liberec
+82309,Rochlice-jih,Liberec,Liberec,Liberecký,OOP Liberec
+82317,Rochlice-sever,Liberec,Liberec,Liberecký,OOP Liberec
+82325,U Nisy-jih,Liberec,Liberec,Liberecký,OOP Liberec
+82333,U Nisy-sever,Liberec,Liberec,Liberecký,OOP Liberec
+82341,Perštýn,Liberec,Liberec,Liberecký,OOP Liberec
+82350,Králův háj,Liberec,Liberec,Liberecký,OOP Liberec
+82368,Husova,Liberec,Liberec,Liberecký,OOP Liberec
+82376,Nemocnice,Liberec,Liberec,Liberecký,OOP Liberec
+82384,Vysoká škola,Liberec,Liberec,Liberecký,OOP Liberec
+82392,Harcov I,Liberec,Liberec,Liberecký,OOP Liberec
+82406,Kunratická,Liberec,Liberec,Liberecký,OOP Liberec
+82414,Harcov II,Liberec,Liberec,Liberecký,OOP Liberec
+82422,Starý Harcov,Liberec,Liberec,Liberecký,OOP Liberec
+82431,Kateřinky,Liberec,Liberec,Liberecký,OOP Liberec
+82449,Rudolfov,Liberec,Liberec,Liberecký,OOP Liberec
+82457,Průmyslový obvod-u Ostašova,Liberec,Liberec,Liberecký,OOP Liberec
+82465,Horní Hanychov,Liberec,Liberec,Liberecký,OOP Liberec
+82473,Ostašov,Liberec,Liberec,Liberecký,OOP Liberec
+82481,Horní Suchá,Liberec,Liberec,Liberecký,OOP Liberec
+82490,Karlinky,Liberec,Liberec,Liberecký,OOP Liberec
+86878,Lošov,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+89800,Bedřichovka,Liberec,Liberec,Liberecký,OOP Liberec
+89818,Karlov pod Ještědem,Liberec,Liberec,Liberecký,OOP Liberec
+89826,Machnín,Liberec,Liberec,Liberecký,OOP Liberec
+90107,Malá Lečice,Bojanovice,Praha-západ,Středočeský,OOP Černošice
+93751,Meziříčko,Meziříčko,Žďár nad Sázavou,Vysočina,OOP Velké Meziříčí
+99953,Haluzice,Mouchnice,Hodonín,Jihomoravský,OOP Kyjov
+99961,Mouchnice,Mouchnice,Hodonín,Jihomoravský,OOP Kyjov
+102351,Nedvězí,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+103101,Nemilany,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+103241,Nemošice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+106291,Mokrá Lhota,Nové Hrady,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+106305,Nové Hrady,Nové Hrady,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+106313,Roudná,Nové Hrady,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+106321,Rybníček,Nové Hrady,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+108014,Oslavička,Oslavička,Žďár nad Sázavou,Vysočina,OOP Velké Meziříčí
+109321,Ohrazenice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+110507,Olomouc-historické jádro,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110515,Sady Flora,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110523,Šantova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110531,17. listopadu,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110540,Kpt. Nálepky,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110558,Klášterní Hradisko,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110566,Hádky,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110574,Černovír,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110582,Jezírka,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110591,Lazce,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110604,Trávníky,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110612,Hejčín,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110621,Pod lipami,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110639,Šibeník,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110647,Ovesniska,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110655,Na ohradě,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110663,Pod koupalištěm,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110671,Norská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110680,Neředín,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110698,Tererovo náměstí,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110701,Stupkova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110710,Pionýrská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110728,Fakultní nemocnice,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110736,Varšavské náměstí,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110744,Štítného,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110752,Na vozovce,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110761,Stadiony,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110779,Jihoslovanská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110787,Heyrovského,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110795,Povel-jih,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110809,Českobratrská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110817,Nové Sady-jih,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110825,U rybářských stavů,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110833,Přichystalova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110841,Tovární,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110850,Kosmonautů,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110868,Hlavní nádraží,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110876,Hodolany,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110884,Bělidla I,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110914,Chválkovice,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110922,Nový Svět,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110931,Pavlovičky,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+110949,Řepčín,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+116645,Brť,Otročín,Karlovy Vary,Karlovarský,OOP Karlovy Vary
+116653,Měchov,Otročín,Karlovy Vary,Karlovarský,OOP Karlovy Vary
+116661,Otročín,Otročín,Karlovy Vary,Karlovarský,OOP Karlovy Vary
+116670,Poseč,Otročín,Karlovy Vary,Karlovarský,OOP Karlovy Vary
+116688,Tisová,Otročín,Karlovy Vary,Karlovarský,OOP Karlovy Vary
+117650,Pardubice-Staré Město,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117668,Střed,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117676,Zelené Předměstí,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117684,Zavadilka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117692,Na spravedlnosti,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117706,Skřivánek,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117714,Dukla,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117722,Višňovka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117731,Jesničánky,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117749,Zborovské náměstí,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117757,Pod vinicí,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117765,U kostelíčka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117773,Na Spořilově,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117781,Na Drážce-západ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117790,Věznice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117803,Studánka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117811,Pardubičky-průmyslový obvod,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117820,Pardubičky,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117838,Nemocnice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117846,Pipenec,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117862,Sídliště Dubina,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117871,Velký les u Sezemic,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117889,Hůrka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117897,Osada Hůrka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117901,Horní polabina,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117919,Ležánka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117927,Na slepých ramenech,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117935,Cihelna,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117943,Fáblovka-sever,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117951,Trnová,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117960,Polabiny II,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117978,Polabiny I,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117986,Stavařov,Pardubice,Pardubice,Pardubický,OOP Pardubice
+117994,Polabiny III,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118001,Polabiny IV,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118010,Prutina,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118028,Zadní polabina,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118036,Svítkov,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118044,Svítkov-průmyslový obvod,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118052,Závodiště,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118061,Za závodištěm,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118079,Zelenobranská dubina,Pardubice,Pardubice,Pardubický,OOP Pardubice
+118087,Nové Jesenčany,Pardubice,Pardubice,Pardubický,OOP Pardubice
+123722,Podhrad,Cheb,Cheb,Karlovarský,OOP Cheb
+126420,Chvoječná,Cheb,Cheb,Karlovarský,OOP Cheb
+126438,Loužek,Cheb,Cheb,Karlovarský,OOP Cheb
+137642,Radhošť,Radhošť,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+137651,Sedlíšťka,Radhošť,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+137740,Radíkov,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+141208,Rosice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+141216,Semtín-jih,Pardubice,Pardubice,Pardubický,OOP Pardubice
+145211,Pěšice,Řepníky,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+145220,Popovec,Řepníky,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+145238,Řepníky,Řepníky,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+147371,Doubravice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+147389,Semtín-sever,Pardubice,Pardubice,Pardubický,OOP Pardubice
+147427,Senešnice,Bojanovice,Praha-západ,Středočeský,OOP Černošice
+150380,Slavonín,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+154172,Staré Čívice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+155021,Hrozňatov,Cheb,Cheb,Karlovarský,OOP Cheb
+155802,Stradouň,Stradouň,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+165107,Tasov,Tasov,Žďár nad Sázavou,Vysočina,OOP Velké Meziříčí
+167762,Topolany,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+168891,Jindřichov,Cheb,Cheb,Karlovarský,OOP Cheb
+168904,Tršnice,Cheb,Cheb,Karlovarský,OOP Cheb
+172413,Týneček,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+172430,Týnišťko,Týnišťko,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+180475,Vesec,Liberec,Liberec,Liberecký,OOP Liberec
+182192,Vinary,Vinary,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+185621,Kunratice,Liberec,Liberec,Liberecký,OOP Liberec
+185639,Zelené údolí,Liberec,Liberec,Liberecký,OOP Liberec
+185647,Vratislavice-střed,Liberec,Liberec,Liberecký,OOP Liberec
+188450,Vysoký Újezd,Vysoký Újezd,Hradec Králové,Královéhradecký,OOP Hradec Králové
+301868,U Hradiště,Cheb,Cheb,Karlovarský,OOP Cheb
+301884,Nádrž Skalka,Cheb,Cheb,Karlovarský,OOP Cheb
+301892,Svatý Kříž,Cheb,Cheb,Karlovarský,OOP Cheb
+303194,Broumovská,Liberec,Liberec,Liberecký,OOP Liberec
+303666,Fáblovka-východ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+305197,Husova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305201,Na Vlčinci,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305219,Na konečné,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305227,Balcárkova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305235,U rybníka,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305243,Nové Sady-sever,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305251,Novosadská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305260,U solných mlýnů,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305278,Bělidla II,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305286,Chválkovice-jih,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305294,Na dílech,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305308,U hvězdárny,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305316,Neředín-u pevnůstky,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+305324,U Chválkovic,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+306657,Vratislavice-průmyslový obvod,Liberec,Liberec,Liberecký,OOP Liberec
+306665,U cihelny,Liberec,Liberec,Liberecký,OOP Liberec
+306673,Nová Ruda-sever,Liberec,Liberec,Liberecký,OOP Liberec
+306681,Prosečský hřeben,Liberec,Liberec,Liberecký,OOP Liberec
+306690,Tyršův vrch,Liberec,Liberec,Liberecký,OOP Liberec
+306703,Císařský kámen,Liberec,Liberec,Liberecký,OOP Liberec
+308757,Pod Chlumečkem,Cheb,Cheb,Karlovarský,OOP Cheb
+310964,Nová Ruda-střed,Liberec,Liberec,Liberecký,OOP Liberec
+310972,Rochlice-střed,Liberec,Liberec,Liberecký,OOP Liberec
+310981,U pivovaru,Liberec,Liberec,Liberecký,OOP Liberec
+312452,Polabiny V,Pardubice,Pardubice,Pardubický,OOP Pardubice
+312461,Pardubice-sever,Pardubice,Pardubice,Pardubický,OOP Pardubice
+312479,Nová Cihelna,Pardubice,Pardubice,Pardubický,OOP Pardubice
+312487,Nový Svět,Pardubice,Pardubice,Pardubický,OOP Pardubice
+315451,Družební,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+318159,U Zámečku-západ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+318183,Studánka-průmyslový obvod,Pardubice,Pardubice,Pardubický,OOP Pardubice
+318477,Na špici,Pardubice,Pardubice,Pardubický,OOP Pardubice
+318671,Javorová,Liberec,Liberec,Liberecký,OOP Liberec
+318680,U jezírka,Liberec,Liberec,Liberecký,OOP Liberec
+318698,Jeřáb,Liberec,Liberec,Liberecký,OOP Liberec
+318701,U Janova Dolu,Liberec,Liberec,Liberecký,OOP Liberec
+318710,Horní Růžodol-západ,Liberec,Liberec,Liberecký,OOP Liberec
+318728,Rochlice-západ,Liberec,Liberec,Liberecký,OOP Liberec
+318736,Janův Důl-za tratí,Liberec,Liberec,Liberecký,OOP Liberec
+318744,Černá hora,Liberec,Liberec,Liberecký,OOP Liberec
+318752,Rochlice-průmyslový obvod,Liberec,Liberec,Liberecký,OOP Liberec
+318761,Hradební,Liberec,Liberec,Liberecký,OOP Liberec
+318779,U Nisy-střed,Liberec,Liberec,Liberecký,OOP Liberec
+318787,Aloisina výšina,Liberec,Liberec,Liberecký,OOP Liberec
+318795,Wolkerova,Liberec,Liberec,Liberecký,OOP Liberec
+318809,U vysílačky,Liberec,Liberec,Liberecký,OOP Liberec
+320307,Černá cesta,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320315,Sobieského,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320323,Pražská-východ,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320331,Pražská-západ,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320340,Stiborova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320358,Karafiátova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320366,Holická,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320374,Bystrovanská,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320382,Ondřejova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320391,Schweitzerova,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320404,Hodolany-průmyslový obvod,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+320706,Kropáčov,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+321290,Na Drážce-východ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321303,Slovany,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321311,Popkovice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321320,Fáblovka-západ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321338,Drozdice-průmyslový obvod,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321346,U Zámečku-východ,Pardubice,Pardubice,Pardubický,OOP Pardubice
+321991,Pod Novou Rudou,Liberec,Liberec,Liberecký,OOP Liberec
+322008,Doubí-průmyslová zóna,Liberec,Liberec,Liberecký,OOP Liberec
+322016,Špičák,Liberec,Liberec,Liberecký,OOP Liberec
+322024,K Dlouhému Mostu,Liberec,Liberec,Liberecký,OOP Liberec
+322369,U Polabin IV,Pardubice,Pardubice,Pardubický,OOP Pardubice
+324361,Roudenské údolí,Nové Hrady,Ústí nad Orlicí,Pardubický,OOP Vysoké Mýto
+327867,Na Vyhlídce,Cheb,Cheb,Karlovarský,OOP Cheb
+327875,Sídliště Zlatý vrch,Cheb,Cheb,Karlovarský,OOP Cheb
+327883,Zátiší-Myslivna,Cheb,Cheb,Karlovarský,OOP Cheb
+327891,Komorní Dvůr,Cheb,Cheb,Karlovarský,OOP Cheb
+327905,Podhrad-východ,Cheb,Cheb,Karlovarský,OOP Cheb
+328189,Nový Harcov,Liberec,Liberec,Liberecký,OOP Liberec
+328197,Staré Pavlovice-sever,Liberec,Liberec,Liberecký,OOP Liberec
+328723,Průmyslová zóna Hodolany,Olomouc,Olomouc,Olomoucký,OOP Olomouc
+329011,Kréta,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329029,Průmyslová zóna Staré Čívice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329037,Na Haldě,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329045,Nová Hůrka,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329053,U Jesničánek,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329061,Zámek,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329070,Labská,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329088,Zimní stadion,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329096,Židov,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329100,Dubina-jih,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329118,Obchodní zóna Trnová,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329126,Nová Trnová,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329134,Obchodní a výrobní areál,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329142,U Vinice,Pardubice,Pardubice,Pardubický,OOP Pardubice
+329151,U krematoria,Pardubice,Pardubice,Pardubický,OOP Pardubice

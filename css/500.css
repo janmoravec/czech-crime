@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: #333333;
+	color: white;
+	font-family: RobotoRegular;
+	font-size: 14px;
+	width:100%;
+	height:100%;
+}
+
+h1{
+	font-weight:normal;
+	font-size: 36px;
+	color: #ffde00;
+}
+
+a {
+	color: #ffde00;
+}
+
+p {
+	text-align: left;
+}
+
+.wrapper {
+	text-align: center;
+	margin:auto;
+	width: 500px;
+	margin-top: 14%;
+}
+
+.logo {
+	margin:10px;
+}
+
+.cross {
+	background: url( "../images/500cross.png") no-repeat;
+	width: 59px;
+	height: 59px;
+	display: block;
+	margin-left:220px;
+}
+
+.yellowStripe {
+	background: url( "../images/500bottomstripe.png");
+	width:100%;
+	height: 17px;
+	position:absolute;
+	bottom:0;
+}

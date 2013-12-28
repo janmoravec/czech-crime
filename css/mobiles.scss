@@ -1,0 +1,64 @@
+//male monitory
+@media (max-width:970px) {
+	
+	header img.logo {
+		float:none;
+	}
+
+	header.mainBar {
+		height:58px;
+	}
+
+	header nav {
+		margin-top: 0px;
+	}
+
+	header.mainBar h2 {
+		margin: 3px 0px 0px 29px;
+	}
+
+	header #pagesNav ul {
+		margin-top: -44px;
+	}
+
+}
+
+// Smartphony az tablet na vysku
+@media (max-width: 738px) {
+	header nav {
+		margin-right: 0px;
+	}
+
+	header .fb-like
+	{
+	    float: right;
+	    margin-top: 4px;
+	}
+
+}
+
+// Smartphony az tablet na vysku
+@media (max-width: 600px) {
+	
+	#pagesNav, .mainBar h2, section.homepageInfoBox, section.homepageFilterBox, section.homepageTimeline, section.homepageLegendMain {
+	 visibility: hidden;
+	}
+
+	header.mainBar {
+		height: 39px;
+	}
+
+	header .fb-like {
+		margin-top: -22px;
+	}
+
+	header img.logo {
+		margin-left: 12px;
+	}
+
+	#mapDetailOverlayHolder {
+		position: relative;
+		z-index: 11;
+	}
+
+}

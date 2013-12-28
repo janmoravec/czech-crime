@@ -1,0 +1,77 @@
+<link rel="stylesheet" href="{$basePath}/css/bootstrap.css">
+<link rel="stylesheet" href="{$basePath}/css/api.css">
+
+<h1>Mapakriminality.cz - data</h1>
+
+<form role="form" id="api-form" class="form">
+
+	<div class="form-group">
+		<label>Zvol typ trestného činu</label>
+		<select id="crime-type-select" class="form-control">
+			{foreach $crimeTypes as $crimeType}
+				<option value="{$crimeType->Code}">{$crimeType->Name}</option>
+			{/foreach}
+		</select>
+	</div>
+	<div class="form-group">
+		<label>Zvol územní jednotku</label>
+		<select id="area-select" class="form-control">
+			{foreach $areas as $area}
+				<option value="{$area->Code}">{$area->Code} - {$area->Name}</option>
+			{/foreach}
+		</select>
+	</div>
+	<div class="form-group">
+		<label>Vyber časové období od</label>
+		<select id="time-from-select" class="form-control">
+			{foreach $times as $time}
+				<option value="{$time->Id}">{$time->Id} - {$time->Month}/{$time->Year}</option>
+			{/foreach}
+		</select>
+	</div>
+	<div class="form-group">
+		<label>Vyber časové období do</label>
+		<select id="time-to-select" class="form-control">
+			{foreach $times as $time}
+				<option value="{$time->Id}">{$time->Id} - {$time->Month}/{$time->Year}</option>
+			{/foreach}
+		</select>
+	</div>
+	<input class="btn btn-primary" type="submit" value="Hledej" />
+
+</form>
+
+<table id="result-table" class="table">  
+    <thead>  
+      <tr>  
+        <th>Kód úz.jednotky</th>
+        <th>Název úz.jednotky</th>  
+        <th>Index kriminality</th>  
+        <th>Spácháno trestných činnů</th>  
+        <th>Objasněno trestných činnů</th>  
+        <th>Počet obyv. úz. jednotky</th>  
+      </tr>  
+    </thead>  
+    <tbody>  
+     
+    </tbody>  
+</table> 
+<table id="result2-table" class="table">  
+    <thead>  
+      <tr>  
+        <th>Kód úz.jednotky</th>
+        <th>Název úz.jednotky</th>  
+        <th>Index kriminality</th>  
+        <th>Spácháno trestných činnů</th>  
+        <th>Objasněno trestných činnů</th>  
+        <th>Počet obyv. úz. jednotky</th>  
+      </tr>  
+    </thead>  
+    <tbody>  
+     
+    </tbody>  
+</table> 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{$basePath}/js/libs/jquery-1.7.1.js"><\/script>')</script>
+<script src="{$basePath}/js/data.js"></script>

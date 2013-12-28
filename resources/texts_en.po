@@ -1,0 +1,873 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nette\\Forms example\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-25 02:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n>=2 && n<=4 ? 1 : 2;\n"
+"Language: cs\n"
+"X-Generator: Poedit 1.5.4\n"
+
+msgid "MAPAKRIMINALITY.CZ"
+msgstr "CZECHCRIME.ORG"
+
+msgid "Statistiky trestných činů na území ČR"
+msgstr "Crime statistics in the Czech republic"
+
+msgid "ProPolice/Otevřená společnost, o.p.s"
+msgstr "ProPolice/Otevřená společnost, o.p.s"
+
+msgid ""
+"kriminality, vizualizace kriminality, statistika trestných činů, trestné činy"
+msgstr ""
+"criminality, visualization criminality, crime data statistics, crimes"
+
+msgid "MapaKriminality.cz"
+msgstr "crimedata.org"
+
+msgid "http://www.mapakriminality.cz/"
+msgstr "http://www.crimedata.org/"
+
+msgid "http://www.mapakriminality.cz/images/facebook.png"
+msgstr "http://www.crimedata.org/images/facebook.png"
+
+msgid "Násilné činy"
+msgstr "Violent crimes"
+
+msgid "Mravnostní činy"
+msgstr "Sexual and sex-related crimes"
+
+msgid "Krádeže vloupáním"
+msgstr "Burglaries"
+
+msgid "Krádeže prosté"
+msgstr "Thefts"
+
+msgid "Ostatní majetkové činy"
+msgstr "Other property crimes"
+
+msgid "Ostatní činy"
+msgstr "Other crimes"
+
+msgid "Zbývající činy"
+msgstr "Miscellaneous crimes"
+
+msgid "Hospodářské činy"
+msgstr "Economic crimes"
+
+msgid "Vojenské činy"
+msgstr "Military crimes"
+
+msgid "Váš prohlížeč je opravdu velmi"
+msgstr "Your browser is really very"
+
+msgid "starý!"
+msgstr "old!"
+
+msgid "Nainstalujte si prosím zdarma"
+msgstr "Install for free"
+
+msgid "který vám umožní lepší využití stránky."
+msgstr "which will allow you to enjoy better the site."
+
+msgid "{$basePath}/images/logo.png"
+msgstr "{$basePath}/images/logo.png"
+
+msgid "Projekt Otevřené společnosti, o.p.s."
+msgstr "Project Otevřené společnosti, o.p.s."
+
+msgid "homepage"
+msgstr "homepage"
+
+msgid "MAPA"
+msgstr "MAP VIEW"
+
+msgid "porovnani"
+msgstr "compare"
+
+msgid "POROVNÁNÍ"
+msgstr "COMPARE"
+
+msgid "tabulky"
+msgstr "text view"
+
+msgid "TABULKY"
+msgstr "TEXT VIEW"
+
+msgid "kontakty"
+msgstr "contact"
+
+msgid "KONTAKTY"
+msgstr "CONTACT"
+
+msgid "oAplikaci"
+msgstr "about"
+
+msgid "O APLIKACI"
+msgstr "ABOUT"
+
+msgid "login"
+msgstr "login"
+
+msgid "PŘIHLÁŠENÍ"
+msgstr "LOG-IN"
+
+msgid "http://www.facebook.com/Mapakriminality"
+msgstr "http://www.facebook.com/Mapakriminality"
+
+msgid "varování"
+msgstr "warning"
+
+msgid "PŘIHLÁŠENÍ DO APLIKACE"
+msgstr "LOG-IN TO APP"
+
+msgid "Nový uživatel"
+msgstr "New user"
+
+msgid "Nevím heslo"
+msgstr "Forgot password"
+
+msgid "NOVÝ UŽIVATEL"
+msgstr "NEW USER"
+
+msgid "Informujte mě <br /> o aktualizacích"
+msgstr "Let me know<br /> about news"
+
+msgid "UŽIVATELSKÉ JMÉNO"
+msgstr "USER NAME"
+
+msgid "odhlásit"
+msgstr "log-out"
+
+msgid "Informujte mě o<br /> aktualizacích"
+msgstr "Let me know<br /> about news"
+
+msgid "trestných činů"
+msgstr "crimes"
+
+msgid "ČR CELKEM"
+msgstr "STATE"
+
+msgid "KRAJE"
+msgstr "REGION"
+
+msgid "UZEMNÍ ODBORY"
+msgstr "DISTRICT"
+
+msgid "Přiblížit"
+msgstr "Zoom in"
+
+msgid "Oddálit"
+msgstr "Zoom out"
+
+msgid "Územní odbor"
+msgstr "District"
+
+msgid "Vyber odbor v mapě"
+msgstr "Select district in map"
+
+msgid "Pořadí podle indexu kriminality (od nejvyššího k nejnižšímu)"
+msgstr "Ranking according to crime rate (from highest to lowest)"
+
+msgid "index kriminality"
+msgstr "Crime rate"
+
+msgid "způsobená škoda"
+msgstr "Damage"
+
+msgid "trestné činy celkem"
+msgstr "Crime count"
+
+msgid "počet policistů"
+msgstr "Number of police staff"
+
+msgid "Porovnat"
+msgstr "Compare"
+
+msgid "POROVNAT S JINÝM"
+msgstr "COMPARE"
+
+msgid "Kontakt"
+msgstr "Feedback"
+
+msgid "KONTAKTOVAT"
+msgstr "FEEDBACK"
+
+msgid "Zavřít"
+msgstr "Close"
+
+msgid "Zjištěné trestné činy"
+msgstr "Recorded crimes"
+
+msgid ""
+"Nejčastěji úmyslné ublížení na zdraví, loupež, porušování domovní svobody, "
+"nebezpečné vyhrožování a vydírání."
+msgstr ""
+"Most often intentional bodily harms, robberies,  violations of habitation rights, serious threats and extortions"
+
+msgid "Nejčastěji znásilnění a pohlavní zneužívání ostatní."
+msgstr "Most often rapes and other sexual abuse"
+
+msgid ""
+"Nejčastěji krádeže vloupáním do rodinných domků, víkendových chat, bytů, "
+"obchodů, restaurací a hostinců."
+msgstr ""
+"Most often burglaries of houses, weekend houses, flats, shops and restaurants."
+
+msgid ""
+"Most often thefts from cars, pick pocketing, thefts of motor vehicles, thefts of motor vehicle parts and bicycle thefts"
+msgstr ""
+"Most often thefts from cars, pick pocketing, thefts of motor vehicles, thefts of motor vehicle parts and bicycle thefts."
+
+msgid "Nejčastěji poškozování cizí věci a podvod."
+msgstr "Most often criminal damage and frauds."
+
+msgid ""
+"Nejčastěji maření výkonu úředního rozhodnutí, výtržnictví, nedovolená výroba "
+"a držení psychotropních látek a jedů a sprejerství."
+msgstr ""
+"Most often obstructing the execution of an official decision, disorderly conduct, illegal production and possession of psychotropic substances and poisons and graffiti."
+
+msgid ""
+"Nejčastěji zanedbání povinné výživy, ohrožení pod vlivem návykové látky a "
+"opilství a o nedbalostní dopravní nehody."
+msgstr ""
+"Most often non-payment of alimony, driving under influence of drugs or alcohol and negligent vehicle accidents."
+
+msgid ""
+"Nejčastěji neoprávněné držení platební karty, úvěrový podvod, podvod, "
+"ochrana měny a zpronevěra"
+msgstr ""
+"Most often unauthorized possession of a credit card, frauds and embezzlement."
+
+msgid ""
+"Trestné činy páchané vojáky ve vztahu k výkonu vojenské služby, např. "
+"neuposlechnutí rozkazu, urážka mezi vojáky, vyhýbání se výkonu služby apod."
+msgstr ""
+"Crimes committed by soldiers in relation to their military service, such as insubordination, insultation to another soldier or avoidance of service."
+
+msgid "INDEX KRIMINALITY"
+msgstr "CRIME RATE"
+
+msgid "Počet trestných činů na 10 000 obyvatel za zvolené období"
+msgstr "Rate of selected group of crimes per 10,000 head of population during the selected reporting period."
+
+msgid "Vyber územní jednotku"
+msgstr "Select area unit"
+
+msgid "Pořadí nahoru"
+msgstr "Rank up"
+
+msgid "Pořadí dolů"
+msgstr "Rank down"
+
+msgid "Zjištěno"
+msgstr "Recorded"
+
+msgid "Objasněno"
+msgstr "Cleared"
+
+msgid "Trestné činy celkem"
+msgstr "Crime count total"
+
+msgid "Porovnávat je možné pouze zobrazení"
+msgstr "Compare units is possible only by"
+
+msgid "Zobrazit kraje"
+msgstr "by displaying region."
+
+msgid "nebo"
+msgstr "or"
+
+msgid "Kraje"
+msgstr "regions"
+
+msgid "Zobrazit odbory"
+msgstr "Display district"
+
+msgid "Územní odbory"
+msgstr "Districts"
+
+msgid "Leden"
+msgstr "January"
+
+msgid "Únor"
+msgstr "February"
+
+msgid "Březen"
+msgstr "March"
+
+msgid "Duben"
+msgstr "April"
+
+msgid "Květen"
+msgstr "May"
+
+msgid "Červen"
+msgstr "June"
+
+msgid "Červenec"
+msgstr "July"
+
+msgid "Srpen"
+msgstr "August"
+
+msgid "Září"
+msgstr "September"
+
+msgid "Říjen"
+msgstr "October"
+
+msgid "Listopad"
+msgstr "November"
+
+msgid "Prosinec"
+msgstr "December"
+
+msgid "Přehled trestné činnosti za"
+msgstr "Crime date in"
+
+msgid "Přehled"
+msgstr "Summary"
+
+msgid "Žebříček krajů podle"
+msgstr "Region rankings by"
+
+msgid "Žebříček"
+msgstr "Ranking"
+
+msgid "Vyber typ trestného činu"
+msgstr "Select crime type"
+
+msgid "Všechny trestné činy"
+msgstr "All crime types"
+
+msgid "Stáhnout data"
+msgstr "Documents for download"
+
+msgid "Počet"
+msgstr "Number"
+
+msgid "Index"
+msgstr "Rate"
+
+msgid "Trestné činy"
+msgstr "Crimes"
+
+msgid "Zobrazit žebříček"
+msgstr "Display rankings"
+
+msgid "Počet obyvatel"
+msgstr "Population"
+
+msgid "Počet policistů"
+msgstr "Number of police staff"
+
+msgid "Rozloha území"
+msgstr "Area of the territory"
+
+msgid "Zobrazit přehled"
+msgstr "Display overview"
+
+msgid "Další dokumenty ke stažení"
+msgstr "Documents for download"
+
+msgid "Data o trestné činnosti"
+msgstr "Crime data"
+
+msgid "Trestné činy podle územních odborů"
+msgstr "Crime data by districts"
+
+msgid ""
+"Tabulka zjištěných trestných činů za období leden 2008 až září 2012 pro "
+"jednotlivé územní odbory."
+msgstr ""
+"Tabulka zjištěných trestných činů za období leden 2008 až září 2012 pro "
+"jednotlivé územní odbory."
+
+msgid "Ostatní data"
+msgstr "Ostatní data"
+
+msgid "Početní stavy policistů k 30.6.2012"
+msgstr "Početní stavy policistů k 30.6.2012"
+
+msgid ""
+"Systemizované a skutečné početní stavy policistů na jednotlivých krajských "
+"ředitelstvích a územních odborech PCŘ. Data k 30.6.2012."
+msgstr ""
+"Systemizované a skutečné početní stavy policistů na jednotlivých krajských "
+"ředitelstvích a územních odborech PCŘ. Data k 30.6.2012."
+
+msgid "Základní ukazatele pro územní odbory za období říjen 2011 až září 2012"
+msgstr "Základní ukazatele pro územní odbory za období říjen 2011 až září 2012"
+
+msgid ""
+"Přehledně uspořádané základní ukazatele za uplynulý rok (říjen 2011 až září "
+"2012) - index kriminality, objasněnost, počet obyvatel na 1 policistu a "
+"počet trestných činů na jednoho policistu."
+msgstr ""
+"Přehledně uspořádané základní ukazatele za uplynulý rok (říjen 2011 až září "
+"2012) - index kriminality, objasněnost, počet obyvatel na 1 policistu a "
+"počet trestných činů na jednoho policistu."
+
+msgid "O Aplikaci - O projektu"
+msgstr "O Aplikaci - O projektu"
+
+msgid "O projektu"
+msgstr "O projektu"
+
+msgid "O Aplikaci - Uživatelé"
+msgstr "O Aplikaci - Uživatelé"
+
+msgid "Uživatelé"
+msgstr "Uživatelé"
+
+msgid "O Aplikaci - Data"
+msgstr "O Aplikaci - Data"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Cílem webu"
+msgstr "Cílem webu"
+
+msgid ""
+"je usnadnit veřejnosti orientaci v datech o trestné činnosti, která "
+"pravidelně publikuje Policie ČR. Policejní statistiky převádíme do "
+"jednoduchých tabulkových a mapových náhledů. Pro ty, kdo chtějí data "
+"hlouběji analyzovat, jsou k dispozici ke stažení v počítačově zpracovatelné "
+"podobě."
+msgstr ""
+"en je usnadnit veřejnosti orientaci v datech o trestné činnosti, která "
+"pravidelně publikuje Policie ČR. Policejní statistiky převádíme do "
+"jednoduchých tabulkových a mapových náhledů. Pro ty, kdo chtějí data "
+"hlouběji analyzovat, jsou k dispozici ke stažení v počítačově zpracovatelné "
+"podobě."
+
+msgid ""
+"Věříme, že stránky napomohou debatě o tom, v jaké podobě a jaká data má "
+"policie zaznamenávat a zveřejňovat, o způsobu, jak účinně získávat data o "
+"trestné činnosti i o tom, jak úspěšná je policie při jejím omezování."
+msgstr ""
+"Věříme, že stránky napomohou debatě o tom, v jaké podobě a jaká data má "
+"policie zaznamenávat a zveřejňovat, o způsobu, jak účinně získávat data o "
+"trestné činnosti i o tom, jak úspěšná je policie při jejím omezování."
+
+msgid ""
+"Chceme, aby se stránky staly rozcestníkem pro všechny, kdo se zabývají či "
+"chtějí zabývat trestnou činností a hledají pro svá zkoumání potřebná data."
+msgstr ""
+"Chceme, aby se stránky staly rozcestníkem pro všechny, kdo se zabývají či "
+"chtějí zabývat trestnou činností a hledají pro svá zkoumání potřebná data."
+
+msgid ""
+"Jedná se o nový projekt, a tak budeme rádi, když s námi budete sdílet Váš "
+"názor na něj, nápady na jeho vylepšení, když nás upozorníte na jeho "
+"nedostatky."
+msgstr ""
+"Jedná se o nový projekt, a tak budeme rádi, když s námi budete sdílet Váš "
+"názor na něj, nápady na jeho vylepšení, když nás upozorníte na jeho "
+"nedostatky."
+
+msgid "EMAIL"
+msgstr "EMAIL"
+
+msgid "FACEBOO"
+msgstr "FACEBOO"
+
+msgid "Stránky vytvořila a provozuje"
+msgstr "Stránky vytvořila a provozuje"
+
+msgid "ProPolice/Otevřená společnost, o.p.s."
+msgstr "ProPolice/Otevřená společnost, o.p.s."
+
+msgid "ve spolupráci s"
+msgstr "ve spolupráci s"
+
+msgid "Geographics.cz"
+msgstr "Geographics.cz"
+
+msgid "za podpory programu"
+msgstr "za podpory programu"
+
+msgid "Think Tank Fund"
+msgstr "Think Tank Fund"
+
+msgid "nadace"
+msgstr "nadace"
+
+msgid "Open Society Foundations"
+msgstr "Open Society Foundations"
+
+msgid "a společnosti "
+msgstr "a společnosti "
+
+msgid "Webtica Software"
+msgstr "Webtica Software"
+
+msgid "http://www.youtube.com/embed/sfV5c0HJrdQ"
+msgstr "http://www.youtube.com/embed/sfV5c0HJrdQ"
+
+msgid "jak mapu používat"
+msgstr "jak mapu používat"
+
+msgid "Centra"
+msgstr "Centra"
+
+msgid "Otevřete.cz"
+msgstr "Otevřete.cz"
+
+msgid "ProPolice"
+msgstr "ProPolice"
+
+msgid "ProEquality"
+msgstr "ProEquality"
+
+msgid "Opencity"
+msgstr "Opencity"
+
+msgid "Stránky"
+msgstr "Stránky"
+
+msgid "infoliga.cz"
+msgstr "infoliga.cz"
+
+msgid "eshoposops.cz"
+msgstr "eshoposops.cz"
+
+msgid "Odběr novinek"
+msgstr "Odběr novinek"
+
+msgid "Napište nám"
+msgstr "Napište nám"
+
+msgid "Podpořte nás"
+msgstr "Podpořte nás"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Jeseniova 47"
+msgstr "Jeseniova 47"
+
+msgid "130 00  Praha"
+msgstr "130 00  Praha"
+
+msgid "info@osops.cz"
+msgstr "info@osops.cz"
+
+msgid "+420 222 540 979"
+msgstr "+420 222 540 979"
+
+msgid ""
+"Zpracovaná a stahovatelná data představují široké možnosti využití. Pro "
+"různé skupiny uživatelů pro inspiraci uvádíme některé z nich:"
+msgstr ""
+"Zpracovaná a stahovatelná data představují široké možnosti využití. Pro "
+"různé skupiny uživatelů pro inspiraci uvádíme některé z nich:"
+
+msgid "Zastupitelé"
+msgstr "Zastupitelé"
+
+msgid "Novináři"
+msgstr "Novináři"
+
+msgid ""
+"Komentáře o bezpečnostní situaci v dané oblasti jsou nedílnou součástí řady "
+"regionálních reportáží o trestné činnosti; novinářům přitom často schází "
+"jednoduchý a rychlý přístup k základním datům. Web jim může práci usnadnit, "
+"ale i zkvalitnit – třeba při reportážích o sociálních nepokojích v důsledku "
+"narůstající kriminality."
+msgstr ""
+"Komentáře o bezpečnostní situaci v dané oblasti jsou nedílnou součástí řady "
+"regionálních reportáží o trestné činnosti; novinářům přitom často schází "
+"jednoduchý a rychlý přístup k základním datům. Web jim může práci usnadnit, "
+"ale i zkvalitnit – třeba při reportážích o sociálních nepokojích v důsledku "
+"narůstající kriminality."
+
+msgid "Studenti"
+msgstr "Studenti"
+
+msgid ""
+"Řada studentů právních směrů a společenských věd se věnuje ve svých "
+"závěrečných pracích přímo bezpečnosti, nebo souvisejícím otázkám. Chybějící "
+"rychlý přístup k snadno použitelným datům o trestné činnosti je přitom často "
+"překážkou pro podrobnější zkoumání problémů, které ve svých pracích řeší."
+msgstr ""
+"Řada studentů právních směrů a společenských věd se věnuje ve svých "
+"závěrečných pracích přímo bezpečnosti, nebo souvisejícím otázkám. Chybějící "
+"rychlý přístup k snadno použitelným datům o trestné činnosti je přitom často "
+"překážkou pro podrobnější zkoumání problémů, které ve svých pracích řeší."
+
+msgid "Aktivní občané"
+msgstr "Aktivní občané"
+
+msgid ""
+"Pro řadu lidí je pocit bezpečí velmi důležitou hodnotou, která se "
+"bezprostředně dotýká kvality jejich života. Aktivní občané, kteří se "
+"zasazují o její zlepšení, tak získají množství nových a snadno použitelných "
+"informací. Zpřístupnění dat může otevřít prostor pro vývoj internetových "
+"aplikací, zpracovávajících související témata."
+msgstr ""
+"Pro řadu lidí je pocit bezpečí velmi důležitou hodnotou, která se "
+"bezprostředně dotýká kvality jejich života. Aktivní občané, kteří se "
+"zasazují o její zlepšení, tak získají množství nových a snadno použitelných "
+"informací. Zpřístupnění dat může otevřít prostor pro vývoj internetových "
+"aplikací, zpracovávajících související témata."
+
+msgid "Policisté"
+msgstr "Policisté"
+
+msgid ""
+"Policisté mají samozřejmě nejen přístup k datům, ale i vlastní bezprostřední "
+"zkušenost. Přesto se jim může hodit bezprostřední on-line přístup k "
+"přehledně utříděným datům i jinde, než slouží."
+msgstr ""
+"Policisté mají samozřejmě nejen přístup k datům, ale i vlastní bezprostřední "
+"zkušenost. Přesto se jim může hodit bezprostřední on-line přístup k "
+"přehledně utříděným datům i jinde, než slouží."
+
+msgid "info@mapakriminality.cz"
+msgstr "info@mapakriminality.cz"
+
+msgid "CC BY-NC-ND 3.0, ProPolice, 201"
+msgstr "CC BY-NC-ND 3.0, ProPolice, 201"
+
+msgid ""
+"Každý měsíc Policie ČR publikuje množství dat o zjištěné trestné činnosti. "
+"Tato data mají určité vstupní nedostatky, na něž je dobré upozornit."
+msgstr ""
+"Každý měsíc Policie ČR publikuje množství dat o zjištěné trestné činnosti. "
+"Tato data mají určité vstupní nedostatky, na něž je dobré upozornit."
+
+msgid ""
+"Za prvé, jedná se o data o zjištěné trestné činnosti, tedy o skutcích, o "
+"nichž se policie dozvěděla. Latence trestné činnosti (tj. podíl činů, které "
+"policií nebyly zjištěny) se v závislosti na typu kriminality podle odhadů "
+"pohybuje od jednotek procent až po 80-90% v případě mravnostních skutků. Z "
+"podstaty tedy nelze tato data vnímat jako ukazatel skutečného stavu "
+"kriminality, ale jako ukazatel velice přibližný (současně ale i nejlepší, "
+"jaký máme k dispozici)."
+msgstr ""
+"Za prvé, jedná se o data o zjištěné trestné činnosti, tedy o skutcích, o "
+"nichž se policie dozvěděla. Latence trestné činnosti (tj. podíl činů, které "
+"policií nebyly zjištěny) se v závislosti na typu kriminality podle odhadů "
+"pohybuje od jednotek procent až po 80-90% v případě mravnostních skutků. Z "
+"podstaty tedy nelze tato data vnímat jako ukazatel skutečného stavu "
+"kriminality, ale jako ukazatel velice přibližný (současně ale i nejlepší, "
+"jaký máme k dispozici)."
+
+msgid ""
+"Za druhé, způsob publikování dat je poměrně nepřehledný. Měsíční změna v "
+"počtech trestných činů na úrovni územních odborů (dříve okresních "
+"ředitelství) a krajských ředitelství policie, roztříděných do devíti "
+"základních kategorií, je zaznamenána v rozsáhlé excelové tabulce, která má v "
+"patnácti listech bezmála dvě stovky řádků a necelou stovku sloupců."
+msgstr ""
+"Za druhé, způsob publikování dat je poměrně nepřehledný. Měsíční změna v "
+"počtech trestných činů na úrovni územních odborů (dříve okresních "
+"ředitelství) a krajských ředitelství policie, roztříděných do devíti "
+"základních kategorií, je zaznamenána v rozsáhlé excelové tabulce, která má v "
+"patnácti listech bezmála dvě stovky řádků a necelou stovku sloupců."
+
+msgid ""
+"Za třetí, policejní statistika je konstruována pro meziroční srovnávání. "
+"Každý kalendářní rok v lednu začíná statistika na nule a s přibývajícími "
+"měsíci jsou data aktualizována (tedy i odečítána v případě změny právní "
+"kvalifikace); v prosinci je tabulka pro daný rok uzavřena a žádné další "
+"korekce v datech už zpětně neprobíhají. Zjednodušeně řečeno – policejní data "
+"nejsou nikdy stoprocentně přesná, pouze každý měsíc od ledna do prosince "
+"přesnější."
+msgstr ""
+"Za třetí, policejní statistika je konstruována pro meziroční srovnávání. "
+"Každý kalendářní rok v lednu začíná statistika na nule a s přibývajícími "
+"měsíci jsou data aktualizována (tedy i odečítána v případě změny právní "
+"kvalifikace); v prosinci je tabulka pro daný rok uzavřena a žádné další "
+"korekce v datech už zpětně neprobíhají. Zjednodušeně řečeno – policejní data "
+"nejsou nikdy stoprocentně přesná, pouze každý měsíc od ledna do prosince "
+"přesnější."
+
+msgid ""
+"S vědomím těchto limitů, které vyplývají z povahy zaznamenávání a "
+"publikování dat, jsme se rozhodli data co nejvíce „rozdrobit“ a umožnit tak "
+"jejich co nejširší vzájemné porovnávání v čase i v prostoru.A otevřít tak "
+"debatu o tom, jaká data o kriminalitě vlastně máme a jaká data chceme mít."
+msgstr ""
+"S vědomím těchto limitů, které vyplývají z povahy zaznamenávání a "
+"publikování dat, jsme se rozhodli data co nejvíce „rozdrobit“ a umožnit tak "
+"jejich co nejširší vzájemné porovnávání v čase i v prostoru.A otevřít tak "
+"debatu o tom, jaká data o kriminalitě vlastně máme a jaká data chceme mít."
+
+msgid ""
+"Nejmenší jednotkou času, jíž lze z policejních dat vydělit, je v tuto chvíli "
+"jeden kalendářní měsíc, nejmenší jednotkou prostoru územní odbor (v Praze "
+"obvodní ředitelství). Větší rozdrobení dat v tuto chvíli není možné. V "
+"relativně stejné podobě, pouze s dílčími změnami, publikuje policie data od "
+"roku 2008 – proto i časová řada na stránkách začíná lednem 2008 (starší "
+"tabulky neumožňují třídit data shodným způsobem). V první fázi projektu se "
+"tak časová řada bude rozšiřovat pouze s přibývajícími měsíčními údaji, "
+"nikoli do minulosti."
+msgstr ""
+"Nejmenší jednotkou času, jíž lze z policejních dat vydělit, je v tuto chvíli "
+"jeden kalendářní měsíc, nejmenší jednotkou prostoru územní odbor (v Praze "
+"obvodní ředitelství). Větší rozdrobení dat v tuto chvíli není možné. V "
+"relativně stejné podobě, pouze s dílčími změnami, publikuje policie data od "
+"roku 2008 – proto i časová řada na stránkách začíná lednem 2008 (starší "
+"tabulky neumožňují třídit data shodným způsobem). V první fázi projektu se "
+"tak časová řada bude rozšiřovat pouze s přibývajícími měsíčními údaji, "
+"nikoli do minulosti."
+
+msgid ""
+"Abychom umožnili kontinuální zobrazení časové řady na mapovém podkladu, "
+"provedli jsme dvě drobné úpravy policejních dat."
+msgstr ""
+"Abychom umožnili kontinuální zobrazení časové řady na mapovém podkladu, "
+"provedli jsme dvě drobné úpravy policejních dat."
+
+msgid ""
+"Protože od dubna 2012 byl sloučen územní odbor Vyškov a Blansko, hodnoty pro "
+"tyto dva ÚO byly proto sečteny i do minulosti, aby bylo možné zobrazení dat "
+"na mapě."
+msgstr ""
+"Protože od dubna 2012 byl sloučen územní odbor Vyškov a Blansko, hodnoty pro "
+"tyto dva ÚO byly proto sečteny i do minulosti, aby bylo možné zobrazení dat "
+"na mapě."
+
+msgid ""
+"Protože některé kraje vedou vedle územních útvarů i oddělenou statistiku PP/"
+"ICP (pohraniční/cizinecká policie) a ZELEZ (oddělení železniční policie) a "
+"byli bychom neradi, aby jakékoli zjištěné trestné činy vypadly z mapového "
+"zobrazení, sloučili jsme po konzultaci se statistickým oddělením Policejního "
+"prezidia tyto statistiky se statistikami územních odborů, na jejichž území "
+"tyto útvary sídlí a trestné činy jsou zde zpravidla zjištěny a hlášeny."
+msgstr ""
+"Protože některé kraje vedou vedle územních útvarů i oddělenou statistiku PP/"
+"ICP (pohraniční/cizinecká policie) a ZELEZ (oddělení železniční policie) a "
+"byli bychom neradi, aby jakékoli zjištěné trestné činy vypadly z mapového "
+"zobrazení, sloučili jsme po konzultaci se statistickým oddělením Policejního "
+"prezidia tyto statistiky se statistikami územních odborů, na jejichž území "
+"tyto útvary sídlí a trestné činy jsou zde zpravidla zjištěny a hlášeny."
+
+msgid ""
+"Z pohledu výpočtu indexů či porovnání podle počtu trestných činů či "
+"objasněnosti jde o marginální změny, nicméně údaje se na první pohled v "
+"některých případech liší od oficiální policejní statistiky, proto na ně "
+"upozorňujeme. Jedná se o tato sloučení"
+msgstr ""
+"Z pohledu výpočtu indexů či porovnání podle počtu trestných činů či "
+"objasněnosti jde o marginální změny, nicméně údaje se na první pohled v "
+"některých případech liší od oficiální policejní statistiky, proto na ně "
+"upozorňujeme. Jedná se o tato sloučení"
+
+msgid "KŘP Hl. m. Praha - PP (letiště Ruzyně) sloučeno s OŘ Praha I."
+msgstr "KŘP Hl. m. Praha - PP (letiště Ruzyně) sloučeno s OŘ Praha I."
+
+msgid ""
+"KŘP Jihomoravský kraj - PP (letiště Tuřany) a ZELEZ (oddělení železniční "
+"policie) sloučeny ÚO Brno-město."
+msgstr ""
+"KŘP Jihomoravský kraj - PP (letiště Tuřany) a ZELEZ (oddělení železniční "
+"policie) sloučeny ÚO Brno-město."
+
+msgid ""
+"KŘP Moravskoslezský kraj - PP (letiště Mošnov) sloučeno pod ÚO Nový jičín a "
+"ZELEZ (oddělení železniční policie) sloučeno pod ÚO Ostrava-město."
+msgstr ""
+"KŘP Moravskoslezský kraj - PP (letiště Mošnov) sloučeno pod ÚO Nový jičín a "
+"ZELEZ (oddělení železniční policie) sloučeno pod ÚO Ostrava-město."
+
+msgid "KŘP Pardubický kraj - PP (letiště Pardubice) sloučeno pod ÚO Pardubice."
+msgstr ""
+"KŘP Pardubický kraj - PP (letiště Pardubice) sloučeno pod ÚO Pardubice."
+
+msgid ""
+"KŘP Karlovarský kraj - PP (letiště Karlovy Vary) sloučeno pod ÚO Karlovy Vary"
+msgstr ""
+"KŘP Karlovarský kraj - PP (letiště Karlovy Vary) sloučeno pod ÚO Karlovy Vary"
+
+msgid ""
+"Základním nástrojem pro srovnání mezi jednotlivými kraji či územními odbory "
+"je "
+msgstr ""
+"Základním nástrojem pro srovnání mezi jednotlivými kraji či územními odbory "
+"je "
+
+msgid ""
+" (počet zjištěných skutků za zvolené období, přepočtený na 10 000 obyvatel). "
+"Všude, kde je to možné, jej používáme jako prioritní ukazatel. Počty "
+"obyvatel jednotlivých krajů a územních odborů vychází ze statistik, "
+"publikovaných Českým statistickým úřadem. Jedná se o střední stavy obyvatel "
+"za rok 2012. Pouze v několika případech, kdy data nebylo možné zjistit od "
+"ČSÚ, jsou tyto počty odvozeny součtem menších částí, za něž jsou data "
+"(obvodní ředitelství Praha I-IV), resp. byly zjištěny dotazem na Policii ČR "
+"(územní odbory Praha-Venkov Jih, Západ a Východ)."
+msgstr ""
+" (počet zjištěných skutků za zvolené období, přepočtený na 10 000 obyvatel). "
+"Všude, kde je to možné, jej používáme jako prioritní ukazatel. Počty "
+"obyvatel jednotlivých krajů a územních odborů vychází ze statistik, "
+"publikovaných Českým statistickým úřadem. Jedná se o střední stavy obyvatel "
+"za rok 2012. Pouze v několika případech, kdy data nebylo možné zjistit od "
+"ČSÚ, jsou tyto počty odvozeny součtem menších částí, za něž jsou data "
+"(obvodní ředitelství Praha I-IV), resp. byly zjištěny dotazem na Policii ČR "
+"(územní odbory Praha-Venkov Jih, Západ a Východ)."
+
+msgid ""
+"Údaje o počtech policistů, s nimiž pracujeme, byly získány dotazem na "
+"Policii ČR a představují skutečný (ne plánovaný) početní stav policistů v "
+"daném územním útvaru k 30. červnu 2012."
+msgstr ""
+"Údaje o počtech policistů, s nimiž pracujeme, byly získány dotazem na "
+"Policii ČR a představují skutečný (ne plánovaný) početní stav policistů v "
+"daném územním útvaru k 30. červnu 2012."
+
+msgid "Podkladová data jsou připravena v přehledné podobě ke stažení v sekci "
+msgstr "Podkladová data jsou připravena v přehledné podobě ke stažení v sekci "
+
+msgid "mapakriminality.cz - tabulky"
+msgstr "mapakriminality.cz - tabulky"
+
+msgid "Data, zobrazovaná na webu "
+msgstr "Data, zobrazovaná na webu "
+
+msgid ""
+" a data stažená z tohoto webu, podléhají licenci Creative Commons BY-NC-SA "
+"(Uveďte autora – Nevyužívejte komerčně – Zachovejte licenci). Více o "
+"licenčních podmínkách "
+msgstr ""
+" a data stažená z tohoto webu, podléhají licenci Creative Commons BY-NC-SA "
+"(Uveďte autora – Nevyužívejte komerčně – Zachovejte licenci). Více o "
+"licenčních podmínkách "
+
+msgid "Creative commons license"
+msgstr "Creative commons license"
+
+msgid "Creative Commons"
+msgstr "Creative Commons"
+
+msgid "Autorem a provozovatelem webu "
+msgstr "Autorem a provozovatelem webu "
+
+msgid ""
+" je ProPolice/Otevřená společnost, o.p.s. Jedním z&nbsp;cílů Otevřené "
+"společnosti je "
+msgstr ""
+" je ProPolice/Otevřená společnost, o.p.s. Jedním z&nbsp;cílů Otevřené "
+"společnosti je "
+
+msgid ""
+"Data, zobrazovaná na webu mapakriminality.cz a data stažená z&nbsp;tohoto "
+"webu, podléhají licenci Creative Commons BY-NC-SA (Uveďte autora – "
+"Nevyužívejte komerčně – Zachovejte licenci)."
+msgstr ""
+"Data, zobrazovaná na webu mapakriminality.cz a data stažená z&nbsp;tohoto "
+"webu, podléhají licenci Creative Commons BY-NC-SA (Uveďte autora – "
+"Nevyužívejte komerčně – Zachovejte licenci)."
+
+msgid "Více o licenčních podmínkách "
+msgstr "Více o licenčních podmínkách "

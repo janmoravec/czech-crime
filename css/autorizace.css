@@ -1,0 +1,191 @@
+.authorization { 
+	z-index: 9999;
+	position: absolute;
+	right: 145px;
+	top: 20px;
+}
+.authorization section{
+	font-size:12px;
+}
+
+.authorization .content{
+	background-color:#333333;
+	padding:10px 20px;
+	width:215px;
+}
+
+.authorization div.top{
+	background:url("../images/authorization-boxTop.png") no-repeat;
+	width:255px;
+	height:13px;
+}
+
+.authorization h1{
+	font-size:14px;
+}
+
+.authorization a{
+	text-decoration:underline;
+}
+
+.authorization .logIn, .authorization .registration, .authorization .userInfo{
+	display:none;
+}
+
+.authorization .logIn .content
+{
+	padding:10px 20px 20px;
+}
+
+.authorization .logIn .content a
+{
+	display:block;
+}
+
+.authorization input[type=text],.authorization input[type=password], .authorization select{
+	width:205px;
+	margin-bottom:10px;
+	padding:5px;
+	background-color:#fff;
+	border:0px;
+}
+
+.authorization select{
+	border:0px;
+	width: 150x;
+	height: 25px;
+	background: transparent;	
+}
+
+.authorization div.selectWrapper
+{
+	width:215px;
+	height:25px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	background: url("../images/authorization-arrow.png") no-repeat 170px #fff;
+}
+
+.authorization input.checkbox, .authorization section.userInfo input.checkbox{
+	width:20px;
+	float:left;
+}
+
+.authorization input[type=submit]{
+	float:right;
+	padding: 5px;
+    text-transform: uppercase;
+    font-family: "robotomedium";
+    border:0px;
+    background-color: #666666;
+    color:white;
+
+}
+
+.authorization .logIn .content input[type=submit]{
+	margin-top: -25px;
+}
+
+.authorization input[type=submit]:hover{
+	background-color: #ffde00;
+	color:#333333;
+}
+
+.authorization .registration input[type=submit], .authorization {
+	margin-top:-15px;
+}
+.authorization .userInfo h1{
+	margin-top: 5px;
+}
+
+.authorization .userInfo header a{
+	display:block;
+	width:57px;
+	float:right;
+	margin-top:-33px;
+	background:url("../images/authorization-signOff.png") 45px no-repeat;
+}
+
+.authorization .userInfo div.top{
+	background:url("../images/authorization-boxTopWide.png") no-repeat;
+	width:280px;
+}
+
+.authorization .userInfo .selectWrapper{
+	width: 185px;
+	float: right;
+}
+
+.authorization .userInfo .content{
+	width:240px;
+}
+
+.authorization .userInfo input[type=text],.authorization .userInfo input[type=password]{
+	width:175px;
+	float:right;
+}
+
+.authorization .userInfo label{
+	margin-right:7px;
+	float:left;
+}
+
+.authorization .userInfo header span{
+	text-decoration:underline;
+}
+
+.authorization .userInfo div.selectWrapper
+{
+	
+}
+
+/* forget password */
+
+.authorization .forgetPasContent
+{
+	background-color:#333333;
+	padding: 0px 20px 35px;
+	width: 215px;
+	display:none;
+}
+
+
+.authorization .forgetPasContent label
+{
+	border-top: 1px solid white;
+	padding-top: 8px;
+	margin-bottom: 8px;
+}
+
+
+.authorization .forgetPasContent label, .authorization .forgetPasContent input{
+	display:block;
+}
+
+.authorization  .forgetPasContent input[type=submit]
+{
+	border: none;
+	width:90px;
+	height:25px;
+	font-size:11px;
+	font-family: "RobotoMedium";
+	color:white;
+	background: url("../images/contact-sendArrow.png") #666666 70px 7px no-repeat; 
+	text-align:left;
+	float:right;
+}
+
+.authorization .forgetPasContent input[type=submit]:hover
+{
+	border: none;
+	width:90px;
+	height:25px;
+	font-size:11px;
+	font-family: "RobotoMedium";
+	color:#333;
+	background: url("../images/contact-sendArrow-over.png") #ffde00 70px 7px no-repeat; 
+	text-align:left;
+	float:right;
+}
+
+.close-registration { float: right; text-decoration: none !important; font-weight: bold; font-size: 14px; padding: 5px;}

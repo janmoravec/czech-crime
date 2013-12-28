@@ -1,0 +1,145 @@
+.contact
+{
+	background-color:#333333;
+	width:487px;
+	padding-top:25px;
+	padding-left:23px;
+	padding-bottom:0px;
+	font-size:12px;
+	line-height: 1.2em;
+        position: absolute;
+        left: 330px;
+        top: 160px ;
+        z-index: 9999;
+        display:none;
+}
+
+.contact .arrow
+{
+	background:url("../images/contact-sideArrow.png");
+	height: 38px;
+    margin-left: -42px;
+    width: 19px;
+}
+
+.contact .closeBtn
+{
+	background:url("../images/contact-closeBtn.png") no-repeat;
+	width:11px;
+	height:11px;
+	margin-right: 6px;
+    margin-top: -56px;
+    float:right;
+    display:block;
+}
+
+.contact .closeBtn:hover
+{
+	background:url("../images/contact-closeBtn-over.png") no-repeat;
+}
+
+.contact .contactInfo
+{
+	float:left;
+	width:180px;
+	margin-top:-38px;
+	margin-bottom: 5px;
+}
+
+.contact .contactInfo div.name
+{
+	font-size:14px;
+	font-family: "RobotoMedium";
+}
+
+.contact address
+{
+	margin-top:15px;
+	font-style:normal;
+}
+
+.contact dl
+{
+	width:160px;
+}
+
+.contact dt
+{
+	font-style: italic;
+}
+
+.contact dd
+{
+	margin-bottom: 20px;
+}
+
+.contact .contactForm
+{
+	margin-left:10px;
+	margin-right:25px;
+	width:267px;
+	float:right;
+	margin-top:-38px;
+}
+
+.contact input.web
+{
+	border: none;
+	width:90px;
+	height:25px;
+	font-size:11px;
+	font-family: "RobotoMedium";
+	color:white;
+	background: url("../images/contact-sendArrow.png") #666666 70px 7px no-repeat; 
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+	float:right;
+	margin-top:-2px;
+}
+
+.contact input.web:hover
+{
+	border: none;
+	width:90px;
+	height:25px;
+	font-size:11px;
+	font-family: "RobotoMedium";
+	color:white;
+	background: url("../images/contact-sendArrow.png") #666666 70px 7px no-repeat; 
+	text-align:left;
+	padding-left:10px;
+	padding-top:2px;
+	float:right;
+}
+
+.contact input.web:hover
+{
+	background-color: #ffde00;
+	background-image: url("../images/contact-sendArrow-over.png");
+	color:#333333;
+}
+
+.contact input, .contact textarea
+{
+	width:254px;
+	margin-bottom:10px;
+	padding:5px;
+}
+
+.contact .mail {
+	font-style: italic;
+}
+
+.contact textarea
+{
+	width: 256px;
+}
+
+.contact .from
+{
+	font-size:10px;
+	color:#cbcbcb;
+	font-style: italic;
+	margin-top:-2px;
+}

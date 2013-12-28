@@ -1,0 +1,147 @@
+{block content}
+<section id="oAplikaciPage">
+	<div class="wrapper">
+		<div class="header">
+			<h1>About</h1>
+			<!--<nav id="subNav">
+				<ul>
+					<li><a id="mapa" href="#oAplikaciMapa" title="O Aplikaci - O projektu" class="active">O projektu</a></li>
+					<li><a id="users" href="#oAplikaciUzivatele" title="O Aplikaci - Uživatelé">Uživatelé</a></li>
+                    <li><a id="data" href="#oAplikaciData" title="O Aplikaci - Data">Data</a></li>
+				</ul>
+			</nav>-->
+			<hr />
+		</div>
+            <div class="subpageHolder">
+                <div id="mapaContent" class="mapaKriminality content insertedSubpageContent">
+                    <div class="wrapperTwoColumns">
+                        <div>
+                            <p><a href="http://www.czechcrime.org" target="_blank" title="Czech crime">www.czechcrime.org</a> s a non-for profit, non-governmental initiative of Otevřená společnost, o.p.s.We believe that this website will enhance public debate about the nature of gathering and  recording of crime data and about the ways of its presentation towards public.</p> 
+                            <p>Recently, police publishes monthly statistics in complicated and user-unfriendly excel tables. With Czechcrime.org, crime data become available and understandable to anybody who is interested.</p>
+                            <p>However, the data published at <a href="http://www.czechcrime.org" target="_blank" title="Czech crime">Czechcrime.org</a> are robust and valid (yet unofficial) source of information about crime in Czech republic. The data can be used under BY-NC-SA Creative Commons license.</p>
+                            <p>The institution of <a href="http://www.czechcrime.org" target="_blank" title="Czech crime">Czechcrime.org</a> has been supported by <a href="http://www.opensocietyfoundations.org/about/programs/think-tank-fund" target="_blank" title="Think Tank Fund">Think Tank Fund</a> program <a href="http://www.opensocietyfoundations.org/" title="Open Society Foundations" target="_blank">Open Society Foundations</a>.</p> 
+                        </div>
+                        <div class="push"></div>
+                    </div>
+                    <div class="footer">
+                                <section class="left1 tab">
+                                        <h1>Programs</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Otevřete.cz">Otevřete.cz</a></li>
+                                                <li><a href="http://www.pro-police.cz" target="_blank" title="ProPolice">ProPolice</a></li>
+                                                <li><a href="http://www.proequality.cz" target="_blank" title="ProEquality">ProEquality</a></li>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Opencity">Opencity</a></li>
+                                        </ul>
+                                </section>
+                                <section class="left2 tab">
+                                        <h1>Initiatives</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.infoliga.cz" target="_blank" title="Infoliga">infoliga.cz</a></li>
+                                                <li><a href="http://www.mapakriminality.cz/" target="_blank" title="mapakriminality">mapakriminality.cz</a></li>
+                                                <li><a href="http://eshop.osops.cz/" target="_blank" title="eshoposops">eshoposops.cz</a></li>
+                                        </ul>
+                                </section>
+                                <section class="right1 tab">
+                                        <ul>
+                                                <li class="news"><div>News feed</div></li>
+                                                <li class="write"><a href="mailto:info@osops.cz" target="_blank"><div>Email us</div></a></li>
+                                                <li class="support"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WGG2FH6BJJ998" target="_blank"><div>Support us</div></a></li>
+                                                <li class="facebook"><a href="http://www.facebook.com/Mapakriminality" target="_blank"><div>Facebook</div></a></li>
+                                                <li class="twitter"><div>Twitter</div></li>
+                                        </ul>
+                                </section>
+                                <section class="right2 tab">
+                                        <h1>Contact</h1>
+                                        <hr>
+                                        <address>
+                                                <div>
+                                                        Jeseniova 47<br>
+                                                        130 00  Praha
+                                                </div>
+                                                <div>
+                                                        <span class="mail">info@osops.cz</span><br>
+                                                        +420 222 540 979
+                                                </div>
+                                        </address>
+                                </section>          
+                        </div>
+                </div>
+            </div>
+	</div>
+</section>
+
+{/block}
+
+
+{block head}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#mapa").click(function(){
+        $("#mapaContent").show();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        
+
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Mapa Kriminality");
+    });
+    $("#users").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").show();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Uživatelé");
+    });
+    $("#authors").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").show();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Autoři");
+    });
+    $("#data").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").show();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Data");
+    });
+
+     //check slug
+    var slug = location.hash;
+    
+    if( slug.indexOf( "oAplikaciMapa") > 0 ) {
+        $("#mapa").trigger("click");
+    } else if( slug.indexOf( "oAplikaciUzivatele" ) > 0 ) {
+        $("#users").trigger("click");
+    } else if( slug.indexOf( "oAplikaciData" ) > 0 ) {
+        $("#data").trigger("click");
+    }  
+    
+});
+</script>
+
+
+{/block}

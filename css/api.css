@@ -1,0 +1,19 @@
+body {
+	padding: 20px;
+}
+
+.form {
+	width: 300px;
+}
+
+@media (max-width: 481px) {
+
+	.form {
+		width: 100%;
+	}
+
+}
+
+#result-table, #result2-table {
+	display: none;
+}

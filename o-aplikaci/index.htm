@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>MAPAKRIMINALITY.CZ</title>
+  <meta name="description" content="">
+
+  <meta name="description" content="Statistiky trestných činů na území ČR">
+  <meta name="author" content="ProPolice/Otevřená společnost, o.p.s">
+  <meta name="keywords" content="kriminality, vizualizace kriminality, statistika trestných činů, trestné činy">
+
+  <meta property="og:title" content="MapaKriminality.cz">
+  <meta property="og:description" content="Statistiky trestných činů na území ČR">
+  <meta property="og:url" content="http://www.mapakriminality.cz/">
+  <meta property="og:image" content="http://www.mapakriminality.cz/images/facebook.png">
+  <meta property="og:type" content="website">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="icon" type="image/png" href="../favicon.png" />
+
+  <link rel="stylesheet" href="..//css/styles-en.css?0.9" />
+
+  <script src="../js/libs/modernizr-2.5.3.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#mapa").click(function(){
+        $("#mapaContent").show();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        
+
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Mapa Kriminality");
+    });
+    $("#users").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").show();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Uživatelé");
+    });
+    $("#authors").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").show();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Autoři");
+    });
+    $("#data").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").show();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Data");
+    });
+
+     //check slug
+    var slug = location.hash;
+    
+    if( slug.indexOf( "oAplikaciMapa") > 0 ) {
+        $("#mapa").trigger("click");
+    } else if( slug.indexOf( "oAplikaciUzivatele" ) > 0 ) {
+        $("#users").trigger("click");
+    } else if( slug.indexOf( "oAplikaciData" ) > 0 ) {
+        $("#data").trigger("click");
+    }  
+    
+});
+</script>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/cs_CZ/all.js#xfbml=1&appId=272071086197256";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 8]<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
+  <header class="mainBar">
+      <a href="../#mapa" class="logo"><img src="../images/logo.png" alt="logo" class="logo" /></a>
+      <h2>Projekt Otevřené společnosti, o.p.s.</h2>
+      <div class="right">
+      <nav id="pagesNav">
+        <ul>
+          <li><a id="map" href="..#mapa" title="homepage"><span>MAPA</span></a></li>
+          <li><a id="compare" href="../#porovnani" title="porovnani"><span>POROVNÁNÍ</span></a></li>
+          <li><a id="table" href="../#tabulky" title="tabulky"><span>TABULKY</span></a></li>
+         <!-- <li><a n:href="Kontakty:" title="kontakty"><span>KONTAKTY</span></a></li>-->
+          <li><a href="#" title="oAplikaci"  class="active"><span>O APLIKACI</span></a></li>
+          <span>|</span>
+          <li><a id="login" href="#"><span>PŘIHLÁŠENÍ</span></a></li>
+        </ul>
+      </nav>
+      <!-- <a href="#" class="ir flag czech" title="czechcrime.org">Czech crime</a> -->
+      <div class="fb-like" data-href="http://www.facebook.com/Mapakriminality" data-layout="button_count" data-width="350"></div>
+      </div>
+  </header>
+  <div id="main" role="main">
+        
+    
+     
+<div class="authorization">
+		<section class="logIn">
+			<div class="top"></div>
+			<div class="content">
+				<header>
+					<h1>LOG-IN TO APP</h1>
+				</header>
+<form action="/_personal/propolice/project-implemented/about/?do=signInForm-submit" method="post" id="frm-signInForm">					<input type="text" placeholder="e-mail" name="email" id="frmsignInForm-email" required="required" data-nette-rules="{op:':filled',msg:&quot;Zadejte pros\u00edm V\u00e1\u0161 e-mail.&quot;}" value="" />
+					<input type="password" placeholder="heslo" name="password" id="frmsignInForm-password" required="required" data-nette-rules="{op:':filled',msg:&quot;Zadejte pros\u00edm Va\u0161e heslo.&quot;}" />
+					<a href="#" id="newUser" title="new user">New user</a>
+					<a href="#" id="forgetPass" title="forgot password" class="lostPass">Forgot password</a>
+					<input type="submit" name="login" id="frmsignInForm-login" value="PŘIHLÁSIT SE" />
+</form>
+			</div>
+			<div class="forgetPasContent">
+<form action="/_personal/propolice/project-implemented/about/?do=forgetPassForm-submit" method="post" id="frm-forgetPassForm"><label for="frmforgetPassForm-email">Váš e-mail zadaný při registraci</label>					<input type="text" name="email" id="frmforgetPassForm-email" value="" />
+					<input type="submit" name="submit_" id="frmforgetPassForm-submit" value="Odeslat" />
+<div><!--[if IE]><input type=IEbug disabled style="display:none"><![endif]--></div>
+</form>
+			</div>
+		</section>
+                <section class="registration">
+			<div class="top"></div>
+			<div class="content">
+                            <a href="#" class="close-registration">x</a>
+				<header>
+					<h1>NOVÝ UŽIVATEL</h1>
+				</header>
+
+<form action="/_personal/propolice/project-implemented/about/?do=registrationForm-submit" method="post" id="frm-registrationForm">					<input type="text" placeholder="e-mail" name="email" id="frmregistrationForm-email" required="required" data-nette-rules="{op:':filled',msg:&quot;Zadejte pros\u00edm V\u00e1\u0161 e-mail.&quot;}" value="" />
+					<input type="password" placeholder="heslo" name="password" id="frmregistrationForm-password" required="required" data-nette-rules="{op:':filled',msg:&quot;Zadejte pros\u00edm Va\u0161e heslo.&quot;}" />
+                            <input type="password" placeholder=" potvrďte heslo" name="pswdCheck" id="frmregistrationForm-pswdCheck" required="required" data-nette-rules="{op:':filled',msg:&quot;Potvr\u010fte pros\u00edm Va\u0161e heslo.&quot;},{op:':filled',rules:[{op:':equal',msg:&quot;Potvrdil(a) jste chybn\u00e9 heslo!&quot;,arg:{control:'password'}}],control:'pswdCheck'}" />
+                                        <div class="selectWrapper">
+					<select name="sector" id="frmregistrationForm-sector" required="required" data-nette-rules="{op:':filled',msg:&quot;Vyberte pros\u00edm sektor.&quot;}" data-nette-empty-value=""><option value="" selected="selected">Vyberte sektor</option><option value="4">CS ČR</option><option value="2">Obecní policie</option><option value="1">Policie ČR</option><option value="6">Samospráva</option><option value="5">Státní správa</option><option value="3">VSČR</option><option value="7">Zainteresovaný občan</option></select>
+                                        </div>
+					<input type="checkbox" name="newsletter" id="frmregistrationForm-newsletter" /> <label for="frmregistrationForm-newsletter">Keep me updated<br /> about the news</label>
+                                        <input type="submit" name="register" id="frmregistrationForm-register" value="REGISTROVAT" />
+</form>
+			</div>
+		</section>
+                <section class="userInfo">
+			<div class="top"></div>
+			<div class="content">
+				<header>
+					<h1>USER NAME</h1>
+					<a title="log-out" href="/_personal/propolice/project-implemented/sign/out">log-out</a>
+					<div class="clearfix"></div>
+				</header>
+<form action="/_personal/propolice/project-implemented/about/?do=userInfoForm-submit" method="post" id="frm-userInfoForm">                                    <fieldset>
+<label for="frmuserInfoForm-email">email</label>                                        <input type="text" name="email" disabled="disabled" id="frmuserInfoForm-email" value="" />
+                                    </fieldset>
+                                    <fieldset>
+<label for="frmuserInfoForm-password">heslo</label>					<input type="password" placeholder="heslo" name="password" id="frmuserInfoForm-password" />
+                                    </fieldset>
+                                    <fieldset>
+<label for="frmuserInfoForm-checkPassword">potvrdit</label>                                        <input type="password" placeholder="potvrdit heslo" name="checkPassword" id="frmuserInfoForm-checkPassword" data-nette-rules="{op:':filled',rules:[{op:':equal',msg:&quot;Potvrdil(a) jste chybn\u00e9 heslo!&quot;,arg:{control:'password'}}],control:'checkPassword'}" />
+                                    </fieldset>
+                                    <fieldset>
+<label for="frmuserInfoForm-sector">sektor</label>                                        <div class="selectWrapper">
+						<select name="sector" id="frmuserInfoForm-sector" data-nette-empty-value=""><option value="" selected="selected">Vyberte</option><option value="4">CS ČR</option><option value="2">Obecní policie</option><option value="1">Policie ČR</option><option value="6">Samospráva</option><option value="5">Státní správa</option><option value="3">VSČR</option><option value="7">Zainteresovaný občan</option></select>
+                                        </div>
+                                    </fieldset>
+                                    <hr />
+                                    <input type="checkbox" name="newsletter" id="frmuserInfoForm-newsletter" /> <label for="frmuserInfoForm-newsletter">Keep me updated about<br /> the news</label>
+                                    <input type="submit" name="save" id="frmuserInfoForm-save" value="ULOŽIT ZMĚNY" />
+                                    <div class="clearfix"></div>
+</form>
+			</div>
+		</section>
+</div>
+<section id="oAplikaciPage">
+	<div class="wrapper">
+		<div class="header">
+			<h1>O projektu</h1>
+			<nav id="subNav">
+				<ul>
+					<li><a id="mapa" href="#oAplikaciMapa" title="O Aplikaci - O projektu" class="active">O projektu</a></li>
+					<li><a id="users" href="#oAplikaciUzivatele" title="O Aplikaci - Uživatelé">Uživatelé</a></li>
+                    <li><a id="data" href="#oAplikaciData" title="O Aplikaci - Data">Data</a></li>
+				</ul>
+			</nav>
+			<hr />
+		</div>
+            <div class="subpageHolder">
+                <div id="mapaContent" class="mapaKriminality content insertedSubpageContent">
+                    <div class="wrapperTwoColumns">
+                        <div class="twoColumns">
+                            <div class="left">
+                                    <p>Cílem webu <a href="http://www.mapakriminality.cz" target="_blank" title="Mapa kriminality">www.mapakriminality.cz</a> je usnadnit veřejnosti orientaci v datech o trestné činnosti, která pravidelně publikuje Policie ČR. Policejní statistiky převádíme do jednoduchých tabulkových a mapových náhledů. Pro ty, kdo chtějí data hlouběji analyzovat, jsou k dispozici ke stažení v počítačově zpracovatelné podobě. </p> 
+                                    <p>Věříme, že stránky napomohou debatě o tom, v jaké podobě a jaká data má policie zaznamenávat a zveřejňovat, o způsobu, jak účinně získávat data o trestné činnosti i o tom, jak úspěšná je policie při jejím omezování.</p>
+                                    <p>Chceme, aby se stránky staly rozcestníkem pro všechny, kdo se zabývají či chtějí zabývat trestnou činností a hledají pro svá zkoumání potřebná data. </p>
+                                    <p>Jedná se o nový projekt, a tak budeme rádi, když s námi budete sdílet Váš názor na něj, nápady na jeho vylepšení, když nás upozorníte na jeho nedostatky. <a href="mailto:info@osops.cz" target="_blank" title="info@osops.cz">EMAIL</a> | <a href="http://www.facebook.com/Mapakriminality" title="Facebook" target="_blank">FACEBOOK</a></p>
+                                    <p>Stránky vytvořila a provozuje <a href="http://www.pro-police.cz/" target="_blank" title="ProPolice/Otevřená společnost">ProPolice/Otevřená společnost, o.p.s.</a> ve spolupráci s <a href="http://www.geographics.cz/" target="_blank" title="Geographics.cz">Geographics.cz</a>, za podpory programu <a href="http://www.opensocietyfoundations.org/about/programs/think-tank-fund" target="_blank" title="Think Tank Fund">Think Tank Fund</a> nadace <a href="http://www.opensocietyfoundations.org/" title="Open Society Foundations" target="_blank">Open Society Foundations</a> a společnosti <a href="http://www.webtica.com/" target="_blank" title="Webtica Software">Webtica Software</a>.</p> 
+                            </div>
+                            <div class="right">
+                                <div class="video">
+                                    <div class="top"></div>
+                                    <div class="holder">
+                                            <iframe width="470" height="283" src="http://www.youtube.com/embed/sfV5c0HJrdQ" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                    <h2>jak mapu používat</h2>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="push"></div>
+                    </div>
+                    <div class="footer">
+                                <section class="left1 tab">
+                                        <h1>Centra</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Otevřete.cz">Otevřete.cz</a></li>
+                                                <li><a href="http://www.pro-police.cz" target="_blank" title="ProPolice">ProPolice</a></li>
+                                                <li><a href="http://www.proequality.cz" target="_blank" title="ProEquality">ProEquality</a></li>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Opencity">Opencity</a></li>
+                                        </ul>
+                                </section>
+                                <section class="left2 tab">
+                                        <h1>Stránky</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.infoliga.cz" target="_blank" title="Infoliga">infoliga.cz</a></li>
+                                                <li><a href="http://www.mapakriminality.cz/" target="_blank" title="mapakriminality">mapakriminality.cz</a></li>
+                                                <li><a href="http://eshop.osops.cz/" target="_blank" title="eshoposops">eshoposops.cz</a></li>
+                                        </ul>
+                                </section>
+                                <section class="right1 tab">
+                                        <ul>
+                                                <li class="news"><div>Odběr novinek</div></li>
+                                                <li class="write"><a href="mailto:info@osops.cz" target="_blank"><div>Napište nám</div></a></li>
+                                                <li class="support"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WGG2FH6BJJ998" target="_blank"><div>Podpořte nás</div></a></li>
+                                                <li class="facebook"><a href="http://www.facebook.com/Mapakriminality" target="_blank"><div>Facebook</div></a></li>
+                                                <li class="twitter"><div>Twitter</div></li>
+                                        </ul>
+                                </section>
+                                <section class="right2 tab">
+                                        <h1>Kontakt</h1>
+                                        <hr>
+                                         <address>
+                                                <div>
+                                                        Uruguayská 178/ 5<br />
+                                                        130 00 Praha 2
+                                                </div>
+                                                <div>
+                                                        <span class="mail">info@osops.cz</span><br />
+                                                        +420 222 561 913
+                                                </div>
+                                        </address>
+                                </section>          
+                        </div>
+                </div>
+                <div id="usersContent" class="users content insertedSubpageContent" style="display:none">
+                        <div class="usersWrapper">
+                            <p>Zpracovaná a stahovatelná data představují široké možnosti využití. Pro různé skupiny uživatelů pro inspiraci uvádíme některé z nich:</p>
+                            <h2>Zastupitelé</h2>
+                            <p>Bezpečnost je jedno ze základních témat, kterými se musí zabývat zastupitelé v malých obcích i ve velkých městech. Skrze web získají okamžitý přehled o vývoji trestné činnosti v jejich obci (či v území, na němž leží) a data, na základě nichž mohou zpracovávat vlastní podklady a stanoviska pro řešení otázek místní bezpečnosti.</p>
+                            <h2>Novináři</h2>
+                            <p>Komentáře o bezpečnostní situaci v dané oblasti jsou nedílnou součástí řady regionálních reportáží o trestné činnosti; novinářům přitom často schází jednoduchý a rychlý přístup k základním datům. Web jim může práci usnadnit, ale i zkvalitnit – třeba při reportážích o sociálních nepokojích v důsledku narůstající kriminality.</p>
+                            <h2>Studenti</h2>
+                            <p>Řada studentů právních směrů a společenských věd se věnuje ve svých závěrečných pracích přímo bezpečnosti, nebo souvisejícím otázkám. Chybějící rychlý přístup k snadno použitelným datům o trestné činnosti je přitom často překážkou pro podrobnější zkoumání problémů, které ve svých pracích řeší.</p>
+                            <h2>Aktivní občané</h2>
+                            <p>Pro řadu lidí je pocit bezpečí velmi důležitou hodnotou, která se bezprostředně dotýká kvality jejich života. Aktivní občané, kteří se zasazují o její zlepšení, tak získají množství nových a snadno použitelných informací. Zpřístupnění dat může otevřít prostor pro vývoj internetových aplikací, zpracovávajících související témata.</p>
+                            <h2>Policisté</h2>
+                            <p>Policisté mají samozřejmě nejen přístup k datům, ale i vlastní bezprostřední zkušenost. Přesto se jim může hodit bezprostřední on-line přístup k přehledně utříděným datům i jinde, než slouží.</p>
+                            <div class="push"></div>
+                        </div>
+                        <div class="footer">
+                                <section class="left1 tab">
+                                        <p>info@mapakriminality.cz</p>
+                                </section>
+                                <section class="left2 tab">
+                                </section>
+                                <section class="right1 tab">
+                                </section>
+                                <section class="right2 tab">
+                                        <p>CC BY-NC-ND 3.0, ProPolice, 2012</p>
+                                </section>			
+                        </div>
+                </div>
+                <div id="dataContent" class="data content insertedSubpageContent" style="display:none"><div class="dataWrapper">
+                        <p>Data o trestné činnosti na tomto webu poskytuje <a href="http://www.pro-police.cz/" target="_blank" title="ProPolice/Otevřená společnost">Otevřené společnosti, o.p.s.</a> každý měsíc Policie ČR. Jedná se tedy o zpracování oficiální policejní statistiky. Zobrazení dat předchází zpracování, které je vhodné na tomto místě popsat - stejně jako některé nedostatky, které jsou obsaženy přímo v datech. </p>
+                        <p>Za prvé, jedná se o data o zjištěné trestné činnosti, tedy o skutcích, o nichž se policie dozvěděla. Latence trestné činnosti (tj. podíl činů, které policií nebyly zjištěny) se v závislosti na typu kriminality podle odhadů pohybuje od jednotek procent až po 80-90% v případě mravnostních skutků. Z podstaty tedy nelze tato data vnímat jako ukazatel skutečného stavu kriminality, ale jako ukazatel velice přibližný (současně ale i nejlepší, jaký máme k dispozici).</p>
+                        <p>Za druhé, způsob publikování dat ze strany Policie ČR je poměrně nepřehledný. Měsíční změna v počtech trestných činů na úrovni základních útvarů policie je zaznamenána v rozsáhlé soustavě cca 550 listů v 86 excelových tabulkách. Každý z listů má má více než dvě stovky řádků a dvacet sloupců. Data jsou proto každý měsíc exportována do jednotné databáze.</p>
+                        <p>Za třetí, policejní statistika je konstruována pro meziroční srovnávání. Každý kalendářní rok v lednu začíná statistika na nule a s přibývajícími měsíci jsou data aktualizována (tedy i odečítána v případě změny právní kvalifikace); v prosinci je tabulka pro daný rok uzavřena a žádné další korekce v datech už zpětně neprobíhají. Zjednodušeně řečeno – policejní data nejsou nikdy stoprocentně přesná, pouze každý měsíc od ledna do prosince přesnější.</p>
+                        <p>S vědomím těchto limitů, které vyplývají z povahy zaznamenávání a publikování dat, jsme se rozhodli data co nejvíce „rozdrobit“ a umožnit tak jejich co nejširší vzájemné porovnávání v čase i v prostoru. A otevřít tak debatu o tom, jaká data o kriminalitě vlastně máme a jaká data chceme mít.</p>
+                        <p><strong>Nejmenší jednotkou času</strong>, jíž lze z policejních dat vydělit, je v tuto chvíli jeden kalendářní měsíc. Toto vydělení probíhá odečtením dat za předchozí měsíc od aktuálních dat.</p>
+                        <p><strong>Nejmenší jednotkou prostoru</strong> je obvodní (místní) oddělení policie.Vzhledem k řadě změn v územní struktuře v této fázi projektu zobrazujeme pouze data od začátku roku 2013. Starší a méně podrobná data jsou k nalezení na <a href="http://puvodni.mapakriminality.cz/" target="_blank" title="Původní mapa kriminality">http://puvodni.mapakriminality.cz/</a>.</p>
+                        <p>Základním nástrojem pro srovnání mezi jednotlivými kraji či územními odbory je <strong>INDEX KRIMINALITY</strong> (počet zjištěných skutků za zvolené období, přepočtený na 10 000 obyvatel). Všude, kde je to možné, jej používáme jako prioritní ukazatel. Nejedná se sice o ideální nástroj porovnání (zejména v centrech velkých měst jsou počty bydlících nízké, ale počty osob, které se zde zdržují, naopak velmi vysoké), ale je to základní nástroj, který je standardně používán po celém světě k vyjádření zatížení populace trestnou činností.</p>
+                        <p><strong>Počty obyvatel</strong> jednotlivých území byly vygenerovány z dat od ČSÚ pro jednotlivé základní sídelní jednotky (ZSJ). Jedná se o střední stav obvykle bydlících obyvatel roku 2013. </p>
+                        <p>Data, zobrazovaná na webu <a href="http://www.mapakriminality.cz" target="_blank" title="Mapakriminality.cz">www.mapakriminality.cz</a> a data stažená z tohoto webu, podléhají licenci Creative Commons BY-NC-SA (Uveďte autora – Nevyužívejte komerčně – Zachovejte licenci). Více o licenčních podmínkách <a href="http://creativecommons.org/" target="_blank" title="Creative commons license">Creative Commons</a>.</p></div>
+                        <div class="push"></div>
+                        <div class="footer">
+                                <section class="left1 tab">
+                                        <p>info@mapakriminality.cz</p>
+                                </section>
+                                <section class="left2 tab">
+                                </section>
+                                <section class="right1 tab">
+                                </section>
+                                <section class="right2 tab">
+                                        <p>CC BY-NC-ND 3.0, ProPolice, 2012</p>
+                                </section>          
+                        </div>
+                </div>
+                <div id="authorsContent" class="autori content insertedSubpageContent" style="display:none">
+                        <p>Autorem a provozovatelem webu  <a href="http://www.mapakriminality.cz/" target="_blank" title="Mapa Kriminality">mapakriminality.cz</a> je ProPolice/Otevřená společnost, o.p.s. Jedním z&nbsp;cílů Otevřené společnosti je i zkvalitňování policejní služby vůči veřejnosti. Dostupnost informací o předmětu a výsledcích činnosti policie k&nbsp;tomuto cíli může velmi přispět – usnadní z&nbsp;mnoha různých stran zpětnou vazbu veřejnosti vůči policii a rozšíří prostor pro debatu o tom, zda je policejní služba vykonávána a veřejnost o ní informována odpovídajícím způsobem. </p>
+                        <div class="cc">
+                                <p>Data, zobrazovaná na webu mapakriminality.cz a data stažená z&nbsp;tohoto webu, podléhají licenci Creative Commons BY-NC-SA (Uveďte autora – Nevyužívejte komerčně – Zachovejte licenci).</p>
+                                <p>Více o licenčních podmínkách <a href="http://www.creativecommons.cz/" target="_blank" title="Creative Commons">Creative Commons</a>.</p>
+                        </div>
+                        <div class="footer">
+                                <section class="left1 tab">
+                                        <h1>Centra</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Otevřete.cz">Otevřete.cz</a></li>
+                                                <li><a href="http://www.pro-police.cz" target="_blank" title="ProPolice">ProPolice</a></li>
+                                                <li><a href="http://www.proequality.cz" target="_blank" title="ProEquality">ProEquality</a></li>
+                                                <li><a href="http://www.otevrete.cz" target="_blank" title="Opencity">Opencity</a></li>
+                                        </ul>
+                                </section>
+                                <section class="left2 tab">
+                                        <h1>Stránky</h1>
+                                        <hr>
+                                        <ul>
+                                                <li><a href="http://www.infoliga.cz" target="_blank" title="Infoliga">infoliga.cz</a></li>
+                                                <li><a href="http://www.mapakriminality.cz" target="_blank" title="mapakriminality">mapakriminality.cz</a></li>
+                                                <li><a href="http://www.eshoposops.cz" target="_blank" title="eshoposops">eshoposops.cz</a></li>
+                                        </ul>
+                                </section>
+                                <section class="right1 tab">
+                                        <ul>
+                                                <li class="news"><a href="#" target="_blank"><div>Odběr novinek</div></a></li>
+                                                <li class="write"><a href="#" target="_blank"><div>Napište nám</div></a></li>
+                                                <li class="support"><a href="#" target="_blank"><div>Podpořte nás</div></a></li>
+                                                <li class="facebook"><a href="#" target="_blank"><div>Facebook</div></a></li>
+                                                <li class="twitter"><a href="#" target="_blank"><div>Twitter</div></a></li>
+                                        </ul>
+                                </section>
+                                <section class="right2 tab">
+                                        <h1>Kontakt</h1>
+                                        <hr>
+                                        <address>
+                                                <div>
+                                                        Jeseniova 47<br>
+                                                        130 00  Praha
+                                                </div>
+                                                <div>
+                                                        <span class="mail">info@osops.cz</span><br>
+                                                        +420 222 540 979
+                                                </div>
+                                        </address>
+                                </section>			
+                        </div>
+                </div>
+            </div>
+	</div>
+</section>
+
+{/block}
+
+
+{block head}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+    $("#mapa").click(function(){
+        $("#mapaContent").show();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        
+
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Mapa Kriminality");
+    });
+    $("#users").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").show();
+        $("#authorsContent").hide();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Uživatelé");
+    });
+    $("#authors").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").show();
+        $("#dataContent").hide();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Autoři");
+    });
+    $("#data").click(function(){
+        $("#mapaContent").hide();
+        $("#usersContent").hide();
+        $("#authorsContent").hide();
+        $("#dataContent").show();
+        $("#subNav ul li a").each(function(){
+           $(this).removeClass("active");
+        });
+        $(this).addClass("active");
+        $(".header h2").html("Data");
+    });
+
+     //check slug
+    var slug = location.hash;
+    
+    if( slug.indexOf( "oAplikaciMapa") > 0 ) {
+        $("#mapa").trigger("click");
+    } else if( slug.indexOf( "oAplikaciUzivatele" ) > 0 ) {
+        $("#users").trigger("click");
+    } else if( slug.indexOf( "oAplikaciData" ) > 0 ) {
+        $("#data").trigger("click");
+    }  
+    
+});
+</script>
+<script>
+    var _gaq=[['_setAccount','UA-9330068-19'],['_trackPageview']];
+    (function(d,t){ var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

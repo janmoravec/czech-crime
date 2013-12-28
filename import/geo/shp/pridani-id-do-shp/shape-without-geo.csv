@@ -1,0 +1,527 @@
+FID_tri_ob,N,9,0,obce_1250_,C,32,MaxSimpTol,N,19,11,MinSimpTol,N,19,11
+0,MŘ Plzeň,1000,1000
+0,OOP Aš,1000,1000
+0,OOP Bechyně,1000,1000
+0,OOP Benešov,1000,1000
+0,OOP Benešov nad Ploučnicí,1000,1000
+0,OOP Benátky nad Jizerou,1000,1000
+0,OOP Beroun,1000,1000
+0,OOP Bečov nad Teplou,1000,1000
+0,OOP Blansko,1000,0.9765625
+0,OOP Blatná,1000,1000
+0,OOP Blovice,1000,1000
+0,OOP Bochov,1000,1000
+0,OOP Bohumín,1000,1.953125
+0,OOP Bojkovice,1000,1000
+0,OOP Bor,1000,1000
+0,OOP Boršov nad Vltavou,1000,1000
+0,OOP Boskovice,1000,1000
+0,OOP Brandýs nad Labem,1000,3.90625
+0,OOP Broumov,1000,1000
+0,OOP Bruntál,1000,1000
+0,OOP Brušperk,1000,0.48828125
+0,OOP Buchlovice,1000,1000
+0,OOP Bučovice,1000,1000
+0,OOP Bystřice nad Pernštejnem,1000,1000
+0,OOP Bystřice pod Hostýnem,1000,1000
+0,OOP Bílina,1000,500
+0,OOP Bílovec,1000,7.8125
+0,OOP Bělá pod Bezdězem,1000,1000
+0,OOP Břeclav,1000,125
+0,OOP Březnice,1000,1000
+0,OOP Březno,1000,1000
+0,OOP Cheb - město,1000,1000
+0,OOP Cheb - venkov,1000,1000
+0,OOP Chlumec,1000,1000
+0,OOP Chlumec nad Cidlinou,1000,1000
+0,OOP Choceň,1000,1000
+0,OOP Chodov,1000,1000
+0,OOP Chomutov - město,1000,1000
+0,OOP Chomutov Černovická,1000,1000
+0,OOP Chotěboř,1000,1000
+0,OOP Chrast,1000,125
+0,OOP Chrastava,1000,1000
+0,OOP Chrudim,1000,1000
+0,OOP Chvaletice,1000,1000
+0,OOP Cvikov,1000,1000
+0,OOP Dačice,1000,1000
+0,OOP Dobrovice,1000,1000
+0,OOP Dobruška,1000,500
+0,OOP Dobřany,1000,1000
+0,OOP Dobříš,1000,1000
+0,OOP Doksy,1000,500
+0,OOP Domažlice,1000,1000
+0,OOP Dubí,1000,1000
+0,OOP Dubňany,1000,1000
+0,OOP Duchcov,1000,1000
+0,OOP Dvůr Králové nad Labem,1000,1000
+0,OOP Dětmarovice,1000,1000
+0,OOP Děčín,1000,1000
+0,OOP Františkovy Lázně,1000,1000
+0,OOP Frenštát pod Radhoštěm,1000,1000
+0,OOP Fryšták,1000,1000
+0,OOP Frýdek-Místek,1000,1000
+0,OOP Frýdlant,1000,1000
+0,OOP Frýdlant nad Ostravicí,1000,1000
+0,OOP Fulnek,1000,1000
+0,OOP Golčův Jeníkov,1000,1000
+0,OOP Habartov,1000,1000
+0,OOP Hanušovice,1000,1000
+0,OOP Harrachov,1000,1000
+0,OOP Havlíčkův Brod,1000,1000
+0,OOP Havířov,1000,1000
+0,OOP Hejnice,1000,1000
+0,OOP Heřmanův Městec,1000,1000
+0,OOP Hlinsko,1000,1000
+0,OOP Hluboká nad Vltavou,1000,1000
+0,OOP Hlučín,1000,0.9765625
+0,OOP Hnojník,1000,1000
+0,OOP Hodkovice nad Mohelkou,1000,1000
+0,OOP Hodonín,1000,1000
+0,OOP Holešov,1000,1000
+0,OOP Holice,1000,1000
+0,OOP Holohlavy,1000,1000
+0,OOP Holýšov,1000,1000
+0,OOP Horažďovice,1000,1000
+0,OOP Horní Lideč,1000,1000
+0,OOP Horní Planá,1000,1000
+0,OOP Horní Počaply,1000,1000
+0,OOP Horní Slavkov,1000,1000
+0,OOP Horní Suchá,1000,1000
+0,OOP Horní Vltavice,1000,1000
+0,OOP Horšovský Týn,1000,1000
+0,OOP Hostinné,1000,1000
+0,OOP Hostivice,1000,0.48828125
+0,OOP Hořesedly,1000,1000
+0,OOP Hořice,1000,1000
+0,OOP Hořovice,1000,1000
+0,OOP Hradec Králové 1,1000,1000
+0,OOP Hradec Králové 2,1000,1000
+0,OOP Hradec Králové 3,1000,1000
+0,OOP Hradec nad Moravicí,1000,1000
+0,OOP Hradištko,1000,1000
+0,OOP Hranice na Moravě,1000,250
+0,OOP Hronov,1000,250
+0,OOP Hrotovice,1000,1000
+0,OOP Hrušovany nad Jevišovkou,1000,1000
+0,OOP Hrádek,1000,1000
+0,OOP Hrádek nad Nisou,1000,1000
+0,OOP Hulín,1000,1000
+0,OOP Humpolec,1000,1000
+0,OOP Hustopeče,1000,1000
+0,OOP Hřensko,1000,250
+0,OOP Ivančice,1000,1000
+0,OOP Jablonec nad Nisou,1000,1000
+0,OOP Jablonné v Podještědí,1000,1000
+0,OOP Jablunkov,1000,1000
+0,OOP Jablůnka,1000,1000
+0,OOP Jaroměř,1000,1000
+0,OOP Javorník,1000,1000
+0,OOP Jemnice,1000,1000
+0,OOP Jesenice,1000,7.8125
+0,OOP Jeseník,1000,1000
+0,OOP Jevišovice,1000,1000
+0,OOP Jihlava,1000,1000
+0,OOP Jilemnice,1000,1000
+0,OOP Jindřichův Hradec,1000,1000
+0,OOP Jirkov,1000,1000
+0,OOP Jičín,1000,1000
+0,OOP Jáchymov,1000,1000
+0,OOP Jílové u Prahy,1000,0.48828125
+0,OOP Kadaň,1000,1000
+0,OOP Kamenice,1000,1000
+0,OOP Kamenice nad Lipou,1000,1000
+0,OOP Kaplice,1000,1000
+0,OOP Karlovy Vary,1000,1000
+0,OOP Karlovy Vary - Rybáře,1000,1000
+0,OOP Karlštejn,1000,125
+0,OOP Karolinka,1000,1000
+0,OOP Karviná 1,1000,1000
+0,OOP Karviná 7,1000,1000
+0,OOP Kaznějov,1000,1000
+0,OOP Kašperské Hory,1000,1000
+0,OOP Kdyně,1000,1000
+0,OOP Kladno,1000,1000
+0,OOP Kladno - Kročehlavy,1000,1000
+0,OOP Kladno - venkov,1000,1000
+0,OOP Klatovy,1000,1000
+0,OOP Klášterec nad Ohří,1000,1000
+0,OOP Kojetín,1000,1000
+0,OOP Kolinec,1000,1000
+0,OOP Kolín,1000,1000
+0,OOP Konice,1000,125
+0,OOP Konstantinovy Lázně,1000,1000
+0,OOP Kopidlno,1000,1000
+0,OOP Kopřivnice,1000,1000
+0,OOP Kostelec nad Labem,1000,125
+0,OOP Kostelec nad Orlicí,1000,1000
+0,OOP Kostelec nad Černými Lesy,1000,1000
+0,OOP Kouřim,1000,125
+0,OOP Kralovice,1000,1000
+0,OOP Kralupy nad Vltavou,1000,1000
+0,OOP Kraslice,1000,1000
+0,OOP Kravaře,1000,1000
+0,OOP Krnov,1000,1000
+0,OOP Kroměříž,1000,250
+0,OOP Krupka,1000,1000
+0,OOP Kryry,1000,1000
+0,OOP Králíky,1000,1000
+0,OOP Králův Dvůr,1000,1000
+0,OOP Krásná Lípa,1000,250
+0,OOP Kutná Hora,1000,1000
+0,OOP Kuřim,1000,1.953125
+0,OOP Kyjov,1000,1000
+0,OOP Kynšperk nad Ohří,1000,1000
+0,OOP Křemže,1000,1000
+0,OOP Křinec,1000,1000
+0,OOP Lanškroun,1000,1000
+0,OOP Ledeč nad Sázavou,1000,1000
+0,OOP Letohrad,1000,1000
+0,OOP Letovice,1000,1000
+0,OOP Liberec - město,1000,1000
+0,OOP Liberec Ruprechtice,1000,1000
+0,OOP Liberec Vesec,1000,1000
+0,OOP Libochovice,1000,1000
+0,OOP Libouchec,1000,1000
+0,OOP Libčice nad Vltavou,1000,1.953125
+0,OOP Lipno nad Vltavou,1000,1000
+0,OOP Lipník nad Bečvou,1000,125
+0,OOP Litomyšl,1000,1000
+0,OOP Litoměřice,1000,1000
+0,OOP Litovel,1000,1000
+0,OOP Litvínov,1000,1000
+0,OOP Lišov,1000,125
+0,OOP Loket,1000,1000
+0,OOP Lomnice nad Popelkou,1000,1000
+0,OOP Louny,1000,1000
+0,OOP Lovosice,1000,1000
+0,OOP Luhačovice,1000,1000
+0,OOP Lutín,1000,125
+0,OOP Lužec nad Vltavou,1000,1000
+0,OOP Lysá nad Labem,1000,1000
+0,OOP Lázně Bohdaneč,1000,1000
+0,OOP Mariánské Lázně,1000,1000
+0,OOP Meziboří,1000,1000
+0,OOP Mikulov,1000,125
+0,OOP Milevsko,1000,1000
+0,OOP Milovice,1000,1000
+0,OOP Milín,1000,1000
+0,OOP Minoň,1000,250
+0,OOP Mladá Boleslav I,1000,1000
+0,OOP Mladá Boleslav II,1000,1000
+0,OOP Mladá Vožice,1000,1000
+0,OOP Mnichovo Hradiště,1000,250
+0,OOP Mníšek pod Brdy,1000,1.953125
+0,OOP Mohelnice,1000,1000
+0,OOP Moravská Třebová,1000,1000
+0,OOP Moravské Budějovice,1000,1000
+0,OOP Moravský Beroun,1000,125
+0,OOP Moravský Krumlov,1000,1000
+0,OOP Morkovice-Slížany,1000,250
+0,OOP Most,1000,500
+0,OOP Mělník,1000,1000
+0,OOP Městec Králové,1000,1000
+0,OOP Město Albrechtice,1000,1000
+0,OOP Město Touškov,1000,1000
+0,OOP Mšeno,1000,1000
+0,OOP Mšeno nad Nisou,1000,1000
+0,OOP Napajedla,1000,1000
+0,OOP Nejdek,1000,1000
+0,OOP Nepomuk,1000,1000
+0,OOP Neratovice,1000,1000
+0,OOP Netolice,1000,1000
+0,OOP Neštěmice,1000,1000
+0,OOP Nová Bystřice,1000,1000
+0,OOP Nová Paka,1000,1000
+0,OOP Nová Role,1000,1000
+0,OOP Nové Město na Moravě,1000,1000
+0,OOP Nové Město nad Metují,1000,1000
+0,OOP Nové Město pod Smrkem,1000,1000
+0,OOP Nové Strašecí,1000,1000
+0,OOP Nový Bor,1000,1000
+0,OOP Nový Bydžov,1000,1000
+0,OOP Nový Jičín,1000,1000
+0,OOP Nošovice,1000,1000
+0,OOP Nupaky,1000,0.9765625
+0,OOP Nymburk,1000,1000
+0,OOP Náchod,1000,1000
+0,OOP Náměšť nad Oslavou,1000,1000
+0,OOP Nýrsko,1000,1000
+0,OOP Nýřany,1000,1000
+0,OOP Němčice nad Hanou,1000,1000
+0,OOP Obrnice,1000,1000
+0,OOP Odolena Voda,1000,7.8125
+0,OOP Odry,1000,1000
+0,OOP Okříšky,1000,1000
+0,OOP Olomouc 1,1000,1000
+0,OOP Olomouc 3,1000,1000
+0,OOP Olomouc 4,1000,1000
+0,OOP Opava,1000,1000
+0,OOP Orlová,1000,1000
+0,OOP Ostrava - Poruba 1,1000,0.1220703125
+0,OOP Ostrava - Poruba 2,1000,0.9765625
+0,OOP Ostrov,1000,1000
+0,OOP Otrokovice,1000,1000
+0,OOP Pacov,1000,1000
+0,OOP Palkovice,1000,1000
+0,OOP Pardubice 1,1000,1000
+0,OOP Pardubice 2,1000,1000
+0,OOP Pardubice 3,1000,1000
+0,OOP Pardubice 4,1000,1000
+0,OOP Pec pod Sněžkou,1000,1000
+0,OOP Pelhřimov,1000,1000
+0,OOP Pernink,1000,1000
+0,OOP Petřvald,1000,62.5
+0,OOP Pečky,1000,1000
+0,OOP Planá,1000,1000
+0,OOP Plesná,1000,1000
+0,OOP Plumlov,1000,1000
+0,OOP Plánice,1000,1000
+0,OOP Poběžovice,1000,1000
+0,OOP Podbořany,1000,1000
+0,OOP Poděbrady,1000,1000
+0,OOP Pohořelice,1000,1000
+0,OOP Police nad Metují,1000,1000
+0,OOP Polička,1000,1000
+0,OOP Polná,1000,1000
+0,OOP Postoloprty,1000,1000
+0,OOP Počátky,1000,1000
+0,OOP Prachatice,1000,1000
+0,OOP Prosetice,1000,1000
+0,OOP Prostějov 1,1000,1000
+0,OOP Prostějov 2,1000,1000
+0,OOP Protivín,1000,1000
+0,OOP Písek,1000,1000
+0,OOP Přelouč,1000,1000
+0,OOP Přerov 1,1000,1000
+0,OOP Přerov 2,1000,500
+0,OOP Přeštice,1000,1000
+0,OOP Přibyslav,1000,1000
+0,OOP Příbor,1000,1000
+0,OOP Příbram,1000,1000
+0,OOP Příbram - venkov,1000,1000
+0,OOP Radnice,1000,1000
+0,OOP Radomyšl,1000,1000
+0,OOP Radonice,1000,1000
+0,OOP Rajhrad,1000,1.953125
+0,OOP Rakovník,1000,1000
+0,OOP Rokycany,1000,1000
+0,OOP Rokytnice nad Jizerou,1000,1000
+0,OOP Rokytnice v Orlických horách,1000,500
+0,OOP Rosice,1000,0.1220703125
+0,OOP Rotava,1000,1000
+0,OOP Roudnice nad Labem,1000,1000
+0,OOP Roztoky,1000,1000
+0,OOP Rožmitál pod Třemšínem,1000,1000
+0,OOP Rožnov pod Radhoštěm,1000,1000
+0,OOP Rumburk,1000,1000
+0,OOP Rychnov nad Kněžnou,1000,1000
+0,OOP Rychnov u Jablonce nad Nisou,1000,1000
+0,OOP Rýmařov,1000,1000
+0,OOP Sadská,1000,1000
+0,OOP Sedlčany,1000,1000
+0,OOP Semily,1000,1000
+0,OOP Sezimovo Ústí,1000,1000
+0,OOP Skuteč,1000,1000
+0,OOP Slaný,1000,1000
+0,OOP Slavičín,1000,1000
+0,OOP Slavkov u Brna,1000,1000
+0,OOP Slavonice,1000,1000
+0,OOP Smržovka,1000,1000
+0,OOP Sobotka,1000,1000
+0,OOP Soběslav,1000,1000
+0,OOP Sokolov - město,1000,1000
+0,OOP Sokolov-venkov,1000,1000
+0,OOP Starý Plzenec,1000,1000
+0,OOP Stochov,1000,1000
+0,OOP Stod,1000,1000
+0,OOP Strakonice,1000,1000
+0,OOP Stráž pod Ralskem,1000,1000
+0,OOP Studénka,1000,1000
+0,OOP Stříbro,1000,1000
+0,OOP Suchdol nad Lužnicí,1000,500
+0,OOP Suché Vrbné,1000,125
+0,OOP Sušice,1000,1000
+0,OOP Svitavy,1000,250
+0,OOP Svoboda nad Úpou,1000,1000
+0,OOP Světlá nad Sázavou,1000,1000
+0,OOP Sázava,1000,1000
+0,OOP Tachov,1000,1000
+0,OOP Tanvald,1000,1000
+0,OOP Telč,1000,1000
+0,OOP Teplice,1000,1000
+0,OOP Teplá,1000,1000
+0,OOP Terezín,1000,1000
+0,OOP Tišnov,1000,1000
+0,OOP Toužim,1000,1000
+0,OOP Trhové Sviny,1000,1000
+0,OOP Trmice,1000,1000
+0,OOP Trnovany,1000,1000
+0,OOP Trutnov,1000,250
+0,OOP Turnov,1000,1000
+0,OOP Tábor,1000,1000
+0,OOP Týn nad Vltavou,1000,1000
+0,OOP Týnec nad Labem,1000,1000
+0,OOP Týnec nad Sázavou,1000,1000
+0,OOP Týniště nad Orlicí,1000,1000
+0,OOP Těrlicko,1000,1000
+0,OOP Třebechovice pod Orebem,1000,1000
+0,OOP Třeboň,1000,500
+0,OOP Třebíč,1000,1000
+0,OOP Třemošnice,1000,1000
+0,OOP Třemošná,1000,1000
+0,OOP Třešť,1000,1000
+0,OOP Třinec,1000,1000
+0,OOP Uherské Hradiště,1000,1000
+0,OOP Uherský Brod,1000,1000
+0,OOP Uherský Ostroh,1000,1000
+0,OOP Uhlířské Janovice,1000,125
+0,OOP Unhošť,1000,1000
+0,OOP Uničov,1000,1000
+0,OOP Valašské Klobouky,1000,1000
+0,OOP Valašské Meziříčí,1000,1000
+0,OOP Varnsdorf,1000,1000
+0,OOP Vejprty,1000,1000
+0,OOP Velká Bystřice,1000,500
+0,OOP Velká Bíteš,1000,1000
+0,OOP Velké Březno,1000,1000
+0,OOP Velké Heraltice,1000,1000
+0,OOP Velké Losiny,1000,1000
+0,OOP Velké Meziříčí,1000,1000
+0,OOP Velký Šenov,1000,1000
+0,OOP Velvary,1000,1000
+0,OOP Veselí nad Lužnicí,1000,1000
+0,OOP Veselí nad Moravou,1000,1000
+0,OOP Vimperk,1000,1000
+0,OOP Vizovice,1000,1000
+0,OOP Vlašim,1000,1000
+0,OOP Vodňany,1000,1000
+0,OOP Vojkovice,1000,1000
+0,OOP Volary,1000,1000
+0,OOP Volyně,1000,1000
+0,OOP Votice,1000,1000
+0,OOP Vranov nad Dyjí,1000,1000
+0,OOP Vratimov,1000,0.9765625
+0,OOP Vrbno pod Pradědem,1000,1000
+0,OOP Vrchlabí,1000,1000
+0,OOP Vsetín,1000,1000
+0,OOP Vysoké Mýto,1000,125
+0,OOP Vyškov,1000,1000
+0,OOP Vyšší Brod,1000,1000
+0,OOP Vítkov,1000,1000
+0,OOP Větřní,1000,1000
+0,OOP Zbiroh,1000,1000
+0,OOP Zbraslavice,1000,1000
+0,OOP Zdice,1000,1000
+0,OOP Zlaté Hory,1000,1000
+0,OOP Zlín,1000,1000
+0,OOP Znojmo,1000,1000
+0,OOP Zruč nad Sázavou,1000,1000
+0,OOP Zvíkovské Podhradí,1000,1000
+0,OOP Zábřeh,1000,1000
+0,OOP Úněšov,1000,1000
+0,OOP Úpice,1000,1000
+0,OOP Ústí nad Labem - město,1000,1000
+0,OOP Ústí nad Orlicí,1000,1000
+0,OOP Úvaly,1000,15.625
+0,OOP Čechtice,1000,1000
+0,OOP Čelákovice,1000,1000
+0,OOP Čerčany,1000,1000
+0,OOP Česká Kamenice,1000,250
+0,OOP Česká Lípa,1000,1000
+0,OOP Česká Skalice,1000,1000
+0,OOP Česká Třebová,1000,250
+0,OOP České Budějovice,1000,1000
+0,OOP Český Brod,1000,1000
+0,OOP Český Dub,1000,1000
+0,OOP Český Krumlov,1000,1000
+0,OOP Český Těšín,1000,1000
+0,OOP Čimelice,1000,1000
+0,OOP Čáslav,1000,1000
+0,OOP Řevnice,1000,1.953125
+0,OOP Říčany,1000,0.48828125
+0,OOP Šlapanice,1000,0.9765625
+0,OOP Šluknov,1000,1000
+0,OOP Špindlerův Mlýn,1000,1000
+0,OOP Šternberk,1000,1000
+0,OOP Štětí,1000,500
+0,OOP Šumperk,1000,1000
+0,OOP Švihov,1000,1000
+0,OOP Žacléř,1000,1000
+0,OOP Žamberk,1000,1000
+0,OOP Žandov,1000,1000
+0,OOP Žatec,1000,1000
+0,OOP Železná Ruda,1000,1000
+0,OOP Železný Brod,1000,1000
+0,OOP Židlochovice,1000,1.953125
+0,OOP Žlutice,1000,1000
+0,OOP Žďár nad Sázavou,1000,1000
+0,,1000,500
+0,,1000,500
+0,,1000,1.953125
+0,,1000,1.953125
+0,,1000,0.9765625
+0,,1000,1.953125
+0,,1000,0.1220703125
+0,,1000,0.48828125
+0,,1000,1000
+0,,1000,1000
+0,,1000,0.1220703125
+0,,1000,1.953125
+0,,1000,1000
+0,,1000,250
+0,,1000,0.48828125
+0,,1000,1.953125
+0,,1000,0.48828125
+0,,1000,0.9765625
+0,,1000,0.9765625
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,7.8125
+0,,1000,7.8125
+0,,1000,1.953125
+0,,1000,1000
+0,,1000,0.48828125
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,0.48828125
+0,,1000,7.8125
+0,,1000,7.8125
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,7.8125
+0,,1000,1000
+0,,1000,7.8125
+0,,1000,125
+0,,1000,3.90625
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,15.625
+0,,1000,1000
+0,,1000,7.8125
+0,,1000,0.48828125
+0,,1000,62.5
+0,,1000,1000
+0,,1000,1000
+0,,1000,1000
+0,,1000,7.8125
+0,,1000,1000
+0,,1000,1000
+0,,1000,500
+0,,1000,500
+0,,1000,1000
+0,,1000,0.48828125
