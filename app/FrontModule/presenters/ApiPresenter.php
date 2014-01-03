@@ -89,15 +89,59 @@ class ApiPresenter extends BasePresenter
 
 	}
 
-	public function renderCrimes( $areacode, $crimetypes, $timefrom, $timeto) 
+	public function renderCrimes( $areacode, $crimetypes, $timefrom, $timeto, $groupby, $full ) 
 	{
+
+		$timeFromId = -1;
+		$timeToId = -1;
+
+		//split 
+		$timeFromArr = explode( "-", $timefrom );
+		if( count($timeFromArr) > 1 ) $timeFromId = $this->getTimeIdForDate( $timeFromArr[0], $timeFromArr[1] );
+		$timeToArr = explode( "-", $timeto );
+		if( count($timeToArr) > 1 ) $timeToId = $this->getTimeIdForDate( $timeToArr[0], $timeToArr[1] );
 		
-		$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timefrom, $timeto )->fetchAll();
+		$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, $groupby, $full )->fetchAll();
+		
+		/*if( !isset( $groupby ) ) {
+			$crimes = $this->models->CrimeData->getApiCrimesByType( $areacode, $timeFromId, $timeToId, false, $long )->fetchAll();
+		} else {
+			if( $groupby == "area" ) {
+				$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, false, $long )->fetchAll();
+			} else {
+				$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, false, $long )->fetchAll();
+			}
+		}*/
+		
 		$this->payload->crimes = $crimes;
 	
 		$this->sendPayload();
 		$this->terminate();
 
+	}
+
+	public function getTimeIdForDate( $month, $year )
+	{
+		$id = -1;
+
+		//convert params to integer
+		$month = intval( $month );
+		$year = intval( $year );
+
+		$startYear = 2003;
+		$yearDiff = $year - $startYear;
+
+		if( $yearDiff >= 0 ) {
+			
+			//get base id for year
+			$id = 12 * $yearDiff;
+			//add month
+			$id += $month;
+			//ids start with zero
+			$id -= 1;
+		}
+
+		return $id;
 	}
 
 }

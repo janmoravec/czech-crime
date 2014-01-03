@@ -281,7 +281,7 @@ class CrimeData extends BaseModel {
         return $this->db->query( $sql );
 
     }
-
+    
     public function getApiCrimeTypes() {
 
         $sql = 'SELECT Code, Name, Name_en FROM CrimeLookup ORDER BY SortAllIndex' ;
@@ -308,45 +308,112 @@ class CrimeData extends BaseModel {
 
     }
 
-    public function getApiCrimes( $areaId = null, $crimeTypes = null, $timeFrom = null, $timeTo = null, $groupByArea = true, $allFields = false ) {
+    public function getApiCrimes( $areaId = null, $crimeTypes = null, $timeFrom = null, $timeTo = null, $groupBy = false, $full = false ) 
+    {
 
-        $areaCondition = "";
-        $timesCondition = "";
-        $crimeTypesCondition = "";
+        $output = array();
+        $columns = array();
 
-        if( !$allFields ) {
-            $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, Population, Sum( Found ) as FoundSum, Sum( Solved ) as SolvedSum, ( ( Sum( Found ) / Population ) * 10000 ) as CriminalityIndex 
-                       FROM CrimeData, AreaLookup
-                       WHERE';
-         } else {
-            $sql = 'SELECT 
-                        Sum( `Charged-15-17` ) as Charged1517Sum,
-                        Sum( `Charged-recidivist` ) as ChargedRecidivistSum,
-                        Sum( `Charged-total` ) as ChargedTotalSum,
-                        Sum( `Charged-under-15` ) as ChargedUnder15Sum,
-                        Sum( `Charged-women` ) as ChargedWomenSum,
-                        Sum( `Committed-15-17` ) as Commited1517Sum,
-                        Sum( `Committed-alcohol` ) as CommittedAlcoholSum,
-                        Sum( `Committed-drugged` ) as CommittedDruggedSum,
-                        Sum( `Committed-recidivst` ) as CommittedRecidivstSum,
-                        Sum( `Committed-under-15` ) as CommittedUnder15Sum,
-                        Sum( `Committed-under-18` ) as CommittedUnder18Sum,
-                        Sum( `Damage-found` ) as DamageFoundSum,
-                        Sum( `Damage-total` ) as DamageTotalSum,
-                        Sum( `Found` ) as FoundSum,
-                        Sum( `Found-checked` ) as FoundCheckedSum,
-                        Sum( `Found-end` ) as FoundEndSum,
-                        Sum( `Solved` ) as SolvedSum,
-                        Sum( `Solved-additionally` ) as SolvedAdditionallySum,
-                        Sum( `Solved-perc` ) as SolvedPercSum,
-                        ( ( Sum( Found ) / Population ) * 10000 ) as CriminalityIndex,
-                        AreaLookup.Code,
-                        AreaLookup.Name,
-                        FK_Time_Lookup,
-                        Population
-                   FROM CrimeData, AreaLookup
-                   WHERE';
+        //add area columns
+        //$areaColumns = array( "AreaLookup.Code", "AreaLookup.Name", "AreaLookup.Population" );
+        //$columns = array_merge( $columns, $areaColumns );
+
+        if( !$groupBy ) {
+            
+            if( !$full || $full != "true" ) {
+               
+                $crimeColumns = array( "Found", "Solved", "FK_Crime_Lookup", "FK_Time_Lookup" );
+
+            } else {
+            
+                $crimeColumns = array( 
+                        "`Found`", 
+                        "`Found-checked`",
+                        "`Found-end`",
+                        "`Solved`", 
+                        "`Solved-additionally`",
+                        "`Solved-perc`",
+                        "`Charged-15-17`", 
+                        "`Charged-recidivist`", 
+                        "`Charged-total`", 
+                        "`Charged-under-15`",
+                        "`Charged-women`",
+                        "`Committed-15-17`",
+                        "`Committed-alcohol`",
+                        "`Committed-drugged`",
+                        "`Committed-recidivst`",
+                        "`Committed-under-15`",
+                        "`Committed-under-18`",
+                        "`Damage-found`",
+                        "`Damage-total`",
+                        "FK_Crime_Lookup", 
+                        "FK_Time_Lookup"
+                        );
+
+            }
+
+        } else if( $groupBy == "time" || $groupBy == "area" ) {
+
+            if( !$full || $full != "true" ) {
+            
+                $crimeColumns = array( "Sum( Found ) as Found", "Sum( Solved ) as Solved" );
+
+            } else {
+                
+                $crimeColumns = array( 
+                        "Sum( `Found` ) as `Found`", 
+                        "Sum( `Found-checked` ) as `Found-checked`",
+                        "Sum( `Found-end` ) as `Found-end`",
+                        "Sum( `Solved` ) as `Solved`", 
+                        "Sum( `Solved-additionally` ) as `Solved-additionally`",
+                        "Sum( `Solved-perc` ) as `Solved-perc`",
+                        "Sum( `Charged-15-17` ) as `Charged-15-17`", 
+                        "Sum( `Charged-recidivist` ) as `Charged-recidivist`", 
+                        "Sum( `Charged-total` ) as `Charged-total`", 
+                        "Sum( `Charged-under-15` ) as `Charged-under-15`",
+                        "Sum( `Charged-women` ) as `Charged-women`",
+                        "Sum( `Committed-15-17` ) as `Committed-15-17`",
+                        "Sum( `Committed-alcohol` ) as `Committed-alcohol`",
+                        "Sum( `Committed-drugged` ) as `Committed-drugged`",
+                        "Sum( `Committed-recidivst` ) as `Committed-recidivst`",
+                        "Sum( `Committed-under-15` ) as `Committed-under-15`",
+                        "Sum( `Committed-under-18` ) as `Committed-under-18`",
+                        "Sum( `Damage-found` ) as `Damage-found`",
+                        "Sum( `Damage-total` ) as `Damage-total`"
+                        );
+
+            }
+
+            if( $groupBy == "time" ) {
+                $crimeColumns = array_push( $crimeColumns, "FK_Time_Lookup" );
+            }
+
         }
+
+        //add to the main array
+        if( $crimeColumns ) {
+            $columns = array_merge( $columns, $crimeColumns );
+        }   
+
+        //compose the whole query
+        $sql = "SELECT";
+
+        //start with columns
+        $columnsLen = count( $columns );
+        $columnIndex = 1;
+        foreach( $columns as $column ) {
+
+            $sql .= " " .$column;
+            if( $columnIndex < $columnsLen ) {
+                $sql .= ",";
+            }
+            $columnIndex++;
+
+
+        }
+
+        //add from part
+        $sql .= " FROM CrimeData, AreaLookup WHERE";
 
         if( isset( $areaId ) ) {
             $sql .=  ' FK_Area_Lookup = ' . $areaId;
@@ -368,6 +435,19 @@ class CrimeData extends BaseModel {
             
             $sql .= ' FK_Crime_Lookup IN ( ' .$crimeTypesString. ' ) ';
                 
+        } else {
+
+            //if groupBy=time or groupBy=area and no crime types, need to select only the most general
+            if( $groupBy == "time" || $groupBy == "area" ) {
+
+                if( isset( $areaId ) ) {
+                    $sql .= ' AND';
+                }
+
+                 $sql .= ' FK_Crime_Lookup = "101-903" ';
+
+            }
+
         }
 
         if( isset( $timeFrom ) ) {
@@ -390,18 +470,57 @@ class CrimeData extends BaseModel {
                 
         }
 
+        
         $sql .= ' AND CrimeData.FK_Area_Lookup = AreaLookup.Code';
-        if( $groupByArea ) {
-            $sql .= ' GROUP BY FK_Area_Lookup';
-        } else {
+        
+        if( $groupBy == "time" ) {
             $sql .= ' GROUP BY FK_Time_Lookup';
+        } else if( $groupBy == "area" ) {
+            $sql .= ' GROUP BY FK_Area_Lookup';
         }
-                    
+        
         Debugger::log( "sql" );
         Debugger::log( $sql );
 
         return $this->db->query( $sql );
         
+    }
+
+    public function getApiCrimesByType( $areaId = null, $timeFrom = null, $timeTo = null, $groupByArea = true ) 
+    {
+        $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, FK_Crime_Lookup as CrimeType, Found, Solved 
+                   FROM CrimeData, AreaLookup
+                   WHERE';
+        $sql .=  ' FK_Area_Lookup = ' . $areaId;
+
+        if( isset( $timeFrom ) ) {
+
+            if( isset( $areaId ) ) {
+                $sql .= ' AND';
+            }
+            
+            $sql .= ' FK_Time_Lookup >= "' . $timeFrom . '"';
+                
+        }
+
+        if( isset( $timeTo ) ) {
+
+            if( isset( $areaId ) || isset( $timeTo ) ) {
+                $sql .= ' AND';
+            }
+            
+            $sql .= ' FK_Time_Lookup <= "' . $timeTo . '"';
+                
+        }
+
+        $sql .= ' AND CrimeData.FK_Area_Lookup = AreaLookup.Code';
+        /*if( $groupByArea ) {
+            $sql .= ' GROUP BY FK_Area_Lookup';
+        } else {
+            $sql .= ' GROUP BY FK_Time_Lookup';
+        }*/
+
+        return $this->db->query( $sql );
     }
 
 }   
