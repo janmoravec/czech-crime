@@ -10,6 +10,11 @@ var $resultTable = $( "#result-table" );
 var $result2Table = $( "#result2-table" );
 resetTables();
 
+//init chosen
+$( "#crime-type-select" ).chosen();
+$( "#area-select" ).chosen();
+$( "#time-from-select" ).chosen();
+$( "#time-to-select" ).chosen();
 
 $apiForm.on( "submit", function( evt ) {
 	
