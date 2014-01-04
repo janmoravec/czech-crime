@@ -311,18 +311,13 @@ class CrimeData extends BaseModel {
     public function getApiCrimes( $areaId = null, $crimeTypes = null, $timeFrom = null, $timeTo = null, $groupBy = false, $full = false ) 
     {
 
-        $output = array();
         $columns = array();
-
-        //add area columns
-        //$areaColumns = array( "AreaLookup.Code", "AreaLookup.Name", "AreaLookup.Population" );
-        //$columns = array_merge( $columns, $areaColumns );
 
         if( !$groupBy ) {
             
             if( !$full || $full != "true" ) {
                
-                $crimeColumns = array( "Found", "Solved", "FK_Crime_Lookup", "FK_Time_Lookup" );
+                $crimeColumns = array( "Found", "Solved", "FK_Crime_Lookup as CrimeType", "CONCAT(Month,'-',Year) as TimePeriod" );
 
             } else {
             
@@ -352,7 +347,7 @@ class CrimeData extends BaseModel {
 
             }
 
-        } else if( $groupBy == "time" || $groupBy == "area" ) {
+        } else if( $groupBy == "time" || $groupBy == "area" || $groupBy == "crimetype" ) {
 
             if( !$full || $full != "true" ) {
             
@@ -385,7 +380,11 @@ class CrimeData extends BaseModel {
             }
 
             if( $groupBy == "time" ) {
-                $crimeColumns = array_push( $crimeColumns, "FK_Time_Lookup" );
+                array_push( $crimeColumns, "CONCAT(Month,'-',Year) as TimePeriod" );
+            }
+
+            if( $groupBy == "crimetype" ) {
+                array_push( $crimeColumns, "FK_Crime_Lookup as CrimeType" );
             }
 
         }
@@ -409,11 +408,10 @@ class CrimeData extends BaseModel {
             }
             $columnIndex++;
 
-
         }
 
         //add from part
-        $sql .= " FROM CrimeData, AreaLookup WHERE";
+        $sql .= " FROM CrimeData, AreaLookup, TimeLookup WHERE";
 
         if( isset( $areaId ) ) {
             $sql .=  ' FK_Area_Lookup = ' . $areaId;
@@ -450,7 +448,7 @@ class CrimeData extends BaseModel {
 
         }
 
-        if( isset( $timeFrom ) ) {
+        if( $timeFrom > -1 ) {
 
             if( isset( $areaId ) || isset( $crimeTypes ) ) {
                 $sql .= ' AND';
@@ -460,7 +458,7 @@ class CrimeData extends BaseModel {
                 
         }
 
-        if( isset( $timeTo ) ) {
+        if( $timeTo > -1 ) {
 
             if( isset( $areaId ) || isset( $crimeTypes ) || isset( $timeTo ) ) {
                 $sql .= ' AND';
@@ -469,18 +467,16 @@ class CrimeData extends BaseModel {
             $sql .= ' FK_Time_Lookup <= "' . $timeTo . '"';
                 
         }
-
         
-        $sql .= ' AND CrimeData.FK_Area_Lookup = AreaLookup.Code';
+        $sql .= ' AND CrimeData.FK_Area_Lookup = AreaLookup.Code AND TimeLookup.Id = CrimeData.FK_Time_Lookup';
         
         if( $groupBy == "time" ) {
             $sql .= ' GROUP BY FK_Time_Lookup';
         } else if( $groupBy == "area" ) {
             $sql .= ' GROUP BY FK_Area_Lookup';
+        } else if( $groupBy == "crimetype" ) {
+            $sql .= ' GROUP BY FK_Crime_Lookup';
         }
-        
-        Debugger::log( "sql" );
-        Debugger::log( $sql );
 
         return $this->db->query( $sql );
         

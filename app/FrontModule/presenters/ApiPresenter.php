@@ -103,16 +103,6 @@ class ApiPresenter extends BasePresenter
 		
 		$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, $groupby, $full )->fetchAll();
 		
-		/*if( !isset( $groupby ) ) {
-			$crimes = $this->models->CrimeData->getApiCrimesByType( $areacode, $timeFromId, $timeToId, false, $long )->fetchAll();
-		} else {
-			if( $groupby == "area" ) {
-				$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, false, $long )->fetchAll();
-			} else {
-				$crimes = $this->models->CrimeData->getApiCrimes( $areacode, $crimetypes, $timeFromId, $timeToId, false, $long )->fetchAll();
-			}
-		}*/
-		
 		$this->payload->crimes = $crimes;
 	
 		$this->sendPayload();
