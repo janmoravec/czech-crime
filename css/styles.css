@@ -3890,7 +3890,11 @@ section.trendFilterBox {
     float: right;
     margin-top: 4px; } }
 @media (max-width: 600px) {
-  #pagesNav, .mainBar h2, section.homepageInfoBox, section.homepageFilterBox, section.homepageTimeline, section.homepageLegendMain {
+  .box-wrapper, .zoom-control {
+    visibility: hidden;
+    pointer-events: none; }
+
+  #pagesNav, .mainBar h2, section.autoCompleteBox, section.homepageInfoBox, section.homepageFilterBox, section.homepageTimeline, section.homepageLegendMain {
     visibility: hidden; }
 
   header.mainBar {
@@ -3941,3 +3945,32 @@ section.trendFilterBox {
 .box-wrapper.competition-notice, .zoomControl.competition-notice {
   /*-webkit-transition: top 0.5s;
   transition: top 0.5s;*/ }
+
+#tabulkyPage.competition-notice {
+  top: 40px; }
+
+@media (max-width: 1140px) {
+  #competition-notice {
+    font-size: 12px; } }
+@media (max-width: 1000px) {
+  #competition-notice {
+    font-size: 11px; } }
+@media (max-width: 799px) {
+  #competition-notice {
+    display: none; }
+
+  .box-wrapper.competition-notice {
+    top: 15px !important; }
+
+  .box-wrapper.competition-notice.box-wrapper.porovnani {
+    height: 234px !important; }
+
+  .zoomControl.competition-notice {
+    top: 25px !important; }
+
+  .box-wrapper.competition-notice, .zoomControl.competition-notice {
+    /*-webkit-transition: top 0.5s;
+    transition: top 0.5s;*/ }
+
+  #tabulkyPage.competition-notice {
+    top: 0px; } }

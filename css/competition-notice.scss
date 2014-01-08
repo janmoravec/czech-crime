@@ -48,3 +48,41 @@
 	/*-webkit-transition: top 0.5s;
 	transition: top 0.5s;*/
 }
+
+#tabulkyPage.competition-notice {
+	top: 40px;
+}
+
+@media (max-width:1140px) {
+	#competition-notice {
+		font-size: 12px;
+	}
+}
+@media (max-width:1000px) {
+	#competition-notice {
+		font-size: 11px;
+	}
+}
+@media (max-width:799px) {
+	#competition-notice {
+		display: none;
+	}
+	.box-wrapper.competition-notice {
+		top:15px !important;
+	}
+	.box-wrapper.competition-notice.box-wrapper.porovnani {
+		height: 234px !important;
+	}
+	.zoomControl.competition-notice {
+		top: 25px !important;
+	}
+
+	.box-wrapper.competition-notice, .zoomControl.competition-notice {
+		/*-webkit-transition: top 0.5s;
+		transition: top 0.5s;*/
+	}
+
+	#tabulkyPage.competition-notice {
+		top: 0px;
+	}
+}

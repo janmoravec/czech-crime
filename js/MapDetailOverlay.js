@@ -31,7 +31,9 @@ var MapDetailOverlay = {
    		var crimeTypes = data.graphCrimes;
 
 		//set 
-		var centerTextOffset = 25;
+		var isCompetitionBanner = Homepage.boxWrapper.hasClass( "competition-notice" );
+		//based whether there is a banner, set text offset
+		var centerTextOffset = ( isCompetitionBanner ) ? -15 : 25;
 		if( Application.screenWidth < 600 ) {
 			this.CIRCLE_RADIUS = 80;
 			this.ARC_WIDTH = 34;

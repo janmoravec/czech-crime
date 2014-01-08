@@ -280,7 +280,7 @@ var DataProxy = {
 	        		crimeType: ( opts.crimeType ) ? opts.crimeType : null },
 	        url: queryurl,
 	        success: function(d) {
-	            console.log( "success", queryurl, d );
+	            
 	            data = d;
 
 	            if( !data ) {

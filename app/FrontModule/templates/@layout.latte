@@ -92,10 +92,10 @@ fjs.parentNode.insertBefore(js, fjs);
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 8]><p class=chromeframe>Váš prohlížeč je velmi<em>starý!</em> <a href="http://browsehappy.com/">Nainstalujte si prosím zdarma</a> or <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a>, který vám umožní lepší využití stránky.</p><![endif]-->
-  <!--<div id="competition-notice" class="clearfix">
+  <div id="competition-notice" class="clearfix">
     <a href="#" class="competition-notice-close-btn right">Close</a>
-    <p>Podpořte Mapu kriminality hlasováním v soutěži <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">On Think Tanks!</a> Hlasujte <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">zde</a> kliknutím na zelené tlačítko <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">"vote"</a> ve spodní části příspěvku. Děkujeme!</p>
-  </div>-->
+    <p>Díky vašim hlasům je Mapa kriminality ve finále soutěže <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">On Think Tanks!</a> Pomožte nám vyhrát a hlasujte <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">zde</a> kliknutím na zelené tlačítko <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">"vote"</a> ve spodní části příspěvku. Děkujeme!</p>
+  </div>
 
   <header class="mainBar">
       <a href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapa}{else}#{/if}" class="logo"><img src="{$basePath}/images/logo.png" alt="logo" class="logo"/></a>
@@ -221,7 +221,8 @@ fjs.parentNode.insertBefore(js, fjs);
         $competitionNotice.hide();
         $boxWrapper.removeClass( "competition-notice" );
         $zoomControl.removeClass( "competition-notice" );
-      
+        $( "#tabulkyPage" ).removeClass( "competition-notice" );
+
       });
 
   </script>

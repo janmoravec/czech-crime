@@ -40,7 +40,12 @@
 // Smartphony az tablet na vysku
 @media (max-width: 600px) {
 	
-	#pagesNav, .mainBar h2, section.homepageInfoBox, section.homepageFilterBox, section.homepageTimeline, section.homepageLegendMain {
+	.box-wrapper, .zoom-control {
+		visibility: hidden;
+		pointer-events: none;
+	}
+
+	#pagesNav, .mainBar h2, section.autoCompleteBox, section.homepageInfoBox, section.homepageFilterBox, section.homepageTimeline, section.homepageLegendMain {
 	 visibility: hidden;
 	}
 
