@@ -1,14 +1,35 @@
 var $apiForm = $( "#api-form" );
+var $selects = $apiForm.find( "select" );
 var $crimeTypeSelect = $apiForm.find( "#crime-type-select" );
 var $areaSelect = $apiForm.find( "#area-select" );
 var $timeFromSelect = $apiForm.find( "#time-from-select" );
 var $timeToSelect = $apiForm.find( "#time-to-select" );
+
+var $downloadBtn = $( "#download-csv-btn" );
 
 var $dataPreloader = $( ".data-preloader" );
 
 var $resultTable = $( "#result-table" );
 var $result2Table = $( "#result2-table" );
 resetTables();
+
+$selects.on( "change", function() {
+
+	//update link
+	var area = $areaSelect.val();
+	var crimeType = $crimeTypeSelect.val();
+	var timeFrom = $timeFromSelect.val();
+	var timeTo = $timeToSelect.val();
+
+	var url = $downloadBtn.attr( "href" );
+	url = url.substr( 0, url.indexOf( "?" ) );
+	var suffix = "?areacode=" + area + "&crimetype=" + crimeType + "&timefrom=" + timeFrom + "&timeto=" + timeTo;
+	url = url + suffix;
+
+	console.log( url );
+	$downloadBtn.attr( "href", url );
+
+});
 
 //init chosen
 $( "#crime-type-select" ).chosen();
@@ -38,8 +59,11 @@ function callAjax( area, crimeType, timeFrom, timeTo ) {
 	$.ajax( {
 
 		url: url,
+		
 		dataType: "json",
+		
 		data: { areacode:area, crimetype: crimeType, timefrom: timeFrom, timeto: timeTo },
+		
 		success: function( data ) {
 			
 			$dataPreloader.hide();
@@ -52,6 +76,9 @@ function callAjax( area, crimeType, timeFrom, timeTo ) {
 				populateResultTable( $result2Table, data.crimesByTime );
 			}
 
+			//appear download btn
+			$downloadBtn.show();
+
 		},
 		error: function( xhr ) {
 			console.error( "ajax error", xhr );
@@ -63,27 +90,30 @@ function callAjax( area, crimeType, timeFrom, timeTo ) {
 
 function populateResultTable( $table, data ) {
 
+	console.log( "populateResultTable" );
+
 	//get rid of all data
 	var $tableBody = $table.find( "tbody" );
 	$tableBody.empty();
 
-	var fields = [ "Code", "Name", "Population", "CriminalityIndex", "FoundSum", "FoundSum",
-	 "SolvedAdditionallySum", "CommittedDruggedSum", "CommittedAlcoholSum", "CommittedRecidivstSum",
-	 "CommittedUnder15Sum", "Commited1517Sum", "CommittedUnder18Sum", "ChargedTotalSum", "ChargedRecidivistSum",
-	 "ChargedUnder15Sum", "ChargedUnder15Sum", "Charged1517Sum", "ChargedWomenSum", "DamageTotalSum", "DamageFoundSum" ];
+	var fields = [ "Code", "Name", "Population", "CrimeRate", "Found", "Solved",
+	 "Solved-additionally", "Committed-drugged", "Committed-alcohol", "Committed-recidivst",
+	 "Committed-under-15", "Committed-15-17", "Committed-under-18", "Charged-total", "Charged-recidivist",
+	 "Charged-under-15", "Charged-15-17", "Charged-women", "Damage-total", "Damage-found" ];
+
+	//for individual results add fk_time_lookup
+	if( $table == $result2Table ) {
+		fields.unshift( "TimePeriod" );
+	}
 
 	//loop through data
 	$.each( data, function( i,v ) {
 
 
-		//for individual results add fk_time_lookup
-		if( $table == $result2Table ) {
-			fields.unshift( "FK_Time_Lookup" );
-		}
-
 		var string = "<tr>";
 
 		$.each( fields, function( index, value ) {
+			console.log( value, v[value] );
 			string += "<td>" + v[value] + "</td>";
 		}	);
 

@@ -351,11 +351,12 @@ class CrimeData extends BaseModel {
 
             if( !$full || $full != "true" ) {
             
-                $crimeColumns = array( "Sum( Found ) as Found", "Sum( Solved ) as Solved" );
+                $crimeColumns = array( "( ( Sum( Found ) / Population ) * 10000 ) as CrimeRate, Sum( Found ) as Found", "Sum( Solved ) as Solved" );
 
             } else {
                 
                 $crimeColumns = array( 
+                        "( ( Sum( Found ) / Population ) * 10000 ) as CrimeRate",
                         "Sum( `Found` ) as `Found`", 
                         "Sum( `Found-checked` ) as `Found-checked`",
                         "Sum( `Found-end` ) as `Found-end`",
@@ -482,40 +483,19 @@ class CrimeData extends BaseModel {
         
     }
 
-    public function getApiCrimesByType( $areaId = null, $timeFrom = null, $timeTo = null, $groupByArea = true ) 
+    /* data */
+    public function getDataAreaInfo( $areaId = null, $timeFrom = null, $timeTo = null, $crimeTypes = true ) 
     {
-        $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, FK_Crime_Lookup as CrimeType, Found, Solved 
-                   FROM CrimeData, AreaLookup
-                   WHERE';
-        $sql .=  ' FK_Area_Lookup = ' . $areaId;
-
-        if( isset( $timeFrom ) ) {
-
-            if( isset( $areaId ) ) {
-                $sql .= ' AND';
-            }
-            
-            $sql .= ' FK_Time_Lookup >= "' . $timeFrom . '"';
-                
-        }
-
-        if( isset( $timeTo ) ) {
-
-            if( isset( $areaId ) || isset( $timeTo ) ) {
-                $sql .= ' AND';
-            }
-            
-            $sql .= ' FK_Time_Lookup <= "' . $timeTo . '"';
-                
-        }
-
-        $sql .= ' AND CrimeData.FK_Area_Lookup = AreaLookup.Code';
-        /*if( $groupByArea ) {
-            $sql .= ' GROUP BY FK_Area_Lookup';
-        } else {
-            $sql .= ' GROUP BY FK_Time_Lookup';
-        }*/
-
+        $sql = 'SELECT AreaLookup.Code, AreaLookup.Name, AreaLookup.Population
+                FROM CrimeData, AreaLookup, CrimeLookup
+                WHERE FK_Area_Lookup = ' . $areaId . ' 
+                    AND FK_Time_Lookup >= "' . $timeFrom . '" 
+                    AND FK_Time_Lookup <= "' . $timeTo . '"
+                    AND FK_Crime_Lookup IN ( "' . $crimeTypes . '" )
+                    AND CrimeData.FK_Area_Lookup = AreaLookup.Code
+                    AND CrimeData.FK_Crime_Lookup = CrimeLookup.Code
+                    GROUP BY FK_Area_Lookup';
+        
         return $this->db->query( $sql );
     }
 

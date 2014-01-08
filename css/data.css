@@ -1,0 +1,50 @@
+body {
+	padding: 20px;
+}
+
+.form {
+	width: 300px;
+}
+
+@media (max-width: 481px) {
+
+	.form {
+		width: 100%;
+	}
+
+}
+
+.data-preloader {
+	display: none;
+}
+
+#result-table, #result2-table {
+	display: none;
+}
+	#result2-table {	
+		margin-top: 100px;
+	}
+
+/* hide download btn by default */
+#download-csv-btn {
+	display: none;
+}
+
+/* override default value for drop-down arrow- user black version */
+.chosen-container-single .chosen-single div b {
+	background: url('chosen-sprite-black.png') no-repeat 0px 2px;
+}
+.chosen-container-single .chosen-search input[type="text"] {
+	background: white url('chosen-sprite-black.png') no-repeat 100% -20px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+	.chosen-rtl .chosen-search input[type="text"],
+  	.chosen-container-single .chosen-single abbr,
+  	.chosen-container-single .chosen-single div b,
+  	.chosen-container-single .chosen-search input[type="text"],
+  	.chosen-container-multi .chosen-choices .search-choice .search-choice-close,
+  	.chosen-container .chosen-results-scroll-down span,
+  	.chosen-container .chosen-results-scroll-up span {
+		background-image: url('chosen-sprite-black@2x.png') !important;
+	}
+}
