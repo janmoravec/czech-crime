@@ -8,6 +8,7 @@ var $timeToSelect = $apiForm.find( "#time-to-select" );
 var $downloadBtn = $( "#download-csv-btn" );
 
 var $dataPreloader = $( ".data-preloader" );
+var $downloadPreloader = $( ".download-preloader" );
 
 var $resultTable = $( "#result-table" );
 var $result2Table = $( "#result2-table" );
@@ -26,8 +27,16 @@ $selects.on( "change", function() {
 	var suffix = "?areacode=" + area + "&crimetype=" + crimeType + "&timefrom=" + timeFrom + "&timeto=" + timeTo;
 	url = url + suffix;
 
-	console.log( url );
 	$downloadBtn.attr( "href", url );
+
+});
+
+$downloadBtn.on( "click", function() {
+	$downloadPreloader.show();
+
+	setTimeout( function() {
+		$downloadPreloader.hide();
+	}, 3000 );
 
 });
 
@@ -90,8 +99,6 @@ function callAjax( area, crimeType, timeFrom, timeTo ) {
 
 function populateResultTable( $table, data ) {
 
-	console.log( "populateResultTable" );
-
 	//get rid of all data
 	var $tableBody = $table.find( "tbody" );
 	$tableBody.empty();
@@ -109,11 +116,9 @@ function populateResultTable( $table, data ) {
 	//loop through data
 	$.each( data, function( i,v ) {
 
-
 		var string = "<tr>";
 
 		$.each( fields, function( index, value ) {
-			console.log( value, v[value] );
 			string += "<td>" + v[value] + "</td>";
 		}	);
 

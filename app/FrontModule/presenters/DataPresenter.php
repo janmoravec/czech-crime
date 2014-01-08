@@ -15,6 +15,24 @@ use Nette\Application\Responses\JsonResponse;
 
 class DataPresenter extends BasePresenter
 {
+	/** @var string $lang  */
+    public $lang;
+
+    public function startup() {
+       
+        parent::startup();
+        
+        $this->lang = "cz";
+
+		//determine which language version
+		if( $_SERVER && $_SERVER["SERVER_NAME"] ) {
+			$serverName = $_SERVER["SERVER_NAME"];
+			if( strrpos( $serverName, "czechcrime" ) == 0 ) {
+				$this->lang = "en";
+			}
+		}
+
+    }
 
     /**
      * Presenter action Default.
@@ -32,8 +50,8 @@ class DataPresenter extends BasePresenter
 	}
 
 	public function renderCsv( $areacode, $crimetype, $timefrom, $timeto ) 
-	{
-
+	{	
+		
 		$areaCrimes = $this->models->CrimeData->getDataAreaInfo( $areacode, $timefrom, $timeto, $crimetype )->fetch();
 		$crimesByArea = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, "area", true )->fetchAll();
 		$crimesByTime = $this->models->CrimeData->getApiCrimes( $areacode, $crimetype, $timefrom, $timeto, "time", true )->fetchAll();
@@ -52,9 +70,8 @@ class DataPresenter extends BasePresenter
 
 		$output = array();
 		
-		//write header
-		//$output[ "header" ] = array( "cosiKey" => "cosi", "cosi2Key" => "cosi2", "cosi3Key" => "cosi3" );
-		//$output[ "header2" ] = array();
+		Debugger::log( "lang1" );
+		Debugger::log( $this->lang );
 
 		//go through all fields and map them to czech titles and skip unwanted properties
 		$blackListedProperties = array( "Found-checked", "Found-end", "Solved-perc" );
@@ -65,7 +82,13 @@ class DataPresenter extends BasePresenter
 
 				//check if not blacklisted property
 				if( !in_array( $crimeTypeKey, $blackListedProperties) ) {
-					$output[ $crimeKey ][ $this->mapProperties( $crimeTypeKey ) ] = $crimeTypeValue; 
+					
+					Debugger::log( "lang2" );
+					Debugger::log( $this->lang );
+		
+					//need to translate property name?
+					$propertyName = ( $this->lang == "cz" ) ? $this->mapProperties( $crimeTypeKey ) : $crimeTypeKey ;
+					$output[ $crimeKey ][ $propertyName ] = $crimeTypeValue; 
 				}
 				
 			}
