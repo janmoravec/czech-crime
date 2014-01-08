@@ -1,19 +1,3 @@
-//@codekit-append "libs/geoxml3.js"
-//@codekit-append "libs/raphael.js"
-//@codekit-append "libs/g.raphael.js"
-//@codekit-append "libs/g.line.js"
-//@codekit-append "libs/grid.locale-en.js"></script>
-//@codekit-append "libs/jquery.checkbox.min.modified.js"></script>
-//@codekit-append "libs/jquery.event.drag-1.5.min.js"></script>
-//@codekit-append "libs/chosen.jquery.min.js"></script>
-//@codekit-append "libs/d3.js"
-//@codekit-append "libs/geostats.js"
-//@codekit-append "libs/jenks.util.js"
-//@codekit-append "libs/jquery.geocomplete.js"
-//@codekit-append "libs/jquery.jscrollpane.min.js"
-//@codekit-append "libs/jquery.mousewheel.js"
-//@codekit-append "libs/sortable.js"
-
 /* **********************************************
      Begin geoxml3.js
 ********************************************** */

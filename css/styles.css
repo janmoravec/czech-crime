@@ -3890,7 +3890,7 @@ section.trendFilterBox {
     float: right;
     margin-top: 4px; } }
 @media (max-width: 600px) {
-  .box-wrapper, .zoom-control {
+  .box-wrapper, .zoomControl {
     visibility: hidden;
     pointer-events: none; }
 

@@ -63,8 +63,11 @@ var Timeline = {
 			maxHeight = 35,
 			heightDiff = maxHeight - minHeight,
 			len = data.length;
-          
-		var heightScale = d3.scale.linear().domain( [ range[0], range[1]] ).range( [minHeight, maxHeight] );
+         
+        //put dummy function for ie
+        var heightScale;
+        if( typeof d3 != "undefined" ) heightScale = d3.scale.linear().domain( [ range[0], range[1]] ).range( [minHeight, maxHeight] );
+        else heightScale = function() { return 1; }
 
 		var widthAvailable = self.getAvailableWidth();
 		
