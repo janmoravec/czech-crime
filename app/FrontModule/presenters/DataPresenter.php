@@ -27,7 +27,7 @@ class DataPresenter extends BasePresenter
 		//determine which language version
 		if( $_SERVER && $_SERVER["SERVER_NAME"] ) {
 			$serverName = $_SERVER["SERVER_NAME"];
-			if( strrpos( $serverName, "czechcrime" ) == 0 ) {
+			if( strrpos( $serverName, "czechcrime" ) === 0 ) {
 				$this->lang = "en";
 			}
 		}
