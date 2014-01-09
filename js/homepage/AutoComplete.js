@@ -39,7 +39,7 @@ AutoComplete.prototype = {
 		var self = this;
     
 	    //initializace pluginu
-		/*this.plugin = $( "#" + this.opts.autoCompleteId ).geocomplete()
+		this.plugin = $( "#" + this.opts.autoCompleteId ).geocomplete()
 	        //callback po uspesnem dotazu
 			.bind("geocode:result", function( event, result ){
 	  
@@ -57,7 +57,7 @@ AutoComplete.prototype = {
 	         
 	        	self.onGeocodeMultiple( event, results );
 	      
-	      	});*/
+	      	});
 
 	},
 
