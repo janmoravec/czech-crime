@@ -3978,6 +3978,9 @@ header .selectWrapper {
   text-decoration: underline; }
 
 #competition-notice {
+  font-size: 13px; }
+
+#competition-notice {
   position: relative;
   z-index: 20;
   text-align: center;
