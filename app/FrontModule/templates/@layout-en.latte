@@ -42,7 +42,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <link rel="stylesheet" href="{$basePath}/css/styles-en.css?1">
+  <link rel="stylesheet" href="{$basePath}/css/styles-en.css?{!$appVersion}">
 
   <script src="{$basePath}/js/libs/modernizr-2.5.3.min.js"></script>
   
@@ -94,7 +94,7 @@ fjs.parentNode.insertBefore(js, fjs);
   <!--[if lt IE 8]<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
   <div id="competition-notice" class="clearfix">
     <a href="#" class="competition-notice-close-btn right">Close</a>
-    <p>Support czechcrime.org in <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">the On Think Tanks competition!</a> You can vote <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">here</a> by clicking the green <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">"vote"</a> button at the bottom of the article. Thanks!</p>
+    <p>Thanks to your support, the czechcrime.org is now in finals of <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">the On Think Tanks competition!</a> Help us win by voting <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">here</a> by selecting our project as the first one in the right-side voting box. Thanks!</p>
   </div>
   <header class="mainBar">
       <a href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapView}{else}#{/if}" class="logo"><img src="{$basePath}/images/logo-en.png" alt="logo" class="logo"/></a>
@@ -218,7 +218,8 @@ fjs.parentNode.insertBefore(js, fjs);
         $competitionNotice.hide();
         $boxWrapper.removeClass( "competition-notice" );
         $zoomControl.removeClass( "competition-notice" );
-      
+        $( "#tabulkyPage" ).removeClass( "competition-notice" );
+
       });
 
   </script>

@@ -213,7 +213,6 @@ var Porovnani = {
 			_gaq.push(["_trackEvent", "porovnaniFirstRankStepper", Application.currentKey() ]);
 		} else {
 			Application.updateSecondSelectedUnit( selectedId );
-			console.log( 'selectedId' );
 			_gaq.push(["_trackEvent", "porovnaniSecondRankStepper", Application.currentKey() ]);
 		}
 	},
@@ -237,7 +236,6 @@ var Porovnani = {
 
 	updatePeriodAndFilters: function( data, namesAndIndexes ) {
 
-		console.log( "Porovnani updatePeriodAndFilters" );
 		if( !this.inited ) return;
 
 		//update maxvalue

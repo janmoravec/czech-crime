@@ -1,14 +1,14 @@
-	{block content}
+{block content}
 <div id="mapWrapper"></div>
 <div class="mapOverviewPopup">
         <div class="content">
         <h1>čr</h1>
         <dl class="value">
-            <dt>trestných činů</dt>
+            <dt>crimes count</dt>
             <dd>35 678</dd>
         </dl>
         <dl class="index">
-            <dt>index kriminality</dt>
+            <dt>crime rate</dt>
             <dd>234</dd>
         </dl>
     <section class="homepageLegend">
@@ -26,21 +26,21 @@
 </div>
 <div class="zoomControl competition-notice">
 	<ol>
-		<li class="country"><div><a href="#">ČR CELKEM</a></div></li>
-		<li class="county"><div><a href="#" >KRAJE</a></div></li>
-		<li class="district"><div><a href="#">ÚZEMNÍ ODBORY</a></div></li>
-		<li class="department"><div><a href="#">OBVODNÍ ODDĚLENÍ</a></div></li>
+		<li class="country"><div><a href="#">CZECH REP.</a></div></li>
+		<li class="county"><div><a href="#" >REGIONS</a></div></li>
+		<li class="district"><div><a href="#">DISTRICTS</a></div></li>
+		<li class="department"><div><a href="#">LOCAL DEPARTMENTS</a></div></li>
 	</ol>
 	<div class="scale">
-		<a href="#" title="Přiblížit" class="zoomIn"></a>
+		<a href="#" title="Zoom in" class="zoomIn"></a>
 		<div class="bar"> </div>
 		<div class="btn" style="top: -5px; left: 0px; "> </div> 
-		<a href="#" title="Oddálit" class="zoomOut"></a>
+		<a href="#" title="Zoom out" class="zoomOut"></a>
 	</div>
 </div>
 <div class="contact" style="display:hidden">
 	<div class="arrow"></div>
-	<a href="#" onClick="$('.contact').hide();" class="closeBtn" title="Zavřít"></a>
+	<a href="#" onClick="$('.contact').hide();" class="closeBtn" title="Close"></a>
         <div class="contactInfo"> 
         </div>
         {form contactForm} 
@@ -48,7 +48,7 @@
             {input message}
             {input send}
             {input emailTo}
-            <p class="email-notice">E-mail odeslán, děkujeme.</p>
+             <p class="email-notice">E-mail sent, thank you.</p>
         {/form}
 	<div class="clearfix"></div>
 </div>
@@ -56,35 +56,35 @@
 	<section class="autoCompleteBox infoBox insertedPageContent">
 		<header>
 				<div class="headerWrapper">
-					<h1>VYHLEDÁNÍ ADRESY</h1>
+					<h1>SEARCH FOR ADDRESS</h1>
 					<div class="hideBtn"></div>
 				</div>
 				<div class="clearfix"></div>
 		</header>
 		<div class="content">
 	      <form>
-	          <input id="autoComplete" type="text" placeholder="Napiš adresu" size="30" />
+	          <input id="autoComplete" type="text" placeholder="Type address" size="30" />
 	      </form>
 	    </div>
     </section>
 	<section class="homepageInfoBox infoBox insertedPageContent">
 		<header>
 				<div class="headerWrapper">
-					<h1>OBVODNÍ ODDĚLENÍ</h1>
+					<h1>Local department</h1>
 					<div class="hideBtn"></div>
 				</div>
 				<div class="clearfix"></div>
 		</header>
 		<div class="content">
 			<div class="title">
-				<div class="rank" title="Pořadí podle indexu kriminality (od nejvyššího k nejnižšímu)">0</div>
-				<h1 id="county">Vyber oddělení v mapě</h1>
+				<div class="rank" title="Rankings by crime rate (from the highest to the lowest)">0</div>
+				<h1 id="county">Select department on map</h1>
 			</div>
 			<article>
 				<table>
 					<tr>
-						<th>index kriminality</th>
-						<th>způsobená škoda</th>
+						<th>Crime rate</th>
+						<th>Damage</th>
 					</tr>
 					<tr>
 	                    <td id="ic">-</td>
@@ -93,49 +93,51 @@
 				</table>
 				<table>
 					<tr>
-						<th>trestné činy celkem</th>
-						<th>počet policistů</th>
+						<th>Crime count</th>
+						<th>Number of officers</th>
 					</tr>
 					<tr>
 						<td id="totalcrime">-</td>
-						<td id="officers" class="noData">Data nejsou k dispozici</td>
+						<td id="officers">-</td>
 					</tr>
 				</table>
 			</article>
 			<footer>
-				<a href="#" target="_self" class="compareBtn" title="Porovnat"><div>POROVNAT S JINÝM</div></a>
-				<a href="#" target="_self" class="contactBtn" title="Kontakt"><div>KONTAKTOVAT</div></a>
+				<a href="#" target="_self" class="compareBtn" title="Compare"><div>COMPARE</div></a>
+				<a href="#" target="_self" class="contactBtn" title="Feedback"><div>FEEDBACK</div></a>
 			</footer>
 		</div>
 	</section>
+
+
 	<section class="homepageFilterBox infoBox insertedPageContent">
 		<header>
 			<div class="headerWrapper">
-				<h1>Zjištěné trestné činy</h1>
+				<h1>RECORDED CRIMES</h1>
 				<div class="hideBtn"></div>
 			</div>
 			<div class="clearfix"></div>
 		</header>
 		<div class="content">
 			<ul>
-				<li class="murders" data-crime-type="101-106"><input type="checkbox" checked="checked">Vraždy<span class="val">-</span></li>
-				<li class="rapes" data-crime-type="201"><input type="checkbox" checked="checked">Znásilnění<span class="val">-</span></li>
-				<li class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614"> <input type="checkbox" checked="checked">Fyzické útoky<sup class='upper ui' title='Násilí proti úřední osobě, úmyslné ublížení na zdraví, rvačky, násilí a vyhrožování proti skupině obyvatel, nebezpečné vyhrožování, vydírání, výtržnictví včetně výtržnictví na sportovních a veřejných akcích, útoky na záchranáře)'>?</sup><span class="val">-</span></li>
-				<li class="thefts" data-crime-type="131,132"><input type="checkbox" checked="checked">Loupeže<sup class='upper' title='Loupeže včetně loupeží na finančních institucích'>?</sup><span class="val">-</span></li>
-				<li class="robberies" data-crime-type="371,373"><input type="checkbox" checked="checked">Vloupání do obydlí<sup class='upper' title='Vloupání do bytů a rodinných domů'>?</sup><span class="val">-</span></li>
-				<li class="hut-robberies" data-crime-type="372"><input type="checkbox" checked="checked">Vloupání do chat a chalup<span class="val">-</span></li>
-				<li class="car-thefts" data-crime-type="431"><input type="checkbox" checked="checked">Krádeže automobilů<span class="val">-</span></li>
-				<li class="car-stuff" data-crime-type="433,434"><input type="checkbox" checked="checked">Krádeže věcí z automobilů<sup class='upper' title='Krádeže z automobilů včetně vloupání do automobilů a krádeže součástek motorových vozidel'>?</sup><span class="val">-</span></li>
-				<li class="bikes" data-crime-type="435"><input type="checkbox" checked="checked">Krádeže jízdních kol<sup class="upper" title="Jedná se převážně o krádeže kol, zaparkovaných mimo budovy; krádeže se sklepů, garáží či bytů jsou zařazeny do příslušných kategorií vloupání">?</sup><span class="val">-</span></li>
-				<li class="drugs" data-crime-type="635,641,642,643"><input type="checkbox" checked="checked">Výroba, držení a distribuce drog<sup class='upper' title='Nedovolená výroba a držení drog pro sebe i pro jiného, držení předmětu k nedovolené výrobě a nedovolené pěstování rostlin, obsahujících omamnou látku.'>?</sup><span class="val">-</span></li>
-				<li class="drunk-drives" data-crime-type="771"><input type="checkbox" checked="checked">Řízení pod vlivem<sup class='upper' title='Ohrožení pod vlivem návykové látky - v naprosté většině se jedná právě o řízení vozidla pod vlivem alkoholu či drog'>?</sup><span class="val">-</span></li>
-				<li class="others" data-crime-type="-999"><input type="checkbox" checked="checked">Všechny zbývající činy<sup class='upper' title=''>?</sup><span class="val">-</span></li>
-				<li class="custom" data-crime-type="-1"><input type="checkbox"><p>Vyber libovolný trestný čin</p><sup class='upper' title=''>?</sup><span class="val with-back"></span></li>
+				<li class="murders" data-crime-type="101-106"><input type="checkbox" checked="checked">Murder<span class="val">-</span></li>
+				<li class="rapes" data-crime-type="201"><input type="checkbox" checked="checked">Rape<span class="val">-</span></li>
+				<li class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614"> <input type="checkbox" checked="checked">Physical assault<sup class='upper ui' title='This category consists of following crimes - violence against public officials (incl. police), intentional bodily harm, affray, violence against group or individual, threatening, extortion, riot (incl. riot in course of sport and public actions) and violence against rescuers.'>?</sup><span class="val">-</span></li>
+				<li class="thefts" data-crime-type="131,132"><input type="checkbox" checked="checked">Robbery<sup class='upper' title='This category consists of all kind of robberies incl. bank robberies'>?</sup><span class="val">-</span></li>
+				<li class="robberies" data-crime-type="371,373"><input type="checkbox" checked="checked">Burglary into households<sup class='upper' title='This category consists of burglaries into flats and into family houses.'>?</sup><span class="val">-</span></li>
+				<li class="hut-robberies" data-crime-type="372"><input type="checkbox" checked="checked">Burglary into weekend houses<span class="val">-</span></li>
+				<li class="car-thefts" data-crime-type="431"><input type="checkbox" checked="checked">Car theft<span class="val">-</span></li>
+				<li class="car-stuff" data-crime-type="433,434"><input type="checkbox" checked="checked">Theft from cars<sup class='upper' title='This category consists of thefts inside cars and thefts of car parts from cars.'>?</sup><span class="val">-</span></li>
+				<li class="bikes" data-crime-type="435"><input type="checkbox" checked="checked">Theft of bicycle<sup class='upper' title='This category contains only "street thefts" - bicycles stolen from flats, garages and other storage facilities aren&#8217;t included.'>?</sup><span class="val">-</span></li>
+				<li class="drugs" data-crime-type="635,641,642,643"><input type="checkbox" checked="checked">Production and distr. of drugs<sup class='upper' title='This category contains of following crimes - illicit manufacturing and possession of narcotics for another, illicit manufacturing and possession of narcotics for oneself, illicit possession of object for manufacturing of narcotics and cultivation of plants containing narcotic substance.'>?</sup><span class="val">-</span></li>
+				<li class="drunk-drives" data-crime-type="771"><input type="checkbox" checked="checked">Menace due to intoxication...<sup class='upper' title='The vast majority of this record is driving under influence of substances (drugs&alcohol).'>?</sup><span class="val">-</span></li>
+				<li class="others" data-crime-type="-999"><input type="checkbox" checked="checked">Remaining crime<span class="val">-</span></li>
+				<li class="custom" data-crime-type="-1"><input type="checkbox"><p>Select another crime type</p><span class="val with-back"></span></li>
 			</ul>
 		</div>
 	</section >
 	<section  class="homepageLegendMain infoBox insertedPageContent">
-		<h1>INDEX KRIMINALITY <sup class="upper" title="Počet trestných činů na 10 000 obyvatel za zvolené období">?</sup></h1>
+		<h1>CRIME RATE <sup class="upper" title="Rate of selected group of crimes per 10,000 head of population during the selected reporting period">?</sup></h1>
 		<div class="value">-</div>
 		<div class="clearfix"></div>
 		<ol>
@@ -145,12 +147,12 @@
 			<li class="d" data-color="#e93a46">401-500</li>
 			<li class="e last" data-color="#e20613">501-600</li>
 		</ol>
-	</section >
+	</section>
 </div>
 <section class="homepageCrimeTypesBox infoBox insertedPageContent">
 	<header>
 		<div class="headerWrapper">
-			<h1>SEZNAM VŠECH TRESTNÝCH ČINŮ</h1>
+			<h1>ALL CRIME TYPES LIST</h1>
 			<div class="hideBtn"></div>
 		</div>
 		<div class="clearfix"></div>
@@ -160,18 +162,17 @@
 		<style id="search_style"></style>
 		<ul>
 			{foreach $crimeTypes as $crimeType}
-				<li class="searchable {if $crimeType->IsNotSelectable}unselectable{/if} {if $crimeType->IsMainCategory}mainCategory{/if}" data-search-name="{$crimeType->Name|lower}" data-crime-type="{$crimeType->Code}">{$crimeType->Name}</li>
+				<li class="searchable {if $crimeType->IsNotSelectable}unselectable{/if} {if $crimeType->IsMainCategory}mainCategory{/if}" data-search-name="{$crimeType->Name_en|lower}" data-crime-type="{$crimeType->Code}">{$crimeType->Name_en}</li>
 			{/foreach}
  		</ul>
 	</div>
 </section>
-
 <div id="porovnaniPage" style="display:none;">
 	<a href="#" class="closeBtn" title="Zavřít"></a>
 	<div class="firstCol">
 		<header>
 			<div class="selectWrapper">
-				<select class="firstSelect chosen-select county" data-placeholder="Vyber územní jednotku">
+				<select class="firstSelect chosen-select county" data-placeholder="Select a territory">
 				      <option value=""></option>
 			            <option data-rank="1">Hlavní město Praha</option>
 			            <option data-rank="2">Středočeský</option>
@@ -190,9 +191,9 @@
         		</select>
 			</div>
 			<div class="rank">
-				<a href="#" class="rankUp" title="Pořadí nahoru"></a>
-				<p title="Pořadí podle indexu kriminality (od nejvyššího k nejnižšímu)">10</p>
-				<a href="#" class="rankDown" title="Pořadí dolů"></a>
+				<a href="#" class="rankUp" title="Rank up"></a>
+				<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+				<a href="#" class="rankDown" title="Rank down"></a>
 			</div>
 		</header>
 		<div class="clearfix"></div>
@@ -200,8 +201,8 @@
 			<section class="staticData">
 				<table>
 					<tr>
-						<th>způsobená škoda</th>
-						<th>počet policistů</th>
+						<th class="first">damage</th>
+						<th>number of officers</th>
 					</tr>
 					<tr class="total">
 						<td>-</td>
@@ -213,12 +214,12 @@
 				<table>
 					<tr>
 						<th></th>
-						<th class="first">Zjištěno</th>
-						<th class="second">Objasněno</th>
+						<th class="first">Recorded</th>
+						<th class="second">Cleared</th>
 						<th class="third">%</th>
 					</tr>
 					<tr class="values">
-						<td>Trestné činy celkem</td>
+						<td>Crime count total</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
@@ -226,7 +227,7 @@
 				</table>
 			</section>
 			<section class="index">
-				<h1>index kriminality</h1>
+				<h1>crime rate</h1>
 				<h2 class="value">-</h2>
 				<div class="bar">
 					<div class="graph"></div>
@@ -236,91 +237,91 @@
 			<section class="table">
 				<table>
 					<tr class="murders" data-crime-type="101-106">
-						<td class="title">Vraždy</td>
+						<td class="title">Murders</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="rapes" data-crime-type="201">
-						<td class="title">Znásilnění</td>
+						<td class="title">Rapes</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614">
-						<td class="title">Fyzické útoky</td>
+						<td class="title">Physical assaults</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="thefts" data-crime-type="131,132">
-						<td class="title">Loupeže</td>
+						<td class="title">Robberies</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="robberies" data-crime-type="371,373">
-						<td class="title">Vloupání do obydlí</td>
+						<td class="title">Burglaries into households</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="hut-robberies" data-crime-type="372">
-						<td class="title">Vloupání do chat a chalup</td>
+						<td class="title">Burglaries into weekend houses</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="car-thefts" data-crime-type="431">
-						<td class="title">Krádeže automobilů</td>
+						<td class="title">Car thefts</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="car-stuff" data-crime-type="433,434">
-						<td class="title">Krádeže věcí z automobilů</td>
+						<td class="title">Thefts from cars</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="bikes" data-crime-type="435">
-						<td class="title">Krádeže jízdních kol</td>
+						<td class="title">Bicycle thefts</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="drugs" data-crime-type="635,641,642,643">
-						<td class="title">Výroba, držení a distribuce drog</td>
+						<td class="title">Production possesion and distribution of drugs</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="drunk-drives" data-crime-type="771">
-						<td class="title">Řízení pod vlivem</td>
+						<td class="title">Menace due to intoxication, intoxication</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="others" data-crime-type="-999">
-						<td class="title">Všechny zbývající činy</td>
+						<td class="title">Remaining crimes</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 						<td class="bar"><div class="value"></div><div class="graph"></div></td>
 					</tr>
 					<tr class="custom last" data-crime-type="-1">
-						<td class="title">Vyber libovolný trestný čin</td>
+						<td class="title">Choose additional crime type</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
@@ -330,11 +331,11 @@
 			</section>
 		</div>
 	</div>
-	<p class="compareNotice">Porovnávat je možné pouze zobrazení <a href="#" title="Zobrazit kraje" class="county">Kraje</a> nebo <a href="#" title="Zobrazit odbory" class="district">Územní odbory</a>.</p>
+	<p class="compareNotice">Compare territories is possible by displaying <a href="#" title="Display region" class="county">Regions</a> nebo <a href="#" title="Display districts" class="district">districts</a>.</p>
 	<div class="secondCol">
 		<header>
 			<div class="selectWrapper">
-				<select class="secondSelect chosen-select county" data-placeholder="Vyber územní jednotku">
+				<select class="secondSelect chosen-select county" data-placeholder="Select a territory">
 				      <option value=""></option>
 			            <option data-rank="1">Hlavní město Praha</option>
 			            <option data-rank="2">Středočeský</option>
@@ -349,13 +350,13 @@
 			            <option data-rank="11">Vysočina</option>
 			            <option data-rank="12">Pardubický</option>
                         <option data-rank="13">Liberecký</option>
-                        <option data-rank="14">Karlovarský</option>
-                </select>
+                        <option data-rank="14">Karlovarský</option>        
+        		</select>
 			</div>
 			<div class="rank">
-				<a href="#" class="rankUp" title="Pořadí nahoru"></a>
-				<p title="Pořadí podle indexu kriminality (od nejvyššího k nejnižšímu)">10</p>
-				<a href="#" class="rankDown" title="Pořadí dolů"></a>
+				<a href="#" class="rankUp" title="Rank up"></a>
+				<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+				<a href="#" class="rankDown" title="Rank down"></a>
 			</div>
 		</header>
 		<div class="clearfix"></div>
@@ -363,8 +364,8 @@
 			<section class="staticData">
 				<table>
 					<tr>
-						<th>způsobená škoda</th>
-						<th>počet policistů</th>
+						<th class="first">damage</th>
+						<th>number of officers</th>
 					</tr>
 					<tr class="total">
 						<td>-</td>
@@ -374,7 +375,7 @@
 			</section>
 			<div class="clearfix"></div>
 			<section class="index">
-				<h1>index kriminality</h1>
+				<h1>crime rate</h1>
 				<h2 class="value">-</h2>
 				<div class="bar">
 					<div class="graph"></div>
@@ -385,12 +386,12 @@
 				<table>
 					<tr>
 						<th></th>
-						<th class="first">Zjištěno</th>
-						<th class="second">Objasněno</th>
+						<th class="first">Recorded</th>
+						<th class="second">Cleared</th>
 						<th class="third">%</th>
 					</tr>
 					<tr class="values">
-						<td>Trestné činy celkem</td>
+						<td>Crime count total</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
@@ -402,91 +403,91 @@
 				<table>
 					<tr class="murders" data-crime-type="101-106">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Vraždy</td>
+						<td class="title">Murders</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="rapes" data-crime-type="201">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Znásilnění</td>
+						<td class="title">Rapes</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Fyzické útoky</td>
+						<td class="title">Physical assaults</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="thefts" data-crime-type="131,132">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Loupeže</td>
+						<td class="title">Robberies</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="robberies" data-crime-type="371,373">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Vloupání do obydlí</td>
+						<td class="title">Burglaries into households</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="hut-robberies" data-crime-type="372">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Vloupání do chat a chalup</td>
+						<td class="title">Burglaries into weekend houses</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="car-thefts" data-crime-type="431">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Krádeže automobilů</td>
+						<td class="title">Car thefts</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="car-stuff" data-crime-type="433,434">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Krádeže věcí z automobilů</td>
+						<td class="title">Thefts from cars</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="bikes" data-crime-type="435">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Krádeže jízdních kol</td>
+						<td class="title">Bicycle thefts</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="drugs" data-crime-type="635,641,642,643">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Výroba, držení a distribuce drog</td>
+						<td class="title">Production possesion and distribution of drugs</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="drunk-drives" data-crime-type="771">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Řízení pod vlivem</td>
+						<td class="title">Menace due to intoxication, intoxication</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="others" data-crime-type="-999">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Všechny zbývající činy</td>
+						<td class="title">Remaining crimes</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
 					</tr>
 					<tr class="custom last" data-crime-type="-1">
 						<td class="bar"><div class="graph"></div><div class="value"></div></td>
-						<td class="title">Vyber libovolný trestný čin</td>
+						<td class="title">Choose additional crime type</td>
 						<td class="first">-</td>
 						<td class="second">-</td>
 						<td class="third">-</td>
@@ -511,18 +512,18 @@
 				<div class="content">
 	       			<div class="firstDate">
 	       				<ol class="month">
-	       					<li data-month-index="1" data-time-lookup="{$firstYearId}">Leden</li>
-	       					<li data-month-index="2" data-time-lookup="{$firstYearId+1}">Únor</li>
-	       					<li data-month-index="3" data-time-lookup="{$firstYearId+2}">Březen</li>
-	       					<li data-month-index="4" data-time-lookup="{$firstYearId+3}">Duben</li>
-	       					<li data-month-index="5" data-time-lookup="{$firstYearId+4}">Květen</li>
-	       					<li data-month-index="6" data-time-lookup="{$firstYearId+5}">Červen</li>
-	       					<li data-month-index="7" data-time-lookup="{$firstYearId+6}">Červenec</li>
-	       					<li data-month-index="8" data-time-lookup="{$firstYearId+7}">Srpen</li>
-	       					<li data-month-index="9" data-time-lookup="{$firstYearId+8}">Září</li>
-	       					<li data-month-index="10" data-time-lookup="{$firstYearId+9}">Říjen</li>
-	       					<li data-month-index="11" data-time-lookup="{$firstYearId+10}">Listopad</li>
-	       					<li data-month-index="12" data-time-lookup="{$firstYearId+11}">Prosinec</li>
+	       					<li data-month-index="1" data-time-lookup="{$firstYearId}">January</li>
+	       					<li data-month-index="2" data-time-lookup="{$firstYearId+1}">February</li>
+	       					<li data-month-index="3" data-time-lookup="{$firstYearId+2}">March</li>
+	       					<li data-month-index="4" data-time-lookup="{$firstYearId+3}">April</li>
+	       					<li data-month-index="5" data-time-lookup="{$firstYearId+4}">May</li>
+	       					<li data-month-index="6" data-time-lookup="{$firstYearId+5}">June</li>
+	       					<li data-month-index="7" data-time-lookup="{$firstYearId+6}">July</li>
+	       					<li data-month-index="8" data-time-lookup="{$firstYearId+7}">August</li>
+	       					<li data-month-index="9" data-time-lookup="{$firstYearId+8}">September</li>
+	       					<li data-month-index="10" data-time-lookup="{$firstYearId+9}">October</li>
+	       					<li data-month-index="11" data-time-lookup="{$firstYearId+10}">November</li>
+	       					<li data-month-index="12" data-time-lookup="{$firstYearId+11}">December</li>
 	       				</ol>
 	       				<ol class="year">
 	       					{foreach $years as $year}
@@ -532,18 +533,18 @@
 	       			</div>
 	       			<div class="secondDate">
 	       				<ol class="month">
-	       					<li data-month-index="1" data-time-lookup="{$secondYearId}">Leden</li>
-	       					<li data-month-index="2" data-time-lookup="{$secondYearId+1}">Únor</li>
-	       					<li data-month-index="3" data-time-lookup="{$secondYearId+2}">Březen</li>
-	       					<li data-month-index="4" data-time-lookup="{$secondYearId+3}">Duben</li>
-	       					<li data-month-index="5" data-time-lookup="{$secondYearId+4}">Květen</li>
-	       					<li data-month-index="6" data-time-lookup="{$secondYearId+5}">Červen</li>
-	       					<li data-month-index="7" data-time-lookup="{$secondYearId+6}">Červenec</li>
-	       					<li data-month-index="8" data-time-lookup="{$secondYearId+7}">Srpen</li>
-	       					<li data-month-index="9" data-time-lookup="{$secondYearId+8}">Září</li>
-	       					<li data-month-index="10" data-time-lookup="{$secondYearId+9}">Říjen</li>
-	       					<li data-month-index="11" data-time-lookup="{$secondYearId+10}}">Listopad</li>
-	       					<li data-month-index="12" data-time-lookup="{$secondYearId+11}}">Prosinec</li>
+	       					<li data-month-index="1" data-time-lookup="{$secondYearId}">January</li>
+	       					<li data-month-index="2" data-time-lookup="{$secondYearId+1}">February</li>
+	       					<li data-month-index="3" data-time-lookup="{$secondYearId+2}">March</li>
+	       					<li data-month-index="4" data-time-lookup="{$secondYearId+3}">April</li>
+	       					<li data-month-index="5" data-time-lookup="{$secondYearId+4}">May</li>
+	       					<li data-month-index="6" data-time-lookup="{$secondYearId+5}">June</li>
+	       					<li data-month-index="7" data-time-lookup="{$secondYearId+6}">July</li>
+	       					<li data-month-index="8" data-time-lookup="{$secondYearId+7}">August</li>
+	       					<li data-month-index="9" data-time-lookup="{$secondYearId+8}">September</li>
+	       					<li data-month-index="10" data-time-lookup="{$secondYearId+9}">October</li>
+	       					<li data-month-index="11" data-time-lookup="{$secondYearId+10}}">November</li>
+	       					<li data-month-index="12" data-time-lookup="{$secondYearId+11}}">Decemeber</li>
 	       				</ol>
 	       				<ol class="year">
                     		{foreach $years as $year}
@@ -555,8 +556,8 @@
 	       		</div>
 		       	<footer>
 		       		<div>
-			       		<a href="#" class="ok" title="Potvrdit"><div></div></a>
-			       		<a href="#" class="cancel" title="Zrušit"><div></div></a>
+			       		<a href="#" class="ok" title="Confirm"><div></div></a>
+			       		<a href="#" class="cancel" title="Cancel"><div></div></a>
 			       	</div>
 		       	</footer>
 			</div>
@@ -579,14 +580,14 @@
 <div id="tabulkyPage" class="competition-notice" style="display:none;">
 	<header class="select">
 			<ul class="tabs">
-				<li><a href="#" class="unitsTab" alt="Přehled trestné činnosti za">Přehled</a></li>
-				<li><a href="#" class="crimesTab" alt="Žebříček krajů podle">Žebříček</a></li>
-				<li><a href="#" class="trendTab" alt="Vývoj trendu objasněnosti">Graf</a></li>
+				<li><a href="#" class="unitsTab" alt="Přehled trestné činnosti za">Summary</a></li>
+				<li><a href="#" class="crimesTab" alt="Žebříček krajů podle">Ranking</a></li>
+				<li><a href="#" class="trendTab" alt="Vývoj trendu objasněnosti">Graph</a></li>
 			</ul>
 			<div class="left">
 				<div class="unitsSelect">
 					<div class="selectWrapper">
-						<select class="chosen-select county" data-placeholder="Vyber územní jednotku">
+						<select class="chosen-select county" data-placeholder="Select a territory">
 						      <option value=""></option>
 					            <option data-rank="1">Hlavní město Praha</option>
 					            <option data-rank="2">Středočeský</option>
@@ -605,15 +606,15 @@
 		                </select>
 					</div>
 					<div class="rank">
-						<a href="#" class="rankUp" title="Pořadí nahoru"></a>
-						<p title="Pořadí podle indexu kriminality (od nejvyššího k nejnižšímu)">10</p>
-						<a href="#" class="rankDown" title="Pořadí dolů"></a>
+						<a href="#" class="rankUp" title="Rank up"></a>
+						<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+						<a href="#" class="rankDown" title="Rank down"></a>
 					</div>
 				</div>
 				<div class="crimesSelect">
 					<div class="selectWrapper">
 						<select class="chosen-select county" data-placeholder="Vyber typ trestného činu">
-						      <option n:foreach="$crimes as $crime" value="{$crime->Code}">{$crime->Name}</option>
+						      <option n:foreach="$crimes as $crime" value="{$crime->Code}">{$crime->Name_en}</option>
 		                </select>
 					</div>
 				</div>
@@ -624,26 +625,25 @@
 		<div class="firstCol">
 			<section class="crimes">
 				<header>
-					<a href="#" class="downloadBtn"><div>Stáhnout data</div></a>
-					<div class="first">Zjištěno</div>
-					<div class="second">Objasněno</div>
+					<a href="#" class="downloadBtn"><div>Download data</div></a>
+					<div class="first">Recorded</div>
+					<div class="second">Cleared</div>
 				</header>
-
 				<table class="total">
 					<tr>
 						<th class="first"></th>
-						<th class="left">Počet</th>
-						<th class="right">Index</th>
-						<th class="left">Počet</th>
+						<th class="left">Count</th>
+						<th class="right">Rate</th>
+						<th class="left">Count</th>
 						<th class="right">%</th>
 					</tr>
 					<tr class="total">
-						<td class="first">Trestné činy</td>
+						<td class="first">Total Crimes</td>
 						<td class="left">4 833 670</td>
 						<td class="right">25</td>
 						<td class="left">3 833 670</td>
 						<td class="right">25</td>
-						<td class="displayRank"><a href="*" class="displayRankBtn" title="Zobrazit žebříček"></a><a href="*" class="displayGraphBtn" title="Zobrazit graf"></a></td>
+						<td class="displayRank"><a href="*" class="displayRankBtn" title="Display rankings"></a><a href="*" class="displayGraphBtn" title="Display graph"></a></td>
 					</tr>
 				</table>
 				<table class="types">
@@ -653,41 +653,41 @@
 						<td class="right sortable">-</td>
 						<td class="left sortable">-</td>
 						<td class="right sortable">-</td>
-						<td class="displayRank"><a href="#" class="displayRankBtn" title="Zobrazit žebříček"></a><a href="#" class="displayGraphBtn" title="Zobrazit graf"></a></td>
+						<td class="displayRank"><a href="#" class="displayRankBtn" title="Display rankings"></a><a href="#" class="displayGraphBtn" title="Display graph"></a></td>
 					</tr>
 				</table>
 				<table class="general">
 					<tr>
-						<td class="first">Počet obyvatel</td>
+						<td class="first">Number of population</td>
 						<td class="left">675 667</td>
 					</tr>
 					<tr>
-						<td class="first">Počet policistů</td>
+						<td class="first">Number of police officers</td>
 						<td class="left">675 667</td>
 					</tr>
 					<tr>
-						<td class="first">Rozloha území</td>
+						<td class="first">Area of the territory</td>
 						<td class="left">675 667</td>
 					</tr>
 					<tr>
-						<td class="first">Index kriminality</td>
+						<td class="first">Crime rate</td>
 						<td class="left">675</td>
 					</tr>
 				</table>
 			</section>
 			<section class="rankings">
 				<header>
-					<a href="#" class="downloadBtn"><div>Stáhnout data</div></a>
-					<div class="first">Zjištěno</div>
-					<div class="second">Objasněno</div>
+					<a href="#" class="downloadBtn"><div>Download data</div></a>
+					<div class="first">Recorded</div>
+					<div class="second">Cleared</div>
 				</header>
 				<table id="rankingTable" class="no-arrow">
 					<tr class="header">
 						<th class="index">#</th>
-						<th class="first sortable">KRAJ</th>
-						<th class="left hover sortable">Počet<span></span></th>
-						<th class="right yellow hover sortable">Index<span></span></th>
-						<th class="left sortable">Počet<span></span></th>
+						<th class="first sortable">Region</th>
+						<th class="left hover sortable">Count<span></span></th>
+						<th class="right yellow hover sortable">Rate<span></span></th>
+						<th class="left sortable">Count<span></span></th>
 						<th class="right hover sortable">%<span></span></th>
 						<th></th>
 					</tr>
@@ -702,8 +702,8 @@
 				</table>
 			</section>
 			<section class="trend">
-				<p class="trend-notice">Pro zobrazení grafu vyber územní odbor.</p>
-				<p class="no-svg-trend-notice">Pro zobrazení této sekce je potřeba modernější prohlížeč.</p>
+				<p class="trend-notice">To display graph select a local department.</p>
+				<p class="no-svg-trend-notice">You need modern browser to view this section.</p>
 				<div id="svgHolder"></div>
 				<div class="legendX"></div>
 				<div class="legendY"></div>
@@ -715,73 +715,31 @@
 			</section>
 		</div>
 		<div class="secondCol">
-			<h2>Další dokumenty ke stažení</h2>
-			<section>
-				<header>
-					<div class="headerWrapper">
-						<h3>Data o trestné činnosti</h3>
-						<div class="hideBtn"></div>
-					</div>
-					<div class="clearfix"></div>
-				</header>
-				<div class="articleContent">
-					<ul>
-						<li class="xls">
-							<a href="http://www.mapakriminality.cz/data/data_uzemni-odbory_1-2008_06-2013_FINAL.xls" target="_blank" title="Trestné činy podle územních odborů">
-								<h4>Trestné činy podle územních odborů</h4>
-								<p>Tabulka zjištěných trestných činů za období leden 2008 až červen 2013 pro jednotlivé územní odbory.</p>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section>
-				<header>
-					<div class="headerWrapper">
-						<h3>Ostatní data</h3>
-						<div class="hideBtn"></div>
-					</div>
-					<div class="clearfix"></div>
-				</header>
-				<div class="articleContent">
-					<ul>
-						<li class="xls">
-							<a href="http://www.mapakriminality.cz/data/policiste-k-30-6-2012.xls" target="_blank" title="Početní stavy policistů k 30.6.2012">
-								<h4>Početní stavy policistů k 30.6.2012</h4>
-								<p>Systemizované a skutečné početní stavy policistů na jednotlivých krajských ředitelstvích a územních odborech PCŘ. Data k 30.6.2012.</p>
-							</a>
-						</li>
-						<li class="xls">
-							<a href="http://www.mapakriminality.cz/data/uzemni-odbory_zakladni-ukazatele_102011-092012.xls" target="_blank" title="Početní stavy policistů k 30.6.2012">
-								<h4>Základní ukazatele pro územní odbory za období říjen 2011 až září 2012</h4>
-								<p>Přehledně uspořádané základní ukazatele za uplynulý rok (říjen 2011 až září 2012) - index kriminality, objasněnost, počet obyvatel na 1 policistu a počet trestných činů na jednoho policistu.</p>
-							</a>
-						</li>
-					</ul>	
-				</div>
-			</section>
+			<p class="detailDataNotice">Detailed data for download are available at the <a href="http://mapakriminality.cz/#tabulky" title="Czech version table">Czech version of the application</a>.</p>
 		</div>
 	</div>
 </div>
 <div class="mapDetailOverlayBack"></div>
 <div class="preloaderBack"></div>
-<div id="ajax-spinner" style="position:absolute;left:50%;top:50%;">Nahrávání dat</div>
+<div id="ajax-spinner" style="position:absolute;left:50%;top:50%;">Loading data</div>
+
+
 
  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="{$basePath}/js/libs/jquery-1.7.1.js"><\/script>')</script>
   <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB7MKCUedN9wCarH7GOll39ffkYwZjyHbk&amp;sensor=false&amp;libraries=places"> </script>
-  
-  <script src="{$basePath}/resources/texts.js"></script> 
+  <!--<script type="text/javascript" src="http://geoxml3.googlecode.com/svn/branches/polys/geoxml3.js"></script>-->
+ 
+  <script src="{$basePath}/resources/texts-en.js"></script> 
   
   <!-- start of mimify scripts -->
-  <!--<script type="text/javascript" src="http://geoxml3.googlecode.com/svn/branches/polys/geoxml3.js"></script>
-  <script src="{$basePath}/js/libs/raphael-min.js"></script>
+  <!--<script src="{$basePath}/js/libs/raphael-min.js"></script>
   <script src="{$basePath}/js/libs/g.raphael.js" type="text/javascript"></script>
   <script src="{$basePath}/js/libs/g.line.js" type="text/javascript" charset="utf-8"></script>
 
   <script src="{$basePath}/js/libs/d3.v3.min.js" charset="utf-8"></script>
-  
+
   <script src="{$basePath}/js/libs/grid.locale-en.js"></script>
   <script src="{$basePath}/js/libs/jquery.checkbox.min.modified.js"></script>
   <script src="{$basePath}/js/libs/jquery.event.drag-1.5.min.js"></script>
@@ -791,71 +749,71 @@
   <script src="{$basePath}/js/libs/sortable.js"></script>
   <script src="{$basePath}/js/libs/jquery.mousewheel.js"></script>
   <script src="{$basePath}/js/libs/jquery.geocomplete.js"></script>
-  <script src="{$basePath}/js/libs/jquery.jscrollpane.min.js"></script>-->
+  <script src="{$basePath}/js/libs/jquery.jscrollpane.min.js"></script>!-->
 
-  <script src="{$basePath}/js/externalScripts-min.js?{!$appVersion}"></script> 
+  <script src="{$basePath}/js/externalScripts-min.js?{!$appVersion}"></script>
 
-	  <!--<script src="{$basePath}/js/Config.js"></script>
-	  <script src="{$basePath}/js/DummyData.js"></script>
+  <!--<script src="{$basePath}/js/Config.js"></script>
+  <script src="{$basePath}/js/DummyData.js"></script>
 
-	  <script src="{$basePath}/js/Preloader.js"></script>
-	  <script src="{$basePath}/js/Popup.js"></script>
+  <script src="{$basePath}/js/Preloader.js"></script>
+  <script src="{$basePath}/js/Popup.js"></script>
 
-	  <script src="{$basePath}/js/model/DataUtil.js"></script>
-	  <script src="{$basePath}/js/model/DataProxy.js"></script>
+  <script src="{$basePath}/js/model/DataUtil.js"></script>
+  <script src="{$basePath}/js/model/DataProxy.js"></script>
 
-	  <script src="{$basePath}/js/homepage/AutoComplete.js"></script>
-	  <script src="{$basePath}/js/homepage/Infobox.js"></script>
-	  <script src="{$basePath}/js/homepage/Timeline.js"></script>
-	  <script src="{$basePath}/js/homepage/SingleDate.js"></script>
-	  <script src="{$basePath}/js/homepage/TimelineActiveArea.js"></script>
-	  <script src="{$basePath}/js/homepage/FilterBox.js"></script>
-	  <script src="{$basePath}/js/homepage/CrimeTypesBox.js"></script>
-	  <script src="{$basePath}/js/homepage/DynamicRange.js"></script>
-	  <script src="{$basePath}/js/homepage/Legend.js"></script>
-	  <script src="{$basePath}/js/homepage/DateModel.js"></script>
-	  <script src="{$basePath}/js/homepage/DateRange.js"></script>
-	  <script src="{$basePath}/js/homepage/ZoomControl.js"></script>
-	  <script src="{$basePath}/js/homepage/Homepage.js"></script>
-	  <script src="{$basePath}/js/homepage/Arc.js"></script>
+  <script src="{$basePath}/js/homepage/AutoComplete.js"></script>
+  <script src="{$basePath}/js/homepage/Infobox.js"></script>
+  <script src="{$basePath}/js/homepage/Timeline.js"></script>
+  <script src="{$basePath}/js/homepage/SingleDate.js"></script>
+  <script src="{$basePath}/js/homepage/TimelineActiveArea.js"></script>
+  <script src="{$basePath}/js/homepage/FilterBox.js"></script>
+  <script src="{$basePath}/js/homepage/CrimeTypesBox.js"></script>
+  <script src="{$basePath}/js/homepage/DynamicRange.js"></script>
+  <script src="{$basePath}/js/homepage/Legend.js"></script>
+  <script src="{$basePath}/js/homepage/DateModel.js"></script>
+  <script src="{$basePath}/js/homepage/DateRange.js"></script>
+  <script src="{$basePath}/js/homepage/ZoomControl.js"></script>
+  <script src="{$basePath}/js/homepage/Homepage.js"></script>
+  <script src="{$basePath}/js/homepage/Arc.js"></script>
 
-	  <script src="{$basePath}/js/porovnani/PorovnaniSelectBox.js"></script>
-	  <script src="{$basePath}/js/porovnani/PorovnaniTable.js"></script>
-	  <script src="{$basePath}/js/porovnani/RankStepper.js"></script>
-	  <script src="{$basePath}/js/Porovnani.js"></script>
+  <script src="{$basePath}/js/porovnani/PorovnaniSelectBox.js"></script>
+  <script src="{$basePath}/js/porovnani/PorovnaniTable.js"></script>
+  <script src="{$basePath}/js/porovnani/RankStepper.js"></script>
+  <script src="{$basePath}/js/Porovnani.js"></script>
 
-	  <script src="{$basePath}/js/tabulky/RankingSelectBox.js"></script>
-	  <script src="{$basePath}/js/tabulky/RankingsTable.js"></script>
-	  <script src="{$basePath}/js/tabulky/TypesTable.js"></script>
-	  <script src="{$basePath}/js/tabulky/TrendGraphPopups.js"></script>
-	  <script src="{$basePath}/js/tabulky/Trend.js"></script>
-	  <script src="{$basePath}/js/Tabulky.js"></script>
-	    
-	  <script src="{$basePath}/js/ContactForm.js"></script>
-	  <script src="{$basePath}/js/Navigator.js"></script>
-	  <script src="{$basePath}/js/LogIn.js"></script>
-	  <script src="{$basePath}/js/AboutApplication.js"></script>
-	  <script src="{$basePath}/js/MapDetailOverlay.js"></script>
-	  <script src="{$basePath}/js/MapLayer.js"></script>
-	  <script src="{$basePath}/js/MapLayerOverviewPopUp.js"></script>
-	  <script src="{$basePath}/js/Map.js"></script> 
-	  
-	  <script src="{$basePath}/js/tests/Tester.js"></script> 
-	  <script src="{$basePath}/js/Application.js"></script> 
-
-	  <script src="{$basePath}/js/plugins.js"></script>
-	  <script src="{$basePath}/js/script.js"></script> -->
- 
-    <script src="{$basePath}/js/myscripts-min.js?{!$appVersion}"></script> 
- 
+  <script src="{$basePath}/js/tabulky/RankingSelectBox.js"></script>
+  <script src="{$basePath}/js/tabulky/RankingsTable.js"></script>
+  <script src="{$basePath}/js/tabulky/TypesTable.js"></script>
+  <script src="{$basePath}/js/tabulky/TrendGraphPopups.js"></script>
+  <script src="{$basePath}/js/tabulky/Trend.js"></script>
+  <script src="{$basePath}/js/Tabulky.js"></script>
+    
+  <script src="{$basePath}/js/ContactForm.js"></script>
+  <script src="{$basePath}/js/Navigator.js"></script>
+  <script src="{$basePath}/js/LogIn.js"></script>
+  <script src="{$basePath}/js/AboutApplication.js"></script>
+  <script src="{$basePath}/js/MapDetailOverlay.js"></script>
+  <script src="{$basePath}/js/MapLayer.js"></script>
+  <script src="{$basePath}/js/MapLayerOverviewPopUp.js"></script>
+  <script src="{$basePath}/js/Map.js"></script> 
   
+  <script src="{$basePath}/js/tests/Tester.js"></script> 
+  <script src="{$basePath}/js/Application.js"></script> 
+
+  <script src="{$basePath}/js/plugins.js"></script>
+  <script src="{$basePath}/js/script.js"></script> -->
+  
+  <script src="{$basePath}/js/myscripts-min.js?{!$appVersion}"></script>
+
+
 {/block}
 
 
 {block head}
 <script type="text/javascript">
      
-	  var appLanguage = "cz";
+	  var appLanguage = "en";
 
       var countryTable = "{!$countryTable}";
       var countyTable = "{!$countyTable}";
@@ -868,7 +826,7 @@
       var timeFrom = parseInt( "{!$timeFrom}" );
       var timeTo = parseInt( "{!$timeTo}" );
       var filters = "{!$filters}";
-      
+
 </script>
 
   

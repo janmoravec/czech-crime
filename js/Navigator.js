@@ -76,8 +76,18 @@ var Navigator = {
 	    });
 
 	    this.tableBtn.on( "click", function( evt ) {
-	    
-	        self.switchToTabulky();
+	    	
+	    	Preloader.show();
+
+	    	if( Application.selectedUnit > -1 ) {
+	    		setTimeout( function() {
+		          self.switchToTabulky();
+		        }, 50 );
+	    	} else {
+	    		self.switchToTabulky();
+	    	}
+	        
+   
 	        _gaq.push(["_trackEvent", "mainMenuTableBtn", "", Application.currentKey() ]);
 	    
 	    });
@@ -234,7 +244,8 @@ var Navigator = {
 	},
 
     switchToTabulky: function() {
-      
+      	
+      	Preloader.hide();
 	    MapDetailOverlay.close();
 	    
 	    this.autocomplete.hide();

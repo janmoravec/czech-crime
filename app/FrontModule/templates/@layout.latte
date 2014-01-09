@@ -23,17 +23,17 @@
        More info: h5bp.com/i/378 -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>MAPAKRIMINALITY.CZ</title>
+  <title>CZECHCRIME.ORG</title>
   <meta name="description" content="">
 
-  <meta name="description" content="Statistiky trestných činů na území ČR">
+  <meta name="description" content="Crime statistics in the Czech republic">
   <meta name="author" content="ProPolice/Otevřená společnost, o.p.s">
-  <meta name="keywords" content="kriminality, vizualizace kriminality, statistika trestných činů, trestné činy">
+  <meta name="keywords" content="criminality, crime visualization, crime statistics, crimes">
 
-  <meta property="og:title" content="MapaKriminality.cz">
-  <meta property="og:description" content="Statistiky trestných činů na území ČR">
-  <meta property="og:url" content="http://www.mapakriminality.cz/">
-  <meta property="og:image" content="http://www.mapakriminality.cz/images/facebook.png">
+  <meta property="og:title" content="CrimeData.org">
+  <meta property="og:description" content="Crime statistics in the Czech republic">
+  <meta property="og:url" content="http://www.crimedata.org/">
+  <meta property="og:image" content="http://www.crimedata.org/images/facebook.png">
   <meta property="og:type" content="website">
 
   <!-- Mobile viewport optimized: h5bp.com/viewport -->
@@ -41,33 +41,44 @@
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="icon" type="image/png" href="favicon.png" />
-  <link rel="stylesheet" href="{$basePath}/css/styles.css?{!$appVersion}">
+
+  <link rel="stylesheet" href="{$basePath}/css/styles-en.css?{!$appVersion}">
 
   <script src="{$basePath}/js/libs/modernizr-2.5.3.min.js"></script>
   
 {block head}{/block}
 
   
-  <script type="text/javascript">
-      
-   var templateDir = {$basePath} + "/templates";
-   
-   function getTable(type) {
-            
-        if( Application.selectedUnit == -1 && type == "types" ) {
+    <script type="text/javascript">
+        
+      var templateDir = {$basePath} + "/templates";
+    
+      function getTable(type) {
+          
+          if( Application.selectedUnit == -1 && type == "types" ) {
 
-          alert( texts[ "Pro stažení dat vyber územní jednotku." ] );
-          return;
+            alert( texts[ "Pro stažení dat vyber územní jednotku." ] );
+            return;
 
-        }
-        
-        //$printType,$zoomLevel,$area,$timeFrom,$timeTo,$crimeTypes
-        window.location = {link getTable!} + "&zoomLevel=" + Application.zoomLevel + "&area=" + Application.selectedUnit + "&timeFrom=" + Application.timeFrom + "&timeTo=" + Application.timeTo + "&crimeTypes=" + Application.filtersString() + "&selectedCrimeType=" + Application.selectedCrimeType + "&printType=" + type + "&language=" + appLanguage;
-        
-        
-    }
+          }
+          
+          //$printType,$zoomLevel,$area,$timeFrom,$timeTo,$crimeTypes
+          window.location = {link getTable!} + "&zoomLevel=" + Application.zoomLevel + "&area=" + Application.selectedUnit + "&timeFrom=" + Application.timeFrom + "&timeTo=" + Application.timeTo + "&crimeTypes=" + Application.filtersString() + "&selectedCrimeType=" + Application.selectedCrimeType + "&printType=" + type + "&language=" + appLanguage;
+          
+          
+      }
 
   </script>
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-9330068-19'],['_trackPageview']];
+    (function(d,t){ var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  
 </head>
 <body>
 <div id="fb-root"></div>
@@ -78,41 +89,27 @@ js = d.createElement(s); js.id = id;
 js.src = "//connect.facebook.net/cs_CZ/all.js#xfbml=1&appId=272071086197256";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-
-
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-    var _gaq=[['_setAccount','UA-9330068-19'],['_trackPageview']];
-    (function(d,t){ var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 8]><p class=chromeframe>Váš prohlížeč je velmi<em>starý!</em> <a href="http://browsehappy.com/">Nainstalujte si prosím zdarma</a> or <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a>, který vám umožní lepší využití stránky.</p><![endif]-->
+  <!--[if lt IE 8]<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
   <div id="competition-notice" class="clearfix">
     <a href="#" class="competition-notice-close-btn right">Close</a>
-    <p>Díky vašim hlasům je Mapa kriminality ve finále soutěže <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">On Think Tanks!</a> Pomožte nám vyhrát a hlasujte <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">zde</a> kliknutím na zelené tlačítko <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">"vote"</a> ve spodní části příspěvku. Děkujeme!</p>
+    <p>Thanks to your support, the czechcrime.org is now in finals of <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">the On Think Tanks competition!</a> Help us win by voting <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">here</a> by selecting our project as the first one in the right-side voting box. Thanks!</p>
   </div>
-
   <header class="mainBar">
-      <a href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapa}{else}#{/if}" class="logo"><img src="{$basePath}/images/logo.png" alt="logo" class="logo"/></a>
-      <h2>Projekt Otevřené společnosti, o.p.s.</h2>
+      <a href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapView}{else}#{/if}" class="logo"><img src="{$basePath}/images/logo-en.png" alt="logo" class="logo"/></a>
+      <h2>Project of Otevřená společnost</h2>
       <div class="right">
       <nav id="pagesNav">
         <ul>
-          <li><a id="map" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapa}{else}#{/if}" title="homepage"{if $presenter->name == 'Front:Mapa'} class="active"{/if}><span>MAPA</span></a></li>
-          <li><a id="compare" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#porovnani}{else}#{/if}" title="porovnani"{if $presenter->name == 'Front:Porovnani'} class="active"{/if}><span>POROVNÁNÍ</span></a></li>
-          <li><a id="table" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#tabulky}{else}#{/if}" title="tabulky"{if $presenter->name == 'Front:Tabulky'} class="active"{/if}><span>TABULKY</span></a></li>
-         <!-- <li><a n:href="Kontakty:" title="kontakty"{if $presenter->name == 'Front:Kontakty'} class="active"{/if}><span>KONTAKTY</span></a></li>-->
-          <li><a href="o-aplikaci" title="oAplikaci"{if $presenter->name == 'Front:OAplikaci'} class="active"{/if}><span>O APLIKACI</span></a></li>
+          <li><a id="map" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapView}{else}#{/if}" title="Map view"{if $presenter->name == 'Front:Mapa'} class="active"{/if}><span>MAP VIEW</span></a></li>
+          <li><a id="compare" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#comparison}{else}#{/if}" title="Compare"{if $presenter->name == 'Front:Porovnani'} class="active"{/if}><span>COMPARE</span></a></li>
+          <li><a id="table" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#dataView}{else}#{/if}" title="Data view"{if $presenter->name == 'Front:Tabulky'} class="active"{/if}><span>DATA VIEW</span></a></li>
+          <li><a n:href="about:" title="About"{if $presenter->name == 'Front:OAplikaci'} class="active"{/if}><span>ABOUT</span></a></li>
           <span>|</span>
-          <li>{if $user->isLoggedIn()}<a href="#" id="userinfo"><span>{var $data = $user->getIdentity()->getData();}{$data['email']}</spam></a>{else}<a id="login" href="#"><span>PŘIHLÁŠENÍ</span></a>{/if}</li>
         </ul>
       </nav>
-      <a href="http://www.czechcrime.org" class="ir flag english" title="czechcrime.org">Czech crime</a>
+      <a href="http://www.mapakriminality.cz" class="ir flag czech" title="mapakriminality.cz">Mapakriminality.cz</a>
       <div class="fb-like" data-href="http://www.facebook.com/Mapakriminality" data-layout="button_count" data-width="350"></div>
       </div>
   </header>
@@ -130,13 +127,13 @@ fjs.parentNode.insertBefore(js, fjs);
 			<div class="top"></div>
 			<div class="content">
 				<header>
-					<h1>PŘIHLÁŠENÍ DO APLIKACE</h1>
+					<h1>LOG-IN TO APP</h1>
 				</header>
 				{form signInForm}
 					{input email}
 					{input password}
-					<a href="#" id="newUser" title="nový uživatel">Nový uživatel</a>
-					<a href="#" id="forgetPass" title="nevím heslo" class="lostPass">Nevím heslo</a>
+					<a href="#" id="newUser" title="new user">New user</a>
+					<a href="#" id="forgetPass" title="forgot password" class="lostPass">Forgot password</a>
 					{input login}
 				{/form}
 			</div>
@@ -163,7 +160,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                         <div class="selectWrapper">
 					{input sector}
                                         </div>
-					{input newsletter} <label for="frmregistrationForm-newsletter">Informujte mě <br /> o aktualizacích</label>
+					{input newsletter} <label for="frmregistrationForm-newsletter">Keep me updated<br /> about the news</label>
                                         {input register}                                        
 				{/form}
 			</div>
@@ -172,8 +169,8 @@ fjs.parentNode.insertBefore(js, fjs);
 			<div class="top"></div>
 			<div class="content">
 				<header>
-					<h1>UŽIVATELSKÉ JMÉNO</h1>
-					<a n:href="Sign:out" title="odhlásit">odhlásit</a>
+					<h1>USER NAME</h1>
+					<a n:href="Sign:out" title="log-out">log-out</a>
 					<div class="clearfix"></div>
 				</header>
 				{form userInfoForm}
@@ -196,7 +193,7 @@ fjs.parentNode.insertBefore(js, fjs);
                                         </div>
                                     </fieldset>
                                     <hr />
-                                    {input newsletter} <label for="frmuserInfoForm-newsletter">Informujte mě o<br /> aktualizacích</label>
+                                    {input newsletter} <label for="frmuserInfoForm-newsletter">Keep me updated about<br /> the news</label>
                                     {input save}
                                     <div class="clearfix"></div>
 				{/form}
@@ -227,5 +224,6 @@ fjs.parentNode.insertBefore(js, fjs);
 
   </script>
 
+  
 </body>
 </html>

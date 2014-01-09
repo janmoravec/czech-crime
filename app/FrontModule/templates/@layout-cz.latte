@@ -1,0 +1,231 @@
+{**
+ * My Application layout template.
+ *
+ * @copyright  Copyright (c) 2010 John Doe
+ * @package    MyApplication
+ *
+ * @param string   $basePath web base path
+ * @param string   $robots   tell robots how to index the content of a page (optional)
+ * @param array    $flashes  flash messages
+ *}
+
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>MAPAKRIMINALITY.CZ</title>
+  <meta name="description" content="">
+
+  <meta name="description" content="Statistiky trestných činů na území ČR">
+  <meta name="author" content="ProPolice/Otevřená společnost, o.p.s">
+  <meta name="keywords" content="kriminality, vizualizace kriminality, statistika trestných činů, trestné činy">
+
+  <meta property="og:title" content="MapaKriminality.cz">
+  <meta property="og:description" content="Statistiky trestných činů na území ČR">
+  <meta property="og:url" content="http://www.mapakriminality.cz/">
+  <meta property="og:image" content="http://www.mapakriminality.cz/images/facebook.png">
+  <meta property="og:type" content="website">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="{$basePath}/css/styles.css?{!$appVersion}">
+
+  <script src="{$basePath}/js/libs/modernizr-2.5.3.min.js"></script>
+  
+{block head}{/block}
+
+  
+  <script type="text/javascript">
+      
+   var templateDir = {$basePath} + "/templates";
+   
+   function getTable(type) {
+            
+        if( Application.selectedUnit == -1 && type == "types" ) {
+
+          alert( texts[ "Pro stažení dat vyber územní jednotku." ] );
+          return;
+
+        }
+        
+        //$printType,$zoomLevel,$area,$timeFrom,$timeTo,$crimeTypes
+        window.location = {link getTable!} + "&zoomLevel=" + Application.zoomLevel + "&area=" + Application.selectedUnit + "&timeFrom=" + Application.timeFrom + "&timeTo=" + Application.timeTo + "&crimeTypes=" + Application.filtersString() + "&selectedCrimeType=" + Application.selectedCrimeType + "&printType=" + type + "&language=" + appLanguage;
+        
+        
+    }
+
+  </script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/cs_CZ/all.js#xfbml=1&appId=272071086197256";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-9330068-19'],['_trackPageview']];
+    (function(d,t){ var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 8]><p class=chromeframe>Váš prohlížeč je velmi<em>starý!</em> <a href="http://browsehappy.com/">Nainstalujte si prosím zdarma</a> or <a href="http://www.google.com/chromeframe/?redirect=true">Google Chrome Frame</a>, který vám umožní lepší využití stránky.</p><![endif]-->
+  <div id="competition-notice" class="clearfix">
+    <a href="#" class="competition-notice-close-btn right">Close</a>
+    <p>Díky vašim hlasům je Mapa kriminality ve finále soutěže <a class="bold-link" href="http://ttdatavis.onthinktanks.org/mapping-crime-in-the-czech-republic/" title="Think Tank Data Visualization competition" target="_blank">On Think Tanks!</a> Pomožte nám vyhrát a hlasujte <a class="bold-link underline-link" href="http://ttdatavis.onthinktanks.org/final/" title="Think Tank Data Visualization competition" target="_blank">zde</a> v hlasovacím bloku výběrem prvního místa pro náš projekt. Děkujeme!</p>
+  </div>
+
+  <header class="mainBar">
+      <a href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapa}{else}#{/if}" class="logo"><img src="{$basePath}/images/logo.png" alt="logo" class="logo"/></a>
+      <h2>Projekt Otevřené společnosti, o.p.s.</h2>
+      <div class="right">
+      <nav id="pagesNav">
+        <ul>
+          <li><a id="map" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#mapa}{else}#{/if}" title="Mapa"{if $presenter->name == 'Front:Mapa'} class="active"{/if}><span>MAPA</span></a></li>
+          <li><a id="compare" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#porovnani}{else}#{/if}" title="Porovnání"{if $presenter->name == 'Front:Porovnani'} class="active"{/if}><span>POROVNÁNÍ</span></a></li>
+          <li><a id="table" href="{if $presenter->getName() != 'Mapa'}{plink Mapa:#tabulky}{else}#{/if}" title="Tabulky"{if $presenter->name == 'Front:Tabulky'} class="active"{/if}><span>TABULKY</span></a></li>
+         <!-- <li><a n:href="Kontakty:" title="kontakty"{if $presenter->name == 'Front:Kontakty'} class="active"{/if}><span>KONTAKTY</span></a></li>-->
+          <li><a href="o-aplikaci" title="oAplikaci"{if $presenter->name == 'Front:OAplikaci'} class="active"{/if}><span>O APLIKACI</span></a></li>
+          <span>|</span>
+          <li>{if $user->isLoggedIn()}<a href="#" id="userinfo"><span>{var $data = $user->getIdentity()->getData();}{$data['email']}</spam></a>{else}<a id="login" href="#"><span>PŘIHLÁŠENÍ</span></a>{/if}</li>
+        </ul>
+      </nav>
+      <a href="http://www.czechcrime.org" class="ir flag english" title="czechcrime.org">Czech crime</a>
+      <div class="fb-like" data-href="http://www.facebook.com/Mapakriminality" data-layout="button_count" data-width="350"></div>
+      </div>
+  </header>
+  <div id="main" role="main">
+	<div n:foreach="$flashes as $flash" class="popup check">
+		<a href="#" onClick="$('.popup').hide();" class="close"></a>
+		<img src="images/popup-{$flash->type}.png" alt="varování" />
+		<p>{$flash->message}</p>
+	</div>
+        
+    
+     
+<div class="authorization">
+		<section class="logIn">
+			<div class="top"></div>
+			<div class="content">
+				<header>
+					<h1>PŘIHLÁŠENÍ DO APLIKACE</h1>
+				</header>
+				{form signInForm}
+					{input email}
+					{input password}
+					<a href="#" id="newUser" title="nový uživatel">Nový uživatel</a>
+					<a href="#" id="forgetPass" title="nevím heslo" class="lostPass">Nevím heslo</a>
+					{input login}
+				{/form}
+			</div>
+			<div class="forgetPasContent">
+				{form forgetPassForm}
+					{label email /}
+					{input email}
+					{input submit}
+				{/form}
+			</div>
+		</section>
+                <section class="registration">
+			<div class="top"></div>
+			<div class="content">
+                            <a href="#" class="close-registration">x</a>
+				<header>
+					<h1>NOVÝ UŽIVATEL</h1>
+				</header>
+
+                                {form registrationForm}
+					{input email}
+					{input password}
+                            {input pswdCheck}
+                                        <div class="selectWrapper">
+					{input sector}
+                                        </div>
+					{input newsletter} <label for="frmregistrationForm-newsletter">Informujte mě <br /> o aktualizacích</label>
+                                        {input register}                                        
+				{/form}
+			</div>
+		</section>
+                <section class="userInfo">
+			<div class="top"></div>
+			<div class="content">
+				<header>
+					<h1>UŽIVATELSKÉ JMÉNO</h1>
+					<a n:href="Sign:out" title="odhlásit">odhlásit</a>
+					<div class="clearfix"></div>
+				</header>
+				{form userInfoForm}
+                                    <fieldset>
+                                        {label email /}
+                                        {input email}
+                                    </fieldset>
+                                    <fieldset>
+                                        {label password /}
+					{input password}
+                                    </fieldset>
+                                    <fieldset>
+                                        {label checkPassword /}
+                                        {input checkPassword}
+                                    </fieldset>
+                                    <fieldset>
+                                        {label sector /}
+                                        <div class="selectWrapper">
+						{input sector}
+                                        </div>
+                                    </fieldset>
+                                    <hr />
+                                    {input newsletter} <label for="frmuserInfoForm-newsletter">Informujte mě o<br /> aktualizacích</label>
+                                    {input save}
+                                    <div class="clearfix"></div>
+				{/form}
+			</div>
+		</section>
+</div>
+	{include #content}
+  </div>
+  <div id="mapDetailOverlayHolder"></div>
+
+  <script>
+
+      //temp - competition-notice
+      var $competitionNotice = $( "#competition-notice" );
+      var $competitionNoticeCloseBtn = $competitionNotice.find( ".competition-notice-close-btn" );
+      var $boxWrapper = $( ".box-wrapper" );
+      var $zoomControl = $( ".zoomControl" );
+
+      $competitionNoticeCloseBtn.on( "click", function( evt ) {
+      
+        evt.preventDefault();
+        $competitionNotice.hide();
+        $boxWrapper.removeClass( "competition-notice" );
+        $zoomControl.removeClass( "competition-notice" );
+        $( "#tabulkyPage" ).removeClass( "competition-notice" );
+
+      });
+
+  </script>
+
+</body>
+</html>
