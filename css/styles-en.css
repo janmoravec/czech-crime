@@ -3181,6 +3181,13 @@ header select {
   margin-top: -10px;
   margin-left: 2px; }
 
+#tabulkyPage .detailDataNotice {
+  width: 375px;
+  margin-top: 37px; }
+
+#tabulkyPage .detailDataNotice a {
+  text-decoration: underline; }
+
 /* trend */
 .trend svg {
   /*padding: 20px 1px 1px 5px;*/ }
@@ -3969,13 +3976,6 @@ header .selectWrapper {
 #tabulkyPage .firstCol header div.second {
   padding: 5px 67px;
   padding-right: 66px; }
-
-#tabulkyPage .detailDataNotice {
-  width: 375px;
-  margin-top: 37px; }
-
-#tabulkyPage .detailDataNotice a {
-  text-decoration: underline; }
 
 #competition-notice {
   font-size: 13px; }

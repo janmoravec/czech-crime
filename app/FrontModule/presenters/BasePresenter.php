@@ -58,7 +58,7 @@ abstract class BasePresenter extends \Nette\Application\UI\Presenter
         $storage = new \Nette\Caching\Storages\FileStorage( 'temp/cache' );
         $this->cache = new Cache( $storage );
 
-        $this->template->appVersion = "2.11";
+        $this->template->appVersion = "2.12";
         $this->template->googleAppKey = $this->googleAppKey = $this->context->parameters['GoogleAppKey'];
         $this->template->countryTable = $this->countryTable = $this->context->parameters['CountryTable'];
         $this->template->countyTable = $this->countyTable = $this->context->parameters['CountyTable'];

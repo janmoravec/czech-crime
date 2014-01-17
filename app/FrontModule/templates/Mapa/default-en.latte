@@ -1,0 +1,833 @@
+{block content}
+<div id="mapWrapper"></div>
+<div class="mapOverviewPopup">
+        <div class="content">
+        <h1>čr</h1>
+        <dl class="value">
+            <dt>crimes count</dt>
+            <dd>35 678</dd>
+        </dl>
+        <dl class="index">
+            <dt>crime rate</dt>
+            <dd>234</dd>
+        </dl>
+    <section class="homepageLegend">
+        <ol>
+        <li class="a">0-200</li>
+        <li class="b">201-300</li>
+        <li class="c">301-400</li>
+        <li class="d">401-500</li>
+        <li class="e last">501-600</li>
+        </ol>
+    </section>
+    </div>
+    <div class="clearfix bottom">
+</div>
+</div>
+<div class="zoomControl competition-notice">
+	<ol>
+		<li class="country"><div><a href="#">CZECH REP.</a></div></li>
+		<li class="county"><div><a href="#" >REGIONS</a></div></li>
+		<li class="district"><div><a href="#">DISTRICTS</a></div></li>
+		<li class="department"><div><a href="#">LOCAL DEPARTMENTS</a></div></li>
+	</ol>
+	<div class="scale">
+		<a href="#" title="Zoom in" class="zoomIn"></a>
+		<div class="bar"> </div>
+		<div class="btn" style="top: -5px; left: 0px; "> </div> 
+		<a href="#" title="Zoom out" class="zoomOut"></a>
+	</div>
+</div>
+<div class="contact" style="display:hidden">
+	<div class="arrow"></div>
+	<a href="#" onClick="$('.contact').hide();" class="closeBtn" title="Close"></a>
+        <div class="contactInfo"> 
+        </div>
+        {form contactForm} 
+            {input name}
+            {input message}
+            {input send}
+            {input emailTo}
+             <p class="email-notice">E-mail sent, thank you.</p>
+        {/form}
+	<div class="clearfix"></div>
+</div>
+<div class="box-wrapper competition-notice">
+	<section class="autoCompleteBox infoBox insertedPageContent">
+		<header>
+				<div class="headerWrapper">
+					<h1>SEARCH FOR ADDRESS</h1>
+					<div class="hideBtn"></div>
+				</div>
+				<div class="clearfix"></div>
+		</header>
+		<div class="content">
+	      <form>
+	          <input id="autoComplete" type="text" placeholder="Type address" size="30" />
+	      </form>
+	    </div>
+    </section>
+	<section class="homepageInfoBox infoBox insertedPageContent">
+		<header>
+				<div class="headerWrapper">
+					<h1>Local department</h1>
+					<div class="hideBtn"></div>
+				</div>
+				<div class="clearfix"></div>
+		</header>
+		<div class="content">
+			<div class="title">
+				<div class="rank" title="Rankings by crime rate (from the highest to the lowest)">0</div>
+				<h1 id="county">Select department on map</h1>
+			</div>
+			<article>
+				<table>
+					<tr>
+						<th>Crime rate</th>
+						<th>Damage</th>
+					</tr>
+					<tr>
+	                    <td id="ic">-</td>
+						<td id="damage">-</td>
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<th>Crime count</th>
+						<th>Number of officers</th>
+					</tr>
+					<tr>
+						<td id="totalcrime">-</td>
+						<td id="officers">-</td>
+					</tr>
+				</table>
+			</article>
+			<footer>
+				<a href="#" target="_self" class="compareBtn" title="Compare"><div>COMPARE</div></a>
+				<a href="#" target="_self" class="contactBtn" title="Feedback"><div>FEEDBACK</div></a>
+			</footer>
+		</div>
+	</section>
+
+
+	<section class="homepageFilterBox infoBox insertedPageContent">
+		<header>
+			<div class="headerWrapper">
+				<h1>RECORDED CRIMES</h1>
+				<div class="hideBtn"></div>
+			</div>
+			<div class="clearfix"></div>
+		</header>
+		<div class="content">
+			<ul>
+				<li class="murders" data-crime-type="101-106"><input type="checkbox" checked="checked">Murder<span class="val">-</span></li>
+				<li class="rapes" data-crime-type="201"><input type="checkbox" checked="checked">Rape<span class="val">-</span></li>
+				<li class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614"> <input type="checkbox" checked="checked">Physical assault<sup class='upper ui' title='This category consists of following crimes - violence against public officials (incl. police), intentional bodily harm, affray, violence against group or individual, threatening, extortion, riot (incl. riot in course of sport and public actions) and violence against rescuers.'>?</sup><span class="val">-</span></li>
+				<li class="thefts" data-crime-type="131,132"><input type="checkbox" checked="checked">Robbery<sup class='upper' title='This category consists of all kind of robberies incl. bank robberies'>?</sup><span class="val">-</span></li>
+				<li class="robberies" data-crime-type="371,373"><input type="checkbox" checked="checked">Burglary into households<sup class='upper' title='This category consists of burglaries into flats and into family houses.'>?</sup><span class="val">-</span></li>
+				<li class="hut-robberies" data-crime-type="372"><input type="checkbox" checked="checked">Burglary into weekend houses<span class="val">-</span></li>
+				<li class="car-thefts" data-crime-type="431"><input type="checkbox" checked="checked">Car theft<span class="val">-</span></li>
+				<li class="car-stuff" data-crime-type="433,434"><input type="checkbox" checked="checked">Theft from cars<sup class='upper' title='This category consists of thefts inside cars and thefts of car parts from cars.'>?</sup><span class="val">-</span></li>
+				<li class="bikes" data-crime-type="435"><input type="checkbox" checked="checked">Theft of bicycle<sup class='upper' title='This category contains only "street thefts" - bicycles stolen from flats, garages and other storage facilities aren&#8217;t included.'>?</sup><span class="val">-</span></li>
+				<li class="drugs" data-crime-type="635,641,642,643"><input type="checkbox" checked="checked">Production and distr. of drugs<sup class='upper' title='This category contains of following crimes - illicit manufacturing and possession of narcotics for another, illicit manufacturing and possession of narcotics for oneself, illicit possession of object for manufacturing of narcotics and cultivation of plants containing narcotic substance.'>?</sup><span class="val">-</span></li>
+				<li class="drunk-drives" data-crime-type="771"><input type="checkbox" checked="checked">Menace due to intoxication...<sup class='upper' title='The vast majority of this record is driving under influence of substances (drugs&alcohol).'>?</sup><span class="val">-</span></li>
+				<li class="others" data-crime-type="-999"><input type="checkbox" checked="checked">Remaining crime<span class="val">-</span></li>
+				<li class="custom" data-crime-type="-1"><input type="checkbox"><p>Select another crime type</p><span class="val with-back"></span></li>
+			</ul>
+		</div>
+	</section >
+	<section  class="homepageLegendMain infoBox insertedPageContent">
+		<h1>CRIME RATE <sup class="upper" title="Rate of selected group of crimes per 10,000 head of population during the selected reporting period">?</sup></h1>
+		<div class="value">-</div>
+		<div class="clearfix"></div>
+		<ol>
+			<li class="a" data-color="#fadbde">0-200</li>
+			<li class="b" data-color="#f5a6ab">201-300</li>
+			<li class="c" data-color="#ee7079">301-400</li>
+			<li class="d" data-color="#e93a46">401-500</li>
+			<li class="e last" data-color="#e20613">501-600</li>
+		</ol>
+	</section>
+</div>
+<section class="homepageCrimeTypesBox infoBox insertedPageContent">
+	<header>
+		<div class="headerWrapper">
+			<h1>ALL CRIME TYPES LIST</h1>
+			<div class="hideBtn"></div>
+		</div>
+		<div class="clearfix"></div>
+	</header>
+	<div class="content">
+		<input class="crime-types-search" type="text">
+		<style id="search_style"></style>
+		<ul>
+			{foreach $crimeTypes as $crimeType}
+				<li class="searchable {if $crimeType->IsNotSelectable}unselectable{/if} {if $crimeType->IsMainCategory}mainCategory{/if}" data-search-name="{$crimeType->Name_en|lower}" data-crime-type="{$crimeType->Code}">{$crimeType->Name_en}</li>
+			{/foreach}
+ 		</ul>
+	</div>
+</section>
+<div id="porovnaniPage" style="display:none;">
+	<a href="#" class="closeBtn" title="Zavřít"></a>
+	<div class="firstCol">
+		<header>
+			<div class="selectWrapper">
+				<select class="firstSelect chosen-select county" data-placeholder="Select a territory">
+				      <option value=""></option>
+			            <option data-rank="1">Hlavní město Praha</option>
+			            <option data-rank="2">Středočeský</option>
+			            <option data-rank="3">Jihočeský</option>
+			            <option data-rank="4">Plzeňský</option>
+			            <option data-rank="5">Ústecký</option>
+			            <option data-rank="6">Královéhradecký</option>
+			            <option data-rank="7">Jihomoravský</option>
+			            <option data-rank="8">Moravskoslezský</option>
+			            <option data-rank="9">Olomoucký</option>
+			            <option data-rank="10">Zlínský</option>
+			            <option data-rank="11">Vysočina</option>
+			            <option data-rank="12">Pardubický</option>
+                        <option data-rank="13">Liberecký</option>
+                        <option data-rank="14">Karlovarský</option>        
+        		</select>
+			</div>
+			<div class="rank">
+				<a href="#" class="rankUp" title="Rank up"></a>
+				<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+				<a href="#" class="rankDown" title="Rank down"></a>
+			</div>
+		</header>
+		<div class="clearfix"></div>
+		<div class="content">
+			<section class="staticData">
+				<table>
+					<tr>
+						<th class="first">damage</th>
+						<th>number of officers</th>
+					</tr>
+					<tr class="total">
+						<td>-</td>
+						<td>-</td>
+					</tr>
+				</table>
+			</section>
+			<section class="total">
+				<table>
+					<tr>
+						<th></th>
+						<th class="first">Recorded</th>
+						<th class="second">Cleared</th>
+						<th class="third">%</th>
+					</tr>
+					<tr class="values">
+						<td>Crime count total</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+				</table>
+			</section>
+			<section class="index">
+				<h1>crime rate</h1>
+				<h2 class="value">-</h2>
+				<div class="bar">
+					<div class="graph"></div>
+				</div>
+			</section>
+			<div style="clearfix"></div>
+			<section class="table">
+				<table>
+					<tr class="murders" data-crime-type="101-106">
+						<td class="title">Murders</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="rapes" data-crime-type="201">
+						<td class="title">Rapes</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614">
+						<td class="title">Physical assaults</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="thefts" data-crime-type="131,132">
+						<td class="title">Robberies</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="robberies" data-crime-type="371,373">
+						<td class="title">Burglaries into households</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="hut-robberies" data-crime-type="372">
+						<td class="title">Burglaries into weekend houses</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="car-thefts" data-crime-type="431">
+						<td class="title">Car thefts</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="car-stuff" data-crime-type="433,434">
+						<td class="title">Thefts from cars</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="bikes" data-crime-type="435">
+						<td class="title">Bicycle thefts</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="drugs" data-crime-type="635,641,642,643">
+						<td class="title">Production possesion and distribution of drugs</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="drunk-drives" data-crime-type="771">
+						<td class="title">Menace due to intoxication, intoxication</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="others" data-crime-type="-999">
+						<td class="title">Remaining crimes</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+					<tr class="custom last" data-crime-type="-1">
+						<td class="title">Choose additional crime type</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+						<td class="bar"><div class="value"></div><div class="graph"></div></td>
+					</tr>
+				</table>
+			</section>
+		</div>
+	</div>
+	<p class="compareNotice">Compare territories is possible by displaying <a href="#" title="Display region" class="county">Regions</a> nebo <a href="#" title="Display districts" class="district">districts</a>.</p>
+	<div class="secondCol">
+		<header>
+			<div class="selectWrapper">
+				<select class="secondSelect chosen-select county" data-placeholder="Select a territory">
+				      <option value=""></option>
+			            <option data-rank="1">Hlavní město Praha</option>
+			            <option data-rank="2">Středočeský</option>
+			            <option data-rank="3">Jihočeský</option>
+			            <option data-rank="4">Plzeňský</option>
+			            <option data-rank="5">Ústecký</option>
+			            <option data-rank="6">Královéhradecký</option>
+			            <option data-rank="7">Jihomoravský</option>
+			            <option data-rank="8">Moravskoslezský</option>
+			            <option data-rank="9">Olomoucký</option>
+			            <option data-rank="10">Zlínský</option>
+			            <option data-rank="11">Vysočina</option>
+			            <option data-rank="12">Pardubický</option>
+                        <option data-rank="13">Liberecký</option>
+                        <option data-rank="14">Karlovarský</option>        
+        		</select>
+			</div>
+			<div class="rank">
+				<a href="#" class="rankUp" title="Rank up"></a>
+				<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+				<a href="#" class="rankDown" title="Rank down"></a>
+			</div>
+		</header>
+		<div class="clearfix"></div>
+		<div class="content">
+			<section class="staticData">
+				<table>
+					<tr>
+						<th class="first">damage</th>
+						<th>number of officers</th>
+					</tr>
+					<tr class="total">
+						<td>-</td>
+						<td>-</td>
+					</tr>
+				</table>
+			</section>
+			<div class="clearfix"></div>
+			<section class="index">
+				<h1>crime rate</h1>
+				<h2 class="value">-</h2>
+				<div class="bar">
+					<div class="graph"></div>
+				</div>
+			</section>
+			<div class="clearfix"></div>
+			<section class="total">
+				<table>
+					<tr>
+						<th></th>
+						<th class="first">Recorded</th>
+						<th class="second">Cleared</th>
+						<th class="third">%</th>
+					</tr>
+					<tr class="values">
+						<td>Crime count total</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+				</table>
+			</section>
+			<div class="clearfix"></div>
+			<section class="table">
+				<table>
+					<tr class="murders" data-crime-type="101-106">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Murders</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="rapes" data-crime-type="201">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Rapes</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="assaults" data-crime-type="141,142,143,151,161,171,173,181,611,612,614">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Physical assaults</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="thefts" data-crime-type="131,132">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Robberies</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="robberies" data-crime-type="371,373">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Burglaries into households</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="hut-robberies" data-crime-type="372">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Burglaries into weekend houses</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="car-thefts" data-crime-type="431">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Car thefts</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="car-stuff" data-crime-type="433,434">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Thefts from cars</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="bikes" data-crime-type="435">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Bicycle thefts</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="drugs" data-crime-type="635,641,642,643">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Production possesion and distribution of drugs</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="drunk-drives" data-crime-type="771">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Menace due to intoxication, intoxication</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="others" data-crime-type="-999">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Remaining crimes</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+					<tr class="custom last" data-crime-type="-1">
+						<td class="bar"><div class="graph"></div><div class="value"></div></td>
+						<td class="title">Choose additional crime type</td>
+						<td class="first">-</td>
+						<td class="second">-</td>
+						<td class="third">-</td>
+					</tr>
+				</table>
+			</section>
+		</div>
+	</div>
+</div>
+
+
+<section class="homepageTimeline">
+	<div class="dateRange">
+	       		<header>
+	       			<span class="firstMonth"></span>
+	       			<span class="firstYear"></span>
+	       			<span class="white">-</span>
+	       			<span class="secondMonth"></span>
+	       			<span class="secondYear"></span>
+	       			<div class="clearfix"></div>
+	       		</header>
+				<div class="content">
+	       			<div class="firstDate">
+	       				<ol class="month">
+	       					<li data-month-index="1" data-time-lookup="{$firstYearId}">January</li>
+	       					<li data-month-index="2" data-time-lookup="{$firstYearId+1}">February</li>
+	       					<li data-month-index="3" data-time-lookup="{$firstYearId+2}">March</li>
+	       					<li data-month-index="4" data-time-lookup="{$firstYearId+3}">April</li>
+	       					<li data-month-index="5" data-time-lookup="{$firstYearId+4}">May</li>
+	       					<li data-month-index="6" data-time-lookup="{$firstYearId+5}">June</li>
+	       					<li data-month-index="7" data-time-lookup="{$firstYearId+6}">July</li>
+	       					<li data-month-index="8" data-time-lookup="{$firstYearId+7}">August</li>
+	       					<li data-month-index="9" data-time-lookup="{$firstYearId+8}">September</li>
+	       					<li data-month-index="10" data-time-lookup="{$firstYearId+9}">October</li>
+	       					<li data-month-index="11" data-time-lookup="{$firstYearId+10}">November</li>
+	       					<li data-month-index="12" data-time-lookup="{$firstYearId+11}">December</li>
+	       				</ol>
+	       				<ol class="year">
+	       					{foreach $years as $year}
+	       						<li data-time-lookup="{$year->Id}">{$year->Year}</li>
+	       					{/foreach}
+	       				</ol>
+	       			</div>
+	       			<div class="secondDate">
+	       				<ol class="month">
+	       					<li data-month-index="1" data-time-lookup="{$secondYearId}">January</li>
+	       					<li data-month-index="2" data-time-lookup="{$secondYearId+1}">February</li>
+	       					<li data-month-index="3" data-time-lookup="{$secondYearId+2}">March</li>
+	       					<li data-month-index="4" data-time-lookup="{$secondYearId+3}">April</li>
+	       					<li data-month-index="5" data-time-lookup="{$secondYearId+4}">May</li>
+	       					<li data-month-index="6" data-time-lookup="{$secondYearId+5}">June</li>
+	       					<li data-month-index="7" data-time-lookup="{$secondYearId+6}">July</li>
+	       					<li data-month-index="8" data-time-lookup="{$secondYearId+7}">August</li>
+	       					<li data-month-index="9" data-time-lookup="{$secondYearId+8}">September</li>
+	       					<li data-month-index="10" data-time-lookup="{$secondYearId+9}">October</li>
+	       					<li data-month-index="11" data-time-lookup="{$secondYearId+10}}">November</li>
+	       					<li data-month-index="12" data-time-lookup="{$secondYearId+11}}">Decemeber</li>
+	       				</ol>
+	       				<ol class="year">
+                    		{foreach $years as $year}
+	       						<li data-time-lookup="{$year->Id}">{$year->Year}</li>
+	       					{/foreach}
+                    	</ol>
+	       			</div>
+	       			<div class="clearfix" >
+	       		</div>
+		       	<footer>
+		       		<div>
+			       		<a href="#" class="ok" title="Confirm"><div></div></a>
+			       		<a href="#" class="cancel" title="Cancel"><div></div></a>
+			       	</div>
+		       	</footer>
+			</div>
+	</div>		
+	<div class="dataView">
+		<div class="leftArrow"></div>
+		<div class="data">
+			<div class="activeArea">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<ol>
+			
+			</ol>
+		</div>
+		<div class="rightArrow"></div>
+	</div>
+	
+</section>
+<div id="tabulkyPage" class="competition-notice" style="display:none;">
+	<header class="select">
+			<ul class="tabs">
+				<li><a href="#" class="unitsTab" alt="Přehled trestné činnosti za">Summary</a></li>
+				<li><a href="#" class="crimesTab" alt="Žebříček krajů podle">Ranking</a></li>
+				<li><a href="#" class="trendTab" alt="Vývoj trendu objasněnosti">Graph</a></li>
+			</ul>
+			<div class="left">
+				<div class="unitsSelect">
+					<div class="selectWrapper">
+						<select class="chosen-select county" data-placeholder="Select a territory">
+						      <option value=""></option>
+					            <option data-rank="1">Hlavní město Praha</option>
+					            <option data-rank="2">Středočeský</option>
+					            <option data-rank="3">Jihočeský</option>
+					            <option data-rank="4">Plzeňský</option>
+					            <option data-rank="5">Ústecký</option>
+					            <option data-rank="6">Královéhradecký</option>
+					            <option data-rank="7">Jihomoravský</option>
+					            <option data-rank="8">Moravskoslezský</option>
+					            <option data-rank="9">Olomoucký</option>
+					            <option data-rank="10">Zlínský</option>
+					            <option data-rank="11">Vysočina</option>
+					            <option data-rank="12">Pardubický</option>
+		                        <option data-rank="13">Liberecký</option>
+		                        <option data-rank="14">Karlovarský</option>
+		                </select>
+					</div>
+					<div class="rank">
+						<a href="#" class="rankUp" title="Rank up"></a>
+						<p title="Rankings by crime rate (from the highest to the lowest)">10</p>
+						<a href="#" class="rankDown" title="Rank down"></a>
+					</div>
+				</div>
+				<div class="crimesSelect">
+					<div class="selectWrapper">
+						<select class="chosen-select county" data-placeholder="Vyber typ trestného činu">
+						      <option n:foreach="$crimes as $crime" value="{$crime->Code}">{$crime->Name_en}</option>
+		                </select>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+	</header>
+	<div class="content">
+		<div class="firstCol">
+			<section class="crimes">
+				<header>
+					<a href="#" class="downloadBtn"><div>Download data</div></a>
+					<div class="first">Recorded</div>
+					<div class="second">Cleared</div>
+				</header>
+				<table class="total">
+					<tr>
+						<th class="first"></th>
+						<th class="left">Count</th>
+						<th class="right">Rate</th>
+						<th class="left">Count</th>
+						<th class="right">%</th>
+					</tr>
+					<tr class="total">
+						<td class="first">Total Crimes</td>
+						<td class="left">4 833 670</td>
+						<td class="right">25</td>
+						<td class="left">3 833 670</td>
+						<td class="right">25</td>
+						<td class="displayRank"><a href="*" class="displayRankBtn" title="Display rankings"></a><a href="*" class="displayGraphBtn" title="Display graph"></a></td>
+					</tr>
+				</table>
+				<table class="types">
+					<tr n:foreach="$crimesForOverview as $crime" data-crime-type="{$crime->Code}" class="{if $crime->IsMainCategory}mainCategory{/if}">
+						<td class="first">{$crime->Name}</td>
+						<td class="left sortable">-</td>
+						<td class="right sortable">-</td>
+						<td class="left sortable">-</td>
+						<td class="right sortable">-</td>
+						<td class="displayRank"><a href="#" class="displayRankBtn" title="Display rankings"></a><a href="#" class="displayGraphBtn" title="Display graph"></a></td>
+					</tr>
+				</table>
+				<table class="general">
+					<tr>
+						<td class="first">Number of population</td>
+						<td class="left">675 667</td>
+					</tr>
+					<tr>
+						<td class="first">Number of police officers</td>
+						<td class="left">675 667</td>
+					</tr>
+					<tr>
+						<td class="first">Area of the territory</td>
+						<td class="left">675 667</td>
+					</tr>
+					<tr>
+						<td class="first">Crime rate</td>
+						<td class="left">675</td>
+					</tr>
+				</table>
+			</section>
+			<section class="rankings">
+				<header>
+					<a href="#" class="downloadBtn"><div>Download data</div></a>
+					<div class="first">Recorded</div>
+					<div class="second">Cleared</div>
+				</header>
+				<table id="rankingTable" class="no-arrow">
+					<tr class="header">
+						<th class="index">#</th>
+						<th class="first sortable">Region</th>
+						<th class="left hover sortable">Count<span></span></th>
+						<th class="right yellow hover sortable">Rate<span></span></th>
+						<th class="left sortable">Count<span></span></th>
+						<th class="right hover sortable">%<span></span></th>
+						<th></th>
+					</tr>
+					<tr>
+						<td></td>
+						<td class="first">-</td>
+						<td class="left">-</td>
+						<td class="right">-</td>
+						<td class="left">-</td>
+						<td class="right">-</td>
+					</tr>
+				</table>
+			</section>
+			<section class="trend">
+				<p class="trend-notice">To display graph select a local department.</p>
+				<p class="no-svg-trend-notice">You need modern browser to view this section.</p>
+				<div id="svgHolder"></div>
+				<div class="legendX"></div>
+				<div class="legendY"></div>
+				<div class="popups">
+					<div class="value"><p>234</p></div>
+					<div class="date" style="top:200px"><p>1934</p></div>
+					<div class="value-solv" style="top:200px"><p>1934</p></div>
+				</div>
+			</section>
+		</div>
+		<div class="secondCol">
+			<p class="detailDataNotice">You can view and download data in machine-friendly format at <a n:href="Data:default" title="Data view">Data page</a>. All the crime data are also accessible via our <a n:href="Api:default" title="Api view">API</a>.</p>
+		</div>
+	</div>
+</div>
+<div class="mapDetailOverlayBack"></div>
+<div class="preloaderBack"></div>
+<div id="ajax-spinner" style="position:absolute;left:50%;top:50%;">Loading data</div>
+
+
+
+ <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="{$basePath}/js/libs/jquery-1.7.1.js"><\/script>')</script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB7MKCUedN9wCarH7GOll39ffkYwZjyHbk&amp;sensor=false&amp;libraries=places"> </script>
+  <!--<script type="text/javascript" src="http://geoxml3.googlecode.com/svn/branches/polys/geoxml3.js"></script>-->
+ 
+  <script src="{$basePath}/resources/texts-en.js"></script> 
+  
+  <!-- start of mimify scripts -->
+  <!--<script src="{$basePath}/js/libs/raphael-min.js"></script>
+  <script src="{$basePath}/js/libs/g.raphael.js" type="text/javascript"></script>
+  <script src="{$basePath}/js/libs/g.line.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="{$basePath}/js/libs/d3.v3.min.js" charset="utf-8"></script>
+
+  <script src="{$basePath}/js/libs/grid.locale-en.js"></script>
+  <script src="{$basePath}/js/libs/jquery.checkbox.min.modified.js"></script>
+  <script src="{$basePath}/js/libs/jquery.event.drag-1.5.min.js"></script>
+  <script src="{$basePath}/js/libs/chosen.jquery.min.js"></script>
+  <script src="{$basePath}/js/libs/geostats.js"></script>
+  <script src="{$basePath}/js/libs/jenks.util.js"></script>
+  <script src="{$basePath}/js/libs/sortable.js"></script>
+  <script src="{$basePath}/js/libs/jquery.mousewheel.js"></script>
+  <script src="{$basePath}/js/libs/jquery.geocomplete.js"></script>
+  <script src="{$basePath}/js/libs/jquery.jscrollpane.min.js"></script>!-->
+
+  <script src="{$basePath}/js/externalScripts-min.js?{!$appVersion}"></script>
+
+  <!--<script src="{$basePath}/js/Config.js"></script>
+  <script src="{$basePath}/js/DummyData.js"></script>
+
+  <script src="{$basePath}/js/Preloader.js"></script>
+  <script src="{$basePath}/js/Popup.js"></script>
+
+  <script src="{$basePath}/js/model/DataUtil.js"></script>
+  <script src="{$basePath}/js/model/DataProxy.js"></script>
+
+  <script src="{$basePath}/js/homepage/AutoComplete.js"></script>
+  <script src="{$basePath}/js/homepage/Infobox.js"></script>
+  <script src="{$basePath}/js/homepage/Timeline.js"></script>
+  <script src="{$basePath}/js/homepage/SingleDate.js"></script>
+  <script src="{$basePath}/js/homepage/TimelineActiveArea.js"></script>
+  <script src="{$basePath}/js/homepage/FilterBox.js"></script>
+  <script src="{$basePath}/js/homepage/CrimeTypesBox.js"></script>
+  <script src="{$basePath}/js/homepage/DynamicRange.js"></script>
+  <script src="{$basePath}/js/homepage/Legend.js"></script>
+  <script src="{$basePath}/js/homepage/DateModel.js"></script>
+  <script src="{$basePath}/js/homepage/DateRange.js"></script>
+  <script src="{$basePath}/js/homepage/ZoomControl.js"></script>
+  <script src="{$basePath}/js/homepage/Homepage.js"></script>
+  <script src="{$basePath}/js/homepage/Arc.js"></script>
+
+  <script src="{$basePath}/js/porovnani/PorovnaniSelectBox.js"></script>
+  <script src="{$basePath}/js/porovnani/PorovnaniTable.js"></script>
+  <script src="{$basePath}/js/porovnani/RankStepper.js"></script>
+  <script src="{$basePath}/js/Porovnani.js"></script>
+
+  <script src="{$basePath}/js/tabulky/RankingSelectBox.js"></script>
+  <script src="{$basePath}/js/tabulky/RankingsTable.js"></script>
+  <script src="{$basePath}/js/tabulky/TypesTable.js"></script>
+  <script src="{$basePath}/js/tabulky/TrendGraphPopups.js"></script>
+  <script src="{$basePath}/js/tabulky/Trend.js"></script>
+  <script src="{$basePath}/js/Tabulky.js"></script>
+    
+  <script src="{$basePath}/js/ContactForm.js"></script>
+  <script src="{$basePath}/js/Navigator.js"></script>
+  <script src="{$basePath}/js/LogIn.js"></script>
+  <script src="{$basePath}/js/AboutApplication.js"></script>
+  <script src="{$basePath}/js/MapDetailOverlay.js"></script>
+  <script src="{$basePath}/js/MapLayer.js"></script>
+  <script src="{$basePath}/js/MapLayerOverviewPopUp.js"></script>
+  <script src="{$basePath}/js/Map.js"></script> 
+  
+  <script src="{$basePath}/js/tests/Tester.js"></script> 
+  <script src="{$basePath}/js/Application.js"></script> 
+
+  <script src="{$basePath}/js/plugins.js"></script>
+  <script src="{$basePath}/js/script.js"></script> -->
+  
+  <script src="{$basePath}/js/myscripts-min.js?{!$appVersion}"></script>
+
+
+{/block}
+
+
+{block head}
+<script type="text/javascript">
+     
+	  var appLanguage = "en";
+
+      var countryTable = "{!$countryTable}";
+      var countyTable = "{!$countyTable}";
+      var districtTable = "{!$districtTable}";  
+	  var departmentTable = "{!$departmentTable}";  
+	
+      var area = "{!$area}";
+      var minTime = parseInt( "{!$minTime}" );
+      var maxTime = parseInt( "{!$maxTime}" );
+      var timeFrom = parseInt( "{!$timeFrom}" );
+      var timeTo = parseInt( "{!$timeTo}" );
+      var filters = "{!$filters}";
+
+</script>
+
+  
+{/block}
