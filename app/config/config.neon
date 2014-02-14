@@ -48,6 +48,6 @@ development < common:
 			hostname: localhost
 			username: root
 			password: root
-			database: mapakriminality-test-unit-extension-11
+			database: mapakriminality-test-unit-extension-12
 			charset: utf8
 			profiler: true

@@ -10,6 +10,6 @@
 	$hostname = "localhost";
 	$username = "root";
 	$password = "root"; 
-	$dbname = "mapakriminality-test-unit-extension-11";
+	$dbname = "mapakriminality-test-unit-extension-12";
 
 ?>

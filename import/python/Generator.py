@@ -278,6 +278,7 @@ class Generator() :
 				print unicode( areaCode ) + "," + unicode( areaName ) 
 
 				#generatedRecords = areaSheet.generate()
+				#print generatedRecords
 				#lenRecords = len( generatedRecords )
 
 				#for recordIndex in range( lenRecords ):

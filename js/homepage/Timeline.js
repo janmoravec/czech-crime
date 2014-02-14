@@ -29,6 +29,7 @@ var Timeline = {
 		self.rightArrow.on( "click", function(){ self.handleArrows( "backward" ) } );
        	
         data = DataProxy.getTimeline();
+       
         self.update( data );
 
 		self.detailBox = $("<div class='detailBox'><div class='content'><h2>jmeno</h2><p>test</p></div><div class='bottom'></div></div>");

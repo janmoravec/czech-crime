@@ -1,6 +1,6 @@
 <?php 
 	echo "start";
-	$fileToProcess = "generated/crimeData-2013:11.csv";
+	$fileToProcess = "generated/crimeData-2013:12.csv";
 
 	if( isset($_GET["file"]) ) {
 		$fileToProcess = $_GET["file"];

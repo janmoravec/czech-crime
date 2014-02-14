@@ -130,7 +130,8 @@ class AreaCrimeDataSheet:
 			generatedRecord.insert( len( generatedRecord ), " " )
 
 			generatedRecords.append( generatedRecord )
-			
+		
+		#print generatedRecords
 		return generatedRecords
 
 	def clear( self ):

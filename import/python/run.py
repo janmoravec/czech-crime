@@ -7,7 +7,7 @@ from Differencer import Differencer
 from ZeroDeleter import ZeroDeleter
 
 year = "2013"
-month = "11"
+month = "12"
 omitZeroValues = False
 
 monthInt = int( month )
@@ -29,8 +29,9 @@ if monthInt > 1 :
 #if previousMonth: Generator( year, previousMonth, omitZeroValues, None )
 Generator( year, month, omitZeroValues, None )
 
-earlyFileName = "../generated/crimeData-2013:01-10:"
-lateFileName = "../generated/crimeData-2013:01-11:"
+earlyFileName = "../generated/crimeData-2013:01-11:"
+lateFileName = "../generated/crimeData-2013:01-12:"
+lateFileSingleMonthName = "../generated/crimeData-2013:12:"
 
 # STEP 2) -
 with open( earlyFileName + 'with-zeros.csv', 'rb') as earlyFile:
@@ -42,7 +43,7 @@ with open( earlyFileName + 'with-zeros.csv', 'rb') as earlyFile:
 		lateFileReader = csv.reader(lateFile)
 		finalRows = Differencer.getDifference( earlyFileReader, lateFileReader )
 
-		with open( lateFileName + 'with-zeros.csv', 'wb') as withZerosFile:
+		with open( lateFileSingleMonthName + 'with-zeros.csv', 'wb') as withZerosFile:
 			
 			writer = UnicodeWriter(withZerosFile)
 
@@ -50,9 +51,9 @@ with open( earlyFileName + 'with-zeros.csv', 'rb') as earlyFile:
 				writer.writerow( row )
 
 		# STEP 3) - 
-		with open( lateFileName + 'with-zeros.csv', 'rb') as withZerosFile:
+		with open( lateFileSingleMonthName + 'with-zeros.csv', 'rb') as withZerosFile:
 		
-			with open('../generated/crimeData-2013:11.csv', 'wb') as withoutZerosFile:
+			with open('../generated/crimeData-2013:12.csv', 'wb') as withoutZerosFile:
 
 				ZeroDeleter.removeZeroRowsFromArray( withZerosFile, withoutZerosFile )
 
