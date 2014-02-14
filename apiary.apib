@@ -68,27 +68,3 @@ A single crime type
 + Response 200 (application/json)
 
         {"crime":{"Code":"101","Name":"Vra\u017edy loupe\u017en\u00e9","Name_en":"Murder motivated by robbery"}}
-        
-# Group Times
-Times related resources of the **Mapakriminality API**
-
-## Times Collection [/times]
-### List all times [GET]
-+ Response 200 (application/json)
-
-        {"times":[
-            {"Id":0,"Year":2003,"Month":1},
-            {"Id":1,"Year":2003,"Month":2},
-            {"Id":2,"Year":2003,"Month":3}
-        ]}
-
-## Times [/times/{id}]
-A single time 
-
-+ Parameters
-    + id (required, number, `0`) ... Numeric `id` of a time, see Times Collection from /times to get all ids. Has example value.
-
-### Retrieve a Time [GET]
-+ Response 200 (application/json)
-
-        {"time": {"Id":0,"Year":2003,"Month":1} }
