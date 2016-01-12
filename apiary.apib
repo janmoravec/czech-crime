@@ -1,70 +1,47 @@
 FORMAT: 1A
-HOST: http://mapakriminality.cz/api
+HOST: http://www.google.com
 
-# Mapakriminality
-Mapakriminality API makes Czech crime data powering http://www.mapakriminality.cz accessible to anybody. 
+# Tupapoř
+Notes API is a *short texts saving* service similar to its physical paper presence on your table.
 
-# Group Crimes
-Crimes related resources of the **Mapakriminality API**
+***
 
-## Crimes [/crimes{?areacode,crimetypes,timefrom,timeto,groupby}]
-Get crimes matching criteria in query parameters
+pok Group Notes
+Notes related resources of the **Notes API**
 
-+ Parameters
-    + areacode (required, string, `001214`) ... String `code` of an area, see Areas Collection from /areas to get all codes. Has example value.
-    + crimetypes (optional, array, `102,103,201-290`) ... Array of `string codes` of crimetypes seperated by commas to be included in the result, see Crime types Collection from /crimetypes to get all codes. Has example value.
-    + timefrom (optional, string, `1-2013`) ... String in `M-YYYY` format, identifying the first time period (month) to include in the result, see Times Collection from /times to get all available time periods. Has example value.
-    + timeto (optional, string, `11-2013`) ... String in `M-YYYY` format, identifying the last time period (month) to include in the result, see Times Collection from /times to get all available time periods. Has example value.
-    + groupby (optional, string, `time`) ... String with any of the following values: `area`, `crimetype`, `time`. Specify, how should be crimes summed up. `area` will return sum of all crimes matching query criteria for given area. `time` will return sum of all crimes sum up for individual time periods (months). `crimetype` will return sum of each individual crime type
+## Notes Collection [/notes]
+### List all Notes [GET]
+    + Response 200 (application/json)
 
-### Retrives crimes [GET]
-+ Response 200 (application/json)
+    [{
+          "id": 1, "title": "Jogging in park"
+        }, {
+          "id": 2, "title": "Pick-up posters from post-office"
+        }]
 
-        {"crimes":[{"Found":1,"Solved":0,"TimePeriod":"1-2013"},{"Found":2,"Solved":1,"TimePeriod":"2-2013"},{"Found":0,"Solved":1,"TimePeriod":"3-2013"},{"Found":-1,"Solved":0,"TimePeriod":"5-2013"},{"Found":1,"Solved":1,"TimePeriod":"6-2013"},{"Found":2,"Solved":0,"TimePeriod":"10-2013"},{"Found":0,"Solved":0,"TimePeriod":"11-2013"}]}
-        
-# Group Areas
-Areas related resources of the **Mapakriminality API**
+### Create a Note [POST]
++ Request (application/json)
+        { "title": "Buy cheese and bread for breakfast." }
 
-## Areas Collection [/areas]
-### List all Areas with Code, Name and AreaLevel. Value of AreaLevel specify type of area and can range from '0' for Czech Rep., '1' for Regions, '2' for Districts and to '3' for Local Departments. [GET]
-+ Response 200 (application/json)
+    + Response 201 (application/json)
+        { "id": 3, "title": "Buy cheese and bread for breakfast." }
 
-        {"areas": [
-            {"Code":"001214","Name":"MOP Barrandov O\u0158P Praha II.","AreaLevel":3},
-            {"Code":"001110","Name":"MOP Bartolom\u011bjsk\u00e1 Praha I.","AreaLevel":3}
-        ]}
-
-## Area [/areas/{code}]
-A single area with all details including its geometry in KML format
+## Note [/notes/{id}]
+A single Note object with all its details
 
 + Parameters
-    + code (required, string, `001214`) ... String `code` of an area, see Areas Collection from /areas to get all codes. Has example value.
+    + id (required, number, `1`) ... Numeric `id` of the Note to perform action with. Has example value.
 
-### Retrieve an Area [GET]
+### Retrieve a Note [GET]
 + Response 200 (application/json)
 
-        {"area":{"Code":"001214","Name":"MOP Barrandov O\u0158P Praha II.","AreaLevel":3,"Geometry":"<Polygon><outerBoundaryIs><LinearRing><coordinates>14.373282154051644,50.055481602592955 14.381672373988964,50.055051019922992 14.383096790540531,50.055114137335657 14.3839668534049,50.055264193507661 14.385949820123022,50.055812508950297 14.387097072680845,50.05605062111578 14.389029573366376,50.056176968818555 14.393348766837743,50.056152234284497 14.39725053492568,50.05603582233956 14.398668259405262,50.055709596237996 14.404173869452439,50.052236460901739 14.407781755437671,50.048860650328152 14.409154281844556,50.051732535204849 14.412800011051932,50.050755121773598 14.410293353423494,50.044718821862475 14.397986426865085,50.028526131286988 14.40246305195326,49.998615333317467 14.392294633076913,49.995455772967659 14.376275028864347,50.005267368783237 14.373588514253729,50.006878820121237 14.372949176103162,50.007166781293009 14.356807499631467,50.009117585686319 14.356351247044941,50.009094847621093 14.336683540728636,50.006243794656143 14.325924709264118,50.009904188214009 14.326267353960084,50.010335263715334 14.330180882761674,50.022160078009428 14.333831939031684,50.030859903695742 14.335685076029131,50.031622461547265 14.336013505385763,50.031734597952251 14.355324509068625,50.036976207675707 14.376206771763101,50.038218655396115 14.377004705763223,50.038266615210745 14.377941285331453,50.038332443763963 14.378520402107748,50.03837626048022 14.378577109556453,50.038382577074302 14.378695657857127,50.038444862204337 14.378840140536903,50.038544581270521 14.38313808193522,50.04159406099604 14.383531530185296,50.041961706182384 14.384589865181267,50.043470847014873 14.384511425352096,50.043843270337511 14.38419539296158,50.044805144155745 14.381181949339899,50.051410918192822 14.375618075350598,50.05429066244772 14.373282015715226,50.055481590281758 14.373282154051644,50.055481602592955<\/coordinates><\/LinearRing><\/outerBoundaryIs><\/Polygon>\n  ","Population":27876,"Area":21.8831,"Contact_address":"Werichova 981\/21, 152 00 Praha 5","Contact_phone":974855720,"Contact_fax":974855728,"Contact_mail":"p2mopbrn@mvcr.cz"}}
+    + Header
 
-# Group Crime types
-Crime types related resources of the **Mapakriminality API**
+            X-My-Header: The Value
 
-## Crime types Collection [/crimetypes]
-### List all crime types [GET]
-+ Response 200 (application/json)
++ Body
 
-        {"crimes":[
-            {"Code":"101-903","Name":"Celkov\u00e1 kriminalita","Name_en":"Total criminality"},
-            {"Code":"101-106","Name":"Vra\u017edy","Name_en":"Murder"},
-            {"Code":"101-690","Name":"Obecn\u00e1 kriminalita","Name_en":"General criminality"}
-        ]}
+            { "id": 2, "title": "Pick-up posters from post-office" }
 
-## Crime types [/crimetypes/{code}]
-A single crime type 
-
-+ Parameters
-    + code (required, string, `101`) ... String `code` of a crime type, see Crime types Collection from /crimetypes to get all codes. Has example value.
-
-### Retrieve a Crime type [GET]
-+ Response 200 (application/json)
-
-        {"crime":{"Code":"101","Name":"Vra\u017edy loupe\u017en\u00e9","Name_en":"Murder motivated by robbery"}}
+### Remove a Note [DELETE]
++ Response 204
