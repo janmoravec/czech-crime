@@ -267,9 +267,9 @@ class CrimeData extends BaseModel {
     public function getApiAreas( $level = null ) {
 
         if( isset( $level ) ) {
-            $sql = 'SELECT Code, Name, AreaLevel FROM AreaLookup WHERE AreaLevel = ' .$level;
+            $sql = 'SELECT * FROM AreaLookup WHERE AreaLevel = ' .$level;
         } else {
-            $sql = 'SELECT Code, Name, AreaLevel FROM AreaLookup';
+            $sql = 'SELECT * FROM AreaLookup';
         }
 
         return $this->db->query( $sql );
