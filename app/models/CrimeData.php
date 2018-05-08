@@ -277,7 +277,7 @@ class CrimeData extends BaseModel {
     }
     public function getApiAreaDetail( $code ) {
         
-        $sql = 'SELECT * FROM AreaLookup WHERE Code = ' .$code ;
+        $sql = 'SELECT * FROM AreaLookup WHERE Code = "' .$code. '"';
         return $this->db->query( $sql );
 
     }
@@ -415,7 +415,7 @@ class CrimeData extends BaseModel {
         $sql .= " FROM CrimeData, AreaLookup, TimeLookup WHERE";
 
         if( isset( $areaId ) ) {
-            $sql .=  ' FK_Area_Lookup = ' . $areaId;
+            $sql .=  ' FK_Area_Lookup = "' . $areaId . '"';
         }
 
         if( isset( $crimeTypes ) ) {
